@@ -11,11 +11,16 @@
 
 <body>
     <form>
-        <p><label for="input" id="label">Upload a image</label></p>
-        <input type="file" accept="image/*" name="input" id="input" onchange="loadImage(event)">
+        <p><label for="img-input" id="img-label">Upload a image</label></p>
+        <input type="file" accept="image/*" name="img-input" id="img-input" onchange="loadImage(event)">
     </form>
 
-    <img src="" id="output">
+    <div id="img-frame">
+        <p id="text-output">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id nulla voluptate voluptatibus assumenda, itaque adipisci? Ducimus perspiciatis magni, repellendus expedita totam quo deleniti illo aliquid fugiat nemo nisi aspernatur culpa.
+        </p>
+        <img id="meme-image" alt="Your image.">
+    </div>
+
 </body>
 
 </html>

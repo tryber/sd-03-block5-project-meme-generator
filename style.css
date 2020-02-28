@@ -1,16 +1,24 @@
-#upload {
+#img-label {
     cursor: pointer;
 }
 
-#output {
-    border: 1px black;
-    width: 200px;
-}
-
-#label {
-    cursor: pointer;
-}
-
-input {
+#img-input {
     display: none;
+}
+
+#meme-image {
+    height: 100%;
+    width: 100%;
+}
+
+#img-frame {
+    border: 2px ridge black;
+    height: 500px;
+    position: relative;
+    width: 500px;
+}
+
+#text-output {
+    position: absolute;
+    margin: 80% 10% 10% 10%;
 }
