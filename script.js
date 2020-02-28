@@ -32,11 +32,13 @@ function previewFiles() {
 
 function textInput(topText, bottomText) {
 
-  let topTextInput = document.querySelector('#text-input');
+  let topTextInput = document.querySelector('#meme-text');
   let bottomTextInput = document.querySelector('#text-input');
 
-  topTextInput.addEventListener("compositionupdate", function() {
-    console.log(topTextInput.value)
+  topTextInput.addEventListener("keyup", function() {
+    textInput = topTextInput.innerHTML;
+    console.log(topTextInput);
+    textInput.appendChild( preview );
 
   })
 }
