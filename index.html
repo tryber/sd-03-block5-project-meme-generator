@@ -9,19 +9,19 @@
         <title>Gerador de Memes by Marco Barbosa</title>
 
     </head>
-        <article>
+        <div>
             <form>
-                <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"></input>
+                <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
                 <br>
                 <label for="fname">Escreva Seu Texto Aqui:</label>&nbsp;
-                <input type="text" id="text-input" oninput="mostraTexto()"></input><br>
+                <input type="text" id="text-input" oninput="mostraTexto()"><br>
             </form>
             <br>
             <div class="moldura">
-                <img id="meme-image" class="imagem"></img>
+                <img id="meme-image" class="imagem">
                 <p id="meme-text"></p>
             </div>
-        </article>
+        </div>
     <body>
     </body>
 </html>
