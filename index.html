@@ -9,13 +9,18 @@
 </head>
 
 <body>
-    <div class="configMeme">
-        <label for="uploadImage">Selecione sua imagem:</label>
-        <input type="file" name="uploadImage" id="meme-insert">
-        <label for="text-input">Texto do meme: </label>
-        <input type="text" name="text-input" id="text-input">
-    </div>
-    <div class="generator">
+    <form>
+        <div class="configMeme">
+            <label for="uploadImage">Selecione sua imagem:</label>
+            <input type="file" name="uploadImage" id="meme-insert">
+            <label for="text-input">Texto do meme: </label>
+            <input type="text" name="text-input" id="text-input">
+            <button class="botoes" id="button1">Borda 1</button>
+            <button class="botoes" id="button2">Borda 2</button>
+            <button class="botoes" id="button3">Borda 3</button>
+        </div>
+    </form>
+    <div class="generator" id="meme-image-container">
         <img src="#" alt="MemeImage" id="meme-image" class="meme-image">
         <div id="meme-text" class="meme-text">
             <p class="texto"></p>

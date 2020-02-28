@@ -23,7 +23,6 @@ body {
   border: 1px;
   border-color: black;
   border-style: solid;
-  height: 400px;
   margin: auto;
   margin-top: 2em;
   position: relative;
@@ -35,16 +34,18 @@ body {
   text-align: center;
   top: 0;
   width: 100%;
+  word-wrap: break-word;
 }
 
 .texto {
   color: white;
   font-size: 2em;
   font-weight: bold;
+  text-align: center;
 }
 
 .meme-image {
-  height: auto;
-  height: 100%;
   width: 100%;
 }
+
+.botoes
