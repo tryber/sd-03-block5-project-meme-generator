@@ -1,0 +1,14 @@
+/*font-family: 'Montserrat', sans serif; font-family: 'Alegreya Sans SC', sans serif; font-family: 'Teko', sans serif;*/
+/* Tags Predefinidas*/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(242 , 225 , 236);
+}
+
+/*Id's*/
+#imgArea {
+  background-color: rgb(255 , 255 , 255);
+  width: 500px;
+  height: 500px;
+}
