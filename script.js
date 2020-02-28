@@ -5,6 +5,7 @@ window.onload = () => {
     document.getElementById("meme-image").style.borderColor = "black";
     document.getElementById("meme-image").style.borderWidth = "1px";
     document.getElementById("meme-image").style.borderStyle = "solid";
+    document.getElementById("meme-image").style.backgroundColor = "white";
   };
   document.getElementById("image-input").addEventListener("change", changeImg)
 };
