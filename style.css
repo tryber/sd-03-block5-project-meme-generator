@@ -1,0 +1,16 @@
+#text-input {
+
+}
+#meme-text {
+
+}
+#meme-image {
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}   
