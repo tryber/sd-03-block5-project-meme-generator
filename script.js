@@ -5,7 +5,7 @@ window.onload = function() {
   
   function UploadingImage(event) {
     let img = document.getElementById("meme-image")
-    img.src = URL.createObjectURL(event.target.files[0]);;
+    img.src = URL.createObjectURL(event.target.files[0]);
   }
   inputImage.addEventListener("change", UploadingImage);
 
