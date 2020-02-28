@@ -8,17 +8,20 @@ window.onload = function() {
     let button2 = document.getElementById('button2');
     let button3 = document.getElementById('button3');
 
+    //UploadImage
     function uploadImage(event) {
         image.src = URL.createObjectURL(event.target.files[0]);
     };
 
     inputImage.addEventListener("change", uploadImage);
 
+    //Meme Text
     function showText() {
         p.innerHTML = inputText.value;
     }
     inputText.addEventListener("keydown", showText);
 
+    //Border Buttons
     function borderButton1() {
         image.style.border = "dashed red 3px";
     }
