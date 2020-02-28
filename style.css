@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(116, 116, 116);
+    
+}
+h1{
+    margin-left: 43%;
+}
+#text-input{
+    border-radius: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: var(--searchbox-height);
+    opacity: 1;
+    margin-left: 38%;
+    transition: none;
+}
+#meme-insert{
+
+}
+#caixa-branca{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px black solid;
+    height:  45em;
+    border-radius: 22px;
+    background-color: white;
+}
