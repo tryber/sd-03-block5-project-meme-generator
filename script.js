@@ -1,7 +1,5 @@
 const img_input = document.getElementById('input-img');
 const textinput = document.getElementById('text-input');
-const memetextup = document.getElementById('textup');
-
 const imgbox = document.getElementById('imgbox');
 
 img_input.addEventListener ('change', function(){ 
