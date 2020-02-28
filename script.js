@@ -7,7 +7,7 @@ function colocaTextoCaixa() {
 
 textoForm.addEventListener('keyup', colocaTextoCaixa);
 
-let recebeFoto = document.querySelector('.imagemUnica');
+let recebeFoto = document.querySelector('#meme-image');
 let botaoFoto = document.querySelector('#botaoFoto');
 
 function loadImage(event) {
