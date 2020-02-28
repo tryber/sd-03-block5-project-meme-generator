@@ -8,3 +8,12 @@ body {
     width: 400px;
     border: solid black 1px;
 }
+
+#meme-text {
+    padding-left: 50px;
+    max-width: 300px;
+    position: absolute;
+    word-break: break-all;
+    z-index: 10;
+    text-transform: uppercase;
+}
