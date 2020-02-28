@@ -1,0 +1,26 @@
+
+#imputer {
+    text-align: center;
+}
+
+#selecImg {
+    box-sizing: border-box;
+    border-color: black;
+
+}
+
+#txtMeme {
+    box-sizing: border-box;
+    border-color: black;
+
+}
+
+.boxImg {
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    /* background: #fff; */
+    padding: 20px;
+    border: 1px solid black;
+}
