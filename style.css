@@ -1,5 +1,6 @@
-#meme-image {
-  margin-block-start: 20px;
+.meme-image-container {
+
+  margin-top: 20px;
   background-color: white;
   height: 500px;
   width: 600px;
@@ -8,11 +9,15 @@
   border-color: black;
 
 }
+.meme-image{
+  height: 500px;
+  width: 600px;
+}
 
 #meme-text{
   position:absolute;
+  top:10px;
   font-size: 100px;
-  top: 30px;
   max-height: 500px;
   max-width: 600px;
 }
