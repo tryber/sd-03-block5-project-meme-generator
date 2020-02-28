@@ -26,7 +26,7 @@ input.addEventListener('change',function () {
 
     let textPH = document.getElementById("meme-text");
 
-    textPH.innerHTML = texto;
+    textPH.innerText = texto;
 
 
   })

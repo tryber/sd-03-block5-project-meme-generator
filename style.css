@@ -1,25 +1,30 @@
 .meme-image-container {
+  position: relative;
 
-  margin-top: 20px;
   background-color: white;
   height: 500px;
   width: 600px;
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  margin: 20px 0px 0px;
 
 }
 .meme-image{
+
   height: 499px;
   width: 599px;
 }
 
 #meme-text{
   position:absolute;
+  max-width: 500px;
+  max-height: 600px;
+  word-break: break-all;
   top:10px;
-  font-size: 100px;
-  max-height: 500px;
-  max-width: 600px;
+  font-size: 40px;
+
+
 }
 
 #button1 {
