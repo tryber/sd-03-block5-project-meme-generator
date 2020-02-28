@@ -2,7 +2,7 @@
   width: 450px;
   height: 450px;
   position: absolute;
-;
+  border: 1px solid black;
 }
 
 #image{
