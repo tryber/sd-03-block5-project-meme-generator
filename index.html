@@ -12,13 +12,13 @@
         <input type="text" id="text-input" maxlength="60">
     </form>
     <p>
-        <label for="meme-image" style="cursor: pointer;">
-            <input type="file" id="meme-image" accept="image/*" style="display: none;">
+        <label for="meme-insert" style="cursor: pointer;">
+            <input type="file" id="meme-insert" accept="image/*" style="display: none;">
             Escolha uma imagem
         </label>
     </p>
     <section class="branco">         
-        <img id="output" width="400" height="400" id="meme-insert" class="branco"/>
+        <img id="output" width="400" height="400" class="meme-image branco"/>
             <p id="meme-text" style="position: absolute;"></p>  
     <section>
     <script>
@@ -31,10 +31,11 @@
         Text.addEventListener("keydown", TextoDinamico)
 
         function loadFile() {
-            let image = document.getElementById("meme-insert");
+            let image = document.getElementsByClassName("meme-image")[0];
             image.src = URL.createObjectURL(event.target.files[0]);
+            image.innerHTML=TextImg.target.value
         };
-        let im = document.getElementById('meme-image');
+        let im = document.getElementById('meme-insert');
         im.addEventListener("change", loadFile)
     }
     </script>
