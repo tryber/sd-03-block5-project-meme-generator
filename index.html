@@ -11,14 +11,14 @@
     </head>
         <article>
             <form>
-                <input type="file" accept="image/*" onchange="loadFile(event)"></input>
+                <input type="file" id="meme-image" accept="image/*" onchange="loadFile(event)"></input>
                 <br>
                 <label for="fname">Escreva Seu Texto Aqui:</label>&nbsp;
                 <input type="text" id="text-input"></input>
             </form>
             <br>
-            <form id="quadroImagem">
-                <img id="meme-image"></img>
+            <form class="moldura">
+                <img class="imagem"></img>
             </form>
             <br>
         </article>

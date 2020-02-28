@@ -1,10 +1,10 @@
 body{
 background-color:gray;
 }
-#meme-image{
+.imagem{
 width:400px;
 }
-#quadroImagem{
+.moldura{
 background-color:white;
 border:solid black 1px;
 height:400px;
