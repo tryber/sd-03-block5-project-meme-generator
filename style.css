@@ -2,12 +2,15 @@ body{
   background-color: red;
 }
 
-#meme-text{
-  position: absolute;
-}
-
 #img-div{
+  position: relative;
   width: 410px;
   height: 410px;
   background-color: white;
+}
+
+#meme-text{
+  position: absolute;
+  color: black;
+  top: 350px;
 }

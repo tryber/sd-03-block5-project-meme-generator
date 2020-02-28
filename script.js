@@ -6,4 +6,9 @@ window.onload = () => {
     document.getElementById("meme-image").style.borderStyle = "solid";
     document.getElementById("meme-image").style.backgroundColor = "white";
   } )
+
+  document.getElementById("text-input").addEventListener("change", (event) => {
+    console.log(event.target.value)
+    document.getElementById("meme-text").innerHTML = event.target.value
+  })
 };
