@@ -12,15 +12,15 @@
     <header>
       <h2>Meme generator</h2>
     </header>
-    <form action="">
-      <input id="text-input" type="text" placeholder="Type your meme text here"><br>
-      <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
-      </p>
+    <form>
+      <input id="text-input" type="text" placeholder="Type your meme text here">
     </form>
-    <p><label for="file" style="cursor: pointer;">Select image</label></p>
+    <br>
+      <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+    <label for="file" style="cursor: pointer;">Select image</label>
     <div id="geral">
       <div id="filho">
-        <p class="meme-text"></p>
+        <p id="meme-text"></p>
       </div>
       <img id="meme-image" width="400px" height="300px">
     </div>
