@@ -1,25 +1,11 @@
-:root {
-    font-family: Helvetica;
-    font-size: 16px;
-}
-
-body {
-    font: inherit;
-    background-color: aliceblue;
-}
-
-header {
-    text-align: center;
-    font-size: 16px;
+#meme-text{
+    background-color: transparent;
+    font-size: 40px;
+    font-family:"Impact";
     color: white;
-    background-color: black;
-}
-
-#meme-image {
-    background-color: white;
-    width: 400px;
-    height: 300px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
+    text-shadow: black 0px 0px 10px;
+    width: 600px;
+    position: absolute;
+    left: 15px;
+    top: 400px;
 }

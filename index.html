@@ -11,21 +11,13 @@
         <header>
             <h1>Gerador de Memes</h1>
         </header>
-                <p>
-                    <h3>Digite o texto desejado</h3>
-                    <textarea id="text-input"></textarea>
-                </p>
+                <h3>Digite o texto desejado</h3>
                 <form>
-                    <input type="file" id="select-img" accept="image/*">
+                    <p>Meme text: <input type="text" id="text-input" maxlength="60" oninput="update_text()"></p>
+                    <p>Selecione a Imagem:<input type="file" id="select-img" accept="image/*" onchange="update_image()"></p>
                 </form>
-                <p>
-                    <canvas id="meme-image"></canvas>
-                </p>
-                <p>
-                    <button id="gerador-meme">Gerar meme!</button>
-                </p>
-                <p>
-                    <script src="script.js"></script>
-                </p>
+                <div id="meme-text">Exemplo de texto</div>
+                <div id="meme-image"><img src"" height="500" width="600"></div>
+        <script src="script.js"></script>        
     </body>
 </html>

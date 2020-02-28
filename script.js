@@ -1,30 +1,11 @@
-let textinput,imageinput,gerador,canvas,aux;
+function update_text(){
 
-function geradormeme(img){
-    canvas.width = img.width;
-    canvas.height = img.height;
-    aux.clearRect(0, 0, canvas.width, canvas.height);
-    aux.drawImage(img, 0, 0);
+    var text_input = document.getElementById("text-input");
+    var meme_text = document.getElementById("meme-text");
+    meme_text.innerHTML = text_input.value;
 }
-function init(){
-    textinput = document.getElementById('text-input');
-    imageinput = document.getElementById('select-img');
-    gerador = document.getElementById('gerador-meme');
-    canvas = document.getElementById('meme-image');
-
-    aux = canvas.getContext('2d');
-    canvas.height = 0;
-    canvas.width = canvas.height;
-
-    gerador.addEventListener('click', function(){
-        let reader = new FileReader();
-        reader.onload = function() {
-            let img = new Image;
-            img.src = reader.result;
-            geradormeme(img);
-        };
-        reader.readAsDataURL(imageinput.files[0]);
-    });
+function update_image(){
+    var img = document.querySelector("img");
+    var file = document.querySelector("input[type=file]").files[0];
+    img.src = window.URL.createObjectURL(file);
 }
-
-init();
