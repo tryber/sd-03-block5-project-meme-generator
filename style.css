@@ -1,24 +1,24 @@
-#meme-text {
-    position: fixed;
+.caixa {
     border: solid;
     border-color: black;
-    border-width: 1px;
-    width: 600px;
-    height: 450px;
     background-color: white;
+    border-width: 1px;
+    height: 450px;
+    position: fixed;
+    width: 600px;
 }
 
-#texto {
+.txt {
+    color: red;
+    font-size: 30px;
     padding-top: 360px;
     position: absolute;
-    font-size: 30px;
-    color: red;
     z-index: 2;
 }
 
 .imagem {
-    width: 600px;
     height: 450px;
+    width: 600px;
     z-index: 1;
 }
 
@@ -26,7 +26,7 @@
     font-size: 20px;
 }
 
-#style {
+.style {
     text-align: center;
 }
 
