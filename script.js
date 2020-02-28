@@ -8,7 +8,6 @@ window.onload = () => {
   } )
 
   document.getElementById("text-input").addEventListener("keyup", (event) => {
-    console.log(event.target.value)
     document.getElementById("meme-text").innerHTML = event.target.value
   })
 };
