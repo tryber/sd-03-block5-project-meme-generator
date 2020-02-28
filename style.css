@@ -1,0 +1,16 @@
+#upload {
+    cursor: pointer;
+}
+
+#output {
+    border: 1px black;
+    width: 200px;
+}
+
+#label {
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
