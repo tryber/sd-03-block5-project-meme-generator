@@ -1,13 +1,13 @@
-body{
+body {
   background-color: red;
 }
 
-.img-div{
+.img-div {
   border: 1px solid black;
+  background-color: white;
+  height: 410px;
   position: relative;
   width: 410px;
-  height: 410px;
-  background-color: white;
 }
 
 /* .meme-img{
@@ -18,13 +18,13 @@ body{
   background-color: white;
 } */
 
-.meme-txt{
-  display: flex;
-  position: absolute;
+.meme-txt {
   color: green;
-  top: 150px;
-  left: 20px;
-  z-index: 10;
+  display: flex;
   font-size: 30px;
+  left: 20px;
+  position: absolute;
+  top: 150px;
   word-break: break-all;
+  z-index: 10;
 }
