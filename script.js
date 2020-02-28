@@ -16,7 +16,8 @@ function inputImagem(){
 }
 
 function textoImagem() {
-  let texto = document.getElementById('text-input').value;
+  let texto = document.getElementById('text-input');
   let lugar = document.getElementById('meme-text');
-  lugar.innerText = texto;
+  let div = texto.parentElement;
+  lugar.innerText = texto.value;
 }
