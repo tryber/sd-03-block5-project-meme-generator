@@ -8,9 +8,12 @@ width:400px;
 background-color:white;
 border:solid black 1px;
 height:400px;
+position: relative;
 width:400px;
 }
 p{
-text-align: center;
+bottom: 8px;
+left: 16px;
 position: absolute;
+text-align: center;
 }
