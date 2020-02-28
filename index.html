@@ -13,11 +13,13 @@
             <form>
                 <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
                 <br>
-                <label for="fname">Escreva Seu Texto Aqui:</label>&nbsp;
-                <input type="text" id="text-input" oninput="mostraTexto()"><br>
+                <label>Escreva Seu Texto Aqui:</label>
+                &nbsp;
+                <input type="text" id="text-input" oninput="mostraTexto()">
+                <br>
             </form>
             <br>
-            <div class="moldura">
+            <div  id="meme-image-container" class="moldura">
                 <img id="meme-image" class="imagem">
                 <p id="meme-text"></p>
             </div>
