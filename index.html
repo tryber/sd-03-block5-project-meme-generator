@@ -9,16 +9,28 @@
 
     <h1>Meme Generator!</h1>
     <form>
-    <input placeholder="texto" type=text id="text-input" maxlength="60"> <br>
-    <br>
-    <input type="file" onchange="previewFile()"><br>
-
+    <input placeholder="texto" type=text id="text-input" maxlength="60"> <br><br>
+    <input type="file" id="meme-insert" onchange="previewFile()"><br>
     </form>
     <div class="caixa">
-        <div> 
+        <div class="memeText" id="meme-text"></div>
+        <div>
       <img src="" alt="" id="meme-image">
         </div>
-        <div id="meme-text"></div>
-</div>
+    </div>        
+    <div>
+        <button id="button1" class="a" onclick="trocaBordaA">Button1</button>
+        <button id="button2" class="b" onclick="trocaBordaB">Button2</button>
+        <button id="button3" class="c" onclick="trocaBordaC">Button3</button>
+    </div>
+    <div>
+        <img src="meme4.jpeg" alt="toy story" height="100">
+        <img src="meme3.jpeg" alt="menina do caos" height="100">
+        <img src="meme2.jpeg" alt="pense nisso" height="100">
+        <img src="meme1.jpeg" alt="bob esponja" height="100">
+
+    </div>
+
+
 </body>
 </html>

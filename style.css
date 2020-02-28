@@ -10,6 +10,18 @@
     width: 500px;
     }
 
-div#meme-text {
+.memeText {
     position: absolute;
+}
+
+.a{
+    border: 3px dashed red
+}
+
+.b{
+    border: 5px double blue
+}
+
+.c{
+    border: 6px groove green
 }
