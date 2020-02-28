@@ -9,6 +9,7 @@ div {
   display: inline-block;
   margin: auto;
   border: solid 1px black;
+  text-align: center;
 }
 
 section {
@@ -23,4 +24,8 @@ div p {
   font-weight: bold;
   color: black;
   font-size: 50px;
+}
+
+img {
+  height: inherit;
 }

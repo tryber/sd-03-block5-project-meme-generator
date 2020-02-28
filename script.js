@@ -1,8 +1,18 @@
 function inputImagem(){
-  let fReader = new FileReader();
-  let imagem = fReader.readAsDataURL(document.getElementById("aquivo_imagem").files[0]);
+  let imagem = document.getElementById("aquivo_imagem").files[0];
+  let reader = new FileReader();
   let img = document.getElementById("meme-image");
-  img.src = imagem;
+  console.log(reader);
+  
+  reader.onloadend = function() {
+    img.src = reader.result;
+  }
+
+  if (imagem) {
+    reader.readAsDataURL(imagem);
+  } else {
+    img.src = "";
+  }
 }
 
 function textoImagem() {
