@@ -7,21 +7,19 @@
 #image{
   width: 450px;
   height: 450px;
-  border: 1px solid black;
-  background-color: white;
   position: absolute;
 }
 
-#meme-image p{
+#moldura{
+  border: 1px solid black;
+  background-color: white;
+}
+
+#image p{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 22pt;
   color: white;
   font-weight: 700;
-}
-
-#textbox{
-  position: absolute;
-  width: 400px;
 }
 
 #meme-text{
