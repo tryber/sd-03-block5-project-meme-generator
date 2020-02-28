@@ -1,12 +1,12 @@
 #meme-image-container{
   width: 450px;
   height: 450px;
-  position: absolute;
-  border: 1px solid black;
+  position: relative;
   background-color: white;
+  border: 1px solid black;
 }
 
-#image{
+#meme-image{
   width: 450px;
   height: 450px;
   position: absolute;
