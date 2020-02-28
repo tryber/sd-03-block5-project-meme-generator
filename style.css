@@ -21,7 +21,13 @@ body {
     justify-content: center;
 }
 
-#meme-insert {
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#meme-image {
     height: 400px;
     width: 400px;
     border: solid black 1px;
