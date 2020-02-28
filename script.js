@@ -2,8 +2,6 @@ function inputImagem(){
   let imagem = document.getElementById("aquivo_imagem").files[0];
   let reader = new FileReader();
   let img = document.getElementById("meme-image");
-  console.log(reader);
-  
   reader.onloadend = function() {
     img.src = reader.result;
   }

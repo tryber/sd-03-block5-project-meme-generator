@@ -4,14 +4,13 @@ div {
   display: inline-block;
   margin-top: 2%;
   position: relative;
-  size: 1000px;
   text-align: center;
 }
 
 form {
   background-color: green;
-  padding: 10px;
   margin-top: 20px;
+  padding: 10px;
 }
 
 div p {
@@ -22,14 +21,14 @@ div p {
   position: absolute;
   top: 60%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 100%;
 }
 
 img {
+  height: 500px;
   min-width: 500px;
   min-height: 300px;
   max-width: 700px;
   max-height:500px;
-  height: inherit;
-  width: auto;
+  width: 700px;
 }
