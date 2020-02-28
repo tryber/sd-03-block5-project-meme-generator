@@ -1,7 +1,9 @@
 let texto = document.getElementById("text-input")
-
-function escreveText() {
-  document.getElementById("meme-text").innerHTML = texto.value;
-}
+let textOutput = document.getElementById("meme-text")
 
 texto.addEventListener("keyup", escreveText);
+
+function escreveText() {
+  textOutput.innerHTML = texto.value;
+}
+
