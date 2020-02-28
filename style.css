@@ -1,3 +1,12 @@
 body{
 background-color:gray;
 }
+#meme-image{
+width:400px;
+}
+#quadroImagem{
+background-color:white;
+border:solid black 1px;
+height:400px;
+width:400px;
+}
