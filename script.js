@@ -1,11 +1,11 @@
 
   //Muda o placeholder da imagem pela imagem do input
-  let input = document.getElementById("meme-image");
+  let input = document.getElementById("image-input");
 
 input.addEventListener('change',function () {
     let inputImg = input.files[0];
     let reader = new FileReader();
-    let imagePH = document.getElementById("imagemPH");
+    let imagePH = document.getElementById("meme-image");
 
     if (inputImg){
       reader.readAsDataURL(inputImg)
