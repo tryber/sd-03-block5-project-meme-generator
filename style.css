@@ -25,7 +25,9 @@ h1{
   margin: 0 auto;
   width: 1000px;
   height: 700px;
-  border: 1px solid black;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
 #meme-image { 
