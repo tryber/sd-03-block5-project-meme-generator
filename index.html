@@ -10,22 +10,26 @@
 </head>
 <body>
   <form>
-    <label for="text-input"> Escreva seu texto
-      <input id="text-input" type="text" maxlength="60">
-    </label>
+    <label for="text-input">Escreva seu texto</label>
+    <input type="text" id="text-input" maxlength="60">
     <br>
     <br>
-    <label for="image-input"> Upload Image
-      <input id="meme-insert" type="file" accept="image/gif, image/jpeg, image/png">
-    </label>
+    <label for="meme-insert"> Upload Image</label>
+    <input type="file" id="meme-insert" accept="image/gif, image/jpeg, image/png">
   </form>
   <div id="buttons-container" class="buttons-container">
   <button id="button1">Margem 1</button>
-  <button id="button2">Margem 2</buttonid="button1">
-  <button id="button3">Margem 3</buttonid="button1">
+  <button id="button2">Margem 2</button>
+  <button id="button3">Margem 3</button>
+  <div class="carrossel">
+    <img id="meme1" class="imageSeparator" src="imgs/meme1.jpeg" alt="meme1" height="67px">
+    <img id="meme2" class="imageSeparator" src="imgs/meme2.jpeg" alt="meme2" height="67px">
+    <img id="meme3" class="imageSeparator" src="imgs/meme3.jpeg" alt="meme3" height="67px">
+    <img id="meme4" class="imageSeparator" src="imgs/meme4.jpeg" alt="meme4" height="67px">
+  </div>
   </div>
   <div id="image-container" class="image-container">
-    <img id="meme-image" class="style-image" src=""  width="400px">
+    <img id="meme-image" class="style-image" width="400px">
   </div>
   <p id="meme-text" class="style-text"></p>
 </body>
