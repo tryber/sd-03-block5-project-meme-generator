@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="">
+      <label for="text-input">Digite aqui o texto do meme:</label><br />
+      <input id="text-input" type="text" /><br />
+      <label for="image-input">Escolha uma imagem para o seu meme:</label><br />
+      <input id="image-input" type="file" />
+    </form>
+
+    <img id="meme-image" src="" alt="meme" width="200px" />
+
+    <p id="meme-text"></p>
+
+    <!-- O site deve possuir uma caixa de texto com a qual quem usa pode interagir
+    para inserir texto em cima da imagem escolhida. A caixa de texto deve,
+    necessariamente, ter um id denominado "text-input". O texto de quem usa deve
+    ser inserido sobre a imagem escolhida. Se não houver imagem inserida, ele
+    deve ser inserido sobre a área onde a imagem aparece na posição correta. O
+    elemento do texto que aparece sobre a imagem deve ter um id denominado
+    "meme-text"
     
-</body>
+    O site deve permitir que quem usa faça
+    upload de uma imagem de seu computador. O elemento da imagem deve possuir um
+    id chamado "meme-image". A imagem escolhida deve ocupar um espaço
+    previamente delimitado por uma área branca
+    
+    O site
+    deve ter uma moldura em volta da área onde a imagem aparecerá depois de ser
+    escolhida. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo
+    "solid". A área onde a imagem aparecerá deve ter fundo branco -->
+
+    <script src="script.js"></script>
+  </body>
 </html>
