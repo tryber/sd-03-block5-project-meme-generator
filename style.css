@@ -25,16 +25,12 @@ h1{
   margin: 0 auto;
   width: 1000px;
   height: 700px;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #meme-image { 
   position: absolute;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px solid rgb(0, 0, 0);
   width: 1000px;
   height: 700px;
 }
