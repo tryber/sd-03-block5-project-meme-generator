@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #CED3D8;
+    font-size: 16px;
+}
+
+.configMeme {
+    /* border: 1px solid blue; */
+}
+
+.configMeme label {
+    display: inline-block;
+    margin-left: 0.9em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid black; */
+}
+
+.configMeme input {
+    display: block;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid red; */
+}
+
+.generator {
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    position: relative;
+}
+
+#meme-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid blue; */
+    /* background-color: orange; */
+}
+
+.texto {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.generator img {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid purple; */
+}
