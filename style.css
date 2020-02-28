@@ -1,7 +1,7 @@
 header {
     background-color: maroon;
     color: mediumaquamarine;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
     padding: 2px 10px;
 }
@@ -25,7 +25,7 @@ article {
 
 .textoMeme {
     color: mintcream;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 30pt;
     font-style: initial;
     font-stretch: semi-expanded;

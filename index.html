@@ -13,9 +13,9 @@
         <p>Selecione um arquivo (obs.: recomendado: resolução mínima de 500x500; obrigatório: proporção de 1:1): <input
                 type="file" id="abreArquivo" onchange="carregaImagem()"></p>
         <p><label>Frase a se inserir na parte de cima da imagem: </label>
-            <input type="text" class="cxFrases" id="text-input" onkeyup="insereTexto()" name="comment">
+            <input type="text" id="text-input" class="cxFrases" onkeyup="insereTexto()" name="comment">
             <label>Frase a se inserir embaixo da imagem: </label>
-            <input type="text" class="cxFrases" id="text-input2" onkeyup="insereTexto()" name="comment"></p>
+            <input type="text" id="text-input2" class="cxFrases" onkeyup="insereTexto()" name="comment"></p>
     </header>
     <article>
         <img id="meme-image" src="">
@@ -34,6 +34,7 @@
         function carregaImagem() {
             selecionaArquivo = document.getElementById("abreArquivo");
             imagemMeme.src = selecionaArquivo.files[0].name;
+            imagemMeme.height = selecionaArquivo.files[0].height;
             insereTexto();
         }
         function insereTexto() {
