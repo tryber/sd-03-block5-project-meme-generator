@@ -11,15 +11,20 @@
     margin: 10px;
 }
 
-.editImage {
-    background-color: #ffffff;
-    height: 400px;
-    width: 400px;
+.buttons {
+    margin: 10px 0 0;
 }
 
 .lado-direito {
     float: right;
     margin: 10px;
+}
+
+.editImage {
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
 }
 
 .editText {
