@@ -1,0 +1,11 @@
+#meme {
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: 400px;
+    margin: 10px;
+    width: 400px;
+}
+
+#text-input, #meme-input {
+    margin: 10px;
+}

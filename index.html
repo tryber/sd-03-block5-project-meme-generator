@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
     <title>Meme Generator</title>
 </head>
 <body>
-    <form>
-        <label for="meme-image">Selecionar imagem:</label>
-        <input type="file" id="meme-image">
-    </form>
-    <form id="text-input">
-        <label for="meme-text">Texto do meme:</label>
-        <input type="text" id="meme-text">
-    </form>
+    <article>
+        <section id="input">
+            <form id="meme-input">
+                <label for="meme-image">Selecionar imagem:</label>
+                <input type="file" id="meme-image">
+            </form>
+            <form id="text-input">
+                <label for="meme-text">Texto do meme:</label>
+                <input type="text" id="meme-text">
+            </form>
+        </section>
+        <section id="meme">
+        </section>
+    </article>
     <script src="./script.js"></script>
-    <div>
-
-    </div>
 </body>
 </html>
