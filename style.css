@@ -2,4 +2,13 @@
     border: 1px solid black;
     width: 500px;
     height: 500px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
+
+#text-imput {
+    position: absolute;
+}
