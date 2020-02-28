@@ -3,6 +3,7 @@ body{
 }
 
 #img-div{
+  border: 1px solid black;
   position: relative;
   width: 410px;
   height: 410px;
@@ -11,6 +12,6 @@ body{
 
 #meme-text{
   position: absolute;
-  color: black;
-  top: 350px;
+  color: white;
+  top: 250px;
 }
