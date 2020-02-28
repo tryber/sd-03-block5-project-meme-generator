@@ -33,7 +33,7 @@
         function loadFile() {
             let image = document.getElementsByClassName("meme-image")[0];
             image.src = URL.createObjectURL(event.target.files[0]);
-            image.innerText=TextImg.value
+            image.innerHTML=TextImg.target.value
         };
         let im = document.getElementById('meme-insert');
         im.addEventListener("change", loadFile)
