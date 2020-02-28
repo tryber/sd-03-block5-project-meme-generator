@@ -35,13 +35,11 @@ img#meme-image {
 
 div#meme-text {
   width: 700px;
-  height: 600px;
   font-weight: bolder;
   text-shadow: 2px 2px 2px black;
   font-size: xx-large;
   color: yellow;
   margin-top: -150px;
-  margin-left: 5px;
   word-wrap: break-word;
 }
 
