@@ -1,4 +1,4 @@
-#meme-image {
+#imagemPH {
   margin-block-start: 20px;
   background-color: white;
   height: 500px;
@@ -6,4 +6,10 @@
   border-style: solid;
   border-width: 1px;
 
+}
+
+#input-text{
+  position:absolute;
+  font-size: 100px;
+  top: 30px;
 }
