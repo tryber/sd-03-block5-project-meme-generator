@@ -1,20 +1,24 @@
-#meme-image {
+.image {
+    margin: 0 0 10px;
+}
+
+.text {
+    margin: 10px 0 0;
+}
+
+.lado-esquerdo {
+    float: left;
+    margin: 10px;
+}
+
+.editImage {
     background-color: #ffffff;
     border: 1px solid black;
     height: 400px;
     width: 400px;
 }
 
-#text-input, #input-image {
-    margin: 0 0 10px;
-}
-
-#lado-esquerdo {
-    float: left;
-    margin: 10px;
-}
-
-#lado-direito {
+.lado-direito {
     float: right;
     margin: 10px;
 }

@@ -8,18 +8,22 @@
 </head>
 <body>
     <article>
-        <section id="lado-esquerdo">
-            <form>
+        <h1>Meme Generator</h1>
+        <section class="lado-esquerdo">
+            <form class="image">
                 <label for="input-image">Selecionar imagem:</label>
                 <input type="file" id="input-image">
             </form>
-            <form>
+            <form class="text">
                 <label for="text-input">Texto do meme:</label>
                 <input type="text" id="text-input">
             </form>
         </section>
-        <section id="lado-direito">
-            <img id="meme-image">
+        <section class="lado-direito">
+            <img class="editImage" id="meme-image">
+            <div class="editText">
+                <p id="meme-text"></p>
+            </div>
         </section>
     </article>
     <script src="./script.js"></script>
