@@ -7,47 +7,52 @@ header {
 }
 
 article {
+    align-self: center;
     background-color: midnightblue;
     padding-top: 5px;
     text-align: center;
+    text-decoration: none;
+    width: 100%;
 }
 
-#meme-image {
+.controles {
+    border: 2px solid black;
+    color: ivory;
+    float: left;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    width: 200px;
+}
+
+.containerImagemTexto {
     background-color: white;
     border: 1px solid black;
-    height: 500px;
-    width: 500px;
+    margin: auto;
+    position: absolute;
+    width: 100%;
 }
 
 .cxFrases {
     width: 200px;
 }
 
-.textoMeme {
+.textoCima {
     color: mintcream;
+    left: 550px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 30pt;
-    font-stretch: semi-expanded;
-    font-style: initial;
+    overflow: auto;
     position: absolute;
-}
-
-#meme-text {
-    left: 550px;
     top: 120px;
 }
 
-#meme-text2 {
+.textoBaixo {
+    color: mintcream;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30pt;
     left: 550px;
-    top: 550px;
-}
-
-#controles {
-    border: 2px solid ivory;
-    color: ivory;
-    height: 300px;
-    left: 50px;
+    overflow: auto;
     position: absolute;
-    top: 150px;
-    width: 200px;
+    top: 550px;
 }

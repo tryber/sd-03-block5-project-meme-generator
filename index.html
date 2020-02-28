@@ -11,28 +11,32 @@
 <body>
     <header>
         <form><p>Selecione um arquivo (obs.: recomendado: resolução mínima de 500x500; obrigatório: proporção de 1:1):
-            <input type="file" id="abreArquivo" onchange="carregaImagem()"></p>
+            <input type="file" id="meme-insert" onchange="carregaImagem()"></p>
         <p><label>Frase a se inserir na parte de cima da imagem: </label>
-            <input type="text" id="text-input" class="cxFrases" onkeyup="insereTexto()" name="comment">
+            <input type="text" id="text-input" class="cxFrases" onkeyup="insereTexto()" name="comment" maxlength="60">
             <label>Frase a se inserir embaixo da imagem: </label>
-            <input type="text" id="text-input2" class="cxFrases" onkeyup="insereTexto()" name="comment"></p></form>
+            <input type="text" id="text-input2" class="cxFrases" onkeyup="insereTexto()" name="comment" maxlength="60"></p></form>
     </header>
     <article>
-        <img id="meme-image" src="">
-        <div id="controles">
+        <div class="controles">
             Controles
             <ul>
                 <li>Cor do texto: </li>
-                <select>
-                    <option value="black" selected="selected">Preto</option>
+                <select id="seletorCor">
+                    <option value="none" selected="selected">Escolha</option>
+                    <option value="black">Preto</option>
                     <option value="white">Branco</option>
                     <option value="yellow">Amarelo</option>
                     <option value="blue">Azul</option>
+                    <option value="green">Verde</option>
                 </select>
             </ul>
         </div>
-        <div id="meme-text" class="textoMeme"></div>
-        <div id="meme-text2" class="textoMeme"></div>
+        <div class="frameImagemTexto">
+            <img id="meme-image">
+            <div id="meme-text" class="textoCima"></div>
+            <div id="meme-text2" class="textoBaixo"></div>
+        </div>
     </article>
 
     <script src="script.js"></script>
