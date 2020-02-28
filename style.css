@@ -23,7 +23,7 @@ body {
     letter-spacing: 2px;
 }
 
-.textoNaImagem {
+.default-text {
     font-size: 500%;
     color: white;
     position: absolute;
@@ -41,15 +41,15 @@ body {
 }
 
 .posTexto {
-    border: 10px groove green;
-    padding: 10px;
+    border: 1px solid black;
+    padding: 0px;
     width: 60%;
     margin-left: 18%;
     position: relative;
 }
 
-.imagemTotal {
+  .imagemTotal {
     text-align: center;
     width: 100%;
-}
+  }
   
