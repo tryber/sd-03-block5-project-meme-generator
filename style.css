@@ -22,3 +22,14 @@
     float: right;
     margin: 10px;
 }
+
+.editText {
+    word-break: break-all;
+    display: flex;
+    font-family: "Anton";
+    font-size: 35px;
+    left: 950px;
+    position: absolute;
+    top: 41.5px;
+    text-transform: uppercase;
+}
