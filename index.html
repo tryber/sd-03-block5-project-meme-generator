@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator - Baêta Tryber</title>
+  <link rel="stylesheet" href="#">
+
+  <style>
+    body{
+      background-color:lightblue;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Gerador de Memes!</h1>
+  <form>
+    <label>Escolha uma imagem</label>
+    <input type='file' id="imgMeme"   name="img" accept="image/*"/>
+    <h4>Texto de cima</h4>
+    <textarea id="texto1" cols="50" rows="2"></textarea>
+    <h4>Texto de baixo</h4>
+    <textarea id="texto2" cols="50" rows="2"></textarea>
+    </form>
+
+    <p id='localImg'>
+      <img id="imagem" alt="image upload">
+    </p>
+  
+  <br>
+  <label>Escolha o tamanho da fonte</label>
+  <input type="range" min="10" max="20" id="tamanhoFonte">
+    
+  <br>
+  <button>Gerar meme</button>
+
+  <script>
+    const imagem = document.getElementById('imgMeme');
+    console.log(imagem);
+    document.getElementById('imagem').src = imagem.value;
+
+    const textoCima = document.getElementById('texto1');
+    const textoBaixo = document.getElementById('texto2');
+
+    const tamFonte = document.getElementById('tamanhoFonte');
+    tamFonte.addEventListener('mousemove', function(){
+      textoCima.style.fontSize = tamFonte.value + 'pt';
+      textoBaixo.style.fontSize = tamFonte.value + 'pt';
+    })
+    
+    
+  </script>
+</body>
+</html>
