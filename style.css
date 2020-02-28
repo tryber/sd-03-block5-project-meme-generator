@@ -1,9 +1,9 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-div.principal {
+.principal {
   position: absolute;
   width: 705px;
   height: 670px;
@@ -12,13 +12,13 @@ div.principal {
   background-color: cyan;
 }
 
-div#principal-filha{
+#principal-filha{
   margin-left: auto;
   margin-right: auto; 
 }
 
 
-div.fotos {
+.fotos {
   width: 700px;
   height: 600px;
   margin-top: 5px;
@@ -27,7 +27,7 @@ div.fotos {
   background-color: white;
 }
 
-img#meme-image {
+#meme-image {
   position: absolute;
   width: 700px;
   height: 600px;
@@ -36,7 +36,7 @@ img#meme-image {
   margin-right: auto; 
 }
 
-div#meme-text {
+#meme-text {
   width: 665px;
   font-weight: bolder;
   text-shadow: 2px 2px 2px black;

@@ -1,13 +1,12 @@
-let loadFile = function(event) {
-	let image = document.getElementById('meme-image');
-	image.src = URL.createObjectURL(event.target.files[0]);
+let loadFile = function (event) {
+   let image = document.getElementById('meme-image');
+   image.src = URL.createObjectURL(event.target.files[0]);
 }
 
-let textoDoMeme = document.getElementById("text-input")
+let textoDoMeme = document.getElementById("text-input");
 
 
 function textonaimagem() {
-   //document.getElementById('foto').innerHTML = textoDoMeme.value; 
    document.getElementById('meme-text').innerHTML = textoDoMeme.value;
 }
 
