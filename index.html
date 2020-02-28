@@ -7,10 +7,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <input type="text" id="text-input">
-  <section>
-    <div id="meme-text">
-    </div>        
+  <form action="">
+    <div id="image-selector">
+      <label for="">Select your image</label>
+      <input type="file" id="img-input">
+    </div>
+    <div id="text-selector">
+      <label for="">Meme text</label>
+      <input type="text" id="text-input">
+    </div>
+</form>
+  <section id="image-box">
+    <h2 id="meme-text"></h2> 
+    <img src="#" alt="" id="meme-image">       
   </section>
   <script src="script.js"></script>
 </body>

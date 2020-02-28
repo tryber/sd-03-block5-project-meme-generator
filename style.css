@@ -1,0 +1,38 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+#image-box{
+  background-color: white;
+  border: 1px solid black;
+  height: 450px;
+  overflow: hidden;
+  margin-top: 50px;
+  max-width: 450px;  
+}
+#meme-image{
+  height: 100%;
+  width: auto;
+}
+form{
+  margin-top: 50px;
+}
+#image-selector{
+  display: inline-block;
+  width: 50%;
+}
+#text-selector{
+  width: 50%;
+  float: right;
+}
+
+#meme-text{
+  position: absolute;
+}
