@@ -6,10 +6,6 @@ body {
   padding: 0;
 }
 
-h1 , h2 , h3 {
-  font-family: Teko , sans serif;
-}
-
 h1 {
   font-size: 65px;
   font-weight: 500;
@@ -44,12 +40,12 @@ p {
 
 .cabecalho {
   background-color: rgb(226 , 212 , 225);
+  box-shadow: 5px 5px rgb(52 , 3 , 71);
   height: 80px;
+  margin-bottom: 50px;
+  padding-top: 0;
   top: 0;
   width: 90%;
-  box-shadow: 5px 5px rgb(52 , 3 , 71);
-  padding-top: 0px;
-  margin-bottom: 50px;
 }
 
 .wrap {
