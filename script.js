@@ -1,5 +1,5 @@
 let memetxt = document.getElementById('text-input');
-let inputtext = document.getElementById('meme-text');
+let inputtext = document.getElementById('texto');
 let memeImage = document.getElementById('meme-image');
 
 let meme = function(event) {
@@ -9,4 +9,5 @@ let meme = function(event) {
 
 memetxt.addEventListener('keyup', function() {
     inputtext.innerHTML = this.value;
+
 });

@@ -1,4 +1,4 @@
-#caixa {
+#meme-text {
     position: fixed;
     border: solid 1px;
     width: 600px;
@@ -6,7 +6,7 @@
     background-color: white;
 }
 
-#meme-text {
+#texto {
     padding-top: 360px;
     position: absolute;
     font-size: 30px;
