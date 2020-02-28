@@ -1,10 +1,10 @@
-const img_input = document.getElementById('input-img');
+const img_input = document.getElementById('meme-insert');
 const textinput = document.getElementById('text-input');
 const imgbox = document.getElementById('imgbox');
 
 img_input.addEventListener ('change', function(){ 
     let file = window.URL.createObjectURL(this.files[0]);
-    document.getElementById('meme-image').style.backgroundImage = "url('"+file+"')" ;
+    document.getElementById('meme-image').src = file ;
 });
 
 textinput.addEventListener('keyup', function(){
