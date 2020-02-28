@@ -1,6 +1,5 @@
 const img_input = document.getElementById('meme-insert');
 const textinput = document.getElementById('text-input');
-const imgbox = document.getElementById('imgbox');
 
 img_input.addEventListener ('change', function(){ 
     let file = window.URL.createObjectURL(this.files[0]);
