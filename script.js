@@ -1,6 +1,6 @@
 
 let caixaTexto = document.getElementById("text-input");
-let texto = document.getElementById("text-exemple");
+let texto = document.getElementById("meme-text");
 
 function changeText(){
     texto.innerHTML = caixaTexto.value;
@@ -8,7 +8,7 @@ function changeText(){
 document.addEventListener("keyup", changeText);
 
 let espaco = document.getElementById("white-place");
-let caixaImagem = document.getElementById("meme-image");
+let caixaImagem = document.getElementById("meme-insert");
 let imagem = document.getElementById("image-example");
     console.log(caixaImagem, imagem);
 
