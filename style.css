@@ -1,0 +1,13 @@
+body{
+  background-color: red;
+}
+
+#meme-text{
+  position: absolute;
+}
+
+#img-div{
+  width: 410px;
+  height: 410px;
+  background-color: white;
+}

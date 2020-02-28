@@ -7,6 +7,3 @@ window.onload = () => {
     document.getElementById("meme-image").style.backgroundColor = "white";
   } )
 };
-
-
-
