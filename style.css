@@ -1,0 +1,40 @@
+body {
+    background-image: url(./40036-he-man-sings-2560x1600-meme-wallpaper.jpg);
+    background-size: cover;
+}
+
+
+#div-img {
+    position: absolute;
+    float: left;
+    clear: both;
+    
+
+}
+
+#output {
+    float: left;
+    clear: both;
+    width: 600px;
+    height: 450px;
+    position: relative;
+    border: solid black 1px;
+    background-color: white;
+    
+}
+
+#text-input{
+    float: left;
+    clear: both;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+p {
+    font-size: 50px;
+    color: antiquewhite;
+    overflow-wrap: break-word;
+    text-overflow: inherit;
+    max-width: 600px;
+}
