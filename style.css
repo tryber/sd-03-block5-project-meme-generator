@@ -1,10 +1,7 @@
 body{
 background-color:gray;
 }
-.imagem{
-width:400px;
-}
-.moldura{
+.moldura,.imagem{
 background-color:white;
 border:solid black 1px;
 height:400px;
