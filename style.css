@@ -1,11 +1,20 @@
-#meme {
+#lugarMeme {
     background-color: #ffffff;
     border: 1px solid black;
     height: 400px;
-    margin: 10px;
     width: 400px;
 }
 
 #text-input, #meme-input {
+    margin: 0 0 10px;
+}
+
+#lado-esquerdo {
+    float: left;
+    margin: 10px;
+}
+
+#lado-direito {
+    float: right;
     margin: 10px;
 }
