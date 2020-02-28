@@ -6,9 +6,28 @@ body {
   padding: 0;
 }
 
+h1 , h2 , h3 {
+  font-family: Teko , sans serif;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
 /*Id's*/
 #area {
   background-color: rgb(255 , 255 , 255);
   height: 500px;
   width: 500px;
+}
+
+#cabecalho {
+  background-color: rgb(226 , 212 , 225);
+  height: 80px;
+  top: 0px;
+  width: 90%;
+  box-shadow: 5px 5px rgb(52 , 3 , 71);
+  padding-top: 1px;
 }
