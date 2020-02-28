@@ -8,7 +8,7 @@ function mostraTexto(){
     let inserir=document.createElement("p");
     inserir.innerText=textoDigitado;
     let textoAnterior=document.getElementsByClassName("moldura")[0].getElementsByTagName("p")[0];
-    
+
     if(textoAnterior){
         document.getElementsByClassName("moldura")[0].removeChild(textoAnterior);
     }
