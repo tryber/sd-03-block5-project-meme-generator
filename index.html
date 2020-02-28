@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+<body>
+    <div class="container" id="capture">
+
+        <div class="texto" id="id_texto">
+            <p id="digite">Digite o texto:</p><input type="text" id="text-input" maxlength="62">
+        </div>
+
+        <div class="foto" id="id_foto">
+            <input type="file" onchange="mostraFoto(event)"> <button id="download_meme" onclick="ss()">Salvar</button>
+
+            <img id="meme-image">
+
+            <div id="frase"></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
