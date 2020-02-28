@@ -1,0 +1,21 @@
+#img-div {
+    border: solid 1px black;
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+}
+
+#meme-image {
+    position: absolute;
+    z-index: 0;
+    height: 600px;
+    width: 600px;
+}
+
+#meme-text {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
