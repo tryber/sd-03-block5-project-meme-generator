@@ -3,16 +3,22 @@
   <head>
     <title>Meme</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
 
     <h1>Meme Generator!</h1>
     <form>
-    <input placeholder="texto" type=text id="text-input"> <br>
+    <input placeholder="texto" type=text id="text-input" maxlength="60"> <br>
     <br>
-    <input id="meme-image" type="file" accept="image/*" name="img">
+    <input type="file" onchange="previewFile()"><br>
+
     </form>
-    <div class="caixa"></div>
+    <div class="caixa">
+        <div> 
+      <img src="" alt="" id="meme-image">
+        </div>
+        <div id="meme-text"></div>
+</div>
 </body>
 </html>
