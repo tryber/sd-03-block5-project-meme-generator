@@ -13,8 +13,9 @@ function previewFile() {
       preview.src = "";
     }
   }
-  let meme = document.querySelector("#text-input");
   let output = document.querySelector("#meme-text");
+  let meme = document.querySelector("#text-input");
   output.addEventListener("keyup",function(){
-      output.innerText = meme.value;
+    
+        output.innerHTML = meme.value;
   })      

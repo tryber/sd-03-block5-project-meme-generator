@@ -2,7 +2,7 @@
 
 }
 #meme-text {
-
+    
 }
 #meme-image {
     min-width: 300px;
@@ -13,4 +13,7 @@
     border-color: black;
     border-style: solid;
     background-color: white;
-}   
+}
+#meme-insert {
+
+}
