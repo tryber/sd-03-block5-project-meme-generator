@@ -1,9 +1,9 @@
 #meme-image-container{
+  background-color: white;
+  border: 1px solid black;
   width: 450px;
   height: 450px;
   position: relative;
-  background-color: white;
-  border: 1px solid black;
 }
 
 #meme-image{
@@ -12,9 +12,9 @@
   position: absolute;
 }
 
-#meme-image-container p{
+#text-container p{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 22pt;
+  font-size: 25pt;
   color: white;
   font-weight: 700;
 }
@@ -22,5 +22,5 @@
 #meme-text{
   position: absolute;
   margin-top: 300px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
