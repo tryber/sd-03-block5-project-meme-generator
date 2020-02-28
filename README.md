@@ -24,13 +24,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     * Exemplo: `git checkout -b joaozinho-meme-generator-project`
 
-3. Crie uma pasta na raiz do projeto com o seu nome e um arquivo **README.md** dentro dessa pasta:
+3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
     * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-block5-project-meme-generator**_
-  * Crie a pasta e o arquivo **README.md**
-    * Exemplo:
-      * `mkdir joaozinho`
-      * `echo "the quick brown fox jumped over the lazy dog" > joaozinho/README.md`
+  * Crie os arquivos index.html, style.css e script.js
+    * Exemplo: `touch index.html style.css script.js`
 
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
