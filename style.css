@@ -2,10 +2,11 @@
   width: 450px;
   height: 450px;
   position: absolute;
+;
 }
 
 #image{
-  border: 1p solid black;
+  border: 1px solid black;
   width: 450px;
   height: 450px;
   background-color: white;
