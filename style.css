@@ -21,3 +21,12 @@
   max-height: 500px;
   max-width: 600px;
 }
+
+#button1 {
+  border-style: dashed;
+  border-color: red;
+  border-width: 3px;
+
+
+}
+

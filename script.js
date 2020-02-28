@@ -35,7 +35,7 @@ input.addEventListener('change',function () {
     let imagem = document.getElementById("meme-image-container");
     imagem.style.borderStyle = "dashed";
     imagem.style.borderColor = "red";
-    imagem.style.bordersize = "3px";
+    imagem.style.borderWidth = "3px";
 
 
   }
@@ -44,14 +44,14 @@ input.addEventListener('change',function () {
     let imagem = document.getElementById("meme-image-container");
     imagem.style.borderStyle = "double";
     imagem.style.borderColor = "blue";
-    imagem.style.bordersize = "5px";
+    imagem.style.borderWidth = "5px";
 
 
   }  function button3() {
     let imagem = document.getElementById("meme-image-container");
     imagem.style.borderStyle = "groove";
     imagem.style.borderColor = "green";
-    imagem.style.bordersize = "6px";
+    imagem.style.borderWidth = "6px";
 
 
   }
