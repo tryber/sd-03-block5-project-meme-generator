@@ -40,4 +40,5 @@ function textInput(topText, bottomText) {
     textInput.appendChild( preview );
 
   })
+  
 }
