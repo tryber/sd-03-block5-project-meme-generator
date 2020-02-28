@@ -10,6 +10,14 @@ body {
   width: 410px;
 }
 
+.meme-img{
+  background-color: white;
+  border: 1px solid black;
+  height: 410px;
+  position: relative;
+  width: 410px;
+}
+
 .meme-txt {
   color: green;
   display: flex;
