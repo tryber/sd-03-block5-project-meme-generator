@@ -1,4 +1,30 @@
-#img-div {
+
+button {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.buttons-div {
+    width: 600px;
+
+}
+
+.button1 {
+    background-color: red;
+    color: white;
+}
+
+.button2 {
+    background-color: blue;
+    color: white;
+}
+
+.button3 {
+    background-color: green;
+    color: white;
+}
+
+.img-div {
     border-style: solid;
     border-width: 1px;
     border-color: black;
@@ -8,16 +34,24 @@
     padding: 10px;
 }
 
-#meme-image {
-    position: absolute;
+.meme-image {
     z-index: 0;
     height: 600px;
     width: 600px;
 }
 
-#meme-text {
+.meme-text {
     position: absolute;
     z-index: 1;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 2.5px black;
     text-align: center;
+    width: 600px;
+
 }
+
 

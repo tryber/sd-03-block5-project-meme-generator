@@ -7,6 +7,7 @@
     <title>Meme Generator</title>
 </head>
 <body>
+    <h1>Meme Generator</h1>
     <div id="text-box">
         <h3>Insira o texto do meme abaixo:</h3>
         <input type="text" name="text" id="text-input">
@@ -16,9 +17,16 @@
          <input type="file" name="img" id="meme-insert" accept="image/png, image/jpeg" onchange="loadImage(event)">
     </div>
 
-    <div id="img-div">
-        <p id="meme-text"></p>
-        <img id="meme-image" alt="Uploaded meme image">
+    <div class="buttons-div">
+        <h3>Selecione o estilo de borda:</h3>
+        <button id="button1" class="button1">Red</button>
+        <button id="button2" class="button2">Blue</button>
+        <button id="button3" class="button3">Green</button>
+    </div>
+
+    <div id="img-div" class="img-div">
+        <p id="meme-text" class="meme-text"></p>
+        <img id="meme-image" class="meme-image" alt="Uploaded meme image">
     </div>
 
 </body>
