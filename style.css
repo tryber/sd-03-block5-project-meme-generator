@@ -9,3 +9,13 @@
     left: 15px;
     top: 400px;
 }
+
+#meme-image{
+    width: 600px;
+    height: 500px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+
