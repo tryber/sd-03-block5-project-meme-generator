@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme Generator Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></style>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="text-input">
+    </form>
+    <section id="meme-text">
+        <img src="" alt="">
+    </section>
+    <script>
+    window.onload= function(){
+        let Text=document.getElementById("text-input")
+        let TextImg= document.getElementById("meme-text")
+        Text.addEventListener("keydown", TextoDinamico)
+        function TextoDinamico(){
+            TextImg.innerText=Text.value
+        }
+    }
+    </script>
+</body>
+</html>
