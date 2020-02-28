@@ -17,5 +17,5 @@ function previewFile() {
   let meme = document.querySelector("#text-input");
   output.addEventListener("keyup",function(){
     
-        output.innerHTML = meme.value;
-  })      
+        output.innerHTML = meme.target.value;
+  })
