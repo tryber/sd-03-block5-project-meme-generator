@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Meme Generator</h1>
+    </header>
+    <section>
+        <article>
+            <form>
+                <label id="img">Escolha uma imagem:</label>
+                <input type="file" id="file" name="file" accept='image/*' onchange='openFile(event)'>
+                <button class="aumentar-txt">Aumentar texto</button>
+                <button class="diminuir-txt">Diminuir texto</button>
+                <br><br>
+                <label id="label-texto">Texto superior:</label>
+                <input type="text" id="text-input" name="text" onkeyup="mostrarTextoSup()" maxlength="60" placeholder="Máx. 60 caracteres">
+                <label id="label-texto">Texto inferior:</label>
+                <input type="text" id="textinf" name="text" onkeyup="mostrarTextoInf()" maxlength="60" placeholder="Máx. 60 caracteres"><br><br>
+            </form>
+        </article>
+        <article class="container">
+            <img src="" alt="Meme" id="meme-image">
+            <div class="texto-imgsup"><span id="demosup" class="aumtxt"></span></div>
+            <div class="texto-imginf"><span id="meme-text" class="dimtxt"></span></div>
+        </article>
+    </section>
+    <footer id="rodape">
+        <p class="text_left">Rodrigo Brezolin</p>
+        <p class="text_center">2020</p>
+        <p class="text_right">Contato:</p>
+        <a href="http://linkedin.com/in/rodrigobrezolin" target="_blank"><img src="images/linkedin.png" id="img-contato" alt="Contato Linkedin" width="30px"></a>
+    </footer>
+</body>
+</html>
