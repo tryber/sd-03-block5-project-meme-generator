@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meme Generator - Gabriel Luiz</title>
+
+
+    <style>
+        #imgContent {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            margin-top: 15px;
+            ;
+            border-style: dotted dashed solid double;
+        }
+
+        #meme-text {
+            position: absolute;
+            bottom: 50px;
+            width: 450px;
+            height: 150px;
+            margin-left: 20px;
+            border-style: dotted dashed solid double;
+            font-family: impact;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            color: white;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 0 #000,
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                0px 2px 0 #000,
+                2px 0px 0 #000,
+                0px -2px 0 #000,
+                -2px 0px 0 #000,
+                2px 2px 5px #000;
+        }
+
+        input {
+            width: 500px;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="uploadContent">
+        <label for="upload-image" class="instruction">Faça Upload de uma imagem</label>
+        <input type="file" id="uploadInput">
+    </div>
+
+    <p>Insira o texto do meme abaixo:</p>
+    <input id="inputText">
+    <div id="imgContent">
+
+        <div id="meme-text">
+
+        </div>
+    </div>
+
+
+    <script>
+        var input1 = document.querySelector('#inputText');
+        var inputImg = document.querySelector('#uploadInput')
+        var memeText = document.querySelector('#meme-text');
+        input1.addEventListener('keyup', escreveImagem);
+
+
+
+        function escreveImagem() {
+            var texto = input1.value;
+            memeText.innerHTML = texto;
+
+
+            //console.log('batata')
+        }
+
+
+
+        inputImg.addEventListener('change', readURL);
+        function readURL() {
+            var file = inputImg.files[0];
+            var reader = new FileReader();
+            reader.onloadend = function () {
+                document.querySelector('#imgContent').style.backgroundImage = "url(" + reader.result + ")";
+            }
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                console.log('nao deu')
+            }
+        }
+
+    </script>
 </body>
+
 </html>
