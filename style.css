@@ -2,7 +2,7 @@ body{
   background-color: red;
 }
 
-#img-div{
+.img-div{
   border: 1px solid black;
   position: relative;
   width: 410px;
@@ -10,15 +10,15 @@ body{
   background-color: white;
 }
 
-#meme-image{
+/* .meme-img{
   border: 1px solid black;
   position: relative;
   width: 410px;
   height: 410px;
   background-color: white;
-}
+} */
 
-#meme-text{
+.meme-txt{
   display: flex;
   position: absolute;
   color: green;
