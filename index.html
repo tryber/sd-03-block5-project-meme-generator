@@ -9,7 +9,7 @@
 </head>
 <body>
     <form>
-        <input type="text" id="text-input">
+        <input type="text" id="text-input" maxlength="60">
     </form>
     <p>
         <label for="meme-insert" style="cursor: pointer;">
@@ -17,11 +17,9 @@
             Escolha uma imagem
         </label>
     </p>
-    <section id="branco">         
-        <img id="output" width="400" />
-            <p id="meme-text"></p>
-        </img>
-        
+    <section class="branco">         
+        <img id="output" width="400" height="400" />
+            <p id="meme-text"></p>  
     <section>
     <script>
     window.onload= function(){
@@ -35,6 +33,7 @@
         function loadFile() {
             let image = document.getElementById('output');
             image.src = URL.createObjectURL(event.target.files[0]);
+            image.innerText=TextImg.value
         };
         let im = document.getElementById('meme-insert');
         im.addEventListener("change", loadFile)
