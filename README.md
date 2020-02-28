@@ -11,9 +11,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-02-week5-project-meme-generator.git`.
+  * `git clone https://github.com/tryber/sd-03-week5-project-meme-generator.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-02-week5-project-meme-generator`
+    * `cd sd-03-week5-project-meme-generator`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -26,7 +26,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 3. Crie uma pasta na raiz do projeto com o seu nome e um arquivo **README.md** dentro dessa pasta:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-02-week5-project-meme-generator**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-week5-project-meme-generator**_
   * Crie a pasta e o arquivo **README.md**
     * Exemplo:
       * `mkdir joaozinho`
@@ -48,13 +48,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   * Usando o exemplo anterior: `git push -u origin joaozinho-html-css-project`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-02-week5-project-meme-generator/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-week5-project-meme-generator/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-02-week5-project-meme-generator/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-week5-project-meme-generator/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
