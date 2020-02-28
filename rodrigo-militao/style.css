@@ -1,0 +1,34 @@
+#imgbox{
+  border: 1px #000 solid;
+  width: 450px;
+  height: 450px;
+}
+
+#imgbox img{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+}
+
+#imgbox p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 22pt;
+  color: white;
+  font-weight: 700;
+}
+
+#textbox{
+  position: relative;
+  padding: 4px;
+}
+
+#meme-text{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 50px;
+}
+
+#memeup{
+  position: absolute;
+  margin-left: 50px;
+}
