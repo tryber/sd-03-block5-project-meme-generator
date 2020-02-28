@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset class="uk-fieldset">
+                <legend class="uk-legend">MemeGenerator</legend>
+        
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" id="top-text" placeholder="Texto de cima"></textarea>
+                </div>
+                <div class="uk-margin">
+                    <input class="uk-range" id="top-text-size-input" type="range" value="0.15" min="0.01" max="0.25" step="0.01">
+                </div>
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" id="bottom-text" placeholder="Texto de baixo"></textarea>
+                </div>
+                <div class="uk-margin">
+                    <input class="uk-range" id="bottom-text-size-input" type="range" value="0.15" min="0.01" max="0.25" step="0.01">
+                </div>
+        
+            </fieldset>
+        </form>
+                <div class="js-upload" uk-form-custom>
+                    <input type="file" accept="image/*" id="image-input" single>
+                    <button class="uk-button uk-button-default uk-button-secondary" type="button" tabindex="-1"> <span uk-icon="cloud-upload"></span> Selecionar imagem </button>
+                </div>
+
+            <p uk-margin>
+                <button class="uk-button uk-button-default uk-button-primary" id="generate-btn"><span uk-icon="plus"></span> Gerar Meme</button>
+                <button class="uk-button uk-button-default uk-button-danger"><span uk-icon="close"></span>Apagar</button>
+            </p>
+            <canvas class="uk-box-shadow-xlarge" id="meme-canvas"></canvas>
+        </p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
