@@ -14,7 +14,7 @@
     z-index: 2;
 }
 
-#imagem {
+.imagem {
     width: 600px;
     height: 450px;
     z-index: 1;
