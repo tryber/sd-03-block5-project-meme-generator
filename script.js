@@ -12,3 +12,4 @@ function escreveText() {
 // function botaImg(){
 //   botao.onclick
 // }
+// vamos fazer mais, ou chorar, o que for primeiro
