@@ -1,0 +1,16 @@
+#memeImage{
+    z-index: -1;
+    position: absolute;
+}
+#meme-text{
+    color: white;
+    border: 5px solid black;
+    width: 300PX;
+    height: 300px;
+    background-position: 0%;
+    overflow: auto;
+    overflow: hidden;
+}
+body{
+    background-color: teal;
+}
