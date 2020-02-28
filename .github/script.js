@@ -1,5 +1,5 @@
 window.onload = function () {
-  let addImage = document.getElementById("input-image");
+  let addImage = document.getElementById("meme-insert");
   let addText = document.getElementById("text-input");
   let memeText = document.getElementById("meme-text");
 

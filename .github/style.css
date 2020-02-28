@@ -1,13 +1,19 @@
 #meme-text {
+  display: inline-block;
+  max-width: 400px;
+  overflow: hidden;
   position: absolute;
-  width: 400px;
-  height: 400px;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
 }
 
-#meme-image{
-  width: 400px;
-  height: 400px;
-  border: solid, black;
+#meme-image {
+  border: solid;
   background: white;
+  color: black;
+  height: 400px;
   margin: 1px;
+  width: 400px;
 }
+
+#text-input {}
