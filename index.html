@@ -8,18 +8,22 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Montserrat|Teko&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header id="cabecalho">
+  <header class="cabecalho">
     <h1>Meme Generator</h1>
   </header>
-  <section>
-    <p>Crie seu meme blablabla e etc e tal</p>
-    <p>Escolha uma imagem <input type="file" name="uploadeImg" id="uploadeImg"></p>
-    <p>Ou cole aqui a URL <input type="text" name="uploadUrl" id="uploadUrl"></p>
-    <p>Ou ainda, escolha uma das opções:</p>
-  </section>
-  <section id="area">
-    <img id="meme-image">
-  </section>
+  <main class="wrap">
+    <section>
+      <p>Crie seu meme blablabla e etc e tal</p>
+      <p>Escolha uma imagem <input type="file" name="uploadeImg" id="uploadeImg"></p>
+      <p>Ou cole aqui a URL: <input type="text" name="uploadUrl" id="uploadUrl"></p>
+      <p>Ou ainda, escolha uma das opções:</p>
+      <p class="align-center"><strong>DIGITE SEU TEXTO AQUI!</strong></p>
+      <p class="align-center"><input type="text" name="txtmeme" id="text-input" size="57"></p>
+    </section>
+    <section class="area">
+      <img id="meme-image">
+    </section>
+  </main>
   <footer>
 
   </footer>

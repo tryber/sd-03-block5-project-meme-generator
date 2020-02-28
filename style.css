@@ -1,7 +1,7 @@
 /*font-family: 'Montserrat', sans serif; font-family: 'Alegreya Sans SC', sans serif; font-family: 'Teko', sans serif;*/
 /* Tags Predefinidas*/
 body {
-  background-color: rgb(242 , 225 , 236);
+  background-color: rgb(255, 231, 146);
   margin: 0;
   padding: 0;
 }
@@ -10,24 +10,50 @@ h1 , h2 , h3 {
   font-family: Teko , sans serif;
 }
 
+h1 {
+  font-size: 65px;
+  font-weight: 500;
+}
+
 header {
-  text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /*Id's*/
-#area {
+
+
+
+/* Classes */
+.area {
   background-color: rgb(255 , 255 , 255);
   height: 500px;
   width: 500px;
 }
 
-#cabecalho {
+.align-center {
+  text-align: center;
+}
+
+.cabecalho {
   background-color: rgb(226 , 212 , 225);
   height: 80px;
-  top: 0px;
+  top: 0;
   width: 90%;
   box-shadow: 5px 5px rgb(52 , 3 , 71);
-  padding-top: 1px;
+  padding-top: 0px;
+  margin-bottom: 50px;
+}
+
+.wrap {
+  display: block;
+  margin: auto;
+  max-width: 500px;
 }
