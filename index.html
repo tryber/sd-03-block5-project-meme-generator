@@ -8,14 +8,22 @@
     <link rel="stylesheet" type="text/css" href="style.css"></style>
 </head>
 <body>
-    <form action="">
+    <form>
         <input type="text" id="text-input">
     </form>
-    <input type="file" name="" id='meme-image'>   
-    <section id="branca">  
-        <section id="meme-text"></section>
-        <img src="#" alt="" id="teste">
-    <section >
+    <p>
+        <input type="file" id="file" accept="image/*" onchange="loadFile(event)" style="display: none;">
+    </p>
+    <p>
+        <label for="file" style="cursor: pointer;">
+            Escolha uma imagem
+        </label>
+    </p>
+    <section id="branca">    
+        <p id="meme-text">
+            <img id="output" width="400" src="" />
+        </p>
+    <section>
     <script>
     window.onload= function(){
         let Text=document.getElementById("text-input")
@@ -25,8 +33,11 @@
             TextImg.innerText=Text.value
         }
 
-        let memeImage= document.getElementById("meme-image")
-        let teste=document.getElementById("teste")
+        let loadFile = function(event) {
+	    let image = document.getElementById('output');
+	    //image = document.getElementById("file").value
+        image.src = URL.createObjectURL(event.target.files[0]);
+        };
 
     }
     </script>
