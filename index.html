@@ -18,8 +18,8 @@
         </label>
     </p>
     <section class="branco">         
-        <img id="output" width="400" height="400" />
-            <p id="meme-text"></p>  
+        <img id="output" width="400" height="400" class="meme-image"/>
+            <p id="meme-text" style="position: absolute;"></p>  
     <section>
     <script>
     window.onload= function(){
@@ -31,7 +31,7 @@
         Text.addEventListener("keydown", TextoDinamico)
 
         function loadFile() {
-            let image = document.getElementById('output');
+            let image = document.getElementsByClassName("meme-image")[0];
             image.src = URL.createObjectURL(event.target.files[0]);
             image.innerText=TextImg.value
         };

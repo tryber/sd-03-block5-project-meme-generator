@@ -4,3 +4,9 @@
     border: 1px solid black;
     background-color: white;
 }
+
+#meme-txt{
+    display: flex;
+    position: absolute;
+    word-break: break-all;
+  }
