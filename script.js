@@ -11,14 +11,8 @@ openFile = function(event) {
 };
 
 /* Exibe texto: */
-function mostrarTextoSup() {
-    let pegaTexto = document.getElementById('text-input').value;
-    let upTexto = document.getElementById('demosup');
-    upTexto.innerHTML = pegaTexto;
-};
-
 function mostrarTextoInf() {
-    let pegaTexto = document.getElementById('textinf').value;
+    let pegaTexto = document.getElementById('text-input').value;
     let upTexto = document.getElementById('meme-text');
     upTexto.innerHTML = pegaTexto;
 };
