@@ -4,11 +4,15 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="./script.js"></script>
         <title>Gerador de Memes by Marco Barbosa</title>
 
     </head>
         <article>
+            <input type="file" accept="image/*" onchange="loadFile(event)"></input>
+            <img id="meme-image"></img>
+            <br>
             <form>
                 <label for="fname">Escreva Seu Texto Aqui:</label>&nbsp;
                 <input type="text" id="text-input"></input>
