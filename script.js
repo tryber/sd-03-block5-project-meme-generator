@@ -1,6 +1,6 @@
 let memetxt = document.getElementById('text-input');
 let inputtext = document.getElementById('texto');
-let memeImage = document.getElementById('meme-input');
+let memeImage = document.getElementById('meme-insert');
 
 let meme = function(event) {
     let image = document.getElementById('meme-image')
