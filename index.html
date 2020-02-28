@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
     <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="script.js">
+    <form>
       <label for="meme-image">Select an Image:</label>
       <input
         type="file"
         id="meme-insert"
         name="meme-image"
-        onchange="previewFile()"
+        onchange="inputImg()"
       />
       <br />
       <br />
@@ -21,12 +22,8 @@
       <input type="text" id="text-input" name="text-input" />
     </form>
     <br />
-    <img
-      src=""
-      height="200"
-      alt="Image preview"
-      style="border: 1px black solid;"
-      id="meme-image"
-    />
+    <div id="meme-image-container">
+      <img src="" id="meme-image" />
+    </div>
   </body>
 </html>

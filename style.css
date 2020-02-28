@@ -1,3 +1,24 @@
 body {
   font-family: sans-serif;
+  background-color: grey;
+}
+#meme-text {
+  background-color: transparent;
+}
+#meme-image-container {
+  width: 500px;
+  height: 500px;
+  border: 1px black solid;
+  background-color: white;
+}
+#meme-image {
+  width: 500px;
+  height: 500px;
+}
+figcaption {
+  max-width: 400px;
+  font-size: 26px;
+  display: block;
+  float: left;
+  position: absolute;
 }
