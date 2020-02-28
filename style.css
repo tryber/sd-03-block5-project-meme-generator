@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#your-meme{
+    background-color: white;
+    border: 1px black solid;
+}
