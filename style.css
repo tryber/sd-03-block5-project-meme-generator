@@ -1,11 +1,11 @@
-#lugarMeme {
+#meme-image {
     background-color: #ffffff;
     border: 1px solid black;
     height: 400px;
     width: 400px;
 }
 
-#text-input, #meme-input {
+#text-input, #input-image {
     margin: 0 0 10px;
 }
 

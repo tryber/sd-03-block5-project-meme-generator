@@ -1,9 +1,9 @@
-let memeText = document.getElementById("meme-text");
+let textInput = document.getElementById("text-input");
+let imageInput = document.getElementById("input-image");
 let memeImage = document.getElementById("meme-image");
-let lugarMeme = document.getElementById("lugarMeme");
 
 function addMeme() {
-    lugarMeme.src = URL.createObjectURL(memeImage.files[0]);
+    memeImage.src = URL.createObjectURL(imageInput.files[0]);
 }
 
-memeImage.addEventListener("change", addMeme);
+imageInput.addEventListener("change", addMeme);
