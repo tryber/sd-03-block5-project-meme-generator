@@ -68,15 +68,11 @@ label{
   margin-left: 13px;
 }
 
-.aumentar-txt, .diminuir-txt{
-  font-size: 16px;
-  padding:10px;
-}
-
 #text-input{
   width: 300px;
   height: 18px;
   margin-top:5px;
+  color: black;
 }
 
 .texto-verm{

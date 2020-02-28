@@ -17,8 +17,6 @@
             <form>
                 <label id="img">Escolha uma imagem:</label>
                 <input type="file" id="file" name="file" accept='image/*' onchange='openFile(event)'>
-                <button class="aumentar-txt">Aumentar texto</button>
-                <button class="diminuir-txt">Diminuir texto</button>
                 <br><br>
                 <label id="label-texto">Texto sobre a imagem:</label>
                 <input type="text" id="text-input" name="text" onkeyup="mostrarTextoInf()" maxlength="60" placeholder="Máx. 60 caracteres"><br><br>
@@ -26,7 +24,7 @@
         </article>
         <article class="container">
             <img src="" id="meme-image" alt="Meme">
-            <div class="texto-imginf"><span id="meme-text" class="dimtxt"></span></div>
+            <div class="texto-imginf"><p id="meme-text"></p></div>
         </article>
     </section>
     <footer id="rodape">
