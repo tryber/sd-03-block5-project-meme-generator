@@ -1,0 +1,33 @@
+#caixa {
+    position: fixed;
+    border: solid 1px;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+}
+
+#input-text {
+    padding-top: 360px;
+    position: absolute;
+    font-size: 30px;
+    color: red;
+    z-index: 2;
+}
+
+#imagem {
+    width: 600px;
+    height: 450px;
+    z-index: 1;
+}
+
+.label {
+    font-size: 20px;
+}
+
+#style {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(157, 255, 0);
+}
