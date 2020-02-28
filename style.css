@@ -16,6 +16,7 @@
 }
 
 .memesSite {
+    border: 1px solid black;
     height: 100px;
     margin: 10px 0 0;
     width: 100px;

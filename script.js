@@ -14,6 +14,8 @@ let meme3 = document.getElementById("meme3");
 
 function addMeme() {
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);
+    memeImage.style.height = 400 + "px";
+    memeImage.style.width = 400 + "px";
 }
 
 memeInsert.addEventListener("change", addMeme);
@@ -62,6 +64,8 @@ function selectMeme(indicador) {
     } else if (indicador == 4) {
         memeImage.src = meme4.src;
     }
+    memeImage.style.height = 400 + "px";
+    memeImage.style.width = 400 + "px";
 }
 
 meme1.addEventListener("click", function() {
