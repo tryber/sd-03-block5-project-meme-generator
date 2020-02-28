@@ -1,5 +1,5 @@
 function inputImagem(){
-  let imagem = document.getElementById("aquivo_imagem").files[0];
+  let imagem = document.getElementById("meme-insert").files[0];
   let reader = new FileReader();
   let img = document.getElementById("meme-image");
   reader.onloadend = function() {

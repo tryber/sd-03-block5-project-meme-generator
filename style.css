@@ -5,9 +5,11 @@ div {
   background-color: white;
   border: solid 1px black;
   display: inline-block;
+  height: 500px;
   margin-top: 2%;
   position: relative;
   text-align: center;
+  width: 750px;
 }
 
 form {
@@ -30,8 +32,8 @@ div p {
 img {
   height: 500px;
   max-height:500px;
-  max-width: 700px;
-  min-height: 300px;
-  min-width: 500px;
-  width: 700px;
+  max-width: 750px;
+  min-height: 500px;
+  min-width: 750px;
+  width: 750px;
 }
