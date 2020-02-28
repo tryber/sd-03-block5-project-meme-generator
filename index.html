@@ -7,20 +7,44 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form action="">
-    <div id="image-selector">
-      <label for="">Select your image</label>
-      <input type="file" id="meme-insert">
-    </div>
-    <div id="text-selector">
-      <label for="">Meme text</label>
-      <input type="text" id="text-input">
-    </div>
-</form>
-  <section id="image-box">
-    <h2 id="meme-text"></h2> 
+  <h1>Meme Generator</h1>
+  <section id="meme-image-container">
+    <h2 id="meme-text"></h2>
+    <h2 id="meme-text2"></h2>  
     <img src="#" alt="" id="meme-image">       
   </section>
-  <script src="script.js"></script>
+  <section class="content">
+    <form action="">
+      <div id="image-selector">
+        <label for="">Select your image</label>
+        <input type="file" id="meme-insert">
+      </div>
+      <div id="text-selector">
+        <label for="">Meme text</label>
+        <input type="text" id="text-input" maxlength="60">
+      </div>
+      <div id="text-selector">
+        <label for="">Meme text 2</label>
+        <input type="text" id="text-input2" maxlength="60">
+      </div>
+    </form>
+    <div>
+      <ul>
+        <li>
+          <img src="./imgs/meme1.jpeg" alt="" class="thumb" id="meme1">
+        </li>
+        <li>
+          <img src="./imgs/meme1.jpeg" alt="" class="thumb" id="meme2">
+        </li>
+        <li>
+          <img src="./imgs/meme1.jpeg" alt="" class="thumb" id="meme3">
+        </li>
+        <li>
+          <img src="./imgs/meme1.jpeg" alt="" class="thumb" id="meme4">
+        </li>
+      </ul>
+    </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

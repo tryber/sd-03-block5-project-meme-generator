@@ -9,36 +9,63 @@ body{
   text-align: center;
   width: 100%;
 }
-#image-box{
+h1{
+  font-size: 40px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+#meme-image-container{
   background-color: white;
-  border: 1px solid black;
+  border: 1px black solid;
+  float: left;
   height: 500px;
   overflow: hidden;
   margin-top: 30px;
-  max-width: 500px;  
+  margin-left: 150px;
+  margin-right: 70px;
+  width: 500px;  
 }
 #meme-image{
   height: 100%;
   width: auto;
 }
-form{
-  margin-top: 50px;
-}
-#image-selector{
-  display: inline-block;
-  width: 50%;
-}
-#text-selector{
-  width: 50%;
-  float: right;
-}
-
 #meme-text{
   color: white;
   font-size: 50px;
+  margin-left: 20px;
+  margin-top: 200px;
   position: absolute;
   text-align: left;
   text-shadow: 0 0 5px black;
   width: 450px;
   word-wrap: break-word;
+}
+#meme-text2{
+  color: white;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0 0 5px black;
+  width: 450px;
+  word-wrap: break-word;
+}
+.content{
+  margin-top: 50px;
+  text-align: left;
+}
+#text-selector{
+  margin-top: 50px;
+}
+ul li{
+  display: inline-block;
+  height: 100px;
+  margin-top: 216px;
+  max-width: 100px;
+  overflow: hidden;
+}
+.thumb{
+  width: auto;
+  height: 100%;
 }
