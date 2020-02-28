@@ -8,8 +8,8 @@ header {
 
 article {
     background-color: midnightblue;
-    text-align: center;
     padding-top: 5px;
+    text-align: center;
 }
 
 #meme-image {
@@ -27,8 +27,8 @@ article {
     color: mintcream;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 30pt;
-    font-style: initial;
     font-stretch: semi-expanded;
+    font-style: initial;
     position: absolute;
 }
 
@@ -47,7 +47,7 @@ article {
     color: ivory;
     height: 300px;
     left: 50px;
-    top: 150px;
     position: absolute;
+    top: 150px;
     width: 200px;
 }
