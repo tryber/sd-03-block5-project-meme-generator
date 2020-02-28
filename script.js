@@ -7,7 +7,8 @@ let image = document.getElementById('meme-image');
 textBox.addEventListener('keyup', changeText);
 
 function changeText () {
-textOutput.innerHTML = textBox.value;
+    textBox.value.toUpperCase();
+    textOutput.innerHTML = textBox.value;
 }
 
 function loadImage() {
