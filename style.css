@@ -6,7 +6,9 @@
 #meme-text {
   position: absolute;
   top: 350px;
-  left: 100px;
+  width: 350px;
+  word-break: break-word;
+  left: 55px;
   z-index: 10;
 }
 
@@ -14,4 +16,9 @@
   height: 450px;
   width: 450px;
   border: 1px solid black;
+}
+
+#buttons-container {
+  padding-bottom: 10px;
+  padding-top: 10px
 }
