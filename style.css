@@ -1,8 +1,5 @@
 .style-image {
-  height: 450px;
-  width: 450px;
-  border: 1px solid black;
-  background-color: white;
+  padding: 20px 20px 20px 20px;
 }
 
 .style-text {
