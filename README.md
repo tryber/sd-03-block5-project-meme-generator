@@ -24,28 +24,26 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     * Exemplo: `git checkout -b joaozinho-meme-generator-project`
 
-3. Crie uma pasta na raiz do projeto com o seu nome e um arquivo **README.md** dentro dessa pasta:
+3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
     * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-block5-project-meme-generator**_
-  * Crie a pasta e o arquivo **README.md**
-    * Exemplo:
-      * `mkdir joaozinho`
-      * `echo "the quick brown fox jumped over the lazy dog" > joaozinho/README.md`
+  * Crie os arquivos index.html, style.css e script.js
+    * Exemplo: `touch index.html style.css script.js`
 
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
+    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
       * Exemplo:
         * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
+        * `git status` (devem aparecer listados os arquivos em verde)
   * Faça o `commit` inicial
       * Exemplo:
         * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-html-css-project`
+  * Usando o exemplo anterior: `git push -u origin joaozinho-project-meme-generator`
 
 6. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-block5-project-meme-generator/pulls)
@@ -72,9 +70,9 @@ Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na 
 
 Você deve criar um site que permita o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada. Em outras palavras, um meme generator. Abaixo seguem os requisitos:
 
-### 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida. A caixa de texto deve, necessariamente, ter um id denominado 'text-input'. O texto de quem usa deve ser inserido sobre a imagem escolhida. Se não houver imagem inserida, ele deve ser inserido sobre a área onde a imagem aparece na posição correta. O elemento do texto que aparece sobre a imagem deve ter um id denominado 'meme-text'.
+### 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida. A caixa de texto deve, necessariamente, ter um id denominado 'text-input'. O texto de quem usa deve ser inserido sobre a imagem escolhida, com o elemento do texto estando totalmente dentro da imagem. Se não houver imagem inserida, ele deve ser inserido sobre a área onde a imagem aparece na posição correta. O elemento do texto que aparece sobre a imagem deve ter um id denominado 'meme-text'.
 
-### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador. O elemento da imagem deve possuir um id chamado 'meme-image'. A imagem escolhida deve ocupar um espaço previamente delimitado por uma área branca.
+### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador. O elemento que viabiliza o upload da imagem deve ser identificado com o id 'meme-insert'. O elemento da imagem deve possuir um id chamado 'meme-image'. A imagem escolhida deve ocupar um espaço previamente delimitado por uma área branca.
 
 ### 3 - O site deve ter uma moldura em volta da área onde a imagem aparecerá depois de ser escolhida. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
 
