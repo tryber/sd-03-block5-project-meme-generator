@@ -1,0 +1,10 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#meme-image {
+    height: 400px;
+    width: 400px;
+    border: solid black 1px;
+}
