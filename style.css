@@ -1,18 +1,13 @@
-#imgbox{
+#meme-image{
   border: 1px #000 solid;
   width: 450px;
   height: 450px;
   background-color: white;
-}
-
-#imgbox img{
-  width: 450px;
-  height: 450px;
   position: absolute;
-  border: 1px #000 solid;
+  background-image: none;
 }
 
-#meme p{
+#meme-image p{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 22pt;
   color: white;
@@ -26,6 +21,6 @@
 
 #meme-text{
   position: absolute;
-  margin-top: -100px;
+  margin-top: 300px;
   margin-left: 50px;
 }

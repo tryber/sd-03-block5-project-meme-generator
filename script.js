@@ -3,9 +3,11 @@ const textinput = document.getElementById('text-input');
 const imgbox = document.getElementById('imgbox');
 
 img_input.addEventListener ('change', function(){ 
-    document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0]);
+    let file = window.URL.createObjectURL(this.files[0]);
+    document.getElementById('meme-image').style.backgroundImage = "url('"+file+"')" ;
 });
 
 textinput.addEventListener('keyup', function(){
     document.getElementById('meme-text').innerText = textinput.value;
 });
+
