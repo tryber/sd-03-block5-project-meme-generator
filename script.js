@@ -1,4 +1,4 @@
-let textBox = document.getElementById('text-input');
+let textBox = document.getElementById('meme-insert');
 
 let textOutput = document.getElementById('meme-text');
 
