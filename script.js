@@ -9,7 +9,3 @@ img_input.addEventListener ('change', function(){
 textinput.addEventListener('keyup', function(){
     document.getElementById('meme-text').innerText = textinput.value;
 });
-
-memetextup.addEventListener('keyup', function(){
-    document.getElementById('memeup').innerText = memetextup.value;
-});
