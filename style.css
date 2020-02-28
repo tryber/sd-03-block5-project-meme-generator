@@ -38,18 +38,9 @@ h1{
   width: 1000px;
   position: absolute;
   bottom: 20px;
-  left: 10px;
   font-size: 50px;
   overflow: hidden;
   color:black;
-}
-
-.texto-imgsup {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  font-size: 50px;
-  overflow: hidden;
 }
 
 #cabecalho{
@@ -74,7 +65,6 @@ label{
   width: 300px;
   height: 18px;
   margin-top:5px;
-  color: black;
 }
 
 .texto-verm{
