@@ -9,17 +9,18 @@ function upload() {
     var image = document.createElement("img");
     document.getElementById("image").appendChild(image);
     image.id = "meme-image";
-    image.style.maxWidth= "500px";
-    image.style.maxHeight= "500px";
-    
-    var file = document.querySelector('input[type=file]').files[0];
+    image.style.maxWidth= "100%";
+    image.style.maxHeight= "100%";
+
+    var file = document.querySelector('#meme-insert').files[0];
     var reader = new FileReader();
 
     reader.addEventListener("load", function() {
         image.src = reader.result;
     });
-  
+
     if (file) {
         reader.readAsDataURL(file);
       } 
-  }
+  } 
+  

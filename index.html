@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script defer src="script.js"></script>
 </head>
@@ -12,21 +13,22 @@
         <h1>Meme Generator</h1>
     </header>
 
-    <form>
-        <label for="image">Select a file:</label>
-        <input name="image" type="file" multiple="false" accept="image/*" onchange="upload()">
-    </form>
+    <section id="forms">
+        <form>
+            <label for="sentence">Meme text:</label>
+            <input type="text" id="text-input" name="sentence">
+        </form>
+        <form>
+            <label for="image">Select a file:</label>
+            <input name="image" id="meme-insert" type="file" multiple="false" accept="image/*" onchange="upload()">
+        </form>
+    </section>
     
     <section id="box">
         <div id="text">
         </div>
-        <div id="image"> 
+        <div id="image">
         </div>
     </section>
-    
-    <form>
-        <label for="sentence">Meme text:</label>
-        <input type="text" id="text-input" name="sentence">
-    </form>
 </body>
 </html>

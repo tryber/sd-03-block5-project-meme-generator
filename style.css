@@ -1,14 +1,40 @@
 body {
-    background-color: lightcoral;
+  background-color: lightcoral;
+  margin: 0;
+}
+header {
+    text-align: center;
+    border-bottom-style: solid;
+    font-size: 25px;
+}
+#forms {
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 #box {
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    width: 500px;
-    height:500px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height:500px;
+  width: 500px;
+  float: right;
+  margin-right: 20%;
+  margin-top: 50px;
 }
 #text {
-    position: absolute;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+  position: absolute;
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: black;
+  height: 500px;
+  width: 500px;
+  overflow-wrap: break-word;
+}
+#image{
+  height:500px;
+  width: 500px;
 }
