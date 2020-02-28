@@ -13,4 +13,6 @@
   position:absolute;
   font-size: 100px;
   top: 30px;
+  max-height: 500px;
+  max-width: 600px;
 }

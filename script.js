@@ -1,6 +1,6 @@
 
   //Muda o placeholder da imagem pela imagem do input
-  let input = document.getElementById("image-input");
+  let input = document.getElementById("meme-insert");
 
 input.addEventListener('change',function () {
     let inputImg = input.files[0];
