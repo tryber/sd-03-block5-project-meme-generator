@@ -11,9 +11,11 @@
     <form action="">
         <input type="text" id="text-input">
     </form>
+    <input type="file" name="" id='meme-image'>   
+    <section id="branca">  
+        <section id="meme-text"></section>
+        <img src="#" alt="" id="teste">
     <section >
-        <img src="" alt="" id="meme-text">
-    </section>
     <script>
     window.onload= function(){
         let Text=document.getElementById("text-input")
@@ -22,6 +24,10 @@
         function TextoDinamico(){
             TextImg.innerText=Text.value
         }
+
+        let memeImage= document.getElementById("meme-image")
+        let teste=document.getElementById("teste")
+
     }
     </script>
 </body>
