@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Projeto - Meme Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    
+    <h1>Meme Generator</h1>
+    <section>
+        <form>
+            <label for="text-input">Escreva aqui:</label><br>
+            <input type="text" id="text-input" name="text-input" oninput="inserirTexto()" maxlength="45" wrap="hard"><br>
+        </form>
+        <main id="principal">
+            <p id="meme-text"></p>
+        </main>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
