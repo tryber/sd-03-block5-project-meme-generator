@@ -32,18 +32,18 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
+    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
       * Exemplo:
         * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
+        * `git status` (devem aparecer listados os arquivos em verde)
   * Faça o `commit` inicial
       * Exemplo:
         * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-html-css-project`
+  * Usando o exemplo anterior: `git push -u origin joaozinho-project-meme-generator`
 
 6. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-block5-project-meme-generator/pulls)
