@@ -18,7 +18,7 @@ h1{
   padding-top: 10px;
 }
 
-.container {
+#meme-image-container {
   background-color: white;
   position: relative;
   top: 20px;
@@ -30,7 +30,6 @@ h1{
 
 #meme-image { 
   position: absolute;
-  border: 1px solid black;
   width: 1000px;
   height: 700px;
 }
