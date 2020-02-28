@@ -2,15 +2,19 @@ h1 {
   color: red;
 }
 .caixa-img {
+  background-color: white;
   border: solid 1px black;
-    background-color: white;
-    height: 600px;
-    width: 600px;
-    padding: 10px;
+  height: 600px;
+  padding: 10px;
+  width: 600px;
 }
 
-#meme-text {
+.meme-text {
+
+  background-color: yellow;
+  width: 600px;
   position: absolute;
-  z-index: 1;
   text-align: center;
+  word-wrap: break-word;
+  z-index: 1;
 }
