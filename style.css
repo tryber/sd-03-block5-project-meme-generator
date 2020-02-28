@@ -1,3 +1,6 @@
+body {
+  background-color: blue;
+}
 div {
   background-color: white;
   border: solid 1px black;
@@ -26,9 +29,9 @@ div p {
 
 img {
   height: 500px;
-  min-width: 500px;
-  min-height: 300px;
-  max-width: 700px;
   max-height:500px;
+  max-width: 700px;
+  min-height: 300px;
+  min-width: 500px;
   width: 700px;
 }
