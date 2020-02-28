@@ -17,3 +17,10 @@ section {
   margin: 10px;
   padding: 10px;
 }
+
+div p {
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+}

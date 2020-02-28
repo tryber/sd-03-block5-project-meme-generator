@@ -8,16 +8,15 @@
 </head>
 <body>
   <section>
-    <input type="file"> <br>
+    <input id="aquivo_imagem" type="file" onchange="inputImagem()"> <br>
     <label for="text-input"> Escreva o texto
-      <input id="text-input" type="text">
+      <input id="text-input" type="text" onchange="textoImagem()">
     </label>
   </section>
   <div>
-    
+    <img id="meme-image" src="" alt="Aqui vai uma imagem escolhida pelo usuário">
+    <p id="meme-text"></p>
   </div>
-  <script>window.onload = alert('a')</script>
-  <script src="script.js">
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
