@@ -11,15 +11,19 @@
 
 <body>
     <div id="controls">
-        <form>
-            <label for="text-input">Text</label>
+        <form class='left'>
+            <label for="text-input">Meme Text:</label>
             <input type="text" id='text-input' maxlength="60">
+        </form>
+        <form class='right'>
             <label for="meme-image">Select an image</label>
             <input type="file" id='image-input' accept="image/*">
         </form>
     </div>
-    <p id=meme-text></p>
-    <img id='meme-image'>
+    <div id='meme'>
+        <p id=meme-text></p>
+        <img id='meme-image'>
+    </div>
     <script src="./script.js"></script>
 </body>
 

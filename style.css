@@ -1,19 +1,40 @@
 body {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: medium;
+    background: rgb(200, 213, 221);
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    border: dashed rgb(112, 133, 117) 1px;
+    margin: 10px 200px 10px 200px;
+    padding: 10px 0;
+}
+
+.left {
+    padding-right: 20px;
+}
+
+#meme {
+    display: flex;
+    justify-content: center;
 }
 
 #meme-image {
     height: 400px;
     width: 400px;
     border: solid black 1px;
+    background: white;
 }
 
 #meme-text {
-    padding-left: 50px;
+    font-size: 30px;
     max-width: 300px;
     position: absolute;
     word-break: break-all;
     z-index: 10;
     text-transform: uppercase;
+    color: #333333;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
