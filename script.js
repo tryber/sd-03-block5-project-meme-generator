@@ -1,7 +1,7 @@
 window.onload = function() {
 
     let inputText = document.getElementById('text-input')
-    let inputImage = document.getElementById('image-input');
+    let inputImage = document.getElementById('meme-insert');
     let p = document.getElementById('meme-text');
 
     function uploadImage(event) {
