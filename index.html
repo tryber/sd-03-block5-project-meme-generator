@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,36 @@
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <title>Meme Generator</title>
 </head>
+
 <body>
     <header>
         <h1>Meme Generator</h1>
     </header>
     <article>
         <section class="lado-esquerdo">
-            <section>
-                <form class="image">
-                    <label for="meme-insert">Selecionar imagem:</label>
-                    <input type="file" id="meme-insert">
-                </form>
-                <form class="text">
-                    <label for="text-input">Texto do meme:</label>
-                    <input type="text" id="text-input" maxlength="60">
-                </form>
-            </section>
-            <section class="buttons">
-                <button id="button1">Borda 1</button>
-                <button id="button2">Borda 2</button>
-                <button id="button3">Borda 3</button>
-            </section>
-            <section>
-                <img class="memesSite" id="meme1" src="meme1.jpg" alt="Meme riquinho playboy">
-                <img class="memesSite" id="meme2" src="meme2.jpg" alt="Meme Chapolin Colorado">
-                <img class="memesSite" id="meme3" src="meme3.jpg" alt="Meme menina e diabo">
-                <img class="memesSite" id="meme4" src="meme4.jpg" alt="Meme me solta">
-            </section>
+            <form class="image">
+                <label for="meme-insert">Selecionar imagem:</label>
+                <input type="file" id="meme-insert">
+            </form>
+            <form class="text">
+                <label for="text-input">Texto do meme:</label>
+                <input type="text" id="text-input" maxlength="60">
+            </form>
+            <button class="buttons" id="button1">Borda 1</button>
+            <button class="buttons" id="button2">Borda 2</button>
+            <button class="buttons" id="button3">Borda 3</button>
+
+            <img class="memesSite" id="meme1" src="meme1.jpg" alt="Meme riquinho playboy">
+            <img class="memesSite" id="meme2" src="meme2.jpg" alt="Meme Chapolin Colorado">
+            <img class="memesSite" id="meme3" src="meme3.jpg" alt="Meme menina e diabo">
+            <img class="memesSite" id="meme4" src="meme4.jpg" alt="Meme me solta">
         </section>
         <section class="lado-direito">
-            <div class="editImage">
-                <img id="meme-image">
-            </div>
+            <img class="editImage" id="meme-image">
             <p class="editText" id="meme-text"></p>
         </section>
     </article>
     <script src="./script.js"></script>
 </body>
+
 </html>
