@@ -31,7 +31,7 @@ h1{
 #meme-image { 
   width: 1000px;
   height: 700px;
-  border: 1px solid black;
+  background-color: white;
 }
 
 .texto-imginf {
