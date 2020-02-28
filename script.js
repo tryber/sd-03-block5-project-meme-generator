@@ -3,6 +3,7 @@ let memeInsert = document.getElementById("meme-insert");
 
 let memeImage = document.getElementById("meme-image");
 let memeText = document.getElementById("meme-text");
+let divImage = document.getElementById("meme-image-container");
 
 let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
@@ -15,6 +16,8 @@ let meme4 = document.getElementById("meme4");
 
 function addMeme() {
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);
+    memeImage.style.height = 400 + "px";
+    memeImage.style.width = 400 + "px";
 }
 
 function addText() {
@@ -23,17 +26,17 @@ function addText() {
 
 function addBorder(indicador) {
     if (indicador == 1) {
-        memeImage.style.borderColor = "red";
-        memeImage.style.borderWidth = 3 + "px";
-        memeImage.style.borderStyle = "dashed";
+        divImage.style.borderColor = "red";
+        divImage.style.borderWidth = 3 + "px";
+        divImage.style.borderStyle = "dashed";
     } else if (indicador == 2) {
-        memeImage.style.borderColor = "blue";
-        memeImage.style.borderWidth = 5 + "px";
-        memeImage.style.borderStyle = "double";
+        divImage.style.borderColor = "blue";
+        divImage.style.borderWidth = 5 + "px";
+        divImage.style.borderStyle = "double";
     } else if (indicador == 3) {
-        memeImage.style.borderColor = "green";
-        memeImage.style.borderWidth = 6 + "px";
-        memeImage.style.borderStyle = "groove";
+        divImage.style.borderColor = "green";
+        divImage.style.borderWidth = 6 + "px";
+        divImage.style.borderStyle = "groove";
     }
 }
 
@@ -47,6 +50,8 @@ function selectMeme(indicador) {
     } else if (indicador == 4) {
         memeImage.src = meme4.src;
     }
+    memeImage.style.height = 400 + "px";
+    memeImage.style.width = 400 + "px";
 }
 
 memeInsert.addEventListener("change", addMeme);
