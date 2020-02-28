@@ -31,6 +31,31 @@ input.addEventListener('change',function () {
 
   })
 
+  function button1() {
+    let imagem = document.getElementById("meme-image-container");
+    imagem.style.borderStyle = "dashed";
+    imagem.style.borderColor = "red";
+    imagem.style.bordersize = "3px";
+
+
+  }
+
+  function button2() {
+    let imagem = document.getElementById("meme-image-container");
+    imagem.style.borderStyle = "double";
+    imagem.style.borderColor = "blue";
+    imagem.style.bordersize = "5px";
+
+
+  }  function button3() {
+    let imagem = document.getElementById("meme-image-container");
+    imagem.style.borderStyle = "groove";
+    imagem.style.borderColor = "green";
+    imagem.style.bordersize = "6px";
+
+
+  }
+
 
 
 
