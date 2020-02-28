@@ -10,12 +10,16 @@ function escreveImagem() {
     //console.log('batata')
 }
 
+function testando(){
+    console.log(test)
+}
+
 inputImg.addEventListener('change', readURL);
 function readURL() {
     var file = inputImg.files[0];
     var reader = new FileReader();
     reader.onloadend = function () {
-        document.querySelector('#imgContent').style.backgroundImage = "url(" + reader.result + ")";
+        document.querySelector('#meme-image').style.backgroundImage = "url(" + reader.result + ")";
 
     }
     if (file) {
@@ -24,3 +28,6 @@ function readURL() {
         console.log('nao deu')
     }
 }
+
+var test = document.querySelector('#text-input').value;
+console.log(test);
