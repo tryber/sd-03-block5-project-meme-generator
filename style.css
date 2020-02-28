@@ -1,7 +1,4 @@
 body{
 background-color:gray;
 }
-input[type=file] {
-float: left;
-display: block;
-}
+
