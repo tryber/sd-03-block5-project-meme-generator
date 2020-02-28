@@ -8,6 +8,7 @@ div {
   background-color: #fff;
   display: inline-block;
   margin: auto;
+  border: solid 1px black;
 }
 
 section {
