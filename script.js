@@ -3,10 +3,7 @@ caixaTexto.addEventListener("input", criarTexto)
 
 let texto = document.querySelector(".texto")
 
-
-
-
-let x = document.getElementById("uploaderImage")
+let x = document.getElementById("meme-insert")
 x.addEventListener("change", carregarImagem)
 
 function carregarImagem() {
