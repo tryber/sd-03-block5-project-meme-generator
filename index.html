@@ -8,27 +8,29 @@
 </head>
 <body>
 
-    <section id="forms">
-        <form action="" method="post">      
+    <section>
+        <article id="forms">
+            <form action="" method="post">      
+                
+                <label for="meme-insert">Select a Image</label>
+                <input type="file" name="meme-insert" id="meme-insert">
             
-            <label for="meme-insert">Select a Image</label>
-            <input type="file" name="meme-insert" id="meme-insert">
+                <label for="text-input">Meme text down</label>
+                <input type="text" name="text-input" id="text-input" maxlength="60">
+
+            </form>  
+        </article>
         
-            <label for="text-input">Meme text down</label>
-            <input type="text" name="text-input" id="text-input" maxlength="60">
+        <article id="meme-image-container">
 
-        </form>  
-    </section>
-    
+            <img id="meme-image" src="#" alt="Meme Image">
         
-    <section id="meme-image-container">
+            <div id="text-container">
+                <p id="meme-text">Write something</p>
+            </div>
 
-        <img id="meme-image" src="#" alt="Meme Image">
-    
-        <div id="text-container"><p id="meme-text">Write something</p></div>
-
+        </article>
     </section>
-    
 
     <script src="script.js"></script>
 </body>
