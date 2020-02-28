@@ -12,16 +12,14 @@
         <input type="text" id="text-input">
     </form>
     <p>
-        <input type="file" id="file" accept="image/*" onchange="loadFile(event)" style="display: none;">
-    </p>
-    <p>
         <label for="file" style="cursor: pointer;">
+            <input type="file" id="file" accept="image/*" style="display: none;">
             Escolha uma imagem
         </label>
     </p>
-    <section id="branca">    
-        <p id="meme-text">
-            <img id="output" width="400" src="" />
+    <section id="meme-text">    
+        <p >
+            <img id="output" width="400"/>
         </p>
     <section>
     <script>
@@ -33,12 +31,12 @@
             TextImg.innerText=Text.value
         }
 
-        let loadFile = function(event) {
-	    let image = document.getElementById('output');
-	    //image = document.getElementById("file").value
-        image.src = URL.createObjectURL(event.target.files[0]);
+        function loadFile() {
+            let image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
         };
-
+        let im = document.getElementById('file');
+        im.addEventListener("change", loadFile)
     }
     </script>
 </body>
