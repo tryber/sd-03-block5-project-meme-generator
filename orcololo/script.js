@@ -61,13 +61,13 @@ function generateMeme(img, topText, bottomText, topTextSize, bottomTextSize) {
 //Função pra iniciar
 function init() {
   console.log("MemeGeneratorJS");
-  topTextInput = document.getElementById("top-text");
+  topTextInput = document.getElementById("text-input");
   bottomTextInput = document.getElementById("bottom-text");
   topTextSizeInput = document.getElementById("top-text-size-input");
   bottomTextSizeInput = document.getElementById("bottom-text-size-input");
   imageInput = document.getElementById("image-input");
   generateBtn = document.getElementById("generate-btn");
-  canvas = document.getElementById("meme-canvas");
+  canvas = document.getElementById("meme-image");
 
   ctx = canvas.getContext("2d");
   canvas.width = canvas.height = 0;
