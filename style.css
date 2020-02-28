@@ -24,8 +24,8 @@ body{
 
 .meme-image{
     background: white;
-    border-style: solid;
     border-color: black;
+    border-style: solid;
     border-width: 1px;
     height: 500px;
     width: 500px;
