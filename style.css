@@ -34,13 +34,15 @@ img#meme-image {
 }
 
 div#meme-text {
-  width: 700px;
+  width: 670px;
   font-weight: bolder;
   text-shadow: 2px 2px 2px black;
   font-size: xx-large;
   color: yellow;
   margin-top: -150px;
+  margin-left: 15px;
   word-wrap: break-word;
+  background-color: red;
 }
 
 #text-input{
