@@ -22,7 +22,7 @@
         <label for="meme-insert">Escolha sua imagem:</label>
         &nbsp;
 
-        <input type="file" accept="imagens/*" onchange="loadFile(event)" id="meme-insert" />
+        <input type="file" accept="imagens/*" onchange="loadFile(event)" id="meme-insert" id="meme-image"/>
 
       </section>
 
@@ -31,7 +31,7 @@
         <label for="text-input">Digite seu texto aqui:</label>
         &nbsp;
 
-        <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60" />
+        <input id="text-input"  type="text" oninput="mostraTexto()" maxlength="60" />
       </section>
 
     </section>
@@ -45,3 +45,4 @@
 </body>
 
 </html>
+
