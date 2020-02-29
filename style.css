@@ -16,9 +16,9 @@ h1{
 }
 #meme-image-container{
   background-color: white;
+  border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-style: solid;
   float: left;
   height: 500px;
   margin-top: 30px;
@@ -27,8 +27,8 @@ h1{
   width: 500px;  
 }
 #meme-image{
-  height: 499px;
-  width: 499px;
+  height: 300px;
+  width: 300px;
 }
 #meme-text{
   color: white;
