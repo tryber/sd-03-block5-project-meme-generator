@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator!</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <script src="script.js"></script>
+
+
+
+</head>
+
+<body>
+    <header id='cabecalho'>
+        <h1 class='titulo cabecalho'> Meme Generator</h1>
+    </header>
+    <div id='area-selecao'>
+        <h3 class='titulo main'>Selecione sua imagem :<input type="file" id="inpImage" onchange="preview(event)"></h3>
+        <h3 class='titulo main'>Texto Superior:
+            <input type="text" id="texto-cima" onkeyup="overlaidTop()">
+        </h3>
+        <h3 class='titulo main'>Texto Inferior:
+            <input type="text" id="texto-inferior" onkeyup="overlaidBot()">
+        </h3>
+    </div>
+    <section id='main-content'>
+        <h2 class='titulo main'>Vizualize seu Meme!</h2>
+        <div class='display-field'>
+            <div id='top-phrase'></div>
+            <div id='bottom-phrase'></div>
+            <img src="" alt="Meme do Usuario" class="imagem-selecionada">
+
+        </div>
+    </section>
+    <section id='others-pictures' class="flex">
+        <div>
+            <img src="Images/aragorn.png" class="others-pictures" height="100px">
+            <img src="Images/buzz.png" class="others-pictures" height="100px">
+            <img src="Images/smart.png" class="others-pictures" height="100px">
+
+
+
+        </div>
+    </section>
+
+    <footer></footer>
+
+
+</body>
+
+</html>
