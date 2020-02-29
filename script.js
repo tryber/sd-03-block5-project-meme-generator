@@ -18,4 +18,20 @@ window.onload = () => {
   document.getElementById("button3").addEventListener("click", () => {
     document.getElementById("meme-image-container").style.border = "6px groove green";
   })
+
+  document.getElementById("meme1").addEventListener("click", () => {
+    document.getElementById("meme-image").src = "imgs/meme1.jpeg"
+  })
+
+  document.getElementById("meme2").addEventListener("click", () => {
+    document.getElementById("meme-image").src = "imgs/meme2.jpeg"
+  })
+
+  document.getElementById("meme3").addEventListener("click", () => {
+    document.getElementById("meme-image").src = "imgs/meme3.jpeg"
+  })
+
+  document.getElementById("meme4").addEventListener("click", () => {
+    document.getElementById("meme-image").src = "imgs/meme4.jpeg"
+  })
 };

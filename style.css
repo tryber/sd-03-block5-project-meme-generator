@@ -9,7 +9,7 @@ body {
   width: 80%;
 }
 
-h1{
+h1 {
   margin: 2% 0;
 }
 
@@ -75,14 +75,18 @@ h1{
   margin: 10px;
 }
 
-.button1{
+.button1 {
   border: 3px dashed red;
 }
 
-.button2{
+.button2 {
   border: 5px double blue;
 }
 
-.button3{
+.button3 {
   border: 6px groove green;
+}
+
+.meme-selector{
+  width: 100px;
 }
