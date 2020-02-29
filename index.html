@@ -11,13 +11,17 @@
       <h1>Meme Generator</h1>
       <input type="text" name="text" id="text-input" maxlength="60" />
     </div>
+
     <div class="procura-img">
-      <input type="file" name="file" id="meme-insert" />
+      <input type="file" name="img" id="meme-insert" onchange="loadImage(event)">
+      <!-- <input type="file" name="img" id="meme-insert" accept="image/png, image/jpeg" onchange="loadImage(event)"> -->
     </div>
+
     <div id="meme-image-container" class="caixa-img">
       <p id="meme-text" class="amo-codeclimate"></p>
       <img id="meme-image" alt="imagem-meme" />
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
