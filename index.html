@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Degenerator</title>
+</head>
+<body>
+    <header id="title">
+        <h1>Fábrica de memes</h1>
+    </header>
+    <section class="article">
+        <form>
+            <label for="meme-insert">Selecionar imagem:</label>
+            <input type="file" id="meme-insert" accept="image/*" name="inputmeme"/>
+            <br>
+            <label for="text-input">Texto do meme:</label>
+            <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui seu texto" name="inputtext"> 
+            <br>
+        </form>
+    </section>
+    <section>
+        <div class="editImage" id="meme-image-container">
+                <img id="meme-image" alt="Imagem do Meme">
+                <p id="meme-text" class="editText"></p>
+        </div>
+    </section>
+</body>
+</html>
