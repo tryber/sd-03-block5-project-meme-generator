@@ -1,13 +1,13 @@
-#meme-image-container{
-    position: absolute;
+div {
+    align-content: center;
+    background-color: black;
     border: 1px solid black;
     display: flex;
-    align-content: center;
     flex-wrap: wrap;
-    background-color: black;
-    
+    position: absolute;
 }
-#meme-image{
+
+#meme-image {
     object-fit: fill;
     object-position: 50% 50%;
 }
