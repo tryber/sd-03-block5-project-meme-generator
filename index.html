@@ -4,52 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator - Baêta Tryber</title>
-  <link rel="stylesheet" href="#">
+  <link rel="stylesheet" href="/projetos/sd-03-block5-project-meme-generator/style.css">
+  <script src="/projetos/sd-03-block5-project-meme-generator/script.js"></script>
 
-  <style>
-    body{
-      background-color:lightblue;
-    }
-
-  </style>
 </head>
 <body>
   <h1>Gerador de Memes!</h1>
   <form>
-    <label>Escolha uma imagem</label>
-    <input type='file' id="imgMeme"   name="img" accept="image/*"/>
+    <label>Faça upload de uma imagem</label>
+    <input type='file' id="meme-insert"   name="img" accept="image/*"/>
+    
     <h4>Texto de cima</h4>
-    <textarea id="texto1" cols="50" rows="2"></textarea>
+    <input id="text-input" type="text"></input>
+    
     <h4>Texto de baixo</h4>
-    <textarea id="texto2" cols="50" rows="2"></textarea>
-    </form>
+    <input id="texto2" type="text"></input>
+  </form>
 
-    <p id='localImg'>
-      <img id="imagem" alt="image upload">
-    </p>
+  <section id="meme-image-container">
+    <img id="meme-image" alt="upload da imagem">
+  </section>
   
   <br>
-  <label>Escolha o tamanho da fonte</label>
-  <input type="range" min="10" max="20" id="tamanhoFonte">
+  <label>Aumente ou diminua o tamanho da fonte</label>
+  <button id="tamanhoFonte">maior</button>
+  <button id="tamanhoFonte">menor</button>
     
   <br>
-  <button>Gerar meme</button>
-
-  <script>
-    const imagem = document.getElementById('imgMeme');
-    console.log(imagem);
-    document.getElementById('imagem').src = imagem.value;
-
-    const textoCima = document.getElementById('texto1');
-    const textoBaixo = document.getElementById('texto2');
-
-    const tamFonte = document.getElementById('tamanhoFonte');
-    tamFonte.addEventListener('mousemove', function(){
-      textoCima.style.fontSize = tamFonte.value + 'pt';
-      textoBaixo.style.fontSize = tamFonte.value + 'pt';
-    })
-    
-    
-  </script>
+  <button>Gerar meme</button>  
 </body>
 </html>
