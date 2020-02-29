@@ -1,7 +1,7 @@
 .editImage {
   border: solid;
   background: white;
-  color: black;
+  border-color: black;
   height: 400px;
   margin: 1px;
   max-width: 400px;
@@ -19,4 +19,3 @@
   word-wrap: break-word;
   text-overflow: ellipsis;
 }
-
