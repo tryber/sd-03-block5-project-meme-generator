@@ -19,18 +19,14 @@ h1{
   background-color: white;
   border: solid 1px black;
   float: left;
-  height: 503px;
+  height: 500px;
   margin-top: 30px;
   margin-left: 150px;
   margin-right: 70px;
-  padding: 10px;
-  width: 503px;  
+  width: 500px;  
 }
 #meme-image{
   background-color: white;
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
   height: 500px;
   width: 500px;
 }
