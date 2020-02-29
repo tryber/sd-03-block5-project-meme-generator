@@ -48,14 +48,14 @@ getMeme4.addEventListener('click', memeFunction4)
 
 // Image example functions
 function memeFunction1() {
-  getMainImage.src = "./imgs/meme1.jpeg"
+  getMainImage.src = "/imgs/meme1.jpeg"
 }
 function memeFunction2() {
-  getMainImage.src = "./imgs/meme2.jpeg"
+  getMainImage.src = "/imgs/meme2.jpeg"
 }
 function memeFunction3() {
-  getMainImage.src = "./imgs/meme3.jpeg"
+  getMainImage.src = "/imgs/meme3.jpeg"
 }
 function memeFunction4() {
-  getMainImage.src = "./imgs/meme4.jpeg"
+  getMainImage.src = "/imgs/meme4.jpeg"
 }
