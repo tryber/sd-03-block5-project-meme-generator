@@ -9,6 +9,6 @@ function escreveText() {
   textOutput.innerHTML = texto.value;
 }
 
-function loadImage() {
-    image.src = URL.createObjectURL(event.target.files[0]);
-}
+// function loadImage() {
+//     image.src = URL.createObjectURL(event.target.files[0]);
+// }
