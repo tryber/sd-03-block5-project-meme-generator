@@ -1,6 +1,7 @@
 var loadFile = function(event) {
     var output = document.getElementById("meme-image");
     output.src = URL.createObjectURL(event.target.files[0]);
+    output.style.border="1px solid black";
 };
 
 function mostraTexto(){
