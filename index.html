@@ -21,14 +21,14 @@
                 </form>
                 <form class="text">
                     <label for="text-input">Texto do meme:</label>
-                    <input type="text" id="text-input" maxlength="60">
+                    <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60">
                 </form>
             </section>
             <section class="lado-direito">
                 <div class="moldura" id="meme-image-container">
                     <img id="meme-image" alt="Imagem do Meme">
+                    <p class="editText" id="meme-text"></p>
                 </div>
-                <p class="editText" id="meme-text"></p>
             </section>
         </article>
         <footer>

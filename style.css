@@ -3,14 +3,12 @@ background-color:gray;
 }
 .moldura,img{
 background-color:white;
-border: 1px solid black;
 height:400px;
 position: relative;
 width:400px;
 z-index: 1;
 }
 p{
-bottom: 0;
 color:black;
 font-size: xx-large;
 left: 16px;
