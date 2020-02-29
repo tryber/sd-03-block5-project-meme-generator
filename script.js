@@ -35,10 +35,10 @@ function button3() {
 }
 
 // Image examples
-const getMeme1 = document.getElementById("meme1");
-const getMeme2 = document.getElementById("meme2");
-const getMeme3 = document.getElementById("meme3");
-const getMeme4 = document.getElementById("meme4");
+const getMeme1 = document.getElementById("meme-1");
+const getMeme2 = document.getElementById("meme-2");
+const getMeme3 = document.getElementById("meme-3");
+const getMeme4 = document.getElementById("meme-4");
 const getMainImage = document.getElementById("meme-image");
 
 getMeme1.addEventListener('click', memeFunction1)
