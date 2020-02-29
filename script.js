@@ -9,10 +9,10 @@ let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
 let button3 = document.getElementById("button3");
 
-let meme1 = document.getElementById("meme1");
-let meme2 = document.getElementById("meme2");
-let meme3 = document.getElementById("meme3");
-let meme4 = document.getElementById("meme4");
+let meme1 = document.getElementById("meme-1");
+let meme2 = document.getElementById("meme-2");
+let meme3 = document.getElementById("meme-3");
+let meme4 = document.getElementById("meme-4");
 
 function addMeme() {
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);

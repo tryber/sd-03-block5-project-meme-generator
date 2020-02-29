@@ -1,6 +1,17 @@
+body {
+    background-color: rgba(110, 136, 148, 1);
+}
+
+header {
+    text-align: center;
+}
+
+article.conteudo {
+    background-color: rgba(186, 209, 205, 1);
+}
+
 .lado-esquerdo {
     float: left;
-    margin: 10px;
 }
 
 .image {
@@ -24,7 +35,6 @@
 
 .lado-direito {
     float: right;
-    margin: 10px;
 }
 
 .editImage {
@@ -34,6 +44,7 @@
     border-width: 1px;
     height: 400px;
     width: 400px;
+    margin-bottom: 20px;
 }
 
 .editText {
@@ -50,5 +61,7 @@
 }
 
 footer {
+    background-color: rgba(186, 209, 205, 1);
     clear: both;
+    text-align: center;
 }
