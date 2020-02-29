@@ -1,6 +1,6 @@
 
-#imputer {
-    text-align: center;
+#inputer {
+    text-align: left;
 }
 
 #txtMeme {
@@ -9,11 +9,31 @@
 
 }
 
-.boxImg {
+#meme-text {
     position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 2px black;
     text-align: center;
+    width: 600px;
+}
+
+#boxImg {
+    background-color: white;
     width: 600px;
     height: 600px;
     padding: 10px;
     border: 1px solid black;
 }
+
+#meme-image {
+    position: absolute;
+    z-index: 0;
+    height: 600px;
+    width: 600px;
+}
+
