@@ -26,9 +26,6 @@ body{
 }
 
 .meme-image{
-    background: white;
-    border-color: black;
-    border-style: solid;
     border-width: 1px;
     height: 500px;
     width: 500px;
