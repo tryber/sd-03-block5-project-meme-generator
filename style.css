@@ -15,10 +15,10 @@ body{
 }
 
 .meme-image-container{
+    background: darkorange;
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    background: darkorange;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
