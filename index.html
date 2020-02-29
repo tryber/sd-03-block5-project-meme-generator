@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
     <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Teko&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header"><h1>Meme Generator</h1></header>
+    <div class="content">
+      <header class="header"><h1>Meme Generator</h1></header>
+      <div class="flex-container">
+        <div class="flex-item">
+          <div id="meme-image-container" class="img-container">
+            <img class="meme-img" id="meme-image" />
+            <p id="meme-text" class="meme-txt"></p>
+          </div>
+        </div>
 
-    <div id="meme-image-container" class="img-container">
-      <img class="meme-img" id="meme-image"/>
-      <p id="meme-text" class="meme-txt"></p>
+        <form class="meme-form flex-column">
+          <label for="text-input" class="flex-item"
+            >Digite aqui o texto do meme:</label
+          >
+          <input id="text-input" type="text" maxlength="60" class="flex-item" />
+          <label for="meme-insert" class="flex-item"
+            >Escolha uma imagem para o seu meme:</label
+          >
+          <input
+            id="meme-insert"
+            type="file"
+            accept="image/*"
+            class="flex-item"
+          />
+        </form>
+      </div>
     </div>
-
-    <form class="meme-form">
-      <label for="text-input">Digite aqui o texto do meme:</label><br />
-      <input id="text-input" type="text" maxlength="60" /><br />
-      <label for="meme-insert">Escolha uma imagem para o seu meme:</label><br />
-      <input id="meme-insert" type="file" accept="image/*" />
-    </form>
-
-
-    
-
     <script src="script.js"></script>
   </body>
 </html>
