@@ -10,9 +10,11 @@
 </head>
 <body>
     <form>
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+    <br>
     <input type="text" id="text-input" oninput="mostraTexto()">
     <div id="meme-image-container" class="moldura">
-        <img>
+        <img id="meme-image">
         <p id="meme-text"></p>
     </div>
     </form>

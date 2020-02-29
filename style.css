@@ -1,7 +1,7 @@
 body{
 background-color:gray;
 }
-.moldura,.imagem{
+.moldura,img{
 background-color:white;
 border:solid black 1px;
 height:400px;
