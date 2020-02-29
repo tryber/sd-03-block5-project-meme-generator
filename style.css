@@ -10,12 +10,13 @@ body {
   width: 410px;
 }
 
-.meme-img{
+.img-container{
   background-color: white;
   border: 1px solid black;
   height: 410px;
   position: relative;
   width: 410px;
+  margin: 10px;
 }
 
 .meme-txt {
@@ -27,8 +28,12 @@ body {
   position: absolute;
   text-transform: uppercase;
   top: 150px;
-  max-width: 400px;
   word-break: break-all;
   z-index: 10;
+  padding: 10px;
 }
 
+.meme-img{
+  height: 400px;
+  width: 400px;
+}
