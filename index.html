@@ -7,15 +7,14 @@
 </head>
 <body>
     <h1>Meme Generator</h1>
-    <section>
-        <form>
-            <label for="text-input">Escreva aqui:</label><br>
-            <input type="text" id="text-input" name="text-input" oninput="inserirTexto()" maxlength="45" wrap="hard"><br>
-        </form>
-        <main id="principal">
-            <p id="meme-text"></p>
-        </main>
-    </section>
+    <form>
+        <label for="meme-text">Escreva aqui:</label><br>
+        <input type="text" id="meme-text" name="meme-text" oninput="inserirTexto()" maxlength="60" wrap="hard"><br>
+    </form>
+    <div id="meme-image-container">
+        <p id="text-input"></p>
+        <img id="meme-insert"></img>
+    </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
