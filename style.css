@@ -16,7 +16,9 @@ h1{
 }
 .tres{
   background-color: white;
-  border: 1px solid black;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
   float: left;
   height: 500px;
   margin-top: 30px;
@@ -25,9 +27,8 @@ h1{
   width: 500px;  
 }
 #meme-image{
-  height: 400px;
-  width: 400px;
-  margin: 5px;
+  height: 100%;
+  width: 100%;
 }
 #meme-text{
   color: white;
