@@ -1,4 +1,4 @@
-#meme-text{
+#meme-text {
     background-color: transparent;
     font-size: 40px;
     font-family:"Impact";
@@ -10,7 +10,7 @@
     top: 400px;
 }
 
-#meme-image{
+#meme-image {
     width: 600px;
     height: 500px;
     border: 1px;
@@ -18,10 +18,12 @@
     border-style: solid;
     background-color: white;
 }
-.caixa-img {
+
+.caixa {
     background-color: white;
     border: solid 1px black;
     height: 600px;
     padding: 10px;
     width: 600px;
   }
+  
