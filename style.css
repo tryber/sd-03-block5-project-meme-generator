@@ -7,9 +7,8 @@
     width: 500px;
     height: 500px;
     border: 1px solid black;
-    background-color: gray;
 }
-#text-input {
+#meme-text {
     position: absolute;
     bottom: 0;
     width: 470px;
