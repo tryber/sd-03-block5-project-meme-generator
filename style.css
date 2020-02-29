@@ -7,14 +7,16 @@
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  margin: 20px 0px 0px;
+  margin: 20px 0 0;
 
 }
 .meme-image{
+  position: relative;
 
   height: 480px;
   width: 480px;
-  padding: 10px;
+  left:10px;
+  top:10px;
 }
 
 #meme-text{
@@ -22,8 +24,8 @@
   max-width: 430px;
   max-height: 540px;
   word-break: break-all;
-  margin: 20px;
-  top:10px;
+
+  top:15px;
   left:15px;
   font-size: 40px;
 
