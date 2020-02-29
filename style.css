@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: darkgoldenrod;
 }
 
 .img-div {
@@ -25,15 +25,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   left: 10px;
+  padding: 10px;
   position: absolute;
   text-transform: uppercase;
   top: 150px;
   word-break: break-all;
   z-index: 10;
-  padding: 10px;
 }
 
 .meme-img{
   height: 400px;
   width: 400px;
+}
+
+.header{
+  text-align: center;
+}
+
+.meme-form{
+  font-size: x-large;
+  margin: 10px;
 }
