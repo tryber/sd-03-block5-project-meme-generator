@@ -10,32 +10,34 @@
 
 <body>
     <header>
-        <form><p>Selecione um arquivo (obs.: recomendado: resolução mínima de 500x500; obrigatório: proporção de 1:1):
+        <form><p>Selecione um arquivo: (obs.: recomendado altura mínima de 500px;)
             <input type="file" id="meme-insert" onchange="carregaImagem()"></p>
         <p><label>Frase a se inserir na parte de cima da imagem: </label>
-            <input type="text" id="text-input" class="cxFrases" onkeyup="insereTexto()" name="comment" maxlength="60">
+            <input type="text" id="text-input" class="cxTextoFrases" onkeyup="insereTexto()" name="comment" maxlength="60">
             <label>Frase a se inserir embaixo da imagem: </label>
-            <input type="text" id="text-input2" class="cxFrases" onkeyup="insereTexto()" name="comment" maxlength="60"></p></form>
+            <input type="text" id="text-input2" class="cxTextoFrases" onkeyup="insereTexto()" name="comment" maxlength="60"></p></form>
     </header>
     <article>
-        <div class="controles">
-            Controles
-            <ul>
-                <li>Cor do texto: </li>
-                <select id="seletorCor">
-                    <option value="none" selected="selected">Escolha</option>
-                    <option value="black">Preto</option>
-                    <option value="white">Branco</option>
-                    <option value="yellow">Amarelo</option>
-                    <option value="blue">Azul</option>
-                    <option value="green">Verde</option>
-                </select>
-            </ul>
-        </div>
-        <div class="frameImagemTexto">
-            <img id="meme-image">
-            <div id="meme-text" class="textoCima"></div>
-            <div id="meme-text2" class="textoBaixo"></div>
+        <div class=geral>
+            <div class="controles">
+                Controles
+                <ul style="list-style-type:none;">
+                    <li>Cor do texto: </li>
+                    <select id="seletorCor">
+                        <option value="none" selected="selected">Escolha uma cor</option>
+                        <option value="black">Preto</option>
+                        <option value="white">Branco</option>
+                        <option value="yellow">Amarelo</option>
+                        <option value="blue">Azul</option>
+                        <option value="green">Verde</option>
+                    </select>
+                </ul>
+            </div>
+            <div class="containerImagemTexto">
+                <div id="meme-text" class="textoCima"></div>
+                <img id="meme-image" class="imagem-meme">
+                <div id="meme-text2" class="textoBaixo"></div>
+            </div>
         </div>
     </article>
 
