@@ -3,7 +3,6 @@
   padding: 0;
 }
 body{
-  box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   height: 100%;
@@ -16,16 +15,19 @@ h1{
   text-transform: uppercase;
 }
 .tres{
+  position: relative;
   background-color: white;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px solid black;
+  float: left;
   height: 500px;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 70px;
   width: 500px;  
 }
 #meme-image{
-  height: 99%;
-  width: 99%;
+  height: 500px;
+  width: 500px;
 }
 #meme-text{
   color: white;
