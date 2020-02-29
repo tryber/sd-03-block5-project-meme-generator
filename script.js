@@ -42,5 +42,61 @@ function changeButton3(){
 }
 
 
+//memes prontos
+
+    let meme1 = document.getElementById("meme1")
+    meme1.addEventListener("click", preLoaded1)
+
+    function preLoaded1(){
+
+        let imageMeme = document.getElementById("meme-image")
+
+        imageMeme.src = "imgs/meme1.jpg"
+
+    }
+
+    let meme2 = document.getElementById("meme2")
+    meme2.addEventListener("click", preLoaded2)
+
+    function preLoaded2(){
+
+        let imageMeme = document.getElementById("meme-image")
+
+        imageMeme.src = "imgs/meme2.jpg"
+
+    }
+
+    let meme3 = document.getElementById("meme3")
+    meme3.addEventListener("click", preLoaded3)
+
+    function preLoaded3(){
+
+        let imageMeme = document.getElementById("meme-image")
+
+        imageMeme.src = "imgs/meme3.jpg"
+
+    }
+
+    let meme4 = document.getElementById("meme4")
+    meme4.addEventListener("click", preLoaded4)
+
+    function preLoaded4(){
+
+        let imageMeme = document.getElementById("meme-image")
+
+        imageMeme.src = "imgs/meme4.jpg"
+
+    }
 
 
+
+//let meme1 = document.getElementById("meme1")
+//let meme2 = document.getElementById("meme2")
+//let meme3 = document.getElementById("meme3")
+//let meme4 = document.getElementById("meme4")
+
+
+//let images = document.querySelectorAll(".images")
+
+//for (let i in images) {
+ //   images[i].addEventListener("click", preLoaded)

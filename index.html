@@ -9,8 +9,10 @@
 <body>
     <h1>Meme Generator</h1>
 
+    
+
     <div id="text-insert">
-        <h2>Texto do meme: <input id="text-input"></h2>
+        <h2>Texto do meme: <input id="text-input" maxlength="60"></h2>
     </div>
 
     <div id="img-upload">
@@ -20,10 +22,24 @@
         <button id="button1">vermelho</button><button id="button2">azul</button><button id="button3">verde</button>
     </div>
 
+    <div>Ou selecione um dos memes a seguir:
+        <img id="meme1" class="images" src="imgs/meme1.jpg">
+        <img id="meme2" class="images" src="imgs/meme2.jpg">
+        <img id="meme3" class="images" src="imgs/meme3.jpg">
+        <img id="meme4" class="images" src="imgs/meme4.jpg">
+    </div>
+
+
     <div id="meme-image-container" >
         <img id="meme-image" alt="Meme Image">
         <p id="meme-text"></p>
     </div>
+
+    <div>Ou selecione um dos memes a seguir:
+        <img id="meme1" src="imgs/meme1">
+    </div>
+    
+
 
    
     <script src="script.js"></script>
