@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav><a href="#text-input">Onde o texto deve ser colocado</a></nav>
   <form>
     <label for="text-input"> Coloque seu texto <strong>aqui</strong></label><br>
     <textarea id='text-input' type="text" oninput="textoImagem()" maxlength="60"></textarea> <br><br>
@@ -17,11 +16,12 @@
     <img id="meme-image" src="" alt="Aqui vai uma imagem escolhida pelo usuário">
     <p id="meme-text"></p>
   </div>
+  <section>
+    <h3>Coloque as uma borda</h3>
+    <button id="button1" class="botoes1 buttons" onclick="mudaborda(event)">Use essa borda</button>
+    <button id="button2" class="botoes2 buttons" onclick="mudaborda(event)">Use essa borda</button>
+    <button id="button3" class="botoes3 buttons" onclick="mudaborda(event)">Use essa borda</button>
+  </section>
   <script src="script.js"></script>
-  <script>
-    window.onload = function() {
-
-    }
-  </script>
 </body>
 </html>

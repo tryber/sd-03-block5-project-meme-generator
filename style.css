@@ -1,14 +1,14 @@
 body {
-  background-color: blue;
+  background-color: gray;
 }
 div {
   background-color: white;
   border: solid 1px black;
   display: inline-block;
   height: 500px;
-  margin-top: 2%;
   position: relative;
   text-align: center;
+  top: 2%;
   width: 750px;
 }
 
@@ -36,4 +36,35 @@ img {
   min-height: 500px;
   min-width: 750px;
   width: 750px;
+}
+
+section {
+  display: inline-block;
+  margin-top: 2%;
+  position: relative;
+  left: 10px;
+}
+
+.buttons {
+  display: block;
+  margin: 1em 2em;
+  padding: 7px;
+}
+
+.botoes1 {
+  border-color: red;
+  border-style: dashed;
+  border-width: 3px;
+}
+
+.botoes2 {
+  border-color: blue;
+  border-style: double;
+  border-width: 5px;
+}
+
+.botoes3 {
+  border-color: green;
+  border-style: groove;
+  border-width: 6px;
 }

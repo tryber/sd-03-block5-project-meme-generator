@@ -16,6 +16,13 @@ function inputImagem(){
 function textoImagem() {
   let texto = document.getElementById('text-input');
   let lugar = document.getElementById('meme-text');
-  let div = texto.parentElement;
   lugar.innerText = texto.value;
+}
+
+function mudaborda(event) {
+  // let button = document.getElementsByClassName(event.target.classList[0])[0];
+  let customizacao = event.target.style.border;
+  let div = document.getElementById('meme-image-container');
+  
+  div.style.border = customizacao;
 }
