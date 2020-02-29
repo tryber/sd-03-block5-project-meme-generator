@@ -1,5 +1,6 @@
 caixaTextoSuperior = document.getElementById("text-input");
 caixaTextoInferior = document.getElementById("text-input2");
+frameImgTexto = document.getElementById("meme-image-container");
 textoDeBaixo = document.getElementById("meme-text2");
 textoDeCima = document.getElementById("meme-text");
 let caixaCor = document.getElementById("seletorCor");
@@ -23,17 +24,17 @@ function insereTexto() {
     }
 
 function mudaBorda1() {
-    imagemMeme.style.borderWidth = "3px";
-    imagemMeme.style.borderStyle = "dashed";
-    imagemMeme.style.borderColor = "red";
+    frameImgTexto.style.borderWidth = "3px";
+    frameImgTexto.style.borderStyle = "dashed";
+    frameImgTexto.style.borderColor = "red";
 }
 function mudaBorda2() {
-    imagemMeme.style.borderWidth = "5px";
-    imagemMeme.style.borderStyle = "double";
-    imagemMeme.style.borderColor = "blue";
+    frameImgTexto.style.borderWidth = "5px";
+    frameImgTexto.style.borderStyle = "double";
+    frameImgTexto.style.borderColor = "blue";
 }
 function mudaBorda3() {
-    imagemMeme.style.borderWidth = "6px";
-    imagemMeme.style.borderStyle = "groove";
-    imagemMeme.style.borderColor = "green";
+    frameImgTexto.style.borderWidth = "6px";
+    frameImgTexto.style.borderStyle = "groove";
+    frameImgTexto.style.borderColor = "green";
 }
