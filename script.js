@@ -4,6 +4,7 @@ let meme_text = document.querySelector('#meme-text');
 let meme_text2 = document.querySelector('#meme-text2');
 let meme_image = document.querySelector('#meme-image');
 let meme_insert = document.querySelector('#meme-insert');
+let meme1 = document.querySelector('#meme1');
 
 text_input.addEventListener('input', function() {
   meme_text.innerHTML = text_input.value
@@ -14,5 +15,9 @@ text_input2.addEventListener('input', function() {
 })
 
 meme_insert.addEventListener('change', function() {
-  document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0]);
+  meme_image.src = window.URL.createObjectURL(this.files[0]);
+})
+
+meme1.addEventListener("click", function trocaCor() {
+  meme_image.innerHTML = meme1.value
 })
