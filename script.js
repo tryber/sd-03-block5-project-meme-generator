@@ -14,6 +14,8 @@ let meme2 = document.getElementById("meme-2");
 let meme3 = document.getElementById("meme-3");
 let meme4 = document.getElementById("meme-4");
 
+let ladoEsquerdo = document.getElementsByClassName("lado-esquerdo")[0]
+
 function addMeme() {
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);
     memeImage.style.height = 400 + "px";
@@ -29,14 +31,17 @@ function addBorder(indicador) {
         divImage.style.borderColor = "red";
         divImage.style.borderWidth = 3 + "px";
         divImage.style.borderStyle = "dashed";
+        ladoEsquerdo.style.height = 406 + "px"
     } else if (indicador == 2) {
         divImage.style.borderColor = "blue";
         divImage.style.borderWidth = 5 + "px";
         divImage.style.borderStyle = "double";
+        ladoEsquerdo.style.height = 410 + "px"
     } else if (indicador == 3) {
         divImage.style.borderColor = "green";
         divImage.style.borderWidth = 6 + "px";
         divImage.style.borderStyle = "groove";
+        ladoEsquerdo.style.height = 412 + "px"
     }
 }
 

@@ -5,8 +5,11 @@ body {
 
 .title {
     color: rgba(103, 89, 122, 1);
-    margin-bottom: 10px;
     text-align: center;
+}
+
+.title h1 {
+    margin: 20px 0 2px;
 }
 
 .lado-esquerdo {
@@ -53,7 +56,7 @@ body {
     background-color: rgba(186, 209, 205, 1);
     border: 2px solid rgba(103, 89, 122, 1);
     float: right;
-    margin: 9.5px 10px;
+    margin: 9.5px 10px 0;
     padding: 20px;
     width: 30%;
 }
@@ -72,8 +75,8 @@ body {
     display: flex;
     font-family: "Anton";
     font-size: 35px;
-    left: 930px;
-    max-width: 390px;
+    left: 925px;
+    max-width: 400px;
     position: absolute;
     text-transform: uppercase;
     top: 76px;
