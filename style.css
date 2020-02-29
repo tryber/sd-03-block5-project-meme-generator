@@ -41,6 +41,6 @@ header {
     height: inherit;
     width: inherit;
 }
-.loadedPhotos {
+#meme1, #meme2, #meme3, #meme4 {
     height: 100px;
 }

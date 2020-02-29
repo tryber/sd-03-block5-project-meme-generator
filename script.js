@@ -43,10 +43,26 @@ thirdButton.addEventListener("click", function(event){
     box.style.borderWidth="6px";
 })
 
-let Photo = document.querySelectorAll(".loadedPhotos");
-for (let i = 0; i < Photo.length; i += 1) {
-    Photo[i].addEventListener("click", function(event){
-        let box = document.querySelector("#meme-image");
-        box.setAttribute('src', Photo[i].src);
+let firstPhoto = document.querySelector("#meme1");
+firstPhoto.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image");
+    box.setAttribute('src', firstPhoto.src);
 })
-}
+
+let secondPhoto = document.querySelector("#meme2");
+secondPhoto.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image");
+    box.setAttribute('src', secondPhoto.src);
+})
+
+let thirdPhoto = document.querySelector("#meme3");
+thirdPhoto.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image");
+    box.setAttribute('src', thirdPhoto.src);
+})
+
+let fourthPhoto = document.querySelector("#meme4");
+fourthPhoto.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image");
+    box.setAttribute('src', fourthPhoto.src);
+})
