@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang=eng>
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./script.js"></script>
-    <title>Gerador de Memes by Marco Barbosa</title>
-</head>
-<body>
-    <form>
-    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
-    <br>
-    <input type="text" id="text-input" oninput="mostraTexto()">
-    </form>
-    <div id="meme-image-container" class="moldura">
-        <img id="meme-image" src="#" alt="Imagem do Meme">
-        <div id="meme-text"></div>
-    </div>
-    
-    <section class="lado-direito">
-        <img class="editImage" id="meme-image">
-        <div class="editImage" id="meme-image-container">
-            <img id="meme-image">
-        </div>
-        <p class="editText" id="meme-text"></p>
-    </section>
-</body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <title>Meme Generator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Meme Generator</h1>
+        </header>
+        <article>
+            <section class="lado-esquerdo">
+                <form class="image">
+                    <label for="meme-insert">Selecionar imagem:</label>
+                    <input type="file" id="meme-insert">
+                </form>
+                <form class="text">
+                    <label for="text-input">Texto do meme:</label>
+                    <input type="text" id="text-input" maxlength="60">
+                </form>
+                <button class="buttons" id="button1">Borda 1</button>
+                <button class="buttons" id="button2">Borda 2</button>
+                <button class="buttons" id="button3">Borda 3</button>
+                <img class="memesSite" id="meme1" src="imgs/meme1.jpeg" alt="Meme riquinho playboy">
+                <img class="memesSite" id="meme2" src="imgs/meme2.jpeg" alt="Meme Chapolin Colorado">
+                <img class="memesSite" id="meme3" src="imgs/meme3.jpeg" alt="Meme menina e diabo">
+                <img class="memesSite" id="meme4" src="imgs/meme4.jpeg" alt="Meme me solta">
+            </section>
+            <section class="lado-direito">
+                <img class="editImage" id="meme-image">
+                <div class="editImage" id="meme-image-container">
+                    <img id="meme-image">
+                </div>
+                <p class="editText" id="meme-text"></p>
+            </section>
+        </article>
+        <footer>
+            <p>Página desenvolvida por <a href="https://gomesanac.github.io/">Ana Carolina Gomes</a> em Fevereito de 2020.</p>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
 </html>
