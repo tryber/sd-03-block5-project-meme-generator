@@ -18,8 +18,3 @@ function overlaidTop() {
     let text = document.querySelector('#text-input').value;
     document.querySelector('#meme-text').innerHTML = text;
 }
-
-function overlaidBot() {
-    let text = document.querySelector('#texto-inferior').value;
-    document.querySelector('#bottom-phrase').innerHTML = text;
-}
