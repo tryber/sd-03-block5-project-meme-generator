@@ -1,0 +1,17 @@
+
+#meme-image-container{
+border: 1px solid black;
+background-color: white;
+}
+
+
+#meme-image-container p{
+position: absolute; 
+z-index: 1;
+font-size: 100px;
+text-align: center;
+}
+#meme-image-container img{
+position: absolute;
+z-index: 0;
+}
