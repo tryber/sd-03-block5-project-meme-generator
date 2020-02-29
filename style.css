@@ -8,8 +8,8 @@
 
 
 .meme-image {
-  position: absolute;
   height: 600px;
+  position: absolute;
   width: 600px;
   z-index: 0;
 }
