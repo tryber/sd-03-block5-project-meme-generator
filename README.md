@@ -70,17 +70,32 @@ Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na 
 
 Você deve criar um site que permita o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada. Em outras palavras, um meme generator. Abaixo seguem os requisitos:
 
-### 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida. A caixa de texto deve, necessariamente, ter um id denominado 'text-input'. O texto de quem usa deve ser inserido sobre a imagem escolhida, com o elemento do texto estando totalmente dentro da imagem. Se não houver imagem inserida, ele deve ser inserido sobre a área onde a imagem aparece na posição correta. O elemento do texto que aparece sobre a imagem deve ter um id denominado 'meme-text'.
+### 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida. As seguintes verificações serão feitas:
+- A caixa onde o texto é inserido deve ter um id denominado 'text-input'.
+- O elemento da imagem do meme deve ter um elemento pai com um id denominado 'meme-image-container'. Esse elemento é o container dentro do qual a imagem deverá aparecer.
+- O elemento do texto deve estar totalmente contido dentro do container.
+- Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá.
 
-### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador. O elemento que viabiliza o upload da imagem deve ser identificado com o id 'meme-insert'. O elemento da imagem deve possuir um id chamado 'meme-image'. A imagem escolhida deve ocupar um espaço previamente delimitado por uma área branca.
+### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
+- O elemento da imagem deve possuir um id chamado 'meme-image'.
+- O elemento onde é feito o upload da imagem deve ser identificado com o id 'meme-insert'
+- A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'
+- O texto de quem usa deve ser inserido sobre a imagem escolhida.
 
-### 3 - O site deve ter uma moldura em volta da área onde a imagem aparecerá depois de ser escolhida. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
+### 3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
+- A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'.
+- A estilização da modulra deve ser conforme especificada.
 
 ## Requisitos bônus:
 
-### 4 - Permita a quem usa customizar o meme escolhido acrescentando a ele uma de três bordas. A página deve ter três botões, cada um colocando a própria borda ao redor da imagem. Um botão identificado com o id 'button1' deve estilizar o container da imagem com uma borda de 3 pixels, _dashed_ e vermelha. O botão com id 'button2' deve ser azul, borda _double_ de 5 pixels. O botão com id 'button3' deve ser verde com borda _groove_ com 6 pixels.
+### 4 - Permita a quem usa customizar o meme escolhido acrescentando a ele uma de três bordas. A página deve ter três botões, cada um colocando a própria borda ao redor do container. Um botão identificado com o id 'button1' deve estilizar o container da imagem com uma borda de 3 pixels, _dashed_ e vermelha. O botão com id 'button2' deve ser azul, borda _double_ de 5 pixels. O botão com id 'button3' deve ser verde com borda _groove_ com 6 pixels.
+- As bordas devem ser acrescentadas ao container, identificado como 'meme-image-container'
+- Os três botões devem ser elementos do tipo `button`
+- Cada `button` deve ter o respectivo id e deve ser estilizado conforme especificado.
 
 ### 5 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Liste miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura para ser customizada. O elemento clicável deve ser identificado um um id denominado 'meme1' para o primeiro meme, 'meme2' para o segundo, e assim por diante. As imagens que identificam os memes devem ficar, dentro da aplicação, num diretório chamado 'imgs' com os respectivos nomes 'meme1.jpeg', 'meme2.jpeg' e assim por diante.
+- As imagens devem aparecer dentro do container de forma idêntica às imagens enviadas por upload para a página.
+- As regras de nomeação e armazenamento da imagem devem ser respeitadas.
 
 ### 6 - Limite o tamanho do texto que o usuário pode inserir. A quantidade máxima de caracteres deve ser 60.
 
