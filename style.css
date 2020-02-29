@@ -18,11 +18,11 @@ h1{
   background-color: white;
   border: solid 1px black;
   float: left;
-  height: 600px;
+  height: 502px;
   margin-top: 30px;
   margin-left: 150px;
   margin-right: 70px;
-  width: 600px;  
+  width: 502px;  
 }
 #meme-image{
   background-color: white;
@@ -33,6 +33,7 @@ h1{
   width: 500px;
 }
 #meme-text{
+  background-color: transparent;
   color: white;
   font-size: 50px;
   margin-left: 20px;
