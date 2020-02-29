@@ -15,8 +15,8 @@ window.onload = function(){
 
     textInput.addEventListener('keyup', memeTxtInput)
     
+    let memeImg = document.getElementById('meme-image');
     function upMemeImage(){
-      let memeImg = document.getElementById('meme-image');
       memeImg.src = URL.createObjectURL(imagemInput.files[0]);
     
     }
@@ -50,4 +50,23 @@ window.onload = function(){
 
     btn3.addEventListener('click', border3)
 
+    let meme1 = document.getElementById("meme-1")
+
+    function memeOne (){
+
+        memeImg.src = meme1.src;
+
+    }
+
+    meme1.addEventListener('click', memeOne)
+
+    let meme2 = document.getElementById("meme-2")
+
+    function memeTwo (){
+
+        memeImg.src = meme2.src;
+
+    }
+
+    meme2.addEventListener('click', memeTwo)
 }
