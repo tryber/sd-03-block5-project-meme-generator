@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de memes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gerador de memes</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js"></script>
-</head>
+  <body>
+    <header></header>
 
-<body>
-  <header>
+    <section id="containerGeral" >
+      <div>
+        <h2>Gerador de Memes</h2>
+        <div id="caixaProcuraImagem">
+          <h3>Escolha sua imagem</h3>
+          <input
+            id="meme-insert"
+            type="file"
+            accept="imagens/*"
+             onchange="loadFile(event)"
+          />
+        </div>
 
-  </header>
-  <section>
-    <div id="containerInserts">
-      <h1>Gerador de Memes</h1>
-      <form  id="meme-insert" id="sectionMemeInsert">
-        <label for="meme-insert">Escolha sua imagem:</label>
-        <input id="meme-insert" type="file" accept="imagens/*" onchange="loadFile(event)" />
-      </form>
+        <div class="caixaTexto">
+          <h3>Digite seu texto</h3>
+          <input
+            id="text-input"
+            type="text"
+            oninput="mostraTexto()"
+            maxlength="60"
+          />
+        </div>
+      </div>
+    
 
-      <form id="sectionTextInsert" id="text-input">
-        <label for="text-input">Digite seu texto aqui:</label>
-        <input id="text-input" type="text" oninput="mostraTexto()" maxlength="60" />
-      </form>
-    </div>
+    <section>
+      <div class="posicaoDaImagem">
+        <img id="meme-image" class="imagem" alt="meme" />
+        <p id="meme-text"></p>
+      </div>
+    </section>
   </section>
-
-  <section>
-    <div class="posicaoDaImagem">
-      <img id="meme-image" class="imagem" alt="meme" />
-      <p id="meme-text"></p>
-    </div>
-  </section>
-</body>
-
+  </body>
 </html>
