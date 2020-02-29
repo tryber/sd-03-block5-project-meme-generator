@@ -5,30 +5,22 @@
             Meme Generator
         </title>
         <link rel="stylesheet" href="style.css">
+      
     </head>
     <body>
         <h1> Meme Generator</h1>
         <!--1-O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.-->
-        
-        
-        <!--3-O texto de quem usa deve ser inserido sobre a imagem escolhida, com o elemento do texto estando totalmente dentro da imagem.-->
 
-
-        <!--4-Se não houver imagem inserida, ele deve ser inserido sobre a área onde a imagem aparece na posição correta.-->
-
-
-        <!--5-O elemento do texto que aparece sobre a imagem deve ter um id denominado 'meme-text'.-->
-     
-     
-        <!--8-O elemento da imagem deve possuir um id chamado 'meme-image'.-->
-
-
-     
-    
-      
   
-        <input id="text-input">
-        <input type=file id="meme-insert">
-        <div id = "caixa-branca"></div>
+        <input type="text"  id="text-input">
+        <input type="file"  id="meme-insert">
+      
+        <div id = "caixa-branca">
+            
+            <img id="meme-image">  
+            <p id="meme-text">frase do meme</p>
+
+        </div> 
+        <script src="script.js"></script>
     </body>
 </html>
