@@ -1,20 +1,19 @@
 window.onload = function(){
 
-let imagem = document.getElementById('meme-insert');
+let textInput = document.getElementById('text-input');
+let imagemInput = document.getElementById('meme-insert');
+let memeText = document.getElementById('meme-text');
 
-function insertimg(){
-  let aplicaImg = document.getElementById('meme-image');
-  aplicaImg.src = URL.createObjectURL(imagem.files[0]);  
+function inserttext(){
+  memeText.innerHTML = textInput.value;
 }
 
-imagem.addEventListener('change', insertimg);
- 
-const textoCima = document.getElementById('texto1');
-const textoBaixo = document.getElementById('texto2');
+textInput.addEventListener('keyup', inserttext);
 
-const tamFonte = document.getElementById('tamanhoFonte');
-tamFonte.addEventListener('click', function(){
-  textoCima.style.fontSize = tamFonte.value + 'pt';
-  textoBaixo.style.fontSize = tamFonte.value + 'pt';
-})
+function insertimage(){
+  let memeImagem = document.getElementById('meme-image');
+  memeImagem.src = URL.createObjectURL(imagemInput.files[0]);  
+}
+
+imagemInput.addEventListener('change', insertimage);
 }

@@ -5,32 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator - Baêta Tryber</title>
   <link rel="stylesheet" href="/projetos/sd-03-block5-project-meme-generator/style.css">
-  <script src="/projetos/sd-03-block5-project-meme-generator/script.js"></script>
-
+  
 </head>
 <body>
-  <h1>Gerador de Memes!</h1>
-  <form>
-    <label>Faça upload de uma imagem</label>
-    <input type='file' id="meme-insert"   name="img" accept="image/*"/>
-    
-    <h4>Texto de cima</h4>
-    <input id="text-input" type="text"></input>
-    
-    <h4>Texto de baixo</h4>
-    <input id="texto2" type="text"></input>
-  </form>
+  <header>
+    <h1>Gerador de Memes!</h1>
+  </header>
 
+  <form>
+    <label for="text-input">Texto para inserir no Meme:</label>
+    <input id="text-input" type="text" maxlength="60" placeholder="Digite aqui seu texto" name="inputtext"><br>
+    <br>
+    <label for="text-input">Faça upload de uma imagem:</label>
+    <input id="meme-insert" type="file" accept="image/*" name="inputmeme"/>
+  </form>
+  <br>
   <section id="meme-image-container">
-    <img id="meme-image" alt="upload da imagem">
+    <img id="meme-image">
+    <p id="meme-text"></p>
   </section>
-  
   <br>
   <label>Aumente ou diminua o tamanho da fonte</label>
   <button id="tamanhoFonte">maior</button>
   <button id="tamanhoFonte">menor</button>
-    
-  <br>
-  <button>Gerar meme</button>  
+  
+  <script src="/projetos/sd-03-block5-project-meme-generator/script.js"></script>
 </body>
 </html>
