@@ -1,6 +1,8 @@
-var loadFile = function(event) {
-    var output = document.getElementById("meme-image");
-    output.src = URL.createObjectURL(event.target.files[0]);
+let loadFile = function(event) {
+    let memeImage = document.getElementById("meme-image");
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
+    memeImage.style.height = 400 + "px";
+    memeImage.style.width = 400 + "px";
 };
 
 function mostraTexto(){
@@ -13,6 +15,5 @@ function mostraTexto(){
     if(textoAnterior){
         document.getElementsByClassName("editImage")[0].removeChild(textoAnterior);
     }
-
     document.getElementsByClassName("editImage")[0].appendChild(inserir);
 }
