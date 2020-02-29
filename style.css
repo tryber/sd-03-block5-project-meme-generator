@@ -13,8 +13,11 @@
 }
 
 #meme-text {
-  width: 100%;
   position: absolute;
-  float: left;
   overflow-wrap: normal;
+}
+
+#meme-image-container img {
+  width: 400px;
+  height: 300px;
 }
