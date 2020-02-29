@@ -29,10 +29,8 @@ header {
 
 .imagem-meme {
     display: block;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .containerImagemTexto {
@@ -53,17 +51,15 @@ header {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 30pt;
     left: 0;
-    overflow: hidden;
     position: absolute;
     text-align: center;
-    text-overflow: ellipsis;
-    top: 0px;
+    top: 0;
     width: 100%;
-    word-break: break-all;
+    word-break: normal;
 }
 
 .textoBaixo {
-    bottom: 0px;
+    bottom: 0;
     color: gray;
     display: block;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

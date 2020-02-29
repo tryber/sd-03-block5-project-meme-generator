@@ -4,7 +4,6 @@ textoDeBaixo = document.getElementById("meme-text2");
 textoDeCima = document.getElementById("meme-text");
 let caixaCor = document.getElementById("seletorCor");
 let imagemMeme = document.getElementById('meme-image');
-let frameImagem = document.getElementsByClassName("containerImagemTexto")[0];
 
 caixaCor.addEventListener('change', function() {
     textoDeCima.style.color = caixaCor.value;
@@ -16,10 +15,25 @@ function carregaImagem() {
     let blobImagem = window.URL.createObjectURL(botCarrega.files[0]);
     imagemMeme.src = blobImagem;
     insereTexto();
-    frameImagem.clientHeight = imagemMeme.height;
     }
 
 function insereTexto() {
     textoDeCima.textContent = caixaTextoSuperior.value;
     textoDeBaixo.textContent = caixaTextoInferior.value;
     }
+
+function mudaBorda1() {
+    imagemMeme.style.borderWidth = "3px";
+    imagemMeme.style.borderStyle = "dashed";
+    imagemMeme.style.borderColor = "red";
+}
+function mudaBorda2() {
+    imagemMeme.style.borderWidth = "5px";
+    imagemMeme.style.borderStyle = "double";
+    imagemMeme.style.borderColor = "blue";
+}
+function mudaBorda3() {
+    imagemMeme.style.borderWidth = "6px";
+    imagemMeme.style.borderStyle = "groove";
+    imagemMeme.style.borderColor = "green";
+}
