@@ -42,7 +42,7 @@ function changeButton3(){
 }
 
 
-//memes prontos
+/*//memes prontos
 
     let images = document.querySelectorAll(".images")
 
@@ -68,3 +68,4 @@ function changeButton3(){
  
     }
 
+*/
