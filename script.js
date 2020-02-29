@@ -79,4 +79,14 @@ window.onload = function(){
     }
 
     meme3.addEventListener('click', memeThree)
+
+    let meme4 = document.getElementById("meme-4")
+
+    function memeFour (){
+
+        memeImg.src = meme4.src;
+
+    }
+
+    meme4.addEventListener('click', memeFour)
 }
