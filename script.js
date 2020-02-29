@@ -5,6 +5,6 @@ let loadFile = function (event) {
 
 function escreveCaixaImagem() {
   let caixaTexto = document.getElementById('text-input');
-  let tagP = document.getElementById('texto-imagem');
+  let tagP = document.getElementById('meme-text');
   tagP.innerText = caixaTexto.value;
 }
