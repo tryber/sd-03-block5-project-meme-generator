@@ -13,7 +13,6 @@
     <body>
         <article>
             <section>
-                <div>
                     <form>
                         <label for="meme-insert">Escolha a Imagem</label>
                         <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
@@ -23,13 +22,14 @@
                         <label for="text-input">Escreva Seu Texto Aqui:</label>
                         <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60">
                     </form>
-                    <br>
+                </section>
+                <section>
                     <div id="meme-image-container" class="moldura">
                         <img src="" id="meme-image" class="imagem" alt="Imagem do Meme">
                     </div>
                     <p id="meme-text"></p>
-                </div>
-            </section>
+                </section>
         </article>
+        <footer></footer>
     </body>
 </html>
