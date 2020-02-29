@@ -17,7 +17,3 @@ text_input2.addEventListener('input', function() {
 meme_insert.addEventListener('change', function() {
   meme_image.src = window.URL.createObjectURL(this.files[0]);
 })
-
-meme1.addEventListener("click", function trocaCor() {
-  meme_image.innerHTML = meme1.value
-})
