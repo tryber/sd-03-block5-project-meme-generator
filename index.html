@@ -23,13 +23,14 @@
             </form>
             <form>
                 <section>
-                    <label id="meme-text">Digite seu Meme:</label><br>
-                    <input type="text" id='text-input'>
+                    <label id="meme-text">Digite seu meme aqui:</label><br>
+                    <input type="text" id='text-input' class='text-input' oninput="escreveCaixaImagem()">
                 </section>
             </form>
         </header>
         <div id='meme-image-container' class='meme-image-container'>
-            <img id='meme-image' class="meme-image">
+            <img id='meme-image' class="meme-image" alt="Campo que receberá uma imagem">
+            <p id='texto-imagem' class='texto-imagem'></p>
         </div>
         <article>
             <section>
