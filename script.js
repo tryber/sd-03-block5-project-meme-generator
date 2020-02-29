@@ -9,7 +9,10 @@ let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
 let button3 = document.getElementById("button3");
 
-
+let meme1 = document.getElementById("meme-1");
+let meme2 = document.getElementById("meme-2");
+let meme3 = document.getElementById("meme-3");
+let meme4 = document.getElementById("meme-4");
 
 function addMeme() {
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);
@@ -37,7 +40,19 @@ function addBorder(indicador) {
     }
 }
 
-
+function selectMeme(indicador) {
+    if (indicador == 1) {
+        memeImage.src = meme1.src;
+    } else if (indicador == 2) {
+        memeImage.src = meme2.src;
+    } else if (indicador == 3) {
+        memeImage.src = meme3.src;
+    } else if (indicador == 4) {
+        memeImage.src = meme4.src;
+    }
+    memeImage.style.height = 400 + "px";
+    memeImage.style.width = 400 + "px";
+}
 
 memeInsert.addEventListener("change", addMeme);
 
@@ -55,4 +70,18 @@ button3.addEventListener("click", function () {
     addBorder(3);
 });
 
+meme1.addEventListener("click", function () {
+    selectMeme(1);
+});
 
+meme2.addEventListener("click", function () {
+    selectMeme(2);
+});
+
+meme3.addEventListener("click", function () {
+    selectMeme(3);
+});
+
+meme4.addEventListener("click", function () {
+    selectMeme(4);
+});

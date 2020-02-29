@@ -1,13 +1,6 @@
-#title {
-    text-align: center;
-}
-
-#article {
-    background-color: rgba(186, 209, 205, 1);
-}
-
 .lado-esquerdo {
     float: left;
+    margin: 10px;
 }
 
 .image {
@@ -31,6 +24,7 @@
 
 .lado-direito {
     float: right;
+    margin: 10px;
 }
 
 .editImage {
@@ -44,7 +38,7 @@
 }
 
 .editText {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
     display: flex;
     font-family: "Anton";
     font-size: 35px;
@@ -54,4 +48,9 @@
     top: 55px;
     word-break: break-all;
     z-index: 10;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
