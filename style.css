@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-.container{
+.main{
     background: darkblue;
     height: 100vh;
     position: absolute;
