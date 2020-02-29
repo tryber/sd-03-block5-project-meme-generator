@@ -33,3 +33,29 @@ function button2() {
 function button3() {
   getDiv.style.border = "6px groove green"
 }
+
+// Image examples
+const getMeme1 = document.getElementById("meme1");
+const getMeme2 = document.getElementById("meme2");
+const getMeme3 = document.getElementById("meme3");
+const getMeme4 = document.getElementById("meme4");
+const getMainImage = document.getElementById("meme-image");
+
+getMeme1.addEventListener('click', memeFunction1)
+getMeme2.addEventListener('click', memeFunction2)
+getMeme3.addEventListener('click', memeFunction3)
+getMeme4.addEventListener('click', memeFunction4)
+
+// Image example functions
+function memeFunction1() {
+  getMainImage.src = "./imgs/meme1.jpeg"
+}
+function memeFunction2() {
+  getMainImage.src = "./imgs/meme2.jpeg"
+}
+function memeFunction3() {
+  getMainImage.src = "./imgs/meme3.jpeg"
+}
+function memeFunction4() {
+  getMainImage.src = "./imgs/meme4.jpeg"
+}
