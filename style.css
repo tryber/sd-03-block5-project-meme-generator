@@ -7,14 +7,18 @@ body {
   background-color: greenyellow;
 }
 
-#example-images  {
+#example-images {
   border: green 4px dotted;
   height: 45vh;
   float: right;
   margin-right: 40px;
   background-color: yellowgreen;
-
+  list-style-type: none;
 }
+
+li {
+  display: inline-block;
+    }
 
 #example-images img {
   width: 100px;
