@@ -9,21 +9,21 @@
 <body>
 
     <div id="caixadetexto">
-        <p>Digite o texto do meme</p>
+        <p>Digite o texto do meme com 60 caracteres:</p>
         <input type="text" name="text" id="text-input" class="text-input" maxlength="60">
         <br>
         <br>
     </div>
 
     <div id="imagemmeme">
-         <input type="file" name="img" id="meme-insert" accept="image/*" onchange="loadImage(event)">
+         <input type="file" name="img" id="meme-insert" accept="image/*" onchange="carregarimagem(event)">
     </div>
 
-    <div class="buttons-div">
-        <p>Escolha o estilo de borda:</p>
-        <button id="button1" class="button1">Red</button>
-        <button id="button2" class="button2">Blue</button>
-        <button id="button3" class="button3">Green</button>
+    <div class="div-botoes">
+        <p>Escolha o estilo de borda e a cor:</p>
+        <button id="button1" class="button1">Vermelho</button>
+        <button id="button2" class="button2">Azul</button>
+        <button id="button3" class="button3">Verde</button>
     </div>
 
     <div id="meme-image-container" class="meme-image-container">

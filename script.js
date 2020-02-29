@@ -16,7 +16,7 @@ function changeText () {
     textOutput.innerHTML = textBox.value;
 }
 
-function loadImage() {
+function carregarimagem() {
     image.src = URL.createObjectURL(event.target.files[0]);
 }
 
