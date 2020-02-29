@@ -46,6 +46,18 @@ header {
     width: 200px;
 }
 
+.miniaturas {
+    color: wheat;
+    float: right;
+    padding-right: 150px;
+    width: 102px;
+}
+
+.miniaturas img {
+    border: 2px solid white;
+    width: 100px;
+}
+
 .textoCima {
     color: gray;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

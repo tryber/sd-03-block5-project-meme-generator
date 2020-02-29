@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeMe generator v0.7</title>
+    <title>MeMe generator v0.9</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <form><p>Selecione um arquivo: (obs.: recomendado altura mínima de 500px;)
+        <form><p>Selecione um arquivo ou clique em alguma imagem na lateral: (obs.: recomendado altura mínima de 500px;)
             <input type="file" id="meme-insert" onchange="carregaImagem()"></p>
         <p><label>Frase a se inserir na parte de cima da imagem: </label>
             <input type="text" id="text-input" class="cxTextoFrases" onkeyup="insereTexto()" name="comment" maxlength="60">
@@ -41,6 +41,13 @@
                 <p id="meme-text" class="textoCima"></p>
                 <img id="meme-image" class="imagem-meme">
                 <p id="meme-text2" class="textoBaixo"></p>
+            </div>
+            <div class="miniaturas">
+                <h3>Top 4 memes</h3>
+                <img src="Philosoraptor.jpg" onclick="setMeme01()">
+                <img src="SociallyAkwardPenguin.jpg" onclick="setMeme02()">
+                <img src="Archer.jpg" onclick="setMeme03()">
+                <img src="Futurama-Fry.jpg" onclick="setMeme04()">
             </div>
         </div>
     </article>

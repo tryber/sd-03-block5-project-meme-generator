@@ -28,13 +28,31 @@ function mudaBorda1() {
     frameImgTexto.style.borderStyle = "dashed";
     frameImgTexto.style.borderColor = "red";
 }
+
 function mudaBorda2() {
     frameImgTexto.style.borderWidth = "5px";
     frameImgTexto.style.borderStyle = "double";
     frameImgTexto.style.borderColor = "blue";
 }
+
 function mudaBorda3() {
     frameImgTexto.style.borderWidth = "6px";
     frameImgTexto.style.borderStyle = "groove";
     frameImgTexto.style.borderColor = "green";
+}
+
+function setMeme01() {
+    imagemMeme.src = document.getElementsByClassName("miniaturas")[0].childNodes[3].src;
+}
+
+function setMeme02() {
+    imagemMeme.src = document.getElementsByClassName("miniaturas")[0].childNodes[5].src;
+}
+
+function setMeme03() {
+    imagemMeme.src = document.getElementsByClassName("miniaturas")[0].childNodes[7].src;
+}
+
+function setMeme04() {
+    imagemMeme.src = document.getElementsByClassName("miniaturas")[0].childNodes[9].src;
 }
