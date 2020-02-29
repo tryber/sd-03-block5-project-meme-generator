@@ -13,16 +13,17 @@
       <h2>Meme generator</h2>
     </header>
     <form>
-      <input id="text-input" type="text" placeholder="Type your meme text here">
-    </form>
-    <br>
-      <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
-    <label for="file" style="cursor: pointer;">Select image</label>
+      <input id="text-input" type="text" placeholder="Type your meme text here" maxlength="20">
+    </form><br>
+      <input type="file" accept="image/*" name="image" id="meme-insert" onchange="loadFile(event)" style="display: none;">
+    <label for="meme-insert" style="cursor: pointer;">Select image</label>
     <div id="geral">
       <div id="filho">
         <p id="meme-text"></p>
       </div>
+      <div id="meme-image-container">
       <img id="meme-image" width="400px" height="300px">
+      </div>
     </div>
   </section>
 </body>

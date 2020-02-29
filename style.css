@@ -13,6 +13,8 @@
 }
 
 #filho {
+  width: 100%;
   position: absolute;
   float: left;
+  overflow-wrap: normal;
 }
