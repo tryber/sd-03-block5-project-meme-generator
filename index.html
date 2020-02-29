@@ -8,15 +8,15 @@
 </head>
 <body>
 
-    <div id="text-box">
+    <div id="caixadetexto">
         <p>Digite o texto do meme</p>
-        <input type="text" name="text" id="text-input" maxlength="60">
+        <input type="text" name="text" id="text-input" class="text-input" maxlength="60">
         <br>
         <br>
     </div>
 
-    <div id="img-submit">
-         <input type="file" name="img" id="meme-insert" accept="image/png, image/jpeg" onchange="loadImage(event)">
+    <div id="imagemmeme">
+         <input type="file" name="img" id="meme-insert" accept="image/*" onchange="loadImage(event)">
     </div>
 
     <div class="buttons-div">
