@@ -1,37 +1,42 @@
 window.onload = () => {
-  document.getElementById("meme-insert").addEventListener("change", (event) => {
-    document.getElementById('meme-image').src = URL.createObjectURL(event.target.files[0]);
-  } )
+  document.getElementById("meme-insert").addEventListener("change", event => {
+    document.getElementById("meme-image").src = URL.createObjectURL(
+      event.target.files[0]
+    );
+  });
 
-  document.getElementById("text-input").addEventListener("keyup", (event) => {
+  document.getElementById("text-input").addEventListener("keyup", event => {
     document.getElementById("meme-text").innerHTML = event.target.value;
-  })
+  });
 
   document.getElementById("button1").addEventListener("click", () => {
-    document.getElementById("meme-image-container").style.border = "3px dashed red";
-  })
+    document.getElementById("meme-image-container").style.border =
+      "3px dashed red";
+  });
 
   document.getElementById("button2").addEventListener("click", () => {
-    document.getElementById("meme-image-container").style.border = "5px double blue";
-  })
+    document.getElementById("meme-image-container").style.border =
+      "5px double blue";
+  });
 
   document.getElementById("button3").addEventListener("click", () => {
-    document.getElementById("meme-image-container").style.border = "6px groove green";
-  })
+    document.getElementById("meme-image-container").style.border =
+      "6px groove green";
+  });
 
   document.getElementById("meme1").addEventListener("click", () => {
-    document.getElementById("meme-image").src = "imgs/meme1.jpeg"
-  })
+    document.getElementById("meme-image").src = "imgs/meme-1.jpeg";
+  });
 
   document.getElementById("meme2").addEventListener("click", () => {
-    document.getElementById("meme-image").src = "imgs/meme2.jpeg"
-  })
+    document.getElementById("meme-image").src = "imgs/meme-2.jpeg";
+  });
 
   document.getElementById("meme3").addEventListener("click", () => {
-    document.getElementById("meme-image").src = "imgs/meme3.jpeg"
-  })
+    document.getElementById("meme-image").src = "imgs/meme-3.jpeg";
+  });
 
   document.getElementById("meme4").addEventListener("click", () => {
-    document.getElementById("meme-image").src = "imgs/meme4.jpeg"
-  })
+    document.getElementById("meme-image").src = "imgs/meme-4.jpeg";
+  });
 };
