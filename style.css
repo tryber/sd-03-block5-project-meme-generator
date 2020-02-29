@@ -4,9 +4,7 @@
 }
 
 #geral {
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
+  
   position: relative;
   width: 400px;
   height: 300px;
@@ -17,7 +15,14 @@
   overflow-wrap: normal;
 }
 
-#meme-image-container img {
+#meme-image-container {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
   width: 400px;
   height: 300px;
+}
+
+#meme-image-container img {
+  height: 100%;
 }
