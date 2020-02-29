@@ -1,4 +1,4 @@
-#meme-image-container{
+#meme-image-container {
   border: 1px solid black;
   max-width: 500px;
   max-height: 500px;
@@ -11,17 +11,30 @@
   background-color: white;
 }
 
-#memeText  {
+#memeText {
   font-size: 30pt;
   text-overflow: ellipsis;
   width: 500px;
   align-self: auto;
   position: absolute;
-
-
 }
 
-#loadedImage{
+#loadedImage {
   max-width: 500px;
   max-height: 500px;
+}
+
+#button1 {
+  border: 3px dashed red;
+  padding: 20px 20px;
+}
+
+#button2 {
+  border: 5px double blue;
+  padding: 20px 20px;
+}
+
+#button1 {
+  border: 6px groove green;
+  padding: 20px 20px;
 }

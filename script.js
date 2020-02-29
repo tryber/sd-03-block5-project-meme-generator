@@ -1,12 +1,32 @@
 
- let loadFile = function(event) {
-    var image = document.getElementById('loadedImage');
-    image.src = URL.createObjectURL(event.target.files[0]);
+let loadFile = function (event) {
+  let image = document.getElementById('loadedImage');
+  image.src = URL.createObjectURL(event.target.files[0]);
 
 }
 let textInput = document.getElementById('text-input');
 let memeText = document.getElementById('memeText');
 
-function textInsert () {
+function textInsert() {
   memeText.textContent = textInput.value
 }
+/* let button1 = document.getElementById('button1');
+button1.addEventListener('click', function () {
+  document.getElementById('meme-image-container').style.border = '3px dashed red'
+})
+let button2 = document.getElementById('button2');
+button2.addEventListener('click', function () {
+  document.getElementById('meme-image-container').style.border = '5px double blue'
+})
+let button2 = document.getElementById('button2');
+button2.addEventListener('click', function () {
+  document.getElementById('meme-image-container').style.border = '5px double blue'
+})
+let button2 = document.getElementById('button2');
+button2.addEventListener('click', function () {
+  document.getElementById('meme-image-container').style.border = '5px double blue'
+})
+let button3 = document.getElementById('button3');
+button3.addEventListener('click', function () {
+  document.getElementById('meme-image-container').style.border = '6px groove green'
+}) */
