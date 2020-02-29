@@ -17,3 +17,8 @@ function insertimage(){
 
 imagemInput.addEventListener('change', insertimage);
 }
+
+const meme1 = document.getElementById('meme1');
+const meme2 = document.getElementById('meme2');
+const meme3 = document.getElementById('meme3');
+const meme4 = document.getElementById('meme4');

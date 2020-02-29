@@ -2,13 +2,6 @@ body{
   background-color: steelblue;
 }
 
-#meme-image{
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
 #meme-image-container{
   background-color: white;
   border: 1px black solid;
@@ -17,14 +10,31 @@ body{
   width: 400px;
 }
 
+#meme-image{
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 #meme-text  {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 18pt;
   font-weight: bolder;
   position: absolute;
   text-shadow: 2px 2px 2px black;
   text-align: center;
   top: 0;
-  word-break: normal;
+  word-break: break-all;
   width: 100%;
 }
+
+#meme1, #meme2, #meme3, #meme4{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+.meme-pronto: hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
