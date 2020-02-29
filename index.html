@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+
+    <div id="text-box">
+        <p>Digite o texto do meme</p>
+        <input type="text" name="text" id="text-input" maxlength="60">
+        <br>
+        <br>
+    </div>
+
+    <div id="img-submit">
+         <input type="file" name="img" id="meme-insert" accept="image/png, image/jpeg" onchange="loadImage(event)">
+    </div>
+
+    <div class="buttons-div">
+        <p>Escolha o estilo de borda:</p>
+        <button id="button1" class="button1">Red</button>
+        <button id="button2" class="button2">Blue</button>
+        <button id="button3" class="button3">Green</button>
+    </div>
+
+    <div id="meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text"></p>
+        <img id="meme-image" class="meme-image" alt="imagem do meme">
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
