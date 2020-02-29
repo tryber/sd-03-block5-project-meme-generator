@@ -22,25 +22,25 @@ function exibir(){
 }
 
 function mostraMeme1() {
-    let meme = document.getElementById("meme1");
+    let meme = document.getElementById("meme-1");
     let imagem = document.getElementById('meme-image');
     imagem.src = meme.src;
 }
 
 function mostraMeme2() {
-    let meme = document.getElementById("meme2");
+    let meme = document.getElementById("meme-2");
     let imagem = document.getElementById('meme-image');
     imagem.src = meme.src;
 }
 
 function mostraMeme3() {
-    let meme = document.getElementById("meme3");
+    let meme = document.getElementById("meme-3");
     let imagem = document.getElementById('meme-image');
     imagem.src = meme.src;
 }
 
 function mostraMeme4() {
-    let meme = document.getElementById("meme4");
+    let meme = document.getElementById("meme-4");
     let imagem = document.getElementById('meme-image');
     imagem.src = meme.src;
 }
