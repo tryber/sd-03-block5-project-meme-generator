@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <header>
         <meta charset="utf-8">
-        <title>meme-generator Project</title>
+        <title>Meme-Generator Project</title>
         <link rel="stylesheet" href="style.css">
     </header>
     <body>
-        <form>
-            <div>
-                <label for='meme'>Select a picture </label>
-                <input id='meme-image' type='file' onchange='previewFiles()'>
-            </div>
-            <div>
-                <label for='text-input'>Meme text: </label>
-                <input id='meme-text' type='text' maxlenght=60>
-            </div>
-            <div id="preview"></div>
-            <div id='meme-text1'>testeerreeee</div>
+        <form class="meme-form">
+            <label for="meme-insert">Select a picture </label>
+            <input id="meme-insert" type="file" accept="image/*"/><br>
+            <label for="text-input">Meme text: </label>
+            <input id="text-input" type="text" maxlength="60"/>
         </form>
-        <script src = "script.js"></script>
+        <div id="meme-image-container" class="img-container">
+            <img class="meme-img" id="meme-image">
+            <p id="meme-text" class="meme-text"></p>
+        </div>
+    <script src="script.js"></script>
     </body>
-    
 </html>

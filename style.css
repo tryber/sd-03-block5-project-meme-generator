@@ -1,37 +1,38 @@
-div {
-	margin-bottom: 15px;
+body {
+	background-color: green;
+	margin: 10 auto;
+	width: 85%;
+}
+
+.img-container {
+	background-color: white;
+	border: 1px solid black;
+	display: flex;
+	height: 400px;
+	justify-content: center;
+	margin: 10px;
 	position: relative;
-  }
-
-
-#image {
-	height:512px;
-	width:512px;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-	align-items:center;
-    border: solid black 1px;
+	width: 400px;
 }
 
-#preview {
-	height:512px;
-	width:512px;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-	align-items:center;
-    border: solid black 1px;
+.meme-form {
+	font-size: 18px;
+	margin: 10px;
 }
 
-.text {
-	height:15px;
-	width:15px;
-	stroke-opacity: initial;
-	display:flex;
-	align-items:center;
-    justify-content:center;
-    margin:auto;
-    border: solid black 4px;
-    position: absolute;
+.meme-img {
+	height: 100%;
+	width: 100%;
+}
+
+.meme-txt {
+	font-family: "Montserrat";
+	font-size: 30px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 230px;
+	width: 90%;
+	word-break: break-all;
+	z-index: 10;
 }
