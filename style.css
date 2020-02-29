@@ -13,6 +13,7 @@
   font-size: 35px;
   height: 160px;
   left: 20px;
+  max-width: 60ch;
   overflow: hidden;
   position: absolute;
   width: 300px;
