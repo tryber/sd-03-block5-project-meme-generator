@@ -66,6 +66,10 @@ section {
   border-width: 6px;
 }
 
+section li {
+  display: inline-block;
+}
+
 .miniaturas {
   margin-left: 20px;
   width: 100px;
