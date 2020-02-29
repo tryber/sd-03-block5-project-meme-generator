@@ -18,7 +18,7 @@ window.onload = function() {
   let button1 = document.getElementById("button1");
   let button2 = document.getElementById("button2");
   let button3 = document.getElementById("button3");
-  let containerImage = document.getElementById("image-container");
+  let containerImage = document.getElementById("meme-image-container");
 
   function border1() {
     containerImage.style.border = "3px dashed red";
