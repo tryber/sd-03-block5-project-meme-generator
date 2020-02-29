@@ -21,6 +21,10 @@ body {
   text-align: center;
 }
 
+.header h1{
+  margin: 2% 0;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +53,7 @@ body {
 }
 
 .meme-txt {
-  color: green;
+  color: black;
   font-family: "Montserrat";
   font-size: 30px;
   position: absolute;
