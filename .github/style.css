@@ -1,13 +1,14 @@
-#meme-image-container {
+.editImage {
   border: solid;
   background: white;
   color: black;
   height: 400px;
   margin: 1px;
+  max-width: 400px;
   width: 400px;
 }
 
-#meme-text {
+.editText {
   display: inline-block;
   font-size: 35px;
   height: 160px;
@@ -18,3 +19,4 @@
   word-wrap: break-word;
   text-overflow: ellipsis;
 }
+
