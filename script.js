@@ -4,6 +4,18 @@ window.onload = () => {
   } )
 
   document.getElementById("text-input").addEventListener("keyup", (event) => {
-    document.getElementById("meme-text").innerHTML = event.target.value
+    document.getElementById("meme-text").innerHTML = event.target.value;
+  })
+
+  document.getElementById("button1").addEventListener("click", () => {
+    document.getElementById("meme-image-container").style.border = "3px dashed red";
+  })
+
+  document.getElementById("button2").addEventListener("click", () => {
+    document.getElementById("meme-image-container").style.border = "5px double blue";
+  })
+
+  document.getElementById("button3").addEventListener("click", () => {
+    document.getElementById("meme-image-container").style.border = "6px groove green";
   })
 };
