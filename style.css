@@ -22,7 +22,7 @@
   max-width: 430px;
   max-height: 540px;
   word-break: break-all;
-  padding: 20px;
+  margin: 20px;
   top:10px;
   font-size: 40px;
 
@@ -32,6 +32,6 @@
 #button1 {
   border-style: dashed;
   border-color: red;
-  border-width: 3px;
+  border-width: 3px;}
 
 
