@@ -38,10 +38,10 @@ window.onload = function() {
 
   button3.addEventListener("click", border3)
 
-  let meme1 = document.getElementById("meme1");
-  let meme2 = document.querySelector("#meme2");
-  let meme3 = document.querySelector("#meme3");
-  let meme4 = document.getElementById("meme4");
+  let meme1 = document.getElementById("meme-1");
+  let meme2 = document.querySelector("#meme-2");
+  let meme3 = document.querySelector("#meme-3");
+  let meme4 = document.getElementById("meme-4");
 
   function meme1Selected() {
     let img = document.getElementById("meme-image");
