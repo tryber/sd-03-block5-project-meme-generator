@@ -8,16 +8,23 @@
 }
 
 .meme-image {
+    height: 500px;
     object-fit: fill;
     object-position: 50% 50%;
     width: 500px;
-    height: 500px;
 }
 
 .texto-imagem {
-    position: absolute;
     font-size: 32px;
-    left: 250px;
-    top: 135px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    word-break: break-all;
+    word-wrap: break-word;
     z-index: 1;
+}
+
+p:hover{
+    overflow: visible;
 }
