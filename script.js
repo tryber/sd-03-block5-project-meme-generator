@@ -7,7 +7,7 @@ tinput.addEventListener("keyup", inputText);
 
 function upload() {
     var image = document.createElement("img");
-    document.getElementById("image").appendChild(image);
+    document.getElementById("meme-image-container").appendChild(image);
     image.id = "meme-image";
     image.style.maxWidth= "100%";
     image.style.maxHeight= "100%";
@@ -21,6 +21,5 @@ function upload() {
 
     if (file) {
         reader.readAsDataURL(file);
-      } 
+      }
   } 
-  

@@ -12,7 +12,7 @@ header {
     margin-top: 10%;
     margin-left: 20%;
 }
-#box {
+#meme-image-container {
   background-color: white;
   border-color: black;
   border-style: solid;
@@ -28,13 +28,10 @@ header {
   font-family: 'Roboto';
   font-size: 40px;
   position: absolute;
-  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   height: 500px;
   width: 500px;
   overflow-wrap: break-word;
-}
-#image{
-  height:500px;
-  width: 500px;
+  bottom:0;
 }
