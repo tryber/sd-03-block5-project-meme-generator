@@ -13,7 +13,7 @@ h1 {
   margin: 2% 0;
 }
 
-footer{
+footer {
   text-align: center;
 }
 
@@ -37,8 +37,8 @@ footer{
 
 .flex-button {
   background-color: white;
-  margin: 0 0.5em;
   flex-grow: 1;
+  margin: 0 0.5em;
 }
 
 .flex-column {
