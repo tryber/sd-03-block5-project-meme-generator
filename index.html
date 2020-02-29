@@ -1,29 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="./script.js"></script>
-        <title>Gerador de Memes by Marco Barbosa</title>
-
-    </head>
-        <div>
-            <form>
-                <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
-                <br>
-                <label>Escreva Seu Texto Aqui:</label>
-                &nbsp;
-                <input type="text" id="text-input" oninput="mostraTexto()">
-                <br>
-            </form>
-            <br>
-            <div id="meme-image-container" class="moldura">
-                <img id="meme-image" class="imagem">
-                <p id="meme-text"></p>
-            </div>
-        </div>
-    <body>
-    </body>
+<html lang=eng>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Gerador de Memes by Marco Barbosa</title>
+</head>
+<body>
+    <form>
+    <input type="text" id="text-input" oninput="mostraTexto()">
+    <div id="meme-image-container" class="moldura">
+        <img>
+        <p></p>
+    </div>
+    </form>
+</body>
 </html>
