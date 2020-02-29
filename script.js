@@ -24,19 +24,19 @@ window.onload = () => {
       "6px groove green";
   });
 
-  document.getElementById("meme1").addEventListener("click", () => {
+  document.getElementById("meme-1").addEventListener("click", () => {
     document.getElementById("meme-image").src = "imgs/meme-1.jpeg";
   });
 
-  document.getElementById("meme2").addEventListener("click", () => {
+  document.getElementById("meme-2").addEventListener("click", () => {
     document.getElementById("meme-image").src = "imgs/meme-2.jpeg";
   });
 
-  document.getElementById("meme3").addEventListener("click", () => {
+  document.getElementById("meme-3").addEventListener("click", () => {
     document.getElementById("meme-image").src = "imgs/meme-3.jpeg";
   });
 
-  document.getElementById("meme4").addEventListener("click", () => {
+  document.getElementById("meme-4").addEventListener("click", () => {
     document.getElementById("meme-image").src = "imgs/meme-4.jpeg";
   });
 };
