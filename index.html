@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <script src="./script.js"></script>
         <title>Meme Generator</title>
     </head>
     <body>
@@ -19,16 +20,15 @@
                     <input type="text" id="text-input" maxlength="60" oninput="mostraTexto()" >
                 </form>
             </section>
-            <section class="lado-direito">
+            <section>
                 <div class="editImage" id="meme-image-container">
-                    <img id="meme-image">
-                    <p class="editText" id="meme-text"></p>
+                    <img id="meme-image" alt="Imagem do Meme">
+                    <p id="meme-text" class="editText"></p>
                 </div>
             </section>
         </article>
         <footer>
             <h5>Página desenvolvida por Marco Barbosa em Fevereito de 2020.</h5>
         </footer>
-        <script src="./script.js"></script>
     </body>
 </html>
