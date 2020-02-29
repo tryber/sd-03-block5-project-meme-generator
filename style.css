@@ -7,7 +7,7 @@ div {
     position: absolute;
 }
 
-#meme-image {
+.meme-image {
     object-fit: fill;
     object-position: 50% 50%;
 }
