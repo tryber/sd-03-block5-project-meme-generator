@@ -38,5 +38,37 @@ window.onload = function() {
 
   button3.addEventListener("click", border3)
 
+  let meme1 = document.getElementById("meme1");
+  let meme2 = document.querySelector("#meme2");
+  let meme3 = document.querySelector("#meme3");
+  let meme4 = document.getElementById("meme4");
+
+  function meme1Selected() {
+    let img = document.getElementById("meme-image");
+    img.src = "imgs/meme1.jpeg";
+  }
+  
+  meme1.addEventListener("click", meme1Selected);
+
+  function meme2Selected() {
+    let img = document.getElementById("meme-image");
+    img.src = "imgs/meme2.jpeg";
+  }
+  
+  meme2.addEventListener("click", meme2Selected);
+
+  function meme3Selected() {
+    let img = document.getElementById("meme-image");
+    img.src = "imgs/meme3.jpeg";
+  }
+  
+  meme3.addEventListener("click", meme3Selected);
+
+  function meme4Selected() {
+    let img = document.getElementById("meme-image");
+    img.src = "imgs/meme4.jpeg";
+  }
+  
+  meme4.addEventListener("click", meme4Selected);
 
 }
