@@ -14,10 +14,12 @@
                 <h3>Digite o texto desejado</h3>
                 <form>
                     <p>Meme text: <input type="text" id="text-input" maxlength="60" oninput="update_text()"></p>
-                    <p>Selecione a Imagem:<input type="file" id="select-img" accept="image/*" onchange="update_image()"></p>
+                    <p>Selecione a Imagem:<input type="file" id="meme-insert" accept="image/*" onchange="update_image()"></p>
                 </form>
+                <div id="meme-image-container">
                 <div id="meme-text">Exemplo de texto</div>
                 <div id="meme-image"><img src="" height="500" width="600"></div>
+                </div>
         <script src="script.js"></script>        
     </body>
 </html>
