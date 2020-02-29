@@ -74,10 +74,11 @@ body {
 }
 
 div p {
+    margin: 0px;
     font-family: Impact, sans-serif;
     font-size: 1.35em;
     color: white;
-    top: 230px;
+    top: 250px;
     position: absolute;
     height: 75px;
     left: 15px;
