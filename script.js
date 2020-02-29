@@ -1,7 +1,6 @@
 var loadFile = function(event) {
     var output = document.getElementById("meme-image");
     output.src = URL.createObjectURL(event.target.files[0]);
-    output.style.border="1px solid black";
 };
 
 function mostraTexto(){
@@ -9,11 +8,11 @@ function mostraTexto(){
     let inserir=document.createElement("p");
     inserir.innerText=textoDigitado;
 
-    let textoAnterior=document.getElementsByClassName("meme-image-container")[0].getElementsByTagName("p")[0];
+    let textoAnterior=document.getElementsByClassName("editImage")[0].getElementsByTagName("p")[0];
 
     if(textoAnterior){
-        document.getElementsByClassName("meme-image-container")[0].removeChild(textoAnterior);
+        document.getElementsByClassName("editImage")[0].removeChild(textoAnterior);
     }
 
-    document.getElementsByClassName("meme-image-container")[0].appendChild(inserir);
+    document.getElementsByClassName("editImage")[0].appendChild(inserir);
 }

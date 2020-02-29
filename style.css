@@ -9,19 +9,16 @@ border-width: 1px;
 height: 400px;
 position: absolute;
 width: 400px;
+z-index: 1;
 }
 img{
+border-color: black;
+border-style: solid;
+border-width: 1px;
 height:400px;
 position: absolute;
 width:400px;
 z-index: 2;
-}
-.meme-image-container{
-background-color:white;
-height:400px;
-position: absolute;
-width:400px;
-z-index: 1;
 }
 p{
 bottom:0;
