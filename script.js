@@ -9,11 +9,11 @@ function mostraTexto(){
     let inserir=document.createElement("p");
     inserir.innerText=textoDigitado;
 
-    let textoAnterior=document.getElementsByClassName("moldura")[0].getElementsByTagName("p")[0];
+    let textoAnterior=document.getElementsByClassName("meme-image-container")[0].getElementsByTagName("p")[0];
 
     if(textoAnterior){
-        document.getElementsByClassName("moldura")[0].removeChild(textoAnterior);
+        document.getElementsByClassName("meme-image-container")[0].removeChild(textoAnterior);
     }
 
-    document.getElementsByClassName("moldura")[0].appendChild(inserir);
+    document.getElementsByClassName("meme-image-container")[0].appendChild(inserir);
 }
