@@ -10,8 +10,10 @@ position: absolute;
 z-index: 1;
 font-size: 100px;
 text-align: center;
+color: rgb(59, 45, 45);
 }
 #meme-image-container img{
 position: absolute;
 z-index: 0;
+width: 1000px;
 }
