@@ -16,12 +16,12 @@
   <section>
     <div id="containerInserts">
       <h1>Gerador de Memes</h1>
-      <form id="sectionMemeInsert">
+      <form  id="meme-insert" id="sectionMemeInsert">
         <label for="meme-insert">Escolha sua imagem:</label>
         <input id="meme-insert" type="file" accept="imagens/*" onchange="loadFile(event)" />
       </form>
 
-      <form id="sectionTextInsert">
+      <form id="sectionTextInsert" id="text-input">
         <label for="text-input">Digite seu texto aqui:</label>
         <input id="text-input" type="text" oninput="mostraTexto()" maxlength="60" />
       </form>
