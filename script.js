@@ -1,18 +1,18 @@
 
-let textIn = document.getElementById("text-input");
+// let textIn = document.getElementById("text-input");
 
-let textOut = document.getElementById("meme-text");
+// let textOut = document.getElementById("meme-text");
 
-let image = document.getElementById("meme-image");
+// let image = document.getElementById("meme-image");
 
-textIn.addEventListener('keyup', changetxt);
+// textIn.addEventListener('keyup', changetxt);
 
-function changetxt() {
-    textIn.value.toUpperCase();
-    textOut.innerHTML = textIn.value;
-}
+// function changetxt() {
+//     textIn.value.toUpperCase();
+//     textOut.innerHTML = textIn.value;
+// }
 
-function loadImage() {
-    image.src = URL.createObjectURL(event.target.files[0]);
-}
+// function loadImage() {
+//     image.src = URL.createObjectURL(event.target.files[0]);
+// }
  
