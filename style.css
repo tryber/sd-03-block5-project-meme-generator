@@ -17,7 +17,7 @@ body {
     border-bottom: 1.5px solid black;
 }
 
-#inpImage {
+#meme-image {
     position: relative;
     top: -2px;
     margin-left: 5px;
@@ -34,7 +34,8 @@ body {
 .display-field {
     width: 350px;
     min-height: 250px;
-    border: 2px solid gray;
+    background-color: white;
+    border: 1px solid black;
     margin-top: 15px;
     display: flex;
     align-items: center;
@@ -72,7 +73,7 @@ body {
     top: 220px;
 }
 
-#top-phrase {
+#meme-text {
     font-family: Impact, sans-serif;
     font-size: 1.25em;
     color: white;

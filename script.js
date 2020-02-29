@@ -15,8 +15,8 @@ let textTop = document.querySelector('#texto-cima');
 console.log(textTop);
 
 function overlaidTop() {
-    let text = document.querySelector('#texto-cima').value;
-    document.querySelector('#top-phrase').innerHTML = text;
+    let text = document.querySelector('#text-input').value;
+    document.querySelector('#meme-text').innerHTML = text;
 }
 
 function overlaidBot() {
