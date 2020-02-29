@@ -20,9 +20,13 @@ function textoImagem() {
 }
 
 function mudaborda(event) {
-  // let button = document.getElementsByClassName(event.target.classList[0])[0];
-  let customizacao = event.target.style.border;
+  let customizacao = window.getComputedStyle(event.target).border;
   let div = document.getElementById('meme-image-container');
-  
   div.style.border = customizacao;
+}
+
+function memePronto(event) {
+  let img = event.target;
+  let meme_imagem = document.getElementById('meme-image')
+  meme_imagem.src = img.src;
 }

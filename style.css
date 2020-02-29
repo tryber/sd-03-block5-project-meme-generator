@@ -8,7 +8,7 @@ div {
   height: 500px;
   position: relative;
   text-align: center;
-  top: 2%;
+  top: 2em;
   width: 750px;
 }
 
@@ -19,7 +19,7 @@ form {
 }
 
 div p {
-  color: black;
+  color: white;
   font-size: 200%;
   font-weight: bold;
   left: 50%;
@@ -29,7 +29,7 @@ div p {
   width: 100%;
 }
 
-img {
+.imagem-principal {
   height: 500px;
   max-height:500px;
   max-width: 750px;
@@ -39,15 +39,12 @@ img {
 }
 
 section {
-  display: inline-block;
+  display: block;
   margin-top: 2%;
-  position: relative;
-  left: 10px;
 }
 
 .buttons {
-  display: block;
-  margin: 1em 2em;
+  display: inline;
   padding: 7px;
 }
 
@@ -67,4 +64,9 @@ section {
   border-color: green;
   border-style: groove;
   border-width: 6px;
+}
+
+.miniaturas {
+  margin-left: 20px;
+  width: 100px;
 }
