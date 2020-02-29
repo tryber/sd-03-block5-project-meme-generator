@@ -10,6 +10,37 @@ body{
     width: 100%;
 }
 
+.memes{
+    width: 500px;
+    height: 105px;
+    background-color: darkgoldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -36px;
+    margin-top: 10px;
+}
+
+.meme1{
+    width: 100px;
+    height: 100px;
+    margin: 2px
+}
+
+.meme2{
+    width: 100px;
+    height: 100px;
+}
+
+.meme3{
+    width: 100px;
+    height: 100px;
+}
+
+.meme4{
+    width: 100px;
+    height: 100px;
+}
+
 .digite{
     margin: 5px;
 }

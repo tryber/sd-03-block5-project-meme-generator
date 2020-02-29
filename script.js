@@ -18,8 +18,33 @@ botao3.addEventListener('click', borda3);
 borda = document.getElementById("meme-image-container");
 
 function exibir(){
-  document.getElementById("meme-text").innerHTML = texto.value;
+    document.getElementById("meme-text").innerHTML = texto.value;
 }
+
+function mostraMeme1() {
+    let meme = document.getElementById("meme1");
+    let imagem = document.getElementById('meme-image');
+    imagem.src = meme.src;
+}
+
+function mostraMeme2() {
+    let meme = document.getElementById("meme2");
+    let imagem = document.getElementById('meme-image');
+    imagem.src = meme.src;
+}
+
+function mostraMeme3() {
+    let meme = document.getElementById("meme3");
+    let imagem = document.getElementById('meme-image');
+    imagem.src = meme.src;
+}
+
+function mostraMeme4() {
+    let meme = document.getElementById("meme4");
+    let imagem = document.getElementById('meme-image');
+    imagem.src = meme.src;
+}
+
 
 function borda1(){
     borda.style.borderColor = "red";
