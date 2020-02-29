@@ -16,8 +16,8 @@
                     <label for="meme-insert">Selecionar imagem:</label>
                     <input type="file" id="meme-insert" class="meme-insert" accept="image/*" onchange="loadFile(event)">
                 </form>
-                <form class="text">
-                    <label for="text-input">Texto do meme:</label>
+                <form id="text-input" class="text">
+                    <label id="text-input" for="text-input">Texto do meme:</label>
                     <input type="text" id="text-input" class="text-input" oninput="mostraTexto()" maxlength="60">
                 </form>
             </section>
