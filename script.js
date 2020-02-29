@@ -1,6 +1,6 @@
 function preview(event) {
     var reader = new FileReader();
-    var campo = document.querySelector('.imagem-selecionada');
+    var campo = document.querySelector('#meme-image');
 
     reader.onload = function() {
         if (reader.readyState == 2) {

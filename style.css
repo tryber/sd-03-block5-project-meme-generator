@@ -36,6 +36,7 @@ body {
     min-height: 250px;
     background-color: white;
     border: 1px solid black;
+    position: relative;
     margin-top: 15px;
     display: flex;
     align-items: center;
@@ -74,16 +75,17 @@ body {
 }
 
 div p {
+    word-wrap: break-word;
     margin: 0px;
     font-family: Impact, sans-serif;
     font-size: 1.35em;
     color: white;
-    top: 250px;
+    top: 5px;
     position: absolute;
     height: 75px;
-    left: 15px;
+    /* left: 15px; */
     overflow: hidden;
-    width: 30%;
+    width: 100%;
     letter-spacing: 0.15em;
     text-shadow: 0.7px 0.7px black;
 }
