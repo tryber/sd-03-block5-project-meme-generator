@@ -9,7 +9,7 @@ header {
 }
 #forms {
     float: left;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 10%;
 }
 #meme-image-container {
@@ -40,4 +40,7 @@ header {
 #meme-image {
     height: inherit;
     width: inherit;
+}
+.loadedPhotos {
+    height: 100px;
 }

@@ -18,15 +18,20 @@
             <label for="sentence">Meme text:</label>
             <input maxlength="60" type="text" id="text-input" name="sentence">
         </form>
+        <p>Choose your photo: </p>
+        <img id="meme1" class="loadedPhotos" src="imgs/caetanoveloso.jpg">
+        <img id="meme2" class="loadedPhotos" src="imgs/dinossaur.jpg">
+        <img id="meme3" class="loadedPhotos" src="imgs/sadfrog.jpg">
+        <img id="meme4" class="loadedPhotos" src="imgs/success.jpg">
         <form>
-            <label for="image">Select a file:</label>
+            <label for="image">Or choose a file:</label>
             <input name="image" id="meme-insert" type="file" multiple="false" accept="image/*" onchange="upload()">
         </form>
-        
         <p>Choose your own border:</p>
         <button id="button1">3px, dashed, red</button>
         <button id="button2">5px, double, blue</button>
         <button id="button3">6px, groove, green</button>
+        
     </section>
     <section id="meme-image-container">
         <p id="meme-text"></p>
