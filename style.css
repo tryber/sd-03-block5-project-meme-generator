@@ -17,5 +17,5 @@
   position: absolute;
   width: 300px;
   word-wrap: break-word;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; 
 }

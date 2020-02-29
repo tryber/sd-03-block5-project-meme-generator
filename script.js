@@ -13,6 +13,6 @@ window.onload = function () {
 
   function inputText(input) {
     memeText.textContent = input.target.value;
-  }
+  } 
   addText.addEventListener("beforeinput", inputText);
 }
