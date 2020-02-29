@@ -45,11 +45,11 @@ h1 {
   background-color: white;
   border: 1px solid black;
   display: flex;
-  height: 410px;
+  height: 400px;
   justify-content: center;
   margin: 10px;
   position: relative;
-  width: 410px;
+  width: 400px;
 }
 
 .meme-txt {
@@ -87,6 +87,6 @@ h1 {
   border: 6px groove green;
 }
 
-.meme-selector{
+.meme-selector {
   width: 100px;
 }
