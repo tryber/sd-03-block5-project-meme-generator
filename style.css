@@ -19,8 +19,9 @@
     background-color: white;
 }
 #meme-image-container{
+    width: 600px;
+    height: 500px;
+    border: 1px;
     border-color: black;
     border-style: solid;
     background-color: white;
-    border: 1px;
-}
