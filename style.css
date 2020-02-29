@@ -12,15 +12,17 @@
 }
 .meme-image{
 
-  height: 499px;
-  width: 599px;
+  height: 450px;
+  width: 550px;
+  margin: 5px;
 }
 
 #meme-text{
   position:absolute;
-  max-width: 500px;
-  max-height: 600px;
+  max-width: 430px;
+  max-height: 540px;
   word-break: break-all;
+  padding: 20px;
   top:10px;
   font-size: 40px;
 
@@ -35,3 +37,6 @@
 
 }
 
+#novocont {
+  position: relative;
+}
