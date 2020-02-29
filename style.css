@@ -1,3 +1,11 @@
+#title {
+    text-align: center;
+}
+
+#article {
+    background-color: rgba(186, 209, 205, 1);
+}
+
 .lado-esquerdo {
     float: left;
 }
@@ -30,9 +38,9 @@
     border-color: black;
     border-style: solid;
     border-width: 1px;
+    margin-bottom: 20px;
     height: 400px;
     width: 400px;
-    margin-bottom: 20px;
 }
 
 .editText {
