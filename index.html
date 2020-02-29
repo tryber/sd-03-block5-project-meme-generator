@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css">        
 </head>
 <body>
-    <header id="inputer">
-        <h1>MEME GENERATOR</h1>
-        <div>
-            <h3>Select image: <input type="file" id="meme-input" name="input-img" accept="image/png, image/jpeg" onchange="loadImage(event)"></h3>
-            <h3>Your text in meme: <input type="text" id="text-input" placeholder="Seu texto" maxlength="60"></h3>            
+    <h1>MEME GENERATOR</h1>
+        <div id="imputer">
+            <h3>Select image:</h3><input type="file" id="meme-input" name="input-img" accept="image/png, image/jpeg" onchange="loadImage(event)">
         </div>
-    </header>
+        <div id="box-txt">
+            <h3>Your text in meme:</h3><input type="text" id="text-input" placeholder="Seu texto" maxlength="60">
+        </div>   
         <article>
             <section>
                 <div id="boxImg">
