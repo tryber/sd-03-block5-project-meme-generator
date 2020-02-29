@@ -4,18 +4,15 @@
 }
 
 #geral {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
   position: relative;
   width: 400px;
   height: 300px;
 }
 
-#meme-image-container {
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
-}
-
-#filho {
+#meme-text {
   width: 100%;
   position: absolute;
   float: left;
