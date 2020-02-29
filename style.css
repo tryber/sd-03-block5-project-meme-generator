@@ -1,5 +1,6 @@
 .caixa-img {
   background-color: white;
+  /* se nada funcionar, separa o border em 3 parametros */
   border: solid 1px black;
   height: 600px;
   padding: 10px;
@@ -12,6 +13,7 @@
   position: absolute;
   width: 600px;
   z-index: 0;
+  background-color: black;
 }
 
 .meme-text {

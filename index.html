@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Meme Generator</h1>
+
     <div class="text-box">
-      <h1>Meme Generator</h1>
+      <h3>Insira texto do meme abaixo:</h3>
       <input type="text" name="text" id="text-input" maxlength="60" />
     </div>
 
     <div class="procura-img">
-      <input type="file" name="img" id="meme-insert" onchange="loadImage(event)">
+      <input type="file" name="img" id="meme-insert" accept="image/png, image.jpeg" onchange="loadImage(event)">
     </div>
 
-    <div class="botoes">
+    <div class="buttons">
+      <h3>Selecione o estilo de borda:</h3>
       <button id="button1" class="button1">red</button>
       <button id="button2" class="button2">blue</button>
       <button id="button3" class="button3">green</button>
