@@ -18,3 +18,28 @@ function upload() {
         reader.readAsDataURL(file);
       }
   }
+
+let firstButton = document.querySelector("#button1");
+firstButton.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image-container");
+    box.style.borderStyle="dashed";
+    box.style.borderColor="red";
+    box.style.borderWidth="3px";
+})
+
+let secondButton = document.querySelector("#button2");
+secondButton.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image-container");
+    box.style.borderStyle="double";
+    box.style.borderColor="blue";
+    box.style.borderWidth="5px";
+})
+
+let thirdButton = document.querySelector("#button3");
+thirdButton.addEventListener("click", function(event){
+    let box = document.querySelector("#meme-image-container");
+    box.style.borderStyle="groove";
+    box.style.borderColor="green";
+    box.style.borderWidth="6px";
+})
+

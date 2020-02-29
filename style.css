@@ -25,6 +25,8 @@ header {
   width: 500px;
 }
 #meme-text {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   bottom: 0;
   color: white;
   font-family: 'Roboto';
@@ -34,8 +36,6 @@ header {
   overflow-wrap: break-word;
   position: absolute;
   width: inherit;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
 }
 #meme-image {
     height: inherit;
