@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <script type="text/javascript" src="./script.js"></script>
-        <title>Gerador de Memes by Marco Barbosa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <title>Meme Generator</title>
     </head>
-    <header>
-        <nav></nav>
-    </header>
     <body>
-        <article>
-            <section>
-                    <form>
-                        <label for="meme-insert">Escolha a Imagem</label>
-                        <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
-                    </form>
-                    <br>
-                    <form>
-                        <label for="text-input">Escreva Seu Texto Aqui:</label>
-                        <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60">
-                    </form>
-                </section>
-                <section>
-                    <div id="meme-image-container" class="moldura">
-                        <img src="" id="meme-image" class="imagem" alt="Imagem do Meme">
-                    </div>
-                    <p id="meme-text"></p>
-                </section>
+        <header id="title">
+        <header class="title">
+            <h1>Meme Generator</h1>
+        </header>
+        <article id="article">
+        <article class="article">
+            <section class="lado-esquerdo">
+                <form class="image">
+                    <label for="meme-insert">Selecionar imagem:</label>
+                    <input type="file" id="meme-insert" accept="image/*" onchange="loadFile(event)">
+                </form>
+                <form class="text">
+                    <label for="text-input">Texto do meme:</label>
+                    <input type="text" id="text-input" maxlength="60">
+                </form>
+            </section>
+            <section class="lado-direito">
+                <div class="moldura" id="meme-image-container">
+                    <img id="meme-image" alt="Imagem do Meme">
+                </div>
+                <p class="editText" id="meme-text"></p>
+            </section>
         </article>
-        <footer></footer>
+        <footer>
+            <p>Página desenvolvida por Marco Barbosa em Fevereito de 2020.</p>
+        </footer>
+        <script src="./script.js"></script>
     </body>
 </html>
