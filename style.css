@@ -1,4 +1,13 @@
-div#meme-image-container{
+#meme-image-container{
     position: absolute;
     border: 1px solid black;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    
+}
+#meme-image{
+    object-fit: fill;
+    object-position: 50% 50%;
 }
