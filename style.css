@@ -1,11 +1,16 @@
 
+.style-image {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
 .style-text {
   position: absolute;
   top: 500px;
   left: 55px;
   width: 350px;
   height: 130px;
-  overflow-y: scroll;
+  
   margin-bottom: 5px;
   word-break: break-word;
 }
