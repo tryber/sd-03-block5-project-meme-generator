@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeMe generator v0.5</title>
+    <title>MeMe generator v0.7</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -15,7 +15,8 @@
         <p><label>Frase a se inserir na parte de cima da imagem: </label>
             <input type="text" id="text-input" class="cxTextoFrases" onkeyup="insereTexto()" name="comment" maxlength="60">
             <label>Frase a se inserir embaixo da imagem: </label>
-            <input type="text" id="text-input2" class="cxTextoFrases" onkeyup="insereTexto()" name="comment" maxlength="60"></p></form>
+            <input type="text" id="text-input2" class="cxTextoFrases" onkeyup="insereTexto()" name="comment" maxlength="60"></p>
+        </form>
     </header>
     <article>
         <div class=geral>
@@ -33,10 +34,10 @@
                     </select>
                 </ul>
             </div>
-            <div class="containerImagemTexto">
-                <div id="meme-text" class="textoCima"></div>
+            <div id="meme-image-container" class="containerImagemTexto">
+                <p id="meme-text" class="textoCima"></p>
                 <img id="meme-image" class="imagem-meme">
-                <div id="meme-text2" class="textoBaixo"></div>
+                <p id="meme-text2" class="textoBaixo"></p>
             </div>
         </div>
     </article>

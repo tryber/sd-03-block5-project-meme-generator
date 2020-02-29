@@ -8,6 +8,8 @@ header {
 
 .geral {
     background-color: midnightblue;
+    display: flex;
+    flex-wrap: wrap;
     padding-bottom: 15px;
     padding-top: 15px;
     width: 100%;
@@ -27,16 +29,19 @@ header {
 
 .imagem-meme {
     display: block;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .containerImagemTexto {
     background-color: white;
     border: 1px solid black;
-    height: auto;
+    height: 500px;
     margin: auto;
-    width: 60%;
+    position: relative;
+    width: 500px;
 }
 
 .cxTextoFrases {
@@ -47,26 +52,27 @@ header {
     color: gray;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 30pt;
-    left: 0%;
+    left: 0;
     overflow: hidden;
     position: absolute;
     text-align: center;
     text-overflow: ellipsis;
+    top: 0px;
     width: 100%;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 .textoBaixo {
-    bottom: 120px;
+    bottom: 0px;
     color: gray;
     display: block;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 30pt;
-    left: 0%;
+    left: 0;
     overflow: hidden;
     position: absolute;
     text-align: center;
     text-overflow: clip;
     width: 100%;
-    word-wrap: break-word;
+    word-wrap: break-all;
 }
