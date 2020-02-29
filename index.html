@@ -6,22 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gerador Meme</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header>
         <h1>Gerador de Meme</h1>
         <form>
             <label id="titleImg">Escolha sua Imagem: </label><br>
-            <input type="file" value="imgMeme" id='meme-insert' size="24"><br>
+            <input type="file"  accept="image/*" name="image" id=""  onchange="loadFile(event)">
             <p id="meme-text">Digite seu Meme: </p><br>
-            <input type="text" id='meme-text'>
+            <input type="text" id='text-input'>
         </form>
-        <figure>
-            <img src="" id='meme-image'>
-        </figure>
     </header>
-    <article id="area">
+    <div id='meme-image-container'>
+        <figure>
+            <img id='meme-image'>
+        </figure>
+    </div>
+    <article id='text-input'>
         <section></section>
     </article>
     
