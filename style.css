@@ -24,7 +24,7 @@ body {
   width: 700px;
 }
 
-#meme-image {
+.meme-image {
   border: 1px solid black;
   height: 600px;
   margin-left: auto;
@@ -34,7 +34,7 @@ body {
   z-index: 0;
 }
 
-#meme-text {
+.meme-text {
   color: yellow;
   font-size: xx-large;
   font-weight: bolder;
