@@ -4,9 +4,9 @@ window.onload = function(){
     let textInput = document.getElementById('text-input');
     let imagemInput = document.getElementById('meme-insert');
     let memeTxt = document.getElementById("meme-text");
-    let btn1 = document.getElementById("button-1")
-    let btn2 = document.getElementById("button-2")
-    let btn3 = document.getElementById("button-3")
+    let btn1 = document.getElementById("button1")
+    let btn2 = document.getElementById("button2")
+    let btn3 = document.getElementById("button3")
    
     function memeTxtInput(){
         memeTxt.innerText = textInput.value;
