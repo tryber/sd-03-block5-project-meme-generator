@@ -1,4 +1,4 @@
-/* window.onload = function () {
+window.onload = function () {
   let addImage = document.getElementById("meme-insert");
   let addText = document.getElementById("text-input");
   let memeText = document.getElementById("meme-text");
@@ -15,4 +15,4 @@
     memeText.textContent = input.target.value;
   }
   addText.addEventListener("beforeinput", inputText);
-} */
+}
