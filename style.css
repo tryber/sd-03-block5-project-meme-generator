@@ -1,7 +1,12 @@
 body{
 background-color:gray;
 }
-.moldura,img{
+img{
+height:400px;
+width:400px;
+z-index: 2;    
+}
+.moldura{
 background-color:white;
 height:400px;
 position: relative;
@@ -15,5 +20,5 @@ font-size: xx-large;
 left: 16px;
 position: absolute;
 text-align: left;
-z-index: 2;
+z-index: 3;
 }
