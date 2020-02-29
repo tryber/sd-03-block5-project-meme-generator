@@ -6,9 +6,6 @@ body {
 .title {
     color: rgba(103, 89, 122, 1);
     text-align: center;
-}
-
-.title h1 {
     margin: 20px 0 2px;
 }
 
