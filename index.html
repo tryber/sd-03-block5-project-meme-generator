@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <script type="text/javascript" src="./script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
         <title>Gerador de Memes by Marco Barbosa</title>
     </head>
     <header>
@@ -16,8 +16,7 @@
                     <form>
                         <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
                         <br>
-                        <label>Escreva Seu Texto Aqui:</label>
-                        &nbsp;
+                        <label for="text-input">Escreva Seu Texto Aqui:</label>
                         <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60">
                         <br>
                     </form>
