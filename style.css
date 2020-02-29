@@ -1,0 +1,27 @@
+#meme-image-container{
+  border: 1px solid black;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  text-overflow: ellipsis;
+  object-fit: contain;
+  align-content: center;
+  display: block;
+  background-color: white;
+}
+
+#memeText  {
+  font-size: 30pt;
+  text-overflow: ellipsis;
+  width: 500px;
+  align-self: auto;
+  position: absolute;
+
+
+}
+
+#loadedImage{
+  max-width: 500px;
+  max-height: 500px;
+}
