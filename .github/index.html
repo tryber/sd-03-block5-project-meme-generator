@@ -11,20 +11,25 @@
 
 <body>
   <header>
-    <form>
-      <label for="imagem">Escolha a Imagem</label><br>
-      <input type="file" id="meme-insert"><br>
-    </form>
-    <form>
-      <label for="text">Texto</label><br>
-      <input type="text" id="text-input">
-    </form>
-
-    <div>
-      <p id="meme-text"></p>
-      <img id="meme-image">
-    </div>
+    <section>
+      <form>
+        <label for="imagem">Escolha a Imagem</label><br>
+        <input type="file" id="meme-image"><br>
+      </form>
+    </section>
+    <section>
+      <form>
+        <label for="text">Texto</label><br>
+        <input type="text" id="text-input">
+      </form>
+    </section>
   </header>
+  <article>
+    <div>
+      <p class="meme-text" id="meme-text"></p>
+      <img class="meme-image-container" id="meme-image-container">
+    </div>
+  </article>
 </body>
 
 </html>

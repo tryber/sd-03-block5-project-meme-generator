@@ -1,13 +1,16 @@
-#meme-text {
+.meme-text {
   display: inline-block;
-  max-width: 400px;
+  font-size: 35px;
+  height: 160px;
+  left: 20px;
   overflow: hidden;
   position: absolute;
+  width: 300px;
   word-wrap: break-word;
   text-overflow: ellipsis;
 }
 
-#meme-image {
+.meme-image-container {
   border: solid;
   background: white;
   color: black;
@@ -15,5 +18,3 @@
   margin: 1px;
   width: 400px;
 }
-
-#text-input {}
