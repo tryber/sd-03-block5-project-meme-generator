@@ -4,31 +4,31 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" type="text/css" href="./style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="./script.js"></script>
         <title>Gerador de Memes by Marco Barbosa</title>
-
     </head>
     <header>
         <nav></nav>
     </header>
-    <article>
-        <div>
-            <form>
-                <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
-                <br>
-                <label>Escreva Seu Texto Aqui:</label>
-                &nbsp;
-                <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60">
-                <br>
-            </form>
-            <br>
-            <div id="meme-image-container" class="moldura">
-                <img id="meme-image" class="imagem">
-                <p id="meme-text"></p>
-            </div>
-        </div>
-    </article>
+        <article>
+            <section>
+                <div>
+                    <form>
+                        <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+                        <br>
+                        <label>Escreva Seu Texto Aqui:</label>
+                        &nbsp;
+                        <input type="text" id="text-input" oninput="mostraTexto()" maxlength="60">
+                        <br>
+                    </form>
+                    <br>
+                    <div id="meme-image-container" class="moldura">
+                        <img id="meme-image" class="imagem">
+                        <p id="meme-text"></p>
+                    </div>
+                </div>
+            </section>
+        </article>
     <body>
     </body>
 </html>
