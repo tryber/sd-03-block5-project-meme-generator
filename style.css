@@ -1,6 +1,6 @@
-div {
+.meme-image-container {
     align-content: center;
-    background-color: black;
+    background-color: white;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;

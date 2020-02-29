@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,20 +12,24 @@
 
     <body>
         <header>
-            <h1>Gerador de Meme</h1>
+            <section>
+                <h1>Gerador de Meme</h1>
+            </section>
             <form>
-                <label id="titleImg">Escolha sua Imagem: </label><br>
-                <input type="file" accept="image/*" name="image" id="meme-insert" onchange="loadFile(event)">
+                <section>
+                    <label id="titleImg">Escolha sua Imagem: </label><br>
+                    <input type="file" accept="image/*" name="image" id="meme-insert" onchange="loadFile(event)">
+                </section>
             </form>
             <form>
-                <p id="meme-text">Digite seu Meme: </p><br>
-                <input type="text" id='text-input'>
+                <section>
+                    <label id="meme-text">Digite seu Meme:</label><br>
+                    <input type="text" id='text-input'>
+                </section>
             </form>
         </header>
-        <div id='meme-image-container'>
-            <figure>
-                <img id='meme-image' class="meme-image">
-            </figure>
+        <div id='meme-image-container' class='meme-image-container'>
+            <img id='meme-image' class="meme-image">
         </div>
         <article>
             <section>
