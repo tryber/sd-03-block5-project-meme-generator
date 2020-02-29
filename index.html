@@ -13,36 +13,27 @@
   <header>
 
   </header>
-
-  <section id="containerInserts">
-    <section>
-
-      <section id="sectionMemeInsert">
-
+  <section>
+    <div id="containerInserts">
+      <h1>Gerador de Memes</h1>
+      <form id="sectionMemeInsert">
         <label for="meme-insert">Escolha sua imagem:</label>
-        &nbsp;
+        <input id="meme-insert" type="file" accept="imagens/*" onchange="loadFile(event)" />
+      </form>
 
-        <input type="file" accept="imagens/*" onchange="loadFile(event)" id="meme-insert" id="meme-image"/>
-
-      </section>
-
-      <section id="sectionTextInsert">
-
+      <form id="sectionTextInsert">
         <label for="text-input">Digite seu texto aqui:</label>
-        &nbsp;
+        <input id="text-input" type="text" oninput="mostraTexto()" maxlength="60" />
+      </form>
+    </div>
+  </section>
 
-        <input id="text-input"  type="text" oninput="mostraTexto()" maxlength="60" />
-      </section>
-
-    </section>
-
+  <section>
     <div class="posicaoDaImagem">
       <img id="meme-image" class="imagem" alt="meme" />
       <p id="meme-text"></p>
-    </div>
     </div>
   </section>
 </body>
 
 </html>
-
