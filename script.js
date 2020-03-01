@@ -26,3 +26,31 @@ document.getElementById("button3").addEventListener("click",function () {
     let imageContainer = document.getElementById("meme-image-container");
     imageContainer.style.border="6px groove green";    
  })
+
+  let meme1 = document.querySelector("#meme1");
+  console.log(meme1.getAttribute("src"));
+meme1.addEventListener("click", function() {
+    let memeImagem = document.getElementById("meme-image");
+    memeImagem.setAttribute("src",meme1.getAttribute("src"));
+})
+
+let meme2 = document.querySelector("#meme2");
+  console.log(meme2.getAttribute("src"));
+meme2.addEventListener("click", function() {
+    let memeImagem = document.getElementById("meme-image");
+    memeImagem.setAttribute("src",meme2.getAttribute("src"));
+})
+
+let meme3 = document.querySelector("#meme3");
+  console.log(meme3.getAttribute("src"));
+meme3.addEventListener("click", function() {
+    let memeImagem = document.getElementById("meme-image");
+    memeImagem.setAttribute("src",meme3.getAttribute("src"));
+})
+
+let meme4 = document.querySelector("#meme4");
+  console.log(meme4.getAttribute("src"));
+meme4.addEventListener("click", function() {
+    let memeImagem = document.getElementById("meme-image");
+    memeImagem.setAttribute("src",meme4.getAttribute("src"));
+})

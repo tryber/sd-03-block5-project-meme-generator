@@ -10,23 +10,29 @@
 <body>
    
     <form action="">
+        <p>Selecione uma imagem para meme no seu computador </p>
         <input id="text-input" maxlength="60"/>
         <br>
-        <br>
-
-        <label for="img">Select image:</label>
+              <label for="img">Select image:</label>
         <input id="meme-insert" type="file" id="img" name="img" accept="image/*">
     </form>
     <br>
     <br>
-     <button id="button1">Style 01</button>
-     <button id="button2">Style 02</button>
-     <button id="button3">Style 03</button>
+     
     <div id="meme-image-container">
       <img id="meme-image" src="" alt="imagem para o Meme">
       <p id="meme-text"></p>
-
     </div>
+    <div id="meme-selected">
+        <button id="button1">Style 01</button>
+        <button id="button2">Style 02</button>
+        <button id="button3">Style 03</button>
+        <p> Ou escolha uma das imagens abaixo para criar seu meme</p>
+        <img id="meme1" src="imgs/meme1.jpeg" alt="imagem para o Meme 1">
+        <img id="meme2" src="imgs/meme2.jpeg" alt="imagem para o Meme 2">
+        <img id="meme3" src="imgs/meme3.jpeg" alt="imagem para o Meme 3">
+        <img id="meme4" src="imgs/meme4.jpeg" alt="imagem para o Meme 4">
+      </div>
     <script src="script.js"></script>
 </body>
 </html>
