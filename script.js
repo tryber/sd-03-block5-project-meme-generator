@@ -20,7 +20,7 @@ function changetxt () {
 function loadImg () {
     imageLoad.src = URL.createObjectURL(event.target.files[0]);
 }
- 
+
 function border1 () {
     imgChan.style.border = "3px dashed red"
 }
