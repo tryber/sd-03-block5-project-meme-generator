@@ -1,6 +1,11 @@
+body {
+    background-color: teal;
+}
+
 .container {
     position: relative;
     overflow: hidden;
+    background-color: white;
 }
 
 .texto {
