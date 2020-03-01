@@ -7,7 +7,7 @@ window.onload= function(){
     Text.addEventListener("keydown", TextoDinamico)
 
     function loadFile() {
-        let image = document.getElementsByClassName("meme-image")[0];
+        let image = document.getElementById("meme-image");
         image.src = URL.createObjectURL(event.target.files[0]);
         image.innerHTML=TextImg.target.value
     };
