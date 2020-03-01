@@ -1,4 +1,4 @@
-//variaveis
+
 let texto = document.getElementById("text-input");
 let memeText = document.getElementById("meme-text");
 texto.addEventListener("keyup", writeText);
