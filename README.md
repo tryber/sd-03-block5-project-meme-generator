@@ -78,6 +78,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 
 ### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
 - O elemento da imagem deve possuir um id chamado 'meme-image'.
+- O elemento onde é feito o upload da imagem deve ser identificado com o id 'meme-insert'
 - A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'
 - O texto de quem usa deve ser inserido sobre a imagem escolhida.
 
