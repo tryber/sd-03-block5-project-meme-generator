@@ -1,38 +1,38 @@
-body{
-  background:darkgrey;
+body {
+  background: darkgrey;
 }
-header{
+
+header {
   background: darkred;
   text-align: center;
   width: auto;
 }
-.editImage {
+
+.containerImage {
+  border: solid;
   background-color: white;
   border: 1px solid black;
   height: 400px;
-  margin: auto;
-  position: absolute;
   width: 400px;
-  z-index: 0;
 }
 
-.editText {
-  font-size: 35px;
-  overflow: hidden;
+.memeText {
+  color: black;
+  font-size: 19px;
+  overflow-wrap:break-word;
   position: relative;
-  width: 400px;
-  word-wrap: break-word;
   text-align: center;
   z-index: 1;
 }
 
 .imagem {
-  display: block;
+  display: inline-block;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
   width: 100%;
+  z-index: 0;
 }
-.meme-image-container{
+
+.meme-image-container {
   position: absolute;
 }

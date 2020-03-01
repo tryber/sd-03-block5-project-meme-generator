@@ -12,19 +12,25 @@
   <header>
     <h1>Criando Meme</h1>
     <form action="">
-      <label for="img">Escolha a Imagem</label><br>
-      <input id="meme-insert" type="file" id="img" name="img" accept="image/*"><br>
       <label for="text">Texto para o Meme!</label><br>
       <input type="text" class="text" id="text-input" name="comment" maxlength="60">
+      <br>
+      <br>
+      <label for="img">Escolha a Imagem</label><br>
+      <input id="meme-insert" type="file" id="img" name="img" accept="image/*"><br>
+
     </form>
   </header>
   <article>
-    <section>
-      <div class="editImage" id="meme-image-container">
-        <img id="meme-image" src="" alt="">
-      </div>
-      <p class="editText" id="meme-text"></p>
-    </section>
+    <div>
+      <button id="button1">Style 01</button>
+      <button id="button2">Style 02</button>
+      <button id="button3">Style 03</button>
+    </div>
+    <div class="containerImage" id="meme-image-container">
+      <img class="imagem" id="meme-image" src="" alt="">
+      <p class="memeText" id="meme-text"></p>
+    </div>
   </article>
   <script src="script.js"></script>
 </body>
