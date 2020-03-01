@@ -4,11 +4,13 @@ body {
 
 .container {
   background-color: white;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
   height: 400px;
   overflow: hidden;
   position: relative;
   width: 500px;
-  border: 1px black solid;
 }
 
 .texto {
