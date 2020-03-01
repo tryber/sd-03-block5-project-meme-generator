@@ -1,9 +1,11 @@
-body{
+body {
   background-color: cornflowerblue;
 }
+
 form {
   margin: auto;
 }
+
 #meme-image-container {
   border: 1px solid black;
   width: 500px;
@@ -24,7 +26,6 @@ form {
 #meme-image {
   max-width: 490px;
   max-height: 480px;
-
 }
 
 #button1 {
