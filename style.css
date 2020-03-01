@@ -1,9 +1,10 @@
 
 #inputer {
+    font-family: arial;
     text-align: left;
 }
 
-.meme-text {
+.style-text {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 45px;
@@ -14,10 +15,11 @@
     top: 500px;
     width: 600px;
     z-index: 1;
+    word-break: break-all;
     -webkit-text-stroke: 2px black;
 }
 
-#boxImg {
+#meme-image-container {
     background-color: white;
     width: 600px;
     height: 600px;
@@ -25,7 +27,7 @@
     border: 1px solid black;
 }
 
-.meme-image {
+.style-image {
     position: absolute;
     z-index: 0;
     height: 600px;

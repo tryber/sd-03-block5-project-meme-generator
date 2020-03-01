@@ -9,15 +9,15 @@
 </head>
 <body>
     <h1>MEME GENERATOR</h1>
-        <div id="imputer">
+        <div id="inputer">
             <h3>Select image: <input type="file" id="meme-input" name="input-img" accept="image/png, image/jpeg" onchange="loadImage(event)"></h3>
             <h3>Your text in meme: <input type="text" id="text-input" placeholder="Seu texto" maxlength="60"></h3>
         </div>
         <article>
             <section>
-                <div id="boxImg">
-                    <p id="meme-text" class="meme-text"></p>
-                    <img id="meme-image" class="meme-image" alt="Imagem de um meme">
+                <div id="meme-image-container">
+                    <p id="meme-text" class="style-text"></p>
+                    <img id="meme-image" class="style-image" alt="Imagem de um meme">
                 </div>
             </section>
         </article>
