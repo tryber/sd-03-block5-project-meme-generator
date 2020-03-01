@@ -10,12 +10,13 @@
 </head>
 <body>
     <form>
-            <label type="text" id="text-input" maxlength="60">
+            <label for="text-input">digite o texto do seu meme:</label>
+            <input type="text" id="text-input" maxlength="60">
         <p>
             <label for="meme-insert" style="cursor: pointer;">            
                 Escolha uma imagem
             </label>
-            <label type="file" id="meme-insert" accept="image/*" style="display: none;">
+            <input type="file" id="meme-insert" accept="image/*" style="display: none;">
         </p>
         <section id="meme-image-container">         
             <img id="output" width="400" height="400" id="meme-image"/>
