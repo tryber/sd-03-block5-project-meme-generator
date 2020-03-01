@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meme Generator</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <h1> Meme Generator</h1>
         <form>
-            <label>Input Text : </label>
-            <input type="text" id="text-input" maxlength="60" ><br>
-            <label>Input Image : </label>
-            <input type="file" accept="image/*" id="meme-insert">
+            <input type="text" id="text-input" maxlength="60">
+            <label for="text-input">Escreva seu texto</label>
+            <br>
+            <br>
+            <label for="meme-insert"> Upload Image</label>
+            <input type="file" id="meme-insert" accept="image/gif, image/jpeg, image/png">
         </form>
-        <!--bloco branco para incerção do meme e das palavras-->
-        <div id = "caixa-branca">
-            <img id="meme-image" alt="foto de um meme">  
-            <p id="meme-text">whrite your meme</p>
-        </div> 
-        <script src="script.js"></script>
-    </body>
-</html>
+        
+        
+        <div id="caixa-branca" class="image-container">
+            <img id="meme-image" class="style-image" width="400px">
+            <span id="meme-text" class="style-text"></span>
+          </div>
+          <script type="text/javascript" src="script.js"></script>
+        </body>
+        </html>
