@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meme Generator Project</title>
     <link rel="stylesheet" type="text/css" href="style.css"></style>
+    <script src="script.js"></script>
 </head>
 <body>
     <form>
@@ -17,28 +18,10 @@
             Escolha uma imagem
         </label>
     </p>
-    <section class="branco">         
+    <section id="meme-image-container">         
         <img id="output" width="400" height="400" class="meme-image branco"/>
             <p id="meme-text" style="position: absolute;"></p>  
         
     <section>
-    <script>
-    window.onload= function(){
-        let Text=document.getElementById("text-input")
-        let TextImg= document.getElementById("meme-text")
-        function TextoDinamico(){
-            TextImg.innerText=Text.value
-        }
-        Text.addEventListener("keydown", TextoDinamico)
-
-        function loadFile() {
-            let image = document.getElementsByClassName("meme-image")[0];
-            image.src = URL.createObjectURL(event.target.files[0]);
-            image.innerHTML=TextImg.target.value
-        };
-        let im = document.getElementById('meme-insert');
-        im.addEventListener("change", loadFile)
-    }
-    </script>
 </body>
 </html>
