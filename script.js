@@ -1,27 +1,12 @@
-const inputFile = document.getElementById("inputFile");
-const container = document.getElementById("meme-image-container");
-const image = container.querySelector(".meme-insert");
+let mostraFoto = function(event) {
+    let imagem = document.getElementById('meme-image');
+    imagem.src = URL.createObjectURL(event.target.files[0]);
+  };
 
-function mostraTexto() {
-    let texto = document.getElementById("text-input").value;
-    document.getElementById("resultado").innerHTML =  texto;
+let texto = document.getElementById("text-input");
+texto.addEventListener('input', exibir);
+
+function exibir(){
+    document.getElementById("meme-text").innerHTML = texto.value;
 }
 
-
-inputFile.addEventListener("change", function() {
-    const file = this.files[0];
-    if (file) {
-        const reader = new FileReader();
-       
-        image.style.display = "block";
-
-        reader.addEventListener("load", function() {
-            image.setAttribute("src", this.result);        
-        });
-
-        reader.readAsDataURL(file);
-    } else {
-        image.style.display = "null";
-        image.setAttribute("src", "");
-    }
-});
