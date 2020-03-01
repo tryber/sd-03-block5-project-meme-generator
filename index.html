@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lan="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device.width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <title>Gerador de Memes</title>
+    </head>
+    <body>
+    <h1 id="title">Gerador de Memes!</h1>
+    <input type="file" accept="image/*" onchange="loadFile(event)" id="imgUpload">
+    <input type="text" id="text-input" maxlength="20" placeholder="Digite seu texto aqui:">   
+     
+            <div id = "meme-image-container">
+            <div id="img">
+                <div id="textOnImg">
+                </div>
+            </div>
+        </div>           
+    </body>
+   <script src="script.js"></script>
+   </html>

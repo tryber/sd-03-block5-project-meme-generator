@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy';
+}
+body {
+    background-color: silver;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#title {
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+#text-input {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-button: 10px;
+}
+
+#meme-image-container {
+    border: 1px solid black;
+    background-color: white;
+    width: 300px;
+    heigth:300px;
+    margin-top: 10px;
+    margin-button: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textDown {
+    width: 300px;
+    heigth: 20px;
+}
+
+#img {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+#textOnImg {
+    font-size: 25px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    display: flex;
+    align-itens: center;
+    justify-content: center;
+    color: rgb(243, 219, 0);
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    
+
+}
+
+#textImg {
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    margin-botton: 10px;
+
+}
+
+#textAbsolute {
+    
+
+}
+
+#txt {
+    display: flex;
+    justify-content: flex-start;
+    position:absolute;
+    width: 200px;
+    heigth:100px;
+    margin-top: 10px;
+    margin-button: 10px;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    margin: 2% auto;
+}
+
+.text-area {
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+
+}
