@@ -34,21 +34,28 @@ window.onload= function(){
     let bt3= document.getElementById("button3")
     bt3.addEventListener("click", TrocaBorda3)
 
-    function trocaImagen1(){
+    function trocaImagem1(){
         image.src="download.jpeg"
     }
-    let img1=this.document.getElementsByTagName("img")[1];
-    img1.addEventListener("click", trocaImagen1)
+    let img1=document.getElementById("meme1");
+    img1.addEventListener("click", trocaImagem1);
 
-    function trocaImagen2(){
-        image.src="XSYHaEkL.jpg"
+    function trocaImagem2(){
+        image.src="XSYHaEkL.jpeg"
     }
-    let img2=this.document.getElementsByTagName("img")[2];
-    img2.addEventListener("click", trocaImagen2)
+    let img2=document.getElementById("meme2");
+    img2.addEventListener("click", trocaImagem2);
 
-    function trocaImagen3(){
+    function trocaImagem3(){
         image.src="download (1).jpeg"
     }
-    let img3=this.document.getElementsByTagName("img")[3];
-    img3.addEventListener("click", trocaImagen3)
+    let img3=document.getElementById("meme3");
+    img3.addEventListener("click", trocaImagem3);
+
+    function trocaImagem4(){
+        image.src="267373.jpeg"
+    }
+    let img4=document.getElementById("meme4");
+    img4.addEventListener("click", trocaImagem4);
+
 }
