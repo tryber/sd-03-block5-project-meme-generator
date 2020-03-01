@@ -1,47 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gerador de memes</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
 
-  <body>
-    <header></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de memes</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
 
-    <section id="containerGeral" >
-      <div>
-        <h2>Gerador de Memes</h2>
-        <div id="caixaProcuraImagem">
-          <h3>Escolha sua imagem</h3>
-          <input
-            id="meme-insert"
-            type="file"
-            accept="imagens/*"
-            onchange="loadFile(event)"
-          />
-        </div>
+<body>
+  <header></header>
 
-        <div class="caixaTexto">
-          <h3>Digite seu texto</h3>
-          <input
-            id="text-input"
-            type="text"
-            oninput="mostraTexto()"
-            maxlength="60"
-          />
-        </div>
+  <section id="containerGeral">
+
+    <div>
+      <h2>Gerador de Memes</h2>
+      <div id="caixaProcuraImagem">
+        <h3>Escolha sua imagem</h3>
+        <input id="meme-insert" type="file" accept="imagens/*" onchange="loadFile(event)" />
       </div>
-    
 
-    <section>
-      <div class="posicaoDaImagem">
-        <img id="meme-image" class="imagem" alt="meme" />
-        <p id="meme-text"></p>
+      <div class="caixaTexto">
+        <h3>Digite seu texto</h3>
+        <input id="text-input" type="text" oninput="mostraTexto()" maxlength="60" />
       </div>
-    </section>
+
+
+
+      <section>
+        <div class="posicaoDaImagem">
+          <img id="meme-image" class="imagem" alt="meme" />
+          <p id="meme-text"></p>
+        </div>
+      </section>
   </section>
-  </body>
+</body>
+
 </html>
