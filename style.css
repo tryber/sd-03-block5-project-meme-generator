@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.texto {
+    position: absolute;
+    top: 0;
+}
