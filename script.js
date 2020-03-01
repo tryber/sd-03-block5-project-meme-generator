@@ -18,3 +18,19 @@ function overlaidTop() {
     let text = document.querySelector('#text-input').value;
     document.querySelector('#meme-text').innerHTML = text;
 }
+
+function changeborder1() {
+    document.querySelector('#meme-image-container').style.border = "3px dashed red";
+}
+
+function changeborder2() {
+    document.querySelector('#meme-image-container').style.border = "5px double blue";
+}
+
+function changeborder3() {
+    document.querySelector('#meme-image-container').style.border = "6px groove green";
+}
+
+function changeborder4() {
+    document.querySelector('#meme-image-container').style.border = "none";
+}
