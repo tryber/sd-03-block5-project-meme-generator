@@ -6,41 +6,28 @@
         width: 800px;
         height: 800px;
         background-color: white;
-        border-width: 1px;
+        border-width: px;
         border-color: black;
         border-style: solid;
-        word-break: normal;
+        word-break: break-all;
         overflow: hidden;
         position: relative;
     }
 
-    .editImage {
-    background-color: rgb(60, 97, 88);
+    #meme-image{
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    height: 400px;
-    width: 400px;
-    z-index: 1;
-    position: absolute;
-    }
-
-    img{
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    height:400px;
-    width:400px;
-    z-index: 2;
+    height:100%;
+    width:100%;
     position: relative;
     }
 
-    p{
+    #meme-text{
     bottom:0;
     color:black;
     font-size: xx-large;
     left: 16px;
     text-align: left;
-    z-index: 3;
-    position: relative;
+    position: absolute;
     }
