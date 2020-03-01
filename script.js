@@ -5,27 +5,27 @@ caixaTexto.addEventListener("input",function (event) {
 })
 
 document.getElementById("meme-insert").onchange = function() {
-     
-     console.log(this.files[0]);
-     let memeImagem = document.getElementById("meme-image");
-     memeImagem.setAttribute("src",URL.createObjectURL(this.files[0]));
+         
+      console.log(this.files[0]);
+      let memeImagem = document.getElementById("meme-image");
+      memeImagem.setAttribute("src",URL.createObjectURL(this.files[0]));
 }
 
 document.getElementById("button1").addEventListener("click",function () {
-   let imageContainer = document.getElementById("meme-image-container");
-   imageContainer.style.border="3px dashed red";    
+    let imageContainer = document.getElementById("meme-image-container");
+    imageContainer.style.border="3px dashed red";
 })
 
 document.getElementById("button2").addEventListener("click",function () {
     let imageContainer = document.getElementById("meme-image-container");
     imageContainer.style.border="5px dashed blue";
-    imageContainer.style.borderStyle="double"    
- })
+    imageContainer.style.borderStyle="double";
+  })
 
 document.getElementById("button3").addEventListener("click",function () {
     let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border="6px groove green";    
- })
+    imageContainer.style.border="6px groove green";
+  })
 
   let meme1 = document.querySelector("#meme-1");
   console.log(meme1.getAttribute("src"));

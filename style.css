@@ -3,33 +3,33 @@ body{
     }
 
 .meme-image-container{
- border: 1px solid black;
- background-color: white;
- float: left;
- height: 300px;
- padding-right: 10px;
- width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  height: 300px;
+  padding-right: 10px;
+  width: 300px;
 }
 
 .meme-image-container img {
- display: inline-block;
- height: 300px;
- position: absolute;
- width: 300px;
- z-index: 0;
+  display: inline-block;
+  height: 300px;
+  position: absolute;
+  width: 300px;
+  z-index: 0;
 }
 
 .meme-selected{
- float: right;
- overflow: auto;
- width: 700px;
+  float: right;
+  overflow: auto;
+  width: 700px;
     }
 
 .meme-text {
- color: black;
- font-size: 19px;
- position: relative;
- overflow-wrap:break-word;
- text-align: center;
- z-index: 1;
+  color: black;
+  font-size: 19px;
+  overflow-wrap:break-word;
+  position: relative;
+  text-align: center;
+  z-index: 1;
 }
