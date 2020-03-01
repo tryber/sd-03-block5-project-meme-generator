@@ -10,7 +10,7 @@ function mostraTexto() {
     let texto = document.getElementsByClassName("posicaoDaImagem")[0].getElementsByTagName("p")[0];
 
     if (texto) {
-        document.getElementsByClassName("posicaoDaImagem")[0].removeChild(texto);
+    document.getElementsByClassName("posicaoDaImagem")[0].removeChild(texto);
     }
 
     document.getElementsByClassName("posicaoDaImagem")[0].appendChild(inserir);
