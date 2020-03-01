@@ -6,8 +6,8 @@ window.onload= function(){
     }
     Text.addEventListener("keydown", TextoDinamico)
 
+    let image = document.getElementById("meme-image");
     function loadFile() {
-        let image = document.getElementById("meme-image");
         image.src = URL.createObjectURL(event.target.files[0]);
         image.innerHTML=TextImg.target.value
     };
@@ -33,4 +33,22 @@ window.onload= function(){
     }
     let bt3= document.getElementById("button3")
     bt3.addEventListener("click", TrocaBorda3)
+
+    function trocaImagen1(){
+        image.src="download.jpeg"
+    }
+    let img1=this.document.getElementsByTagName("img")[1];
+    img1.addEventListener("click", trocaImagen1)
+
+    function trocaImagen2(){
+        image.src="XSYHaEkL.jpg"
+    }
+    let img2=this.document.getElementsByTagName("img")[2];
+    img2.addEventListener("click", trocaImagen2)
+
+    function trocaImagen3(){
+        image.src="download (1).jpeg"
+    }
+    let img3=this.document.getElementsByTagName("img")[3];
+    img3.addEventListener("click", trocaImagen3)
 }

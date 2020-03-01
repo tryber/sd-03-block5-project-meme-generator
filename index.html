@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <br>
+    <form>
         <label>digite o texto do seu meme:</label>
         <input type="text" id="text-input" maxlength="60"/></br>
     
@@ -21,12 +21,20 @@
         <input type="button" value="borda 2" id="button2">
         <input type="button" value="borda 3" id="button3">
     </form>
-    <div>
+    <section>
         <div id="meme-image-container">         
             <img id="meme-image"/>
             <p id="meme-text" style="position: absolute;"></p>  
         <div>
-    </div>
+    </section>
+    <label>
+        Ou se preferir escolha entre essas imagens:
+    </label></br>
+    <section class="repartir">
+        <img src="download.jpeg" alt="imagen de meme" class="trinta">
+        <img src="XSYHaEkL.jpg" alt="imagen de meme"  class="trinta">
+        <img src="download (1).jpeg" alt="imagen de meme"  class="trinta">
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
