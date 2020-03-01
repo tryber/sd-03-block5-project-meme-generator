@@ -1,7 +1,5 @@
 var textImg = document.querySelector('input#text-input');
 
-var textOnImg = document.querySelector('div#textOnImg');
-// textImg = tInput
 var loadFile =function(event) {
     var output = document.querySelector('div#img');
     var img = URL.createObjectURL(event.target.files[0])
@@ -9,9 +7,9 @@ var loadFile =function(event) {
     output.style.backgroundSize = "cover"
 };
 
-function texting() {
+function typing() {
     var textImgInner = document.querySelector('input#text-input').value;
-    document.querySelector('div#textOnImg').innerText = textImgInner
+    document.querySelector('#textOnImg').innerText = textImgInner
 }
 
-textImg.addEventListener('keyup',texting);
+textImg.addEventListener('keyup',typing);
