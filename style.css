@@ -26,11 +26,10 @@ body {
 .generator {
   background-color: white;
   border: solid 1px black;
-  margin: auto;
+  margin-left: 2em;
   margin-top: 2em;
-  width: 80%;
-  height: auto;
-  overflow: hidden;
+  width: 500px;
+  height: 400px;
 }
 
 /* .meme-text {
@@ -43,8 +42,6 @@ body {
 
 .texto {
   position: absolute;
-  top: 0;
-  width: 80%;
   word-wrap: break-word;
   color: black;
   font-weight: bold;
