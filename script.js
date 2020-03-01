@@ -5,7 +5,6 @@ caixaTexto.addEventListener("input",function (event) {
 })
 
 document.getElementById("meme-insert").onchange = function() {
-         
       console.log(this.files[0]);
       let memeImagem = document.getElementById("meme-image");
       memeImagem.setAttribute("src",URL.createObjectURL(this.files[0]));
