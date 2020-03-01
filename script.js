@@ -44,7 +44,7 @@ function changeButton3(){
 
 
 
-let meme1 = document.getElementById("meme1")
+let meme1 = document.getElementById("meme-1")
     meme1.addEventListener("click", preLoaded1)
 
     function preLoaded1(){
@@ -55,7 +55,7 @@ let meme1 = document.getElementById("meme1")
 
     }
 
-    let meme2 = document.getElementById("meme2")
+    let meme2 = document.getElementById("meme-2")
     meme2.addEventListener("click", preLoaded2)
 
     function preLoaded2(){
@@ -66,7 +66,7 @@ let meme1 = document.getElementById("meme1")
 
     }
 
-    let meme3 = document.getElementById("meme3")
+    let meme3 = document.getElementById("meme-3")
     meme3.addEventListener("click", preLoaded3)
 
     function preLoaded3(){
@@ -77,7 +77,7 @@ let meme1 = document.getElementById("meme1")
 
     }
 
-    let meme4 = document.getElementById("meme4")
+    let meme4 = document.getElementById("meme-4")
     meme4.addEventListener("click", preLoaded4)
 
     function preLoaded4(){
