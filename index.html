@@ -8,25 +8,31 @@
   </head>
   <body>
     <form>
-        <label>digite o texto do seu meme:</label>
-        <input type="text" id="text-input" maxlength="60"/></br>
+        <label for="text-input">digite o texto do seu meme:</label>
+        <input id="text-input" type="text" maxlength="60"/></br>
 
-        <label>            
-            Escolha uma imagem
+        <label for="meme-insert">
+            Escolha uma imagem para o seu meme:
         </label>
-        <input type="file" id="meme-insert" accept="image/*"/></br>
+          <input
+            id="meme-insert"
+            type="file"
+            accept="image/*"
+            class="flex-item"
+            />
 
         <label>Escolha uma borda:</label>
         <input type="button" value="borda 1" id="button1">
         <input type="button" value="borda 2" id="button2">
         <input type="button" value="borda 3" id="button3">
-    </form>
-    <section>
-        <div id="meme-image-container">         
-            <img id="meme-image"/>
-            <p id="meme-text" style="position: absolute;"></p>  
+    
         <div>
-    </section>
+            <div id="meme-image-container" class="codde">
+              <img id="meme-image"/>
+              <p id="meme-text" class="meme-txt"></p>
+            </div>
+        </div>
+    </form>
     <label>
         Ou se preferir escolha entre essas imagens:
     </label></br>
@@ -36,6 +42,7 @@
         <img src="imgs/meme3.jpeg" alt="imagen de meme"  class="trinta" id="meme3">
         <img src="imgs/meme4.jpeg" alt="imagen de meme"  class="trinta" id="meme4">
     </section>
+    
     <script src="script.js"></script>
   </body>
 </html>
