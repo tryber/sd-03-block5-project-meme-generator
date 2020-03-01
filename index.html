@@ -7,47 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <h1 id="title-projet" class="container-input-output">Meme Generator</h1>
 
-    <div class="container-input-output">
+    <section class="container-input-output">
+
       <label for="text">Digite seu texto aqui:</label>
-      <input
-        type="text"
-        name="text"
-        id="text-input"
-        maxlength="60"
-        placeholder="Use toda sua criatividade"
-      />
 
-    </div>
-
-    &nbsp
-
-    <div class="container-input-output">
+      <input type="text" name="text" id="text-input" maxlength="60" placeholder="Use toda sua criatividade"/>
+     
+      <br>
+      
       <label for=" image">Arquivo:</label>
-      <input
-        type="file"
-        name="image"
-        id="meme-insert"
-        accept="imagens/*"
-        onchange="setImage(event)"
-      />
-    </div>
 
-    &nbsp
+      <input type="file" name="image" id="meme-insert" accept="imagens/*" onchange="setImage(event)"/>
+   
+    </section>
+      
+     <br>
 
-    <div
-      id="image-container"
-      class="container-img"
-      class="container-input-output"
-    >
+    <section id="image-container" class="container-img" class="container-input-output">
+
       <p id="meme-text" class="meme-text"></p>
+     <img id="meme-image" class="meme-image" alt="imagem-meme" />
 
-      <img id="meme-image" class="meme-image" alt="imagem-meme" />
+    </section>
 
-    </div>
-    
     <script src="script.js"></script>
   </body>
 </html>
