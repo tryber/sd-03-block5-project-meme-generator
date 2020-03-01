@@ -59,3 +59,7 @@ input {
    width: 500px;
    
 }
+
+img {
+  border-width: black solid 1px;
+}
