@@ -18,27 +18,17 @@ body {
   margin-left: 1em;
 }
 
-.pai {
-  position: relative;
-}
-
-
 .generator {
+  position: relative;
   background-color: white;
-  border: 1px black solid;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
   margin-left: 2em;
   margin-top: 2em;
   width: 500px;
   height: 400px;
 }
-
-/* .meme-text {
-  height: auto;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  word-wrap: break-word;
-} */
 
 .texto {
   position: absolute;
