@@ -15,5 +15,4 @@ color: rgb(59, 45, 45);
 #meme-image-container img{
 position: absolute;
 z-index: 0;
-width: 1000px;
 }
