@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #centro {
+      margin: auto;
+      width: 600px;
+      height: 650px;
+      background-color: green;
+  }
+  h1 {
+      margin-left: 50px;
+  }
+  #inputFile {
+    margin-left: 50px;
+  }
+  #text-input {
+    margin-left: 50px;
+  }
+
+  
+  #resultado {
+      position: absolute;
+      font-weight: bolder;
+      font-size: 35px;
+  }
+
+  #meme-image-container {
+      margin: auto;
+      height: 500px;
+      width: 500px;
+      background-color:white;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+   }
+
+  #meme-insert {
+    display: none;
+    width: 100%;
+  }
+  
