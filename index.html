@@ -38,9 +38,32 @@
         <img src="imgs/meme1.jpeg" alt="imagen de meme" class="trinta" id="meme-1">
         <img src="imgs/meme2.jpeg" alt="imagen de meme"  class="trinta" id="meme-2">
         <img src="imgs/meme3.jpeg" alt="imagen de meme"  class="trinta" id="meme-3">
-        <img src="imgs/meme4.jpeg" alt="imagen de meme"  class="trinta" id="meme-4">
+        <img src="imgs/meme4.jpeg" alt="imagem de meme"  class="trinta" id="meme-4">
     </section>
-    
+    <form>
+        <input type="text" id="text-input" maxlength="60">
+        <label for="text-input">Escreva seu texto</label>
+        <br>
+        <br>
+        <label for="meme-insert"> Upload Image</label>
+        <input type="file" id="meme-insert" accept="image/gif, image/jpeg, image/png">
+      </form>
+      <div id="buttons-container" class="buttons-container">
+      <button id="button1">borda 1</button>
+      <button id="button2">borda 2</button>
+      <button id="button3">borda 3</button>
+      <div class="carrossel" role="listbox">
+        <img id="meme-1" class="trinta" src="imgs/meme1.jpeg" alt="imagem de meme">
+        <img id="meme-2" class="trinta" src="imgs/meme2.jpeg" alt="imagem de meme">
+        <img id="meme-3" class="trinta" src="imgs/meme3.jpeg" alt="imagem de meme">
+        <img id="meme-4" class="trinta" src="imgs/meme4.jpeg" alt="imagem de meme">
+      </div>
+      <div id="meme-image-container" class="codde">
+        <img id="meme-image" class="imagens">
+        <span id="meme-text" class="metex"></span>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+    </body> 
     <script src="script.js"></script>
   </body>
 </html>
