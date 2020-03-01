@@ -31,4 +31,20 @@ function loadImage() {
   image.src = URL.createObjectURL(event.target.files[0]);
 }
 
-// adicionar funções pros clicks dos botões
+function mostraMeme1() {
+  let meme = document.getElementById("meme-1");
+  image.src = meme.src;
+}
+
+function mostraMeme2() {
+  let meme = document.getElementById("meme-2");
+  image.src = meme.src;
+}
+function mostraMeme3() {
+  let meme = document.getElementById("meme-3");
+  image.src = meme.src;
+}
+function mostraMeme4() {
+  let meme = document.getElementById("meme-4");
+  image.src = meme.src;
+}

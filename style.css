@@ -1,16 +1,10 @@
 .caixa-img {
   background-color: white;
-  /* se nada funcionar, separa o border em 3 parametros */
   border: solid 1px black;
   height: 600px;
   padding: 10px;
   width: 600px;
 }
-
-/* .buttons button{
-  border: solid 1px black;
-
-} */
 
 .meme {
   border: solid 1px black;
@@ -31,7 +25,7 @@
   color: yellow;
   font-size: 45px;
   font-weight: bold;
-  margin-top: 525px;
+  margin-top: 425px;
   position: absolute;
   text-align: center;
   text-shadow: black 2px 3px 2px;
