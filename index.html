@@ -10,19 +10,36 @@
 
 <body>
 
-    <div id='div-button'>
-        <input type="file" accept="image/*" onchange="loadFile(event)" id='meme-insert'></input>
-    </div>
 
-    <container id='meme-image-container'>
-    <div style="position: relative;">
-        <img id='meme-image'/>
-        <div id='text' style="position: absolute;" >
+    <!--     <section>
+
+        <form>
+            <input id="text-input" type="text" placeholder="Type your meme text here" maxlength="60">
+        </form><br>
+        
+        <input type="file" accept="image/*" name="image" id="meme-insert" onchange="loadFile(event)"
+        style="display: none;">
+        <label for="meme-insert" style="cursor: pointer;">Select image</label>
+        <div id="meme-image-container">
+            <p id="meme-text"></p>
+            <img id="meme-image" class="imagem-principal">
+        </div>
+    </section> -->
+
+    <header>
+        <h2>AWW YEAH! MEME TIME!</h2>
+    </header>
+
+    <section>
+        <form>
+            <input type="file" accept="image/*" onchange="loadFile(event)" id='meme-insert'></input>
+        </form>
+        <div id='meme-image-container'>
+            <img id='meme-image'>
             <p id='meme-text'></p>
         </div>
-    </div>
-        <input type='text' id='text-input'></input>
-    </container>
+        <input type='text' id='text-input' placeholder="Digite a frase que deseja colocar no seu meme!"></input>
+    </section>
 
     <script src="script.js"></script>
 

@@ -8,25 +8,54 @@ body {
     clear: both;
     width: 600px;
     height: 450px;
-    position: relative;
-    border: solid black 1px;
-    background-color: white;
     
 }
 
 #text-input{
     float: left;
     clear: both;
+    margin-top: 5px;
+    width: 598px;
+    height: 20px;
     position: relative;
-    margin-top: 20px;
+    background-image: url(./giphy.gif);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+::placeholder{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+}
+
+input{
+    color: cornflowerblue;
 }
 
 p {
     font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
     overflow-wrap: break-word;
     text-overflow: inherit;
     max-width: 600px;
-    max-height: 400px;
+    max-height: 450px;
+    position: absolute;
+    margin-top: 15px;
 }
+
+div {
+    background-color: white;
+    position: relative;
+    border: solid 1px black;
+    width: 600px;
+    height: 450px;
+    float: left;
+    clear: both;
+  }
+
+  header {
+      color: purple;
+  }
