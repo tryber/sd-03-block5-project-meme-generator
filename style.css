@@ -36,10 +36,7 @@ width: 75%;
 border-left: 2px dashed blue;
 }
 
-#meme-selected img{
-  padding: 10px;
-    
-    }
+
 
 #meme-image-container img{
 z-index: 0;
