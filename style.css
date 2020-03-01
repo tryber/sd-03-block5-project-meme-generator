@@ -1,7 +1,6 @@
 .codde{
   background-color: white;
   border: 1px solid black;
-  display: flex;
   height: 400px;
   justify-content: center;
   margin: 10px;
@@ -9,7 +8,7 @@
   width: 400px;
 }
 
-#meme-text {
+.metex {
   color: black;
   font-family: "Montserrat";
   font-size: 30px;
@@ -22,7 +21,7 @@
   z-index: 1;
 }
 
-#meme-image{
+.imagens{
   height: 100%;
   width: 100%;
 }
