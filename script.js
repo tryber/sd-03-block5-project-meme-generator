@@ -1,10 +1,10 @@
 let textBox = document.querySelector("#text-input")
-textBox .addEventListener("input", makeText)
+  textBox .addEventListener("input", makeText)
 
 let text = document.querySelector(".text")
 
 let image = document.getElementById("meme-insert")
-image.addEventListener("change", selectedImage)
+  image.addEventListener("change", selectedImage)
 
 function selectedImage() {
   let arquivo = this.files[0]

@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <section id="meme-interface">
+      <div class="meme-menu">
+        <h3>Escolha sua imagem</h3>
 
-<body>
-  <section id="meme-interface">
-    <div class="meme-menu">
-      <h3>Escolha sua imagem</h3>
+        <label for="grab-meme"
+          ><input type="file" name="grab-meme" id="meme-insert"
+        /></label>
+      </div>
+      <div class="meme-menu">
+        <h3>Digite seu texto aqui!</h3>
+        <label for="text-input"
+          ><input type="text" name="text-input" id="text-input" maxlength="60"
+        /></label>
+      </div>
 
-      <label for="grab-meme"><input type="file" name="grab-meme" id="meme-insert" /></label>
-    </div>
-    <div class="meme-menu">
-      <h3>Digite seu texto aqui!</h3>
-      <label for="text-input"><input type="text" name="text-input" id="text-input" maxlength="60" /></label>
-      type="text" name="text" id="text-input" maxlength="60"
-    </div>
+      <div class="text-container">
+        <p class="text" id="meme-text"></p>
+        <img src="#" alt="MemeImage" id="meme-image" class="meme-image" />
+      </div>
+    </section>
 
-    <div class="text-container">
-      <p class="text" id="meme-text"></p>
-      <img src="#" alt="MemeImage" id="meme-image" class="meme-image" />
-    </div>
-  </section>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
