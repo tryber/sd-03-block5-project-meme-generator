@@ -3,16 +3,16 @@ window.onload = function () {
   let addText = document.getElementById("text-input");
   let memeText = document.getElementById("meme-text");
 
-  function criandoUrl(event) {
+  function criandoUrl() {
     let image = document.getElementById("meme-image");
-    image.src = URL.createObjectURL(event.target.files[0]);
-    image.style.height = 399 + "px";
-    image.style.width = 399 + "px";
+    image.src = URL.createObjectURL(addImage.files[0]);
+    image.style.height = 400 + "px";
+    image.style.width = 400 + "px";
   };
   addImage.addEventListener("change", criandoUrl);
 
   function inputText(input) {
-    memeText.textContent = input.target.value;
-  } 
+    memeText.textContent = addText.value;
+  };
   addText.addEventListener("beforeinput", inputText);
 }
