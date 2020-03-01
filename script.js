@@ -1,17 +1,17 @@
 let texto = document.getElementById("text-input");
 let memeText = document.getElementById("meme-text");
-let pic = document.getElementById("meme-image");
+let selectedPic = document.getElementById("meme-image");
 let imageContainer = document.getElementById("image-container");
 
-texto.addEventListener("keyup", escreveText);
+texto.addEventListener("keyup", writeText);
 
 
-function escreveText() {
+function writeText() {
 memeText.innerHTML = texto.value;
 }
 
 
 function setImage() {
-pic.src = URL.createObjectURL(event.target.files[0]);
+selectedPic.src = URL.createObjectURL(event.target.files[0]);
 }
 

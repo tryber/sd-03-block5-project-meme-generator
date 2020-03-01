@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Meme Generator</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-<body>
-  <h1 id="title-projet">Meme Generator</h1>
+    <h1 id="title-projet" class="container-input-output">Meme Generator</h1>
 
-  <div class="container-input">
-    <h3>Insira o texto do meme:</h3>
-    <input type="text" name="text" id="text-input" maxlength="60" placeholder="use toda sua criatividade">
-  </div>
+    <div class="container-input-output">
+      <label for="text">Digite seu texto aqui:</label>
+      <input
+        type="text"
+        name="text"
+        id="text-input"
+        maxlength="60"
+        placeholder="Use toda sua criatividade"
+      />
 
-  &nbsp
+    </div>
 
-  <div class="container-input">
-    <input type="file" name="img" id="meme-insert" accept="imagens/*" onchange="setImage(event)">
-  </div>
+    &nbsp
 
-  &nbsp
+    <div class="container-input-output">
+      <label for=" image">Arquivo:</label>
+      <input
+        type="file"
+        name="image"
+        id="meme-insert"
+        accept="imagens/*"
+        onchange="setImage(event)"
+      />
+    </div>
 
-  <div id="image-container" class="container-img">
-    <p id="meme-text" class="meme-text"></p>
-    <img id="meme-image" class="meme-image" alt="imagem-meme" />
-  </div>
+    &nbsp
 
-  <script src="script.js"></script>
-</body>
+    <div
+      id="image-container"
+      class="container-img"
+      class="container-input-output"
+    >
+      <p id="meme-text" class="meme-text"></p>
+
+      <img id="meme-image" class="meme-image" alt="imagem-meme" />
+
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
 </html>

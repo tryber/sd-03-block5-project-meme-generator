@@ -1,3 +1,10 @@
+.container-input-output {
+  border: black solid 2px;
+  border-style: dotted;
+  width: 500px;
+  background-color: lightgreen;
+}
+
 #image-container {
   background: white;
   border-color: black;
@@ -19,7 +26,7 @@
   font-weight: bold;
   position: absolute;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-shadow: black;
   text-transform: capitalize;
   z-index: 1;
