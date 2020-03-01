@@ -56,4 +56,5 @@ input {
 .meme-image {
   height: 400px;
   width: 500px;
+  border: black solid 1px;
 }
