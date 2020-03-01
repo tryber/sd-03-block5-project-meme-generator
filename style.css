@@ -4,24 +4,23 @@ h3, h1 {
     text-align: left;
 }
 
-.style-txt {
+.meme-text {
     color: white;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
     position: absolute;
-    text-transform: uppercase;
     text-align: center;
-    /* top: 500px; */
-    width: 600px;    
-    word-break: break-all;
+    text-shadow: black 2px 3px;
+    text-transform: uppercase;
+    width: 600px;
+    word-wrap: break-word;
     z-index: 1;
-    -webkit-text-stroke: 1px black;
 }
 
-#meme-image-container {
+.meme-image-container {
     background-color: white;
     border: 1px;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     width: 600px;
     height: 600px;    
