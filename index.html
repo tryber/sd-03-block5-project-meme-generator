@@ -6,33 +6,33 @@
     <title>Meme Generetor</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
     <h1>Meme Generator</h1>
+
+    <div class="memes">
+      <img id="meme-1" class="meme" src="imgs/meme1.jpeg" onclick="mostraMeme1()"/>
+      <img id="meme-2" class="meme" src="imgs/meme2.jpeg" onclick="mostraMeme2()"/>
+      <img id="meme-3" class="meme" src="imgs/meme3.jpeg" onclick="mostraMeme3()"/>
+      <img id="meme-4" class="meme" src="imgs/meme4.jpeg" onclick="mostraMeme4()"/>
+    </div>
 
     <div class="text-box">
       <h3>Insira texto do meme abaixo:</h3>
       <input type="text" name="text" id="text-input" maxlength="60" />
     </div>
 
+    <br>
+
     <div class="procura-img">
-      <input type="file" name="img" id="meme-insert" accept="image/png, image.jpeg" onchange="loadImage(event)">
+      <input type="file" name="img" id="meme-insert" accept="image/png, image.jpeg" onchange="loadImage(event)"/>
+      <button id="button1" class="button1">borda 1</button>
+      <button id="button2" class="button2">borda 2</button>
+      <button id="button3" class="button3">borda 3</button>
     </div>
 
-    <div class="buttons">
-      <h3>Selecione o estilo de borda:</h3>
-      <button id="button1" class="button1">red</button>
-      <button id="button2" class="button2">blue</button>
-      <button id="button3" class="button3">green</button>
-    </div>
-
-    <div class="memeDiv">
-
-      <img id="meme1" class="meme" src="imgs/meme1.jpeg" onclick="mostraMeme1()">
-      <img id="meme2" class="meme" src="imgs/meme2.jpeg" onclick="mostraMeme2()">
-      <img id="meme3" class="meme" src="imgs/meme3.jpeg" onclick="mostraMeme3()">
-      <img id="meme4" class="meme" src="imgs/meme4.jpeg" onclick="mostraMeme4()">
-<!-- ai meu caralho -->
-    </div>
+    <br>
 
     <div id="meme-image-container" class="caixa-img">
       <p id="meme-text" class="meme-text"></p>
