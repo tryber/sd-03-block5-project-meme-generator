@@ -14,14 +14,19 @@
     </header>
 
     <section>
-        <form>
-            <input type="file" accept="image/*" onchange="loadFile(event)" id='meme-insert'></input>
+        <form class='container'>
+            <label for="meme-insert">
+                <input type="file" accept="image/*" onchange="loadFile(event)" id='meme-insert'></input>
+            </label>
         </form>
         <div id='meme-image-container'>
-            <img id='meme-image'>
+            <img id='meme-image' />
             <p id='meme-text'></p>
         </div>
-        <input type='text' id='text-input' placeholder="Digite a frase que deseja colocar no seu meme!" maxlength="60"></input>
+        <label for="text-input">
+            <input type='text' id='text-input' placeholder="Digite a frase que deseja colocar no seu meme!"
+                maxlength="60"></input>
+        </label>
     </section>
 
     <script src="script.js"></script>
