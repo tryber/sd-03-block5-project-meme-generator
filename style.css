@@ -18,32 +18,39 @@ body {
   margin-left: 1em;
 }
 
+.pai {
+  position: relative;
+}
+
+
 .generator {
   background-color: white;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px solid black;
   margin: auto;
   margin-top: 2em;
-  position: relative;
-  width: 70%;
+  width: 80%;
+  height: auto;
   overflow: hidden;
 }
 
-.meme-text {
+/* .meme-text {
+  height: auto;
   position: absolute;
   top: 0;
   width: 100%;
-  height: auto;
   word-wrap: break-word;
-}
+} */
 
 .texto {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  word-wrap: break-word;
   color: black;
   font-weight: bold;
-  text-align: center;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .meme-image {
