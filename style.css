@@ -11,6 +11,22 @@ float: left;
 padding-right: 10px;
 }
 
+#meme-image-container img {
+    display: inline-block;
+    z-index: 0;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    
+}
+
+#meme-selected{
+    float: right;
+    overflow: auto;
+    width: 700px;
+    }
+    
+
 #meme-text {
 position: relative; 
 z-index: 1;
@@ -20,23 +36,3 @@ color: black;
 overflow-wrap:break-word
 }
 
-#meme-image-container img {
-display: inline-block;
-}
-
-
-#meme-selected{
-float: right;
-overflow: auto;
-width: 700px;
-
-}
-
-
-
-#meme-image-container img{
-z-index: 0;
-position: absolute;
-width: 300px;
-height: 300px;
-}
