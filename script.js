@@ -17,7 +17,7 @@ function changetxt () {
     textOut.innerHTML = textIn.value;
 }
 
-function loadImage () {
+function loadImg () {
     image.src = URL.createObjectURL(event.target.files[0]);
 }
  

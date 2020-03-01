@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1>MEME GENERATOR</h1>
-        <form id="inputer">
-            <h3>Select image: <input type="file" id="meme-input" name="input-img" accept="image/png, image/jpeg" onchange="loadImage(event)"></h3>
+        <form>
+            <h3>Select image: <input type="file" id="meme-input" onchange="loadImg(event)"></h3>
             <h3>Your text in meme: <input type="text" id="text-input" placeholder="Seu texto" maxlength="60"></h3>
         </form>
         <article>
@@ -26,5 +26,5 @@
             </section>
         </article>
 </body>
-<script type="text/javascript" src="script.js"></script>
+<script src="script.js"></script>
 </html>

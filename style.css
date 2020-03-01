@@ -1,12 +1,11 @@
-
-#inputer {
+/* 
+h3, h1 {
     font-family: arial;
     text-align: left;
-}
+} */
 
 .style-txt {
-    color: white;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: white;    
     font-size: 45px;
     font-weight: bold;
     position: absolute;
@@ -23,7 +22,10 @@
     background-color: white;
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
 }
 
 .style-img {
