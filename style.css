@@ -1,4 +1,7 @@
 
+body {
+    background-color: rgb(186, 213, 221);
+}
 h3, h1 {
     font-family: arial;
     text-align: left;
