@@ -1,9 +1,10 @@
+body{
+  background-color: cornflowerblue;
+}
 #meme-image-container {
   border: 1px solid black;
   max-width: 500px;
   max-height: 500px;
-  object-fit: contain;
-  align-content: center;
   background-color: white;
 }
 
@@ -11,14 +12,14 @@
   font-size: 30pt;
   text-overflow: ellipsis;
   width: 500px;
-  align-self: auto;
   position: absolute;
   word-break: break-all;
 }
 
 #meme-image {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 490px;
+  max-height: 480px;
+
 }
 
 #button-1 {
