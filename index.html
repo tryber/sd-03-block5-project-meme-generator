@@ -9,13 +9,15 @@
     </head>
     <body>
     <h1 id="title">Gerador de Memes!</h1>
+    <form>
+    <input id="text-input" type="text"  maxlength="20" placeholder="Digite seu texto aqui:"> 
     <input type="file" accept="image/*" onchange="loadFile(event)" id="imgUpload">
-    <input type="text" id="text-input" maxlength="20" placeholder="Digite seu texto aqui:">   
      
-            <div id = "meme-image-container">
-            <div id="img">
-                <div id="textOnImg">
-                </div>
+    </form> 
+        <div id = "meme-image-container">
+            <div id="meme-image">
+                <p id="meme-text">
+                </p>
             </div>
         </div>           
     </body>
