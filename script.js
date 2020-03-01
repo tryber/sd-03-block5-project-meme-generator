@@ -1,7 +1,7 @@
 
 let textIn = document.getElementById("text-input");
 let textOut = document.getElementById("meme-text");
-let image = document.getElementById("meme-image");
+let imageLoad = document.getElementById("meme-image");
 let butt1 = document.getElementById("button1");
 let butt2 = document.getElementById("button2");
 let butt3 = document.getElementById("button3");
@@ -18,7 +18,7 @@ function changetxt () {
 }
 
 function loadImg () {
-    image.src = URL.createObjectURL(event.target.files[0]);
+    imageLoad.src = URL.createObjectURL(event.target.files[0]);
 }
  
 function border1 () {
