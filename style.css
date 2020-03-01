@@ -10,9 +10,16 @@ position: absolute;
 z-index: 1;
 font-size: 100px;
 text-align: center;
-color: rgb(59, 45, 45);
+color: black;
+}
+
+#meme-image-container{
+position: absolute;
+
 }
 #meme-image-container img{
-position: absolute;
 z-index: 0;
+position: absolute;
+
+
 }
