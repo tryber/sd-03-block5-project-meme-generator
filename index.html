@@ -26,7 +26,31 @@
             >Digite aqui o texto do meme:</label
           >
           <input id="text-input" type="text" maxlength="60" class="flex-item" />
-    </div>
+
+          <label>Escolha a borda do seu meme:</label>
+          <div class="flex-container">
+            <input
+              type="button"
+              id="button1"
+              class="button1 flex-button"
+              title="Define a borda do meme"
+              value="Borda 1"
+            />
+            <input
+              type="button"
+              id="button2"
+              class="button2 flex-button"
+              title="Define a borda do meme"
+              value="Borda 2"
+            />
+            <input
+              type="button"
+              id="button3"
+              class="button3 flex-button"
+              title="Define a borda do meme"
+              value="Borda 3"
+            />
+          </div>
           <label for="meme-insert" class="flex-item"
             >Escolha uma imagem para o seu meme:</label
           >
@@ -37,6 +61,48 @@
             class="flex-item"
           />
         </form>
+      </div>
+      <label class="meme-form align-txt-center"
+        >Ou escolha um das fotos abaixo:</label
+      >
+      <div class="flex-container">
+        <div>
+          <img
+            src="imgs/meme1.jpeg"
+            alt="Meme 1"
+            id="meme-1"
+            class="meme-selector"
+          />
+          <img
+            src="imgs/meme2.jpeg"
+            alt="Meme 2"
+            id="meme-2"
+            class="meme-selector"
+          />
+        </div>
+        <div>
+          <img
+            src="imgs/meme3.jpeg"
+            alt="Meme 3"
+            id="meme-3"
+            class="meme-selector"
+          />
+          <img
+            src="imgs/meme4.jpeg"
+            alt="Meme 4"
+            id="meme-4"
+            class="meme-selector"
+          />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/henriquerezende">Henrique Rezende</a> para o
+        curso da Trybe
+      </p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
