@@ -35,25 +35,25 @@ window.onload= function(){
     bt3.addEventListener("click", TrocaBorda3)
 
     function trocaImagem1(){
-        image.src="download.jpeg"
+        image.src="imgs/download.jpeg"
     }
     let img1=document.getElementById("meme1");
     img1.addEventListener("click", trocaImagem1);
 
     function trocaImagem2(){
-        image.src="XSYHaEkL.jpeg"
+        image.src="imgs/XSYHaEkL.jpeg"
     }
     let img2=document.getElementById("meme2");
     img2.addEventListener("click", trocaImagem2);
 
     function trocaImagem3(){
-        image.src="download (1).jpeg"
+        image.src="imgs/download (1).jpeg"
     }
     let img3=document.getElementById("meme3");
     img3.addEventListener("click", trocaImagem3);
 
     function trocaImagem4(){
-        image.src="267373.jpeg"
+        image.src="imgs/267373.jpeg"
     }
     let img4=document.getElementById("meme4");
     img4.addEventListener("click", trocaImagem4);
