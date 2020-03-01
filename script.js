@@ -10,16 +10,16 @@ let memeText = document.getElementById('meme-text');
 function textInsert() {
   memeText.textContent = textInput.value
 }
-let button1 = document.getElementById('button-1');
+let button1 = document.getElementById('button1');
 button1.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '3px dashed red'
 })
-let button2 = document.getElementById('button-2');
+let button2 = document.getElementById('button2');
 button2.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '5px double blue'
 })
 
-let button3 = document.getElementById('button-3');
+let button3 = document.getElementById('button3');
 button3.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '6px groove green'
 })
