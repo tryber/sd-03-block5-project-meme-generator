@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Projeto Meme Generator</title>
 </head>
+
 <body>
     <h1>Meme Generator</h1>
 
-    
+
 
     <div id="text-insert">
         <h2>Texto do meme: <input id="text-input" maxlength="60"></h2>
     </div>
 
     <div id="img-upload">
-        <p> Escolha a imagem: <input type="file" name="img" id="meme-insert" accept="image/*" onchange="uploadImage(event)"> </p>
+        <p> Escolha a imagem: <input type="file" name="img" id="meme-insert" accept="image/*"
+                onchange="uploadImage(event)"> </p>
     </div>
     <div id="border">Escolha uma borda:
         <button id="button1">vermelho</button><button id="button2">azul</button><button id="button3">verde</button>
@@ -30,18 +33,19 @@
     </div>
 
 
-    <div id="meme-image-container" >
-        <img id="meme-image" alt="Meme Image">
-        <p id="meme-text"></p>
+    <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" alt="Meme Image" class="meme-image">
+        <p id="meme-text" class="meme-text "></p>
     </div>
 
     <div>Ou selecione um dos memes a seguir:
         <img id="meme1" src="imgs/meme1">
     </div>
-    
 
 
-   
+
+
     <script src="script.js"></script>
 </body>
-</html> 
+
+</html>

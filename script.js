@@ -4,7 +4,7 @@ let textBox = document.getElementById('text-input');
 let textMeme = document.getElementById('meme-text');
 textBox.addEventListener('keyup', writeText);
 
-function writeText () {
+function writeText() {
     textMeme.innerHTML = textBox.value;
 }
 
@@ -25,19 +25,19 @@ let button2 = document.getElementById("button2")
 let button3 = document.getElementById("button3")
 
 
-button1.addEventListener("click",changeButton1)
-button2.addEventListener("click",changeButton2)
-button3.addEventListener("click",changeButton3)
+button1.addEventListener("click", changeButton1)
+button2.addEventListener("click", changeButton2)
+button3.addEventListener("click", changeButton3)
 
-function changeButton1(){
+function changeButton1() {
     document.getElementById("meme-image-container").style.border = "3px dashed red"
 }
 
-function changeButton2(){
+function changeButton2() {
     document.getElementById("meme-image-container").style.border = "5px double blue"
 }
 
-function changeButton3(){
+function changeButton3() {
     document.getElementById("meme-image-container").style.border = "6px groove green"
 }
 
@@ -45,48 +45,48 @@ function changeButton3(){
 
 
 let meme1 = document.getElementById("meme-1")
-    meme1.addEventListener("click", preLoaded1)
+meme1.addEventListener("click", preLoaded1)
 
-    function preLoaded1(){
+function preLoaded1() {
 
-        let imageMeme = document.getElementById("meme-image")
+    let imageMeme = document.getElementById("meme-image")
 
-        imageMeme.src = "imgs/meme1.jpeg"
+    imageMeme.src = "imgs/meme1.jpeg"
 
-    }
+}
 
-    let meme2 = document.getElementById("meme-2")
-    meme2.addEventListener("click", preLoaded2)
+let meme2 = document.getElementById("meme-2")
+meme2.addEventListener("click", preLoaded2)
 
-    function preLoaded2(){
+function preLoaded2() {
 
-        let imageMeme = document.getElementById("meme-image")
+    let imageMeme = document.getElementById("meme-image")
 
-        imageMeme.src = "imgs/meme2.jpeg"
+    imageMeme.src = "imgs/meme2.jpeg"
 
-    }
+}
 
-    let meme3 = document.getElementById("meme-3")
-    meme3.addEventListener("click", preLoaded3)
+let meme3 = document.getElementById("meme-3")
+meme3.addEventListener("click", preLoaded3)
 
-    function preLoaded3(){
+function preLoaded3() {
 
-        let imageMeme = document.getElementById("meme-image")
+    let imageMeme = document.getElementById("meme-image")
 
-        imageMeme.src = "imgs/meme3.jpeg"
+    imageMeme.src = "imgs/meme3.jpeg"
 
-    }
+}
 
-    let meme4 = document.getElementById("meme-4")
-    meme4.addEventListener("click", preLoaded4)
+let meme4 = document.getElementById("meme-4")
+meme4.addEventListener("click", preLoaded4)
 
-    function preLoaded4(){
+function preLoaded4() {
 
-        let imageMeme = document.getElementById("meme-image")
+    let imageMeme = document.getElementById("meme-image")
 
-        imageMeme.src = "imgs/meme4.jpeg"
+    imageMeme.src = "imgs/meme4.jpeg"
 
-    }
+}
 
 
 
@@ -113,7 +113,7 @@ let meme1 = document.getElementById("meme-1")
             imageMeme.src = "imgs/meme4.jpeg"
         }
     }
- 
+
     }
 
 */
