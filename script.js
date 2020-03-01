@@ -5,7 +5,7 @@ let loadFile = function (event) {
 
 }
 let textInput = document.getElementById('text-input');
-let memeText = document.getElementById('memeText');
+let memeText = document.getElementById('meme-text');
 
 function textInsert() {
   memeText.textContent = textInput.value
@@ -18,7 +18,6 @@ let button2 = document.getElementById('button-2');
 button2.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '5px double blue'
 })
-
 
 let button3 = document.getElementById('button-3');
 button3.addEventListener('click', function () {

@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <form>
-    <label>Input Text :</label>
-    <input type="text"
-    id="text-input" maxlength="60" onkeyup="textInsert()"><br>
-    <label>Input Image :</label>
-    <input type="file" accept="image/*" id="meme-insert" name="image" onchange="loadFile(event)">
+    <label>Input Text : </label>
+    <input type="text" id="text-input" maxlength="60" onkeyup="textInsert()"><br>
+    <label>Input Image : </label>
+    <input type="file" accept="image/*" id="image-insert" onchange="loadFile(event)">
   </form>
   <div id="meme-image-container">
-    <p id='memeText'></p>
+    <p id='meme-text'></p>
 
-    <img id='meme-image' alt="imagem inserita pelo usuário">
+    <img id='meme-image' alt="imagem inserida pelo usuário">
   </div>
   <article>
     <section>
@@ -27,6 +28,7 @@
     </section>
   </article>
 
- <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
