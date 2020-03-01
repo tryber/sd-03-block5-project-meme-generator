@@ -9,17 +9,27 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <form>
-        <label for="text-input">digite o texto do seu meme:</label>
-        <input type="text" id="text-input" maxlength="60"/></br>
-        <label for="meme-insert" style="cursor: pointer;">            
-            Escolha uma imagem
-        </label>
-        <input type="file" id="meme-insert" accept="image/*" style="display: none;"/>
-        <div id="meme-image-container">         
-            <img width="400" height="400" id="meme-image"/>
-            <p id="meme-text" style="position: absolute;"></p>  
-        <div>
-    </form>
+      <form >
+        <label for="text-input" 
+          >Digite o texto do meme:</label
+        >
+        <input id="text-input" type="text" maxlength="60" />
+        <label for="meme-insert" style="cursor: pointer;"
+          >Escolha a imagem do seu meme:</label
+        >
+        <input
+          id="meme-insert"
+          type="file"
+          accept="image/*"
+          class="flex-item"
+        />
+      </form>
+      <div>
+        <div id="meme-image-container" class="img-container">
+          <img class="meme-img" id="meme-image" />
+          <p id="meme-text" class="meme-txt"></p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

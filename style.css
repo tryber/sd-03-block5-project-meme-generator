@@ -16,4 +16,10 @@
     word-break: break-word;
     left: 55px;
     z-index: 1;
-  }
+  
+}
+
+#meme-img {
+    height: 100%;
+    width: 100%;
+}
