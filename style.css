@@ -13,7 +13,6 @@ z-index: 1;
 font-size: 30px;
 text-align: center;
 color: black;
-width: 100%;
 overflow-wrap:break-word
 }
 
@@ -24,6 +23,7 @@ position: absolute;
 #meme-image-container img{
 z-index: 0;
 position: absolute;
-
+width: 800px;
+height: 800px;
 
 }
