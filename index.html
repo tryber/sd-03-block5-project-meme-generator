@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meme Generator Project</title>
-    <link rel="stylesheet" type="text/css" href="style.css"></style>
-    <script src="script.js"></script>
-</head>
-<body>
-      <form >
-        <label for="text-input" 
-          >Digite o texto do meme:</label
-        >
-        <input id="text-input" type="text" maxlength="60" />
-        <label for="meme-insert" style="cursor: pointer;"
-          >Escolha a imagem do seu meme:</label
-        >
-        <input
-          id="meme-insert"
-          type="file"
-          accept="image/*"
-          class="flex-item"
-        />
-      </form>
-      <div>
-        <div id="meme-image-container" class="img-container">
-          <img class="meme-img" id="meme-image" />
-          <p id="meme-text" class="meme-txt"></p>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:900|Teko&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header class="header"><h1>Meme Generator</h1></header>
+      <div class="flex-container">
+        <div class="flex-item">
+          <div id="meme-image-container" class="img-container">
+            <img class="meme-img" id="meme-image" />
+            <p id="meme-text" class="meme-txt"></p>
+          </div>
         </div>
-      </div>
+
+        <form class="meme-form flex-column">
+          <label for="text-input" class="flex-item"
+            >Digite aqui o texto do meme:</label
+          >
+          <input id="text-input" type="text" maxlength="60" class="flex-item" />
     </div>
-</body>
+          <label for="meme-insert" class="flex-item"
+            >Escolha uma imagem para o seu meme:</label
+          >
+          <input
+            id="meme-insert"
+            type="file"
+            accept="image/*"
+            class="flex-item"
+          />
+        </form>
+    <script src="script.js"></script>
+  </body>
 </html>
+
