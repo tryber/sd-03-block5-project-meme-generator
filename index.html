@@ -9,20 +9,22 @@
 </head>
 
 <body>
-    <form>
-        <div class="configMeme">
-            <label for="uploadImage">Selecione sua imagem:</label>
-            <input type="file" name="uploadImage" id='meme-insert'>
-            <label for="text-input">Texto do meme: </label>
-            <input type="text" name="text-input" id='text-input'>
+    <section>
+        <form>
+            <div class="configMeme">
+                <label for="uploadImage">Selecione sua imagem:</label>
+                <input type="file" name="uploadImage" id="meme-insert">
+                <label for="text-input">Texto do meme: </label>
+                <input type="text" name="text-input" id="text-input">
+            </div>
+        </form>
+        <div class="pai">
+            <div class="generator" id="meme-image-container">
+                <p class="texto" id="meme-text"></p>
+                <img src="#" alt="MemeImage" id="meme-image" class="meme-image">
+            </div>
         </div>
-    </form>
-    <div class="pai">
-        <div class="generator" id='meme-image-container'>
-            <p class="texto" id='meme-text'></p>
-            <img src="#" alt="MemeImage" id='meme-image' class="meme-image">
-        </div>
-    </div>
+    </section>
     <script src="script.js"></script>
 </body>
 
