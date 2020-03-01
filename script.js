@@ -6,8 +6,8 @@ window.onload = function () {
   function criandoUrl(event) {
     let image = document.getElementById("meme-image");
     image.src = URL.createObjectURL(event.target.files[0]);
-    image.style.height = 400 + "px";
-    image.style.width = 400 + "px";
+    image.style.height = 399 + "px";
+    image.style.width = 399 + "px";
   };
   addImage.addEventListener("change", criandoUrl);
 

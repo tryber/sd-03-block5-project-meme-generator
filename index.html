@@ -12,27 +12,21 @@
 <body>
   <header>
     <h1>Criando Meme</h1>
+    <form class="imagem">
+      <label for="imagem">Escolha a Imagem</label><br>
+      <input type="file" id="meme-insert"><br>
+    </form>
+    <form class="text">
+      <label for="text-input">Texto</label><br>
+      <input type="text" id="text-input" maxlength="60">
+    </form>
   </header>
   <article>
-    <section>
-      <form class="imagem">
-        <label for="imagem">Escolha a Imagem</label><br>
-        <input type="file" id="meme-insert"><br>
-      </form>
-    </section>
-    <section>
-      <form class="text">
-        <label for="text-input">Texto</label><br>
-        <input type="text" id="text-input">
-      </form>
-    </section>
-    <section>
-      <div class="editImage" id="meme-image-container">
-        <img id="meme-image">
-        <p class="editText" id="meme-text"></p>
-      </div>
-    </section>
+    <div class="editImage" id="meme-image-container">
+      <img id="meme-image">
+      <p class="editText" id="meme-text"></p>
+    </div>
   </article>
 </body>
 
-</html> 
+</html>
