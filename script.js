@@ -34,3 +34,34 @@ function changeborder3() {
 function changeborder4() {
     document.querySelector('#meme-image-container').style.border = "none";
 }
+
+function toContainer() {
+    var campo = document.querySelector('#meme-image');
+    //campo.src = "imgs/meme1.jpeg";
+    campo.src = document.querySelector('#meme1').src;
+
+}
+
+function toContainer1() {
+    var campo = document.querySelector('#meme-image');
+    //campo.src = "imgs/meme1.jpeg";
+    campo.src = document.querySelector('#meme2').src;
+
+
+}
+
+function toContainer2() {
+    var campo = document.querySelector('#meme-image');
+    //campo.src = "imgs/meme1.jpeg";
+    campo.src = document.querySelector('#meme3').src;
+
+
+}
+
+function toContainer3() {
+    var campo = document.querySelector('#meme-image');
+    //campo.src = "imgs/meme1.jpeg";
+    campo.src = document.querySelector('#meme4').src;
+
+
+}

@@ -24,30 +24,34 @@
             <input type="text" id="text-input" onkeyup="overlaidTop()" maxlength="60" />
         </h3>
         <h4>Personalize a sua borda:</h4>
-        <button class="botao" id="button1" onclick="changeborder1()">EXEMPLO</button>
-        <button class="botao" id="button2" onclick="changeborder2()">EXEMPLO</button>
-        <button class="botao" id="button3" onclick="changeborder3()">EXEMPLO</button>
-        <button class="botao" id="button4" onclick="changeborder4()">SEM-BORDA</button>
+        <div id="botoes">
+            <button class="botao" id="button1" onclick="changeborder1()">EXEMPLO</button>
+            <button class="botao" id="button2" onclick="changeborder2()">EXEMPLO</button>
+            <button class="botao" id="button3" onclick="changeborder3()">EXEMPLO</button>
+            <button class="botao" id="button4" onclick="changeborder4()">SEM-BORDA</button>
+        </div>
+
+        <h2 class='titulo' id="zumba">Vizualize seu Meme!</h2>
 
     </div>
-    <section id='main-content'>
-        <h2 class='titulo main'>Vizualize seu Meme!</h2>
+    <section id='main-content' class=>
+
         <div id='meme-image-container'>
             <p id='meme-text'></p>
             <img src="" alt="Meme do Usuario" class="imagem-selecionada" id="meme-image">
+        </div>
+        <div id='others-pictures'>
+            <img src="imgs/meme1.jpeg" id="meme1" class="others-pictures" onclick="toContainer()" height="100px">
+            <img src="imgs/meme2.jpeg" id="meme2" class="others-pictures" onclick="toContainer1()" height="100px">
+            <img src="imgs/meme3.jpeg" id="meme3" class="others-pictures" onclick="toContainer2()" height="100px">
+            <img src="imgs/meme4.jpeg" id="meme4" class="others-pictures" onclick="toContainer3()" height="100px">
 
         </div>
     </section>
-    <section id='others-pictures' class="flex">
-        <div>
-            <img src="Images/aragorn.png" class="others-pictures" height="100px">
-            <img src="Images/buzz.png" class="others-pictures" height="100px">
-            <img src="Images/smart.png" class="others-pictures" height="100px">
 
 
 
-        </div>
-    </section>
+
 
     <footer></footer>
 
