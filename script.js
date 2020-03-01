@@ -1,6 +1,10 @@
-function loadImage(event) {
-    let output = document.getElementById('meme-image');
-    output.src = URL.createObjectURL(event.target.files[0]);
-};
+function printText() {
+    let textInput = document.querySelector("#text-input");
+    document.querySelector("#text-output").innerHTML = textInput.value;
 
-// test
+}
+
+function loadImage(event) {
+    let imgOutput = document.getElementById('meme-image');
+    imgOutput.src = URL.createObjectURL(event.target.files[0]);
+}

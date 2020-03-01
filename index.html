@@ -13,11 +13,11 @@
     <form>
         <p><label for="img-input" id="img-label">Upload a image</label></p>
         <input type="file" accept="image/*" name="img-input" id="img-input" onchange="loadImage(event)">
+        <input type="text" name="text-input" id="text-input" onkeyup="printText()">
     </form>
 
     <div id="img-frame">
-        <p id="text-output">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id nulla voluptate voluptatibus assumenda, itaque adipisci? Ducimus perspiciatis magni, repellendus expedita totam quo deleniti illo aliquid fugiat nemo nisi aspernatur culpa.
-        </p>
+        <p id="text-output"></p>
         <img id="meme-image" alt="Your image.">
     </div>
 
