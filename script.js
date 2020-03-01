@@ -5,7 +5,7 @@ let image = document.getElementById("meme-image");
 let butt1 = document.getElementById("button1");
 let butt2 = document.getElementById("button2");
 let butt3 = document.getElementById("button3");
-let imgChan = document.getElementsByClassName("image-box");
+let imgChan = document.getElementById("meme-image-container");
 
 textIn.addEventListener("keyup", changetxt);
 butt1.addEventListener("click", border1);
