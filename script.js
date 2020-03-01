@@ -1,17 +1,17 @@
-let loadFile = function (event) {
-    let output = document.getElementById('meme-image');
-    output.src = URL.createObjectURL(event.target.files[0]);
-};
+let textBox = document.querySelector("#text-input")
+textBox .addEventListener("input", makeText)
 
-function mostraTexto() {
-    let textoDoUsuario = document.getElementById("text-input").value;
-    let inserir = document.createElement("p");
-    inserir.innerText = textoDoUsuario;
-    let texto = document.getElementsByClassName("posicaoDaImagem")[0].getElementsByTagName("p")[0];
+let text = document.querySelector(".text")
 
-    if (texto) {
-        document.getElementsByClassName("posicaoDaImagem")[0].removeChild(texto);
-    }
+let image = document.getElementById("meme-insert")
+image.addEventListener("change", selectedImage)
 
-    document.getElementsByClassName("posicaoDaImagem")[0].appendChild(inserir);
+function selectedImage() {
+  let arquivo = this.files[0]
+  let img = document.getElementsByTagName("img")
+  img[0].src = URL.createObjectURL(arquivo)
+}
+
+function makeText() {
+  text.innerHTML = textBox.value
 }

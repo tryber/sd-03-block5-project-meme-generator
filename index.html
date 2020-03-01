@@ -4,37 +4,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gerador de memes</title>
+  <title>Document</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js"></script>
 </head>
 
 <body>
-  <header></header>
+  <section id="meme-interface">
+    <div class="meme-menu">
+      <h3>Escolha sua imagem</h3>
 
-  <section id="containerGeral">
+      <label for="grab-meme"><input type="file" name="grab-meme" id="meme-insert" /></label>
+    </div>
+    <div class="meme-menu">
+      <h3>Digite seu texto aqui!</h3>
+      <label for="text-input"><input type="text" name="text-input" id="text-input" /></label>
+    </div>
 
-    <div>
-      <h2>Gerador de Memes</h2>
-      <div id="caixaProcuraImagem">
-        <h3>Escolha sua imagem</h3>
-        <input id="meme-insert" type="file" accept="imagens/*" onchange="loadFile(event)" />
-      </div>
-
-      <div class="caixaTexto">
-        <h3>Digite seu texto</h3>
-        <input id="text-input" type="text" oninput="mostraTexto()" maxlength="60" />
-      </div>
-
-
-
-      <section>
-        <div class="posicaoDaImagem">
-          <img id=meme-text id="meme-image" class="imagem" alt="meme" />
-          <p id="meme-text"></p>
-        </div>
-      </section>
+    <div class="text-container">
+      <p class="text" id="meme-text"></p>
+      <img src="#" alt="MemeImage" id="meme-image" class="meme-image" />
+    </div>
   </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
