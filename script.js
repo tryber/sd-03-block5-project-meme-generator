@@ -87,33 +87,3 @@ function preLoaded4() {
     imageMeme.src = "imgs/meme4.jpeg"
 
 }
-
-
-
-/*//memes prontos
-
-    let images = document.querySelectorAll(".images")
-
-    for (let i in images) {
-    images[i].addEventListener("click", preLoaded)
-
-    let imageMeme = document.getElementById("meme-image")
-
-    function preLoaded(){
-        if (i == 0){
-            imageMeme.src = "imgs/meme1.jpeg"
-        }
-        if (i == 1){
-            imageMeme.src = "imgs/meme2.jpeg"
-        }
-        if (i == 2){
-            imageMeme.src = "imgs/meme3.jpeg"
-        }
-        if (i == 3){
-            imageMeme.src = "imgs/meme4.jpeg"
-        }
-    }
-
-    }
-
-*/
