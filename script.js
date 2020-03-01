@@ -11,7 +11,7 @@ window.onload = function () {
   };
   addImage.addEventListener("change", criandoUrl);
 
-  function inputText(input) {
+  function inputText() {
     memeText.textContent = addText.value;
   };
   addText.addEventListener("beforeinput", inputText);
