@@ -32,19 +32,19 @@ function loadImage() {
 }
 
 function mostraMeme1() {
-  let meme = document.getElementById("meme-1");
+  let meme = document.getElementById("meme1");
   image.src = meme.src;
 }
 
 function mostraMeme2() {
-  let meme = document.getElementById("meme-2");
+  let meme = document.getElementById("meme2");
   image.src = meme.src;
 }
 function mostraMeme3() {
-  let meme = document.getElementById("meme-3");
+  let meme = document.getElementById("meme3");
   image.src = meme.src;
 }
 function mostraMeme4() {
-  let meme = document.getElementById("meme-4");
+  let meme = document.getElementById("meme4");
   image.src = meme.src;
 }
