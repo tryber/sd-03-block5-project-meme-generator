@@ -1,22 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-#meme-image-container {
+.caixas {
+    border: 1px solid black;
+    height: 500px;
     position: relative;
     width: 500px;
-    height: 500px;
-    border: 1px solid black;
+    z-index: 1;
 }
-#meme-text {
+.caixa-imagem {
+    height: 500px;
+    padding: 0;
     position: absolute;
+    width: 500px;
+    z-index: 2;
+}
+.caixa-texto {
+    background-color: rgba(255, 255, 255, 0.3);
     bottom: 0;
-    width: 470px;
-    height: 100px;
-    background-color: rgba(255, 255, 255, 0.1);
-    word-break: break-word;
-    padding: 15px;
     font-size: 30px;
     font-weight: bold;
+    height: 75px;
+    margin-bottom: 0;
+    padding: 15px;
+    position: absolute;
     text-align: center;
+    width: 470px;
+    word-break: break-word;
+    z-index: 3;  
+}
+.input-caixa {
+    margin-bottom: 15px;
+    width: 380px;
 }
