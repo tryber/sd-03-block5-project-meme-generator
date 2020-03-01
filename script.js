@@ -37,25 +37,25 @@ window.onload= function(){
     function trocaImagem1(){
         image.src="imgs/meme1.jpeg"
     }
-    let img1=document.getElementById("meme1");
+    let img1=document.getElementById("meme-1");
     img1.addEventListener("click", trocaImagem1);
 
     function trocaImagem2(){
         image.src="imgs/meme2.jpeg"
     }
-    let img2=document.getElementById("meme2");
+    let img2=document.getElementById("meme-2");
     img2.addEventListener("click", trocaImagem2);
 
     function trocaImagem3(){
         image.src="imgs/meme3.jpeg"
     }
-    let img3=document.getElementById("meme3");
+    let img3=document.getElementById("meme-3");
     img3.addEventListener("click", trocaImagem3);
 
     function trocaImagem4(){
         image.src="imgs/meme4.jpeg"
     }
-    let img4=document.getElementById("meme4");
+    let img4=document.getElementById("meme-4");
     img4.addEventListener("click", trocaImagem4);
 
 }
