@@ -1,6 +1,8 @@
 .img-container{
   background-color: white;
-  border: 1px solid black;
+  border: 1px ;
+  border:solid ;
+  border: black;
   display: flex;
   height: 400px;
   justify-content: center;
