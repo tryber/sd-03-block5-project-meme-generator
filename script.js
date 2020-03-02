@@ -7,9 +7,10 @@ escrevendo.innerHTML = digitando.value
 })
 
 
+const resultado = document.getElementById('meme-image')
+const imguser = document.getElementById('meme-insert')
 
-var loadFile = function(event) {
-  var image = document.getElementById("meme-image");
-  image.src = URL.createObjectURL(event.target.files[0]);
-};
+imguser.addEventListener('change', function (event) {
+    resultado.src = URL.createObjectURL(event.target.files[0]);
+});
 
