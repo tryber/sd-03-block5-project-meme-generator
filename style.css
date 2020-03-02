@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .container-input-output {
   background-color: lightgreen;
   border: black solid 2px;
@@ -21,10 +24,14 @@
   color: white;
   font-size: 45px;
   font-weight: bold;
+  overflow: hidden;
   overflow-wrap: break-word;
   position: absolute;
   text-align: center;
   text-shadow: black;
   text-transform: capitalize;
+  text-overflow: ellipsis;
+  width: 500px;
+  white-space: nowrap;
   z-index: 1;
 }
