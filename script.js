@@ -3,11 +3,11 @@ function inserirTexto() {
     document.getElementById("meme-text").innerHTML = texto;
 }
 function visualizarImagem() {
-    let memeImage = document.getElementById("meme-image");
+    let memeImage = document.getElementById("meme-insert");
     let reader = new FileReader();
     reader.onload = function inicioReader(){
         let dataURL = reader.result;
-        let memeInsert = document.getElementById("meme-insert");
+        let memeInsert = document.getElementById("meme-image");
         memeInsert.src = dataURL;
     }
     reader.readAsDataURL(memeImage.files[0]);
