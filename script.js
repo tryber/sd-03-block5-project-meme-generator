@@ -9,3 +9,8 @@ function loadImage(event) {
     const memeImage = document.querySelector('.meme-image');
     memeImage.src = URL.createObjectURL(event.target.files[0]);
 }
+
+function changeContainerBorder(x) {
+    const memeContainer = document.querySelector('.meme-image-container');
+    memeContainer.style.border = x;
+}
