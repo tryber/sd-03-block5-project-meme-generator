@@ -12,11 +12,12 @@ function criandoUrl() {
 };
 addImage.addEventListener("change", criandoUrl);
 
-function inputText() {
-  memeText.textContent = addText.value;
-};
-addText.addEventListener("beforeinput", inputText);
 
+let texto = document.getElementById("text-input");
+texto.addEventListener("input",exibir); 
+function exibir(){
+document.getElementById("meme-text").innerHTML = texto.value;
+} 
 
 document.getElementById("button1").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
