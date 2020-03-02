@@ -1,5 +1,9 @@
 const img_input = document.getElementById('meme-insert');
 const textinput = document.getElementById('text-input');
+const btn1 = document.getElementById('button1');
+const btn2 = document.getElementById('button2');
+const btn3 = document.getElementById('button3');
+const container = document.getElementById('meme-image-container');
 
 img_input.addEventListener ('change', function(){ 
     let file = window.URL.createObjectURL(this.files[0]);
@@ -8,5 +12,17 @@ img_input.addEventListener ('change', function(){
 
 textinput.addEventListener('keyup', function(){
     document.getElementById('meme-text').innerText = textinput.value;
+});
+
+btn1.addEventListener('click', function(){
+    container.style.border = "3px dashed red";
+});
+
+btn2.addEventListener('click', function(){
+    container.style.border = "4px double blue";
+});
+
+btn3.addEventListener('click', function(){
+    container.style.border = "6px groove green";
 });
 

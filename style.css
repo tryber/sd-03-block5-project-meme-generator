@@ -3,7 +3,7 @@
   border: 1px solid black;
   width: 450px;
   height: 450px;
-  position: relative;
+  position: absolute;
 }
 
 #meme-image{
@@ -23,4 +23,19 @@
   position: absolute;
   margin-top: 300px;
   margin-left: 40px;
+}
+
+#button1{
+  border: 3px dashed red;
+  position: relative;
+}
+
+#button2{
+  border: 4px double blue;
+  position: relative;
+}
+
+#button3{
+  border: 6px groove green;
+  position: relative;
 }
