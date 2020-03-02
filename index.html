@@ -14,10 +14,12 @@
         <label for="picture" class="label">Select picture</label>
         <input type="file" accept="image/*" id="meme-insert" onchange="meme(event)"><br><br>
         <label for="text" class="label">Meme text</label>
-        <input type="text" id="text-input" size="35" maxlength="60">
+        <input type="text" id="text-input" size="25" maxlength="60">
     </form>
-    <div id="meme-text" class="caixa">
-        <div id="texto" class="txt"></div>
+    <div class="caixa" id="meme-image-container">
+        <div class="txt">
+            <p id="texto"></p>
+        </div>
         <img src=" " alt="gerador de meme" id="meme-image" class="imagem">
     </div>
 
