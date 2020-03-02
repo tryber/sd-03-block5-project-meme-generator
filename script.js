@@ -6,9 +6,12 @@ digitando.addEventListener('input', function(){
 escrevendo.innerHTML = digitando.value
 })
 
-var imginsert = document.getElementById('meme-insert').files[0];
-var memeimage = document.getElementById('meme-image')
+document.getElementById("text-input").addEventListener("input", function(event) {
+    document.getElementById("meme-text").innerHTML = document.getElementById("text-input").value;
+  });
 
-imginsert.addEventListener('change', function(){
-memeimage.scr = URL.createObjectURL(imageinsert)
-}
+var loadFile = function(event) {
+  var image = document.getElementById("meme-image");
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+
