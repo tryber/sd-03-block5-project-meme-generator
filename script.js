@@ -16,8 +16,8 @@ function exibir(){
 }
 
 let texto = document.getElementById("text-input");
-texto.addEventListener("input",exibir); 
- 
+texto.addEventListener("input",exibir);
+
 document.getElementById("button1").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
   imageContainer.style.border = "3px dashed red";
