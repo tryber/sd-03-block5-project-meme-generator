@@ -62,4 +62,3 @@ window.onload = function() {
   meme4.addEventListener("click", function () {
       memeImage.src = meme4.src;
   });
-  
