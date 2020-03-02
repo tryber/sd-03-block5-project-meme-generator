@@ -2,9 +2,9 @@ body {
   background-color: grey;
   font-family: sans-serif;
 }
-#meme-text {
+.meme-text {
   color: black;
-  font-size: 26px;
+  font-size: 36px;
   margin-left: 10px;
   overflow: hidden;
   position: absolute;
@@ -12,14 +12,14 @@ body {
   word-break: break-all;
   word-wrap: break-word;
 }
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px black solid;
   height: 500px;
   position: relative;
   width: 500px;
 }
-#meme-insert {
+.meme-insert {
   height: 500px;
   width: 500px;
 }
