@@ -93,7 +93,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 - Os três botões devem ser elementos do tipo `button`
 - Cada `button` deve ter o respectivo id e deve ser estilizado conforme especificado.
 
-### 5 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Liste miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura para ser customizada. O elemento clicável deve ser identificado um um id denominado 'meme1' para o primeiro meme, 'meme2' para o segundo, e assim por diante. As imagens que identificam os memes devem ficar, dentro da aplicação, num diretório chamado 'imgs' com os respectivos nomes 'meme1.jpeg', 'meme2.jpeg' e assim por diante.
+### 5 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Liste miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura para ser customizada. O elemento clicável deve ser identificado um um id denominado 'meme-1' para o primeiro meme, 'meme-2' para o segundo, e assim por diante. As imagens que identificam os memes devem ficar, dentro da aplicação, num diretório chamado 'imgs' com os respectivos nomes 'meme1.jpeg', 'meme2.jpeg' e assim por diante.
 - As imagens devem aparecer dentro do container de forma idêntica às imagens enviadas por upload para a página.
 - As regras de nomeação e armazenamento da imagem devem ser respeitadas.
 
