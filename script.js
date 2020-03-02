@@ -18,19 +18,20 @@ function inputText() {
 addText.addEventListener("beforeinput", inputText);
 
 
-  /* document.getElementById("button1").addEventListener("click", function () {
-    let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border = "3px dashed red";
-  });
+function button1() {
+  border.style.borderColor = "red";
+  border.style.borderStyle = "dashed";
+  border.style.borderWidth = "3px";
+};
 
-  document.getElementById("button2").addEventListener("click", function () {
-    let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border = "5px dashed blue";
-    imageContainer.style.borderStyle = "double"
-  });
+function button2() {
+  border.style.borderColor = "blue";
+  border.style.borderStyle = "double";
+  border.style.borderWidth = "5px";
+};
 
-  document.getElementById("button3").addEventListener("click", function () {
-    let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border = "6px groove green";
-  });
- */
+function button3() {
+  border.style.borderColor = "green";
+  border.style.borderStyle = "groove";
+  border.style.borderWidth = "6px";
+};

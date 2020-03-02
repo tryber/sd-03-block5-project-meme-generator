@@ -9,10 +9,8 @@ header {
 }
 
 #meme-image-container {
-  border: solid;
+  border: solid 1px black;
   background-color: white;
-  border: 1px;
-  border: black;
   height: 400px;
   width: 400px;
 }
