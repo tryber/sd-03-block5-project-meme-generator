@@ -17,8 +17,8 @@ function inputText() {
 };
 addText.addEventListener("beforeinput", inputText);
 
-if (true) {
-  document.getElementById("button1").addEventListener("click", function () {
+
+  /* document.getElementById("button1").addEventListener("click", function () {
     let imageContainer = document.getElementById("meme-image-container");
     imageContainer.style.border = "3px dashed red";
   });
@@ -33,4 +33,4 @@ if (true) {
     let imageContainer = document.getElementById("meme-image-container");
     imageContainer.style.border = "6px groove green";
   });
-}
+ */

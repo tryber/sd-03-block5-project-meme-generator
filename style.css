@@ -13,12 +13,11 @@ header {
   background-color: white;
   border: 1px;
   border: black;
-  border: solid;
   height: 400px;
   width: 400px;
 }
 
-.memeText {
+#meme-text{
   color: black;
   font-size: 10px;
   overflow: hidden;
@@ -31,7 +30,7 @@ header {
   z-index: 1;
 }
 
-.imagem {
+#meme-image {
   display: inline-block;
   height: 380px;
   margin-left: 0px;
