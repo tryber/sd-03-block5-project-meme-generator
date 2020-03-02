@@ -1,5 +1,5 @@
 let addImage = document.getElementById("meme-insert");
-let addText = document.getElementById("text-input");
+//let addText = document.getElementById("text-input");
 let memeText = document.getElementById("meme-text");
 
 function criandoUrl() {
@@ -19,7 +19,6 @@ document.getElementById("meme-text").innerHTML = texto.value;
 
 document.getElementById("button1").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
-  // console.log(imageContainer);
   imageContainer.style.border = "3px dashed red";
 });
 document.getElementById("button2").addEventListener("click", function () {
