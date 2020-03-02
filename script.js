@@ -8,3 +8,5 @@ function loadImage(event) {
     let imgOutput = document.getElementById('meme-image');
     imgOutput.src = URL.createObjectURL(event.target.files[0]);
 }
+
+// test
