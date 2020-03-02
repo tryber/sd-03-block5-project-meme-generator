@@ -1,61 +1,59 @@
 body {
-    background-image: url(./40036-he-man-sings-2560x1600-meme-wallpaper.jpg);
-    background-size: cover;
+  background-image: url(./40036-he-man-sings-2560x1600-meme-wallpaper.jpg);
+  background-size: cover;
 }
 
-#meme-image {
-    float: left;
-    clear: both;
-    width: 600px;
-    height: 450px;
-    
+.meme-image {
+  clear: both;
+  float: left;
+  height: 450px;
+  width: 600px;
 }
 
-#text-input{
-    float: left;
-    clear: both;
-    margin-top: 5px;
-    width: 598px;
-    height: 20px;
-    position: relative;
-    background-image: url(./giphy.gif);
-    background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+.text-input {
+  background-image: url(./giphy.gif);
+  background-size: cover;
+  clear: both;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 20px;
+  margin-top: 5px;
+  position: relative;
+  width: 598px;
 }
 
-::placeholder{
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightblue;
+::placeholder {
+  color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
 
-input{
-    color: cornflowerblue;
+input {
+  color: cornflowerblue;
 }
 
 p {
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: antiquewhite;
-    overflow-wrap: break-word;
-    text-overflow: inherit;
-    max-width: 600px;
-    max-height: 450px;
-    position: absolute;
-    margin-top: 15px;
+  color: antiquewhite;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  max-height: 450px;
+  max-width: 600px;
+  overflow-wrap: break-word;
+  position: absolute;
+  text-overflow: inherit;
 }
 
 div {
-    background-color: white;
-    position: relative;
-    border: solid 1px black;
-    width: 600px;
-    height: 450px;
-    float: left;
-    clear: both;
-  }
+  background-color: white;
+  border: solid 1px black;
+  clear: both;
+  float: left;
+  height: 450px;
+  position: relative;
+  width: 600px;
+}
 
-  header {
-      color: purple;
-  }
+header {
+  color: purple;
+}
