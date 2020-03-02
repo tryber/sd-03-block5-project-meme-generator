@@ -18,19 +18,18 @@ function inputText() {
 addText.addEventListener("beforeinput", inputText);
 
 
-  /* document.getElementById("button1").addEventListener("click", function () {
-    let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border = "3px dashed red";
-  });
+document.getElementById("button1").addEventListener("click", function () {
+  let imageContainer = document.getElementById("meme-image-container");
+  imageContainer.style.border = "3px dashed red";
+});
 
-  document.getElementById("button2").addEventListener("click", function () {
-    let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border = "5px dashed blue";
-    imageContainer.style.borderStyle = "double"
-  });
+document.getElementById("button2").addEventListener("click", function () {
+  let imageContainer = document.getElementById("meme-image-container");
+  imageContainer.style.border = "5px dashed blue";
+  imageContainer.style.borderStyle = "double"
+});
 
-  document.getElementById("button3").addEventListener("click", function () {
-    let imageContainer = document.getElementById("meme-image-container");
-    imageContainer.style.border = "6px groove green";
-  });
- */
+document.getElementById("button3").addEventListener("click", function () {
+  let imageContainer = document.getElementById("meme-image-container");
+  imageContainer.style.border = "6px groove green";
+});
