@@ -2,7 +2,7 @@ window.onload= function(){
     let Text=document.getElementById("text-input")
     let TextImg= document.getElementById("meme-text")
     function TextoDinamico(){
-        TextImg.innerText=Text.value
+        TextImg.innerHTML=Text.value
     }
     Text.addEventListener("keydown", TextoDinamico)
 
