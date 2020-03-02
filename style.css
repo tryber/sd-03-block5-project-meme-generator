@@ -9,9 +9,8 @@ width: 400px;
 z-index: 1;
 }
 img{
-height:399px;
-position: absolute;
-width:399px;
+height:300px;
+width:300px;
 z-index: 2;
 }
 p{

@@ -1,8 +1,8 @@
 let loadFile = function(event) {
     let memeImage = document.getElementById("imagem");
     memeImage.src = URL.createObjectURL(event.target.files[0]);
-    memeImage.style.height = 400 + "px";
-    memeImage.style.width = 400 + "px";
+    // memeImage.style.height = 300 + "px";
+    // memeImage.style.width = 300 + "px";
 };
 
 function mostraTexto(){
