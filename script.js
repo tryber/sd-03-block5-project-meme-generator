@@ -1,6 +1,6 @@
 function printText() {
-    const textInput = document.querySelector(".text-input");
-    const memeText = document.querySelector(".meme-text");
+    const textInput = document.querySelector('.text-input');
+    const memeText = document.querySelector('.meme-text');
     memeText.innerHTML = textInput.value
 
 }
