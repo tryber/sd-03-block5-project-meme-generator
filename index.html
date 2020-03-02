@@ -14,14 +14,14 @@
   <main class="wrap">
     <section>
       <p>Crie seu meme blablabla e etc e tal</p>
-      <p>Escolha uma imagem <input type="file" name="uploadeImg" id="uploadeImg"></p>
-      <p>Ou cole aqui a URL: <input type="text" name="uploadUrl" id="uploadUrl"></p>
+      <p>Escolha uma imagem <input type="file" name="uploadeImg" id="uploadeImg" accept="image/*" onchange="openFile(event)"></p>
       <p>Ou ainda, escolha uma das opções:</p>
       <p class="align-center"><strong>DIGITE SEU TEXTO AQUI!</strong></p>
       <p class="align-center"><input type="text" name="txtmeme" id="text-input" size="57"></p>
     </section>
     <section class="area">
       <img id="meme-image">
+      <input type="button" value="Download" onclick="download()">
     </section>
   </main>
   <footer>
