@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator - Gabriel Luiz</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-    </style>
 </head>
 <body>
+    <div class="main">
+        <div class="memes">
+            <img id="meme-1" class="meme" src="imgs/meme1.jpeg" onclick="mostraMeme1()">
+            <img id="meme-2" class="meme" src="imgs/meme2.jpeg" onclick="mostraMeme2()">
+            <img id="meme-3" class="meme" src="imgs/meme3.jpeg" onclick="mostraMeme3()">
+            <img id="meme-4" class="meme" src="imgs/meme4.jpeg" onclick="mostraMeme4()">
+        </div>
+    <div>Insira o texto do meme abaixo:</div>
+    <div>
+    <input id="text-input" maxlength="60">
     <div class="uploadContent">
         <label for="upload-image" class="instruction">Faça Upload de uma imagem</label>
         <input type="file" id="meme-insert">
     </div>
-    <p>Insira o texto do meme abaixo:</p>
-    <input id="text-input" maxlength="60">
-    <div id="meme-image-container">
-    <img id="meme-image">
-        <div id="meme-text">
-        </div>
-    </img>
+
+    <div id="meme-image-container" class="meme-image-container">
+    <img id="meme-image" class="meme-image"></img>
+    <div id="meme-text" class="meme-text"></div>
+    </div>
+
+
+
     </div>
     <script src="script.js">
     </script>
