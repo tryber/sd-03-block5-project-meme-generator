@@ -14,12 +14,17 @@
         type="file"
         id="meme-insert"
         name="meme-image"
-        onchange="inputImg()"
+        oninput="changedImg"
       />
       <br />
       <br />
       <label for="text-input">Write your text:</label>
-      <input type="text" id="text-input" name="text-input" />
+      <input
+        type="text"
+        id="text-input"
+        name="text-input"
+        oninput="changedText"
+      />
     </form>
     <br />
     <div id="meme-image-container">

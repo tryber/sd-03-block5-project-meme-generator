@@ -1,21 +1,14 @@
-function inputImg() {
-  let preview = document.querySelector("img");
-  let file = document.querySelector("input[type=file]").files[0];
-  let reader = new FileReader();
+window.onload = startThePage();
 
-  reader.onloadend = function() {
-    preview.src = reader.result;
-  };
-
-  if (file) {
-    reader.readAsDataURL(file);
-  } else {
-    preview.src = "";
-  }
+function startThePage() {
+  let imgText = document.querySelector("#text-input").value;
+  let imgMeme = document.querySelector("#meme-insert").value;
+  console.log(imgMeme);
+  console.log(imgText);
 }
-function inputText() {
-  let textMeme = document.querySelector("input[type=text]").innerHTML;
+function changedImg() {
+  console.log(imgMeme);
 }
-function alertFunc() {
-  alert(textMeme);
+function changedText() {
+  console.log(imgText);
 }
