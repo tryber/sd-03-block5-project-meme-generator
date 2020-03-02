@@ -50,3 +50,9 @@
   position: relative;
   background-color: white;
 }
+
+.btns{
+  display: flex;
+  position: absolute;
+  top: 430px;
+}
