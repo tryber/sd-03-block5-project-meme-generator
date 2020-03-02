@@ -1,9 +1,9 @@
 body{
-    background-color:black;
+   
     margin: 0;
 }
 .initial-conteiner{
-    background-color: grey;
+   background-color: black;
     color: white;
     height: 100px;
     line-height: 20px;
@@ -23,8 +23,10 @@ body{
 }
 
  p{
-    background-color: blue;
-    color: red;
+     font-weight: bold;
+    font-size: 25px;
+    font-family: 'Anton', serif;
+    color: yellow;
     text-align: center;
     margin-top: 450px;
     left: 408px;
