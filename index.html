@@ -3,30 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meme Generator- Projeto 2</title>
-    <link rel="stylesheet" href="style.css"> 
-   
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <section id="cabecalho">
-        <h1>Gerador de Memes</h1>
-        <form>
-            <label for="image">Selecione uma imagem do seu computador:</label>
-            <input type="file" id="meme-insert" name="image">
-        </form>
-        <form>
-            <label for="text-image">Escreva um frase engraçada*</label>
-            <input type="text" id="text-input" name="text-image">
-        </form>
-
-    </section>
-    <section id="white-place">
-        
-        <div id="text-conteiner"> 
-         <h2 id="meme-text" id="text-exemple">Seu texto irá aparecer aqui</h2>
+        <section class="initial-conteiner">
+            <form>
+                <label for="initial-text">Escreva aqui</label><br>
+                <input type="text" id="text-input" name="initial-text"><br>
+                <label for="image">Faça o upload de uma imagem</label><br>
+                <input type="file"  name="image"><br>
+              </form>
+        </section>
+        <div class="espaco-imagem">
+            <img id="meme-image" src="/home/cardoso/Downloads/trybephoto" width="550px" height="550px">7
         </div>
-        <img id="image-exemple" width="600px">
-    </section>
+        <div class="espaco-texto">
+            <p id="meme-text">Seu texto irá aparecer aqui</p>
+        </div>
     <script src="script.js"></script>
 </body>
 </html>
