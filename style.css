@@ -1,5 +1,9 @@
 body {
-  background-color: greenyellow;
+  background-color: grey;
+}
+.title {
+  color: white;
+  background-color: yellowgreen;
 }
 .meme-image-container {
   background: white;
@@ -16,9 +20,9 @@ body {
 }
 .text-input{
   margin-left: 5px;
-  width: 485px;
+  margin-bottom: 15px;
+  width: 352px;
 }
-
 .meme-text{
   color: white;
   font-size: xx-large;

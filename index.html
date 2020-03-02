@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main">
-
-      <div class="texto">
-          <p class="digite">Digite o texto:</p><input id="text-input" type="text" class="text-input" maxlength="60">
+    <div class="project-body">
+      <h1 class="title">Gerador de Memes</h1>
+      <div class="text">
+        <label for="text-input">Digite seu texto aqui:</label>
+        <input id="text-input" type="text" class="text-input" maxlength="60" placeholder="Use toda sua criatividade"/>
       </div>
 
       <div id="meme-image-container" class="meme-image-container">
-          <input type="file" id="meme-insert" onchange="setImage(event)">
+        <input type="file" id="meme-insert" onchange="setImage(event)" />
 
-          <button id="button1">Borta 1</button>
-          <button id="button2">Borda 2</button>
-          <button id="button3">Borda 3</button>
+        <button id="button1">Borta 1</button>
+        <button id="button2">Borda 2</button>
+        <button id="button3">Borda 3</button>
 
+        <img id="meme-image" class="meme-image" />
 
-          <img id="meme-image" class="meme-image">
-
-          <div id="meme-text" class="meme-text"></div>
+        <div id="meme-text" class="meme-text"></div>
       </div>
-  </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
