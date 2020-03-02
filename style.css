@@ -8,6 +8,15 @@ header {
   width: auto;
 }
 
+img {
+  display: inline-block;
+  height: 380px;
+  margin-left: 0;
+  position: absolute;
+  width: 380px;
+  z-index: 0;
+}
+
 .meme-image-container {
   border: solid 1px black;
   background-color: white;
@@ -26,13 +35,4 @@ p {
   white-space: nowrap;
   width: 400px;
   z-index: 1;
-}
-
-img {
-  display: inline-block;
-  height: 380px;
-  margin-left: 0;
-  position: absolute;
-  width: 380px;
-  z-index: 0;
 }
