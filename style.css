@@ -1,46 +1,31 @@
 body {
     background-color: #0fa36b;
-    margin: 10;
-    width: 100%;
 }
 
 .buttons {
-    left: 10px;
-    margin: 15px 0 0;
+    left: 15px;
+    margin: 20px 0 0;
 }
 
-.editText {
-    color: rgb(0, 0, 0);
-    display: inherit;
-    font-family: "Anton";
-    font-size: 35px;
-    left: 925px;
-    max-width: 400px;
-    position: absolute;
-    top: 76px;
-    word-break: keep-all;
-    z-index: 10;
+.meme-form {
+    margin: 10px;
 }
 
-.img-container {
+.meme-image-container {
     background-color: white;
     border: 1px solid black;
-    display: flex;
     height: 400px;
     justify-content: center;
-    margin: 10px;
+    padding-right: 1px;
     position: relative;
     width: 400px;
 }
 
-.meme-form {
-    font-size: 18px;
-    margin: 10px;
-}
-
-.meme-img {
+.meme-image {
     height: 100%;
+    position: absolute;
     width: 100%;
+    z-index: 0;
 }
 
 .memes {
@@ -48,23 +33,17 @@ body {
     border: 1px solid black;
     height: 100px;
     margin: 1px 1px;
+    overflow: auto;
     padding: 1px;
     width: 100px;
 }
 
 .meme-txt {
+    color: white;
     font-family: "Montserrat";
-    font-size: 30px;
+    font-size: 20px;
+    overflow-wrap:break-word;
     position: absolute;
     text-align: center;
-    text-transform: uppercase;
-    top: 230px;
-    width: 90%;
-    word-break: break-all;
-    z-index: 10;
-}
-
-.text-input {
-    font-size: 300px;
-    position: absolute;
+    z-index: 1;
 }
