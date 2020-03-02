@@ -14,7 +14,7 @@ var loadFile = function(imagemCarregada) {
 
 function typing() {
     var textImgInner = document.querySelector('input#text-input').value;
-    document.querySelector('#textOnImg').innerText = textImgInner
+    document.querySelector('#meme-text').innerText = textImgInner
 }
 
 textImg.addEventListener('keyup',typing);
