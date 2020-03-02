@@ -11,22 +11,36 @@
       <h1 class="title">Gerador de Memes</h1>
       <div class="text">
         <label for="text-input">Digite seu texto aqui:</label>
-        <input id="text-input" type="text" class="text-input" maxlength="60" placeholder="Use toda sua criatividade"/>
+        <input
+          id="text-input"
+          type="text"
+          class="text-input"
+          maxlength="60"
+          placeholder="Use toda sua criatividade"
+        />
       </div>
+      <aside class="memes-famosos">
+        <img id="meme1"class="memes"src="imagens/meme1.jpeg" alt="meme pronto" width="80px">
+        <img id="meme2"class="memes"src="imagens/meme2.jpeg" alt="meme pronto" width="80px">
+        <img id="meme3"class="memes"src="imagens/meme3.jpeg" alt="meme pronto" width="80px">
+        <img id="meme4"class="memes"src="imagens/meme4.jpeg" alt="meme pronto" width="80px">
+        <img id="meme5"class="memes"src="imagens/meme5.jpeg" alt="meme pronto" width="80px">
+        <img id="meme6"class="memes"src="imagens/meme6.jpeg" alt="meme pronto" width="80px">
+      </aside>
 
-      <div id="meme-image-container" class="meme-image-container">
-        <input type="file" id="meme-insert" onchange="setImage(event)" />
-
+      <section>
         <button id="button1">Borta 1</button>
         <button id="button2">Borda 2</button>
         <button id="button3">Borda 3</button>
+      </section>
 
-        <img id="meme-image" class="meme-image" />
+      <input type="file" id="meme-insert" onchange="setImage(event)"/>
 
-        <div id="meme-text" class="meme-text"></div>
+      <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" class="meme-image"/>
+      <div id="meme-text" class="meme-text"></div>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>

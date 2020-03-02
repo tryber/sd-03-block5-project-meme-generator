@@ -1,9 +1,11 @@
 body {
-  background-color: grey;
+  background-color: greenyellow;
 }
 .title {
-  color: white;
   background-color: yellowgreen;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 .meme-image-container {
   background: white;
@@ -16,11 +18,12 @@ body {
 .meme-image{
   border-width: 1px;
   height: 500px;
+  margin-top: 4px;
   width: 500px;
 }
 .text-input{
-  margin-left: 5px;
   margin-bottom: 15px;
+  margin-left: 5px;
   width: 352px;
 }
 .meme-text{
@@ -31,4 +34,7 @@ body {
   margin-top: -140px;
   text-shadow: 2px 2px 2px black;
   word-wrap: break-word;
+}
+aside {
+  display: inline-table;
 }
