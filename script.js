@@ -22,25 +22,19 @@ function upload() {
 let firstButton = document.querySelector("#button1");
 firstButton.addEventListener("click", function(event){
     let box = document.querySelector("#meme-image-container");
-    box.style.borderStyle="dashed";
-    box.style.borderColor="red";
-    box.style.borderWidth="3px";
+    box.style.border="3px red dashed";
 })
 
 let secondButton = document.querySelector("#button2");
 secondButton.addEventListener("click", function(event){
     let box = document.querySelector("#meme-image-container");
-    box.style.borderStyle="double";
-    box.style.borderColor="blue";
-    box.style.borderWidth="5px";
+    box.style.border="5px blue double";
 })
 
 let thirdButton = document.querySelector("#button3");
 thirdButton.addEventListener("click", function(event){
     let box = document.querySelector("#meme-image-container");
-    box.style.borderStyle="groove";
-    box.style.borderColor="green";
-    box.style.borderWidth="6px";
+    box.style.border="6px green groove";
 })
 
 let firstPhoto = document.querySelector("#meme-1");
