@@ -19,11 +19,11 @@ function escreverNaImagem() {
 
 input.addEventListener('change',function () {
     let inputImagem = input.files[0];
-    console.log(inputImg);
+ 
     let ler = new FileReader();
     let image = document.getElementById("meme-image");
     if (inputImagem){
-      ler.readAsDataURL(inputImg)
+      ler.readAsDataURL(inputImagem)
 
     }
     ler.onloadend = function ()
