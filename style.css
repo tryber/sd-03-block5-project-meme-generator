@@ -1,10 +1,19 @@
+body{
+    background-color:black;
+}
 .initial-conteiner{
-    background-color: black;
+    background-color: grey;
     color: white;
     height: 100px;
     line-height: 20px;
     text-align: center;
 }
 
+.area-branca{
+    background-color: white;
+    height: 550px;
+    margin: auto;
+    width: 550px;
 
+}
 
