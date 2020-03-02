@@ -12,10 +12,10 @@
 <body>
     <form>
         <input type='file' accept='image/*' class='meme-insert' id='meme-insert' onchange='loadImage(event)'>
-        <p>Type a text: <input type='text' class='text-input' id='text-input' onkeyup='printText()'></p>
-        <button class='button1' id='button1' type="button" onclick='changeContainerBorder("3px dashed red")'>Border 1</button>
-        <button class='button2' id='button2' type="button" onclick='changeContainerBorder("5px double blue")'>Border 2</button>
-        <button class='button3' id='button3' type="button" onclick='changeContainerBorder("6px groove green")'>Border 3</button>
+        <p>Type a text: <input type='text' class='text-input' id='text-input' onkeyup='printText()' maxlength='60'></p>
+        <button class='button' id='button1' type="button" onclick='changeContainerBorder("3px dashed red")'>Border 1</button>
+        <button class='button' id='button2' type="button" onclick='changeContainerBorder("5px double blue")'>Border 2</button>
+        <button class='button' id='button3' type="button" onclick='changeContainerBorder("6px groove green")'>Border 3</button>
     </form>
 
     <div class='meme-image-container' id='meme-image-container'>

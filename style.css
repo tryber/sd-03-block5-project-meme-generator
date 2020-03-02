@@ -3,12 +3,17 @@
     width: 100%;
 }
 
+.button {
+    margin-bottom: 10px;
+}
+
 .meme-image-container {
     background-color: white;
     border: 1px solid black;
     height: 500px;
     position: relative;
     width: 500px;
+    overflow: hidden;
 }
 
 .meme-text {
