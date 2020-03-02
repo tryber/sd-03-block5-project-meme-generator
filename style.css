@@ -1,11 +1,11 @@
-#meme-image-container{
+.img-container {
   background-color: white;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-  width: 450px;
-  height: 450px;
+  border: 1px solid black;
+  height: 400px;
+  justify-content: center;
+  margin: 10px;
   position: relative;
+  width: 400px;
 }
 
 #meme-image{
@@ -22,22 +22,38 @@
 }
 
 #meme-text{
+  color: black;
+  font-family: "Montserrat";
+  font-size: 30px;
   position: absolute;
-  margin-top: 300px;
-  margin-left: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 230px;
+  width: 90%;
+  word-break: break-all;
+  z-index: 10;
 }
 
 #button1{
   border: 3px dashed red;
   position: relative;
+  background-color: white;
+  flex-grow: 1;
+  margin: 0 0.5em;
 }
 
 #button2{
   border: 5px double blue;
   position: relative;
+  background-color: white;
+  flex-grow: 1;
+  margin: 0 0.5em;
 }
 
 #button3{
   border: 6px groove green;
   position: relative;
+  background-color: white;
+  flex-grow: 1;
+  margin: 0 0.5em;
 }
