@@ -5,32 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
     <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:900|Teko&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-      <form>
-        <input type="text" id="text-input" maxlength="60">
-        <label for="text-input">digite o texto do seu meme:</label>
-        <br>
-        <br>
-        <label for="meme-insert"> Escolha uma imagem para o seu meme:</label>
-        <input type="file" id="meme-insert" accept="image/gif, image/jpeg, image/png">
-      </form>
-      <div id="buttons-container" class="buttons-container">
-          <h3>Escolha a borda do seu meme:</h3>
-      <button id="button1">borda 1</button>
-      <button id="button2">borda 2</button>
-      <button id="button3">borda 3</button>
-      <div class="carrossel" role="listbox">
-        <h3>Ou escolha um das fotos abaixo:</h3>
-        <img id="meme-1" class="imageSeparator" src="imgs/meme1.jpeg" alt="meme1" height="67px">
-        <img id="meme-2" class="imageSeparator" src="imgs/meme2.jpeg" alt="meme2" height="67px">
-        <img id="meme-3" class="imageSeparator" src="imgs/meme3.jpeg" alt="meme3" height="67px">
-        <img id="meme-4" class="imageSeparator" src="imgs/meme4.jpeg" alt="meme4" height="67px">
+    <div class="content">
+      <header class="header"><h1>Meme Generator</h1></header>
+      <div class="flex-container">
+        <div class="flex-item">
+          <div id="meme-image-container" class="img-container">
+            <img class="meme-img" id="meme-image" />
+            <p id="meme-text" class="meme-txt"></p>
+          </div>
+        </div>
+
+        <form class="meme-form flex-column">
+          <label for="text-input" class="flex-item"
+            >Digite aqui o texto do meme:</label
+          >
+          <input id="text-input" type="text" maxlength="60" class="flex-item" />
+
+          <label>Escolha a borda do seu meme:</label>
+          <div class="flex-container">
+            <input
+              type="button"
+              id="button1"
+              class="button1 flex-button"
+              title="Define a borda do meme"
+              value="Borda 1"
+            />
+            <input
+              type="button"
+              id="button2"
+              class="button2 flex-button"
+              title="Define a borda do meme"
+              value="Borda 2"
+            />
+            <input
+              type="button"
+              id="button3"
+              class="button3 flex-button"
+              title="Define a borda do meme"
+              value="Borda 3"
+            />
+          </div>
+          <label for="meme-insert" class="flex-item"
+            >Escolha uma imagem para o seu meme:</label
+          >
+          <input
+            id="meme-insert"
+            type="file"
+            accept="image/*"
+            class="flex-item"
+          />
+        </form>
       </div>
-      <div id="meme-image-container" class="img-container">
-        <img id="meme-image" class="style-image" width="400px">
-        <span id="meme-text" class="style-text"></span>
+      <label class="meme-form align-txt-center"
+        >Ou escolha um das fotos abaixo:</label
+      >
+      <div class="flex-container">
+        <div>
+          <img
+            src="imgs/meme1.jpeg"
+            alt="Meme 1"
+            id="meme-1"
+            class="meme-selector"
+          />
+          <img
+            src="imgs/meme2.jpeg"
+            alt="Meme 2"
+            id="meme-2"
+            class="meme-selector"
+          />
+        </div>
+        <div>
+          <img
+            src="imgs/meme3.jpeg"
+            alt="Meme 3"
+            id="meme-3"
+            class="meme-selector"
+          />
+          <img
+            src="imgs/meme4.jpeg"
+            alt="Meme 4"
+            id="meme-4"
+            class="meme-selector"
+          />
+        </div>
       </div>
-    <script type="text/javascript" src="script.js"></script>
+    </div>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
