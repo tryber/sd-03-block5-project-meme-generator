@@ -59,12 +59,9 @@ input.addEventListener('change',function () {
 
 
   let memes = document.getElementsByClassName('meme');
-  console.log(memes)
-  console.log('rodou')
   for (meme of memes){
-    console.log(meme)
     meme.addEventListener('click',function(e){
-      let imagePH = document.getElementById("meme-image")
+      let imagePH = document.getElementById("meme-image");
       imagePH.src = e.target.src;
     })}
 
