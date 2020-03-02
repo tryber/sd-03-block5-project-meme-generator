@@ -1,4 +1,4 @@
-.img-container {
+.img-container{
   background-color: white;
   border: 1px solid black;
   display: flex;
@@ -8,35 +8,54 @@
   position: relative;
   width: 400px;
 }
-body{
-  background-color: blue;
-}
 
 .meme-txt {
-  display: flex;
-  color: black;
-  font-size: 30px;
   position: absolute;
-  text-align: center;
-  text-transform: uppercase;
-  top: 230px;
-  width: 90%;
+  top: 0px;
+  width: 350px;
   word-break: break-word;
+  left: auto;
   z-index: 1;
 }
 
-.imagens{
+.meme-image {
   height: 100%;
   width: 100%;
+} 
+
+body {
+background-color: blue;
+font-family: "Teko", "Montserrat";
 }
 
-.repartir{
-   height: 160px;
-   width: 800px;
+.container {
+background-color: white;
+border: 1px solid black;
+display: flex;
+height: 400px;
+justify-content: center;
+margin: 10px;
+position: relative;
+width: 400px;
 }
 
-.trinta{
-    height: 100%;
-    width: 20%;
-    cursor: pointer;
+.meme-txt {
+color: black;
+position: absolute;
+text-align: center;
+text-transform: uppercase;
+top: 230px;
+width: 90%;
+word-break: break-all;
+z-index: 10;
+}
+
+.meme-img {
+height: 100%;
+width: 100%;
+}
+
+.meme-selector {
+margin: 1em;
+width: 10em;
 }
