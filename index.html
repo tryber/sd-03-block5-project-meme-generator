@@ -8,16 +8,18 @@
 </head>
 <body>
     <header>Crie seu Meme</header>
+
     <form>
         <label for="meme-insert">Escolha a imagem:</label>
-        <input type="file" id="meme-insert" onchange="carregaImagem()"><br>
+        <input type="file" id="meme-insert"><br>
         <label for="text-input">Digite o texto para o seu meme:</label><br>
-        <input type="text" id="text-input" maxlength="60"><br>
+        <input type="text" id="text-input" name="insereTexto" maxlength="60"><br>
     </form>
+
     <section id="meme-image-container">
         <img id="meme-image">
-        <p>Testando o local da imagem. Continuando com os teste para saber se o espaço fica limitado.</p>
     </section>
+
     <script src="script.js"></script>
 </body>
 </html>
