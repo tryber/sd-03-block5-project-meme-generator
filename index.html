@@ -11,14 +11,13 @@
 
 <body>
     <form>
-        <p><label for="img-input" class="img-label">Upload a image</label></p>
         <input type="file" accept="image/*" class="meme-insert" onchange="loadImage(event)">
-        <input type="text" class="text-input" onkeyup="printText()">
+        <p>Type a text: <input type="text" class="text-input" onkeyup="printText()"></p>
     </form>
 
     <div class="meme-image-container">
         <p class="meme-text"></p>
-        <img class="meme-image" alt="Your image.">
+        <img class="meme-image" alt="Your image here.">
     </div>
 
 </body>

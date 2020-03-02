@@ -1,10 +1,11 @@
 function printText() {
-    let textInput = document.querySelector(".text-input");
-    document.querySelector(".text-output").innerHTML = textInput.value;
+    const textInput = document.querySelector(".text-input");
+    const memeText = document.querySelector(".meme-text");
+    memeText.innerHTML = textInput.value
 
 }
 
 function loadImage(event) {
-    let imgOutput = document.getElementById('meme-image');
-    imgOutput.src = URL.createObjectURL(event.target.files[0]);
+    const memeImage = document.querySelector('.meme-image');
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
 }
