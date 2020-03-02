@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto1 JavaScript</title>
+</head>
+
+<body>
+    <h1 class="title">Criador de Memes</h1>
+    <form>
+        <label>Selecione uma imagem: </label>
+        <input type="file" accept="image/*" name="image" id="meme-insert" onchange="loadFile(event)">
+        <p>
+            <label>Digite o texto: </label>
+            <input type="text" name="textoMeme" id="text-input" size="15" maxlength="60" alt="Use a imaginação">
+        </p>
+    </form>
+    <div id="meme-image-contaniner">
+        <div>
+            <img id="meme-image" alt="Meme">
+            <p class="meme-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
