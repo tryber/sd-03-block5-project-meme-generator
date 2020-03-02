@@ -16,15 +16,32 @@ body {
     padding-right: 20px;
 }
 
-#meme {
+#meme-image-container {
     display: flex;
     justify-content: center;
 }
 
 .btn {
+    margin: 0 380px;
+    width: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 10px;
+}
+
+button {
+    box-shadow: inset 0px 1px 0px 0px #79c259;
+    background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+    background-color: #74ad5a;
+    border: 1px solid #3b6e22;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
 }
 
 #meme-image {
