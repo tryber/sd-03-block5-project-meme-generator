@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="geral-container">
-      <div>
-        <label id="meme-image-container" class="meme-image-container"
-          >Escolha sua imagem</label
-        >
-        <input type="file" id="meme-insert" onchange="setImage(event)" />
-      </div>
-      <div>
-        <label class="text">Digite seu texto aqui:</label>
-        <input id="text-input" type="text" class="text-input" maxlength="60" />
-      </div>
-      
-      <img id="meme-image" class="meme-image" />
+    <div class="main">
 
-      <div id="meme-text" class="meme-text"></div>
-    </section>
+      <div class="texto">
+          <p class="digite">Digite o texto:</p><input id="text-input" type="text" class="text-input" maxlength="60">
+      </div>
+
+      <div id="meme-image-container" class="meme-image-container">
+          <input type="file" id="meme-insert" onchange="setImage(event)">
+
+          <button id="button1">Borta 1</button>
+          <button id="button2">Borda 2</button>
+          <button id="button3">Borda 3</button>
+
+
+          <img id="meme-image" class="meme-image">
+
+          <div id="meme-text" class="meme-text"></div>
+      </div>
+  </div>
 
     <script src="script.js"></script>
   </body>
