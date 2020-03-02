@@ -19,7 +19,7 @@ btn1.addEventListener('click', function(){
 });
 
 btn2.addEventListener('click', function(){
-    container.style.border = "4px double blue";
+    container.style.border = "5px double blue";
 });
 
 btn3.addEventListener('click', function(){
