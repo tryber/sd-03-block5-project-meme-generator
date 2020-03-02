@@ -3,7 +3,7 @@ body {
   margin: 50px;
 }
 
-#text-input {
+.text-input {
   padding: 10px;
   width: 550px;
 }
@@ -15,7 +15,7 @@ body {
   width: 550px;
 }
 
-#meme-image-container {
+.meme-image-container {
   height: 550px;
   width: 550px;
 }
