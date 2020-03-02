@@ -19,7 +19,7 @@ window.onload = function() {
     function showText() {
         p.innerHTML = inputText.value;
     }
-    inputText.addEventListener("keydown", showText);
+    inputText.addEventListener("keyup", showText);
 
     //Border Buttons
     function borderButton1() {
