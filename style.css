@@ -26,11 +26,16 @@ p {
 
 /*Id's*/
 #meme-image {
-  background-color: rgb(255 , 255 , 255);
-  border: 1px solid black;
   height: 500px;
   object-fit: cover;
   width: 100%;
+}
+
+#meme-image-conteiner {
+  background-color: rgb(255 , 255 , 255);
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
 }
 
 /* Classes */
@@ -55,7 +60,7 @@ p {
   max-width: 500px;
 }
 
-.result {
+#meme-text {
   position: absolute;
   background-color: rgba(0,0,0,0.5);
   color:#fff;

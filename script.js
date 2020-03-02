@@ -3,7 +3,7 @@ window.onload = function () {
   let image = document.getElementById('uploadeImg');
   let imageUrl = document.getElementById('uploadeUrl');
   let memeImage = document.getElementById('meme-image');
-  let result = document.getElementsByClassName('result')[0];
+  let result = document.getElementById('meme-text');
 
   txt.addEventListener('keyup', function mostrarTxt() {
     result.innerText = txt.value;
