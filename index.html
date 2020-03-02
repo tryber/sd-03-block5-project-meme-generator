@@ -14,9 +14,10 @@
         <article class="article">
             <section>
                 <form>
-                    <label for="meme-insert">Selecionar imagem:</label>
-                    <input type="file" id="meme-insert" accept="image/*" onchange="loadFile(event)">
-                    <br>
+                    <div id="meme-image">
+                      <label for="meme-insert">Selecionar imagem:</label>
+                      <input type="file" id="meme-insert" accept="image/*" onchange="loadFile(event)">
+                    </div>
                     <label for="text-input">Texto do meme:</label>
                     <input type="text" id="text-input" maxlength="60" oninput="mostraTexto()" >
                 </form>
