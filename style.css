@@ -13,10 +13,17 @@
     color: red;
     object-position: bottom;
     object-fit: contain;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    max-width: 290px;
+    text-transform: uppercase;
+    word-wrap: break-word;
     
 }
 .meme-images {
   width: 100%;
   height: 100%;  
   object-fit: contain;
+  z-index: 0;
 }
