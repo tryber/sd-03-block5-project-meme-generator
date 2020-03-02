@@ -3,35 +3,34 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js"></script>
+
   <title>Meme Generator</title>
 
 </head>
 
 <body>
-    <div>
-      <form>
-        <div class="imagem">
-          <label for="imagem"> Escolha imagem </label> <br>
-          <input type="file" id="meme-insert"></input> <br><br>
-        </div>
-      </form>    
-      <form>
-       <div class="text">
-          <input type="text" id="text-input"> <br><br>
-          <label for="text-input" id="insereTexto"> Insira texto </label> <br><br>        </div> 
-      </form> 
-    </div>  
-    
-    <article>
-      <p id="meme-text"></p>
-      <div id="meme-image-container">    
-        <img id="meme-image">
-      </div>
-    </article>
+  <form>
+    <div class="texto">
+      <input type="text" id="text-input" class="text-input" maxlength="60"> <br><br>
+    </div>
+  </form>
+
+
+  </div>
+
+  <div id="meme-image-container" class="meme-image-container">
+
+    <input type="file" id="meme-insert" onchange="mostraFoto(event)"></input> <br><br>
+    <button id="button1">Borda 1</button>
+    <button id="button2">Borda 2</button>
+    <button id="button3">Borda 3</button>
+
+    <img id="meme-image" class="meme-image">
+    <div id="meme-text" class="meme-text"></div>
+
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>

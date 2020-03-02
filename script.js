@@ -1,45 +1,46 @@
-// primeiro coloco o texto na caixa
-/*
-window.onload = function(){
-  let addImagem = document.getElementById("meme-insert");
-  let addText = document.getElementById("text-input");
-  let memeText = document.getElementById("meme-text");
 
-  // coloco imagem na caixa
-
-  
-    function insereTexto(input) {    
-      memeText.textContent = input.target.value;
-     };
-    addText.addEventListener("beforeinput",insereTexto);
-
- 
-}
-*/
-window.onload = function () {
-
-  document.getElementById("text-input").addEventListener("keyup", function(){
-
-  
-    let texto = document.getElementById("insereTexto");
-  
-    if (this.value != ''){
-      texto.innerHTML = this.value;
-    }
-    else {
-      texto.innerHTML = "Esreva o texto";
-    }
-  
-  }) 
-
-  function uploadImage(event){
-    
-    document.getElementById("meme-image") = addEventListener("change", uploadImage);
-    let imagem = document.getElementById("meme-insert");
-
+//primeiro mostra foto na caixa
+    let mostraFoto = function(event) {
+    let imagem = document.getElementById("meme-image");
     imagem.src = URL.createObjectURL(event.target.files[0]);
-  };  
-    
+
+    };
+//segundo coloca texto na caixa
+    let texto = document.getElementById("text-input");
+    texto.addEventListener("input",exibir);
 
 
-};
+
+    let botao1 = document.getElementById("button1");
+    botao1.addEventListener('click', borda1);
+
+    let botao2 = document.getElementById("button2");
+    botao2.addEventListener('click', borda2);
+
+    let botao3 = document.getElementById("button3");
+    botao3.addEventListener('click', borda3);
+
+    let borda = document.getElementById("meme-image-container");
+
+    function exibir(){
+      document.getElementById("meme-text").innerHTML = texto.value;
+    }
+
+    function borda1(){
+      borda.style.borderColor = "red";
+      borda.style.borderStyle = "dashed";
+      borda.style.borderWidth = "3px";
+    }
+    function borda2(){
+      borda.style.borderColor = "blue";
+      borda.style.borderStyle = "double";
+      borda.style.borderWidth = "5px";
+  }
+  
+    function borda3(){
+      borda.style.borderColor = "green";
+      borda.style.borderStyle = "groove";
+      borda.style.borderWidth = "6px";
+  }
+  
+  

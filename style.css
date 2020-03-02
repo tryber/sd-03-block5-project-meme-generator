@@ -2,6 +2,7 @@ body {
   margin: 50px;
   background-color: rgb(221, 235, 224);
 }
+
 #text-input {
   padding: 10px;
   width: 550px;
@@ -9,17 +10,16 @@ body {
 
 #meme-image {
   width: 550px;
-  height: 450px;
+  height: 550px;
   border: 1px solid black;
   background-color: white;
   background: cover;
 }
-  #insereTexto {
-  
-   
 
-
+.meme-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 400px;
+  z-index: 1;
+  word-wrap: break-word;
 }
-
-
-
