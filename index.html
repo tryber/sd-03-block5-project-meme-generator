@@ -10,25 +10,21 @@
   <body>
     <form>
       <label for="meme-image">Select an Image:</label>
-      <input
-        type="file"
-        id="meme-insert"
-        name="meme-image"
-        oninput="changedImg"
-      />
+      <input type="file" name="meme-image" oninput="changedImg()" />
       <br />
       <br />
       <label for="text-input">Write your text:</label>
       <input
-        type="text"
         id="text-input"
+        type="text"
         name="text-input"
-        oninput="changedText"
+        oninput="changedText()"
       />
     </form>
     <br />
     <div id="meme-image-container">
       <img src="" id="meme-image" />
+      <p id="meme-text"></p>
     </div>
   </body>
 </html>
