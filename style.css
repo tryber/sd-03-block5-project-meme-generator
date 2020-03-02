@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    margin: 0;
 }
 .initial-conteiner{
     background-color: grey;
@@ -15,7 +16,20 @@ body{
     margin: auto;
     width: 550px;
     overflow: hidden;
+    text-align: center;
     word-wrap: break-word;
 
 }
 
+ p{
+    background-color: blue;
+    color: red;
+    text-align: center;
+    margin-top: 450px;
+    left: 408px;
+    position: absolute;
+    width: 540px;
+    height: 90px;
+    overflow: hidden;
+
+}
