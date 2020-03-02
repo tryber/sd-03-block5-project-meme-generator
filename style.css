@@ -21,8 +21,8 @@ form {
 }
 
 #meme-image {
-  width: 100%;
-  height: 100%;
+  width: 800px;
+  height: 500px;
 }
 
 p {
@@ -31,7 +31,22 @@ p {
   top: 380px;
   left: 20px;
   width: 760px;
-  color: red;
   text-align: center;
 }
 
+#estilizar-borda {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+#estilizar-borda button {
+  padding: 5px 10px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
