@@ -19,6 +19,10 @@ body {
 #meme-image-container {
     display: flex;
     justify-content: center;
+    border: solid black 1px;
+    width: 400px;
+    height: 400px;
+    margin-left: 430px;
 }
 
 .btn {
@@ -47,7 +51,6 @@ button {
 #meme-image {
     height: 400px;
     width: 400px;
-    border: solid black 1px;
     background: white;
 }
 
