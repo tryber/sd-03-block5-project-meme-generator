@@ -1,24 +1,24 @@
-#img-label {
+.img-label {
     cursor: pointer;
 }
 
-#img-input {
+.img-input {
     display: none;
 }
 
-#meme-image {
+.meme-image {
     height: 100%;
     width: 100%;
 }
 
-#meme-image-container {
+.meme-image-container {
     border: 1px solid black;
     height: 500px;
     position: relative;
     width: 500px;
 }
 
-#text-output {
+.text-output {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -28,6 +28,6 @@
     text-shadow: 1px 1px black;
 }
 
-#text-input {
+.text-input {
     margin-bottom: 10px;
 }
