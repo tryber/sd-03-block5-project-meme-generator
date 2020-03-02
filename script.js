@@ -1,2 +1,3 @@
 let textoInserido = document.getElementById("meme-image-container")
-textoInserido.innerHTML = "textoApresentado"
+let textoDigitado = document.getElementById("text-input")
+textoInserido.innerHTML = textoDigitado
