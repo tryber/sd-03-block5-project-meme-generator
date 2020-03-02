@@ -1,38 +1,42 @@
 body {
-    background: darkgrey;
-  }
-  header {
-    background: darkred;
-    text-align: center;
-    width: auto;
-  }
-  #meme-image-container {
-    border: solid 1px black;
-    background-color: white;
-    height: 400px;
-    width: 400px;
-  }
+  background: darkgrey;
+}
+
+header {
+  background: darkred;
+  text-align: center;
+  width: auto;
+}
+
+#meme-image-container {
+  border: solid 1px black;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+}
   
-  p {
-    color: black;
-    font-size: 35px;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    position: relative;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 400px;
-    z-index: 1;
-  }
-  #meme-image-container img {
-    display: inline-block;
-    height: 380px;
-    margin-left: 0px;
-    position: absolute;
-    width: 380px;
-    z-index: 0;
-  }
-  .meme-image-container {
-    position: absolute;
-  }
+p {
+  color: black;
+  font-size: 35px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 400px;
+  z-index: 1;
+}
+
+#meme-image-container img {
+  display: inline-block;
+  height: 380px;
+  margin-left: 0px;
+  position: absolute;
+  width: 380px;
+  z-index: 0;
+}
+
+.meme-image-container {
+  position: absolute;
+}

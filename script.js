@@ -10,22 +10,25 @@ function criandoUrl() {
 };
 
 addImage.addEventListener("change", criandoUrl);
-let texto = document.getElementById("text-input");
-texto.addEventListener("input",exibir); 
 
 function exibir(){
-document.getElementById("meme-text").innerHTML = texto.value;
-} 
+  document.getElementById("meme-text").innerHTML = texto.value;
+}
 
+let texto = document.getElementById("text-input");
+texto.addEventListener("input",exibir); 
+ 
 document.getElementById("button1").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
   imageContainer.style.border = "3px dashed red";
 });
+
 document.getElementById("button2").addEventListener("click", function () {
   let imageContainer2 = document.getElementById("meme-image-container");
   imageContainer2.style.border = "5px dashed blue";
   imageContainer2.style.borderStyle = "double"
 });
+
 document.getElementById("button3").addEventListener("click", function () {
   let imageContainer3 = document.getElementById("meme-image-container");
   imageContainer3.style.border = "6px groove green";
