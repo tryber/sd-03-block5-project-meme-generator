@@ -1,7 +1,7 @@
 let texto = document.getElementById("text-input");
 
 function changeText(){
-    var alteraTexto = document.getElementById("text");
+    var alteraTexto = document.getElementById("meme-text");
     alteraTexto.innerHTML = texto.value;
 }
 
