@@ -36,6 +36,10 @@
         -2px 0px 0 #000,
         2px 2px 5px #000;
 }
+.meme{
+    width: 125px;
+    height: 125px;
+}
 input {
     width: 500px;
 }
