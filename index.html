@@ -12,13 +12,16 @@
 
 <body>
     <form action="">
-        <label for="Meme">Enter text here:</label>
+        <label for="text-input">Enter text here:</label>
         <input type="text" size="60" maxlength="60" id="text-input"><br>
         <input type="file" onchange="previewFile()" id="meme-insert "><br>
-        <p style="position: absolute;" id="meme-text"></p>
-        <img src="" alt="Prévia da imagem..." id="meme-image">
+        
+        <div class="meme-image-container">
+            <p style="position: absolute;" id="meme-text" class="Memetext">Texto</p>
+            <img src="" alt="Prévia da imagem..." id="meme-image" class="meme-images">
+        </div>    
     </form>
 
 </body>
 
-</html>
+</html>         
