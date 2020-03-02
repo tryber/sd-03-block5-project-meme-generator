@@ -7,27 +7,89 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <form>
-        <input type="text" id="text-input" maxlength="60">
-        <label for="text-input">digite o texto do seu meme:</label>
-        <br>
-        <br>
-        <label for="meme-insert"> Escolha uma imagem para o seu meme:</label>
-        <input type="file" id="meme-insert" accept="image/*">
-      </form>
-      <div id="buttons-container">
-      <button id="button1">borda 1</button>
-      <button id="button2">borda 2</button>
-      <button id="button3">borda 3</button>
-      <div class="repartir" role="listbox">
-        <img id="meme-1" class="trinta"src="imgs/meme1.jpeg" alt="meme1" height="67px">
-        <img id="meme-2" class="trinta" src="imgs/meme2.jpeg" alt="meme2" height="67px">
-        <img id="meme-3" class="trinta" src="imgs/meme3.jpeg" alt="meme3" height="67px">
-        <img id="meme-4" class="trinta" src="imgs/meme4.jpeg" alt="meme4" height="67px">
-      </div>
-      <div id="meme-image-container" class="codde">
-        <img id="meme-image" class="imagen" width="400px">
-        <span id="meme-text" class="metex"></span>
+      <div class="content">
+        <div class="flex-container">
+          <div class="flex-item">
+            <div id="meme-image-container" class="img-container">
+              <img class="imagens" id="meme-image" />
+              <p id="meme-text" class="metex"></p>
+            </div>
+          </div>
+  
+          <form>
+            <label for="text-input"
+              >digite o texto do seu meme:</label
+            >
+            <input id="text-input" type="text" maxlength="60" class="flex-item" />
+  
+            <label>Escolha a borda do seu meme:</label>
+            <div class="flex-container">
+              <input
+                type="button"
+                id="button1"
+                class="button1 flex-button"
+                title="Define a borda do meme"
+                value="Borda 1"
+              />
+              <input
+                type="button"
+                id="button2"
+                class="button2 flex-button"
+                title="Define a borda do meme"
+                value="Borda 2"
+              />
+              <input
+                type="button"
+                id="button3"
+                class="button3 flex-button"
+                title="Define a borda do meme"
+                value="Borda 3"
+              />
+            </div>
+            <label for="meme-insert" class="flex-item"
+              >Escolha uma imagem para o seu meme:</label
+            >
+            <input
+              id="meme-insert"
+              type="file"
+              accept="image/*"
+              class="flex-item"
+            />
+          </form>
+        </div>
+        <label class="meme-form align-txt-center"
+          >Ou escolha um das fotos abaixo:</label
+        >
+        <div class="repartir">
+          <div>
+            <img
+              src="imgs/meme1.jpeg"
+              alt="Meme 1"
+              id="meme-1"
+              class="trinta"
+            />
+            <img
+              src="imgs/meme2.jpeg"
+              alt="Meme 2"
+              id="meme-2"
+              class="trinta"
+            />
+          </div>
+          <div>
+            <img
+              src="imgs/meme3.jpeg"
+              alt="Meme 3"
+              id="meme-3"
+              class="trinta"
+            />
+            <img
+              src="imgs/meme4.jpeg"
+              alt="Meme 4"
+              id="meme-4"
+              class="trinta"
+            />
+          </div>
+        </div>
       </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
