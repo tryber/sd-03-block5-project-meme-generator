@@ -9,17 +9,16 @@
     </head>
     <body>
     <h1 id="title">Gerador de Memes!</h1>
-    <form>
-    <input id="text-input" type="text"  maxlength="20" placeholder="Digite seu texto aqui:"> 
-    <input type="file" accept="image/*" onchange="loadFile(event)" id="imgUpload">
+    <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
+    <input type="text" id="text-input" maxlength="60" placeholder="Digite seu texto aqui:">   
      
-    </form> 
-        <div id = "meme-image-container">
-            <div id="meme-image">
-                <p id="meme-text">
+            <div id = "meme-image-container">
+            <!-- <div id="img"> -->
+            <img id = "meme-image">
+                <p id="textOnImg">
                 </p>
-            </div>
-        </div>           
+            <!-- </div> -->
+                 
     </body>
    <script src="script.js"></script>
    </html>
