@@ -2,6 +2,7 @@
   //Muda o placeholder da imagem pela imagem do input
   let input = document.getElementById("meme-insert");
 
+
 input.addEventListener('change',function () {
     let inputImg = input.files[0];
     let reader = new FileReader();
@@ -9,7 +10,7 @@ input.addEventListener('change',function () {
 
     if (inputImg){
       reader.readAsDataURL(inputImg)
-      console.log("lido");
+
     }
     reader.onloadend = function ()
     {
@@ -45,9 +46,9 @@ input.addEventListener('change',function () {
     imagem.style.borderStyle = "double";
     imagem.style.borderColor = "blue";
     imagem.style.borderWidth = "5px";
+  }
 
-
-  }  function button3() {
+  function button3() {
     let imagem = document.getElementById("meme-image-container");
     imagem.style.borderStyle = "groove";
     imagem.style.borderColor = "green";
@@ -55,6 +56,18 @@ input.addEventListener('change',function () {
 
 
   }
+
+
+  let memes = document.getElementsByClassName('meme');
+  console.log(memes)
+  console.log('rodou')
+  for (meme of memes){
+    console.log(meme)
+    meme.addEventListener('click',function(e){
+      let imagePH = document.getElementById("meme-image")
+      imagePH.src = e.target.src;
+    })}
+
 
 
 
