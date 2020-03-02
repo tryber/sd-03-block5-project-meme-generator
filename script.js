@@ -12,7 +12,7 @@ textInput.addEventListener('keyup', inserttext);
 
 function insertimage(){
   let memeImagem = document.getElementById('meme-image');
-  memeImagem.src = URL.createObjectURL(imagemInput.files[0]);  
+  memeImagem.src = URL.createObjectURL(imagemInput.files[0]);
 }
 
 imagemInput.addEventListener('change', insertimage);
