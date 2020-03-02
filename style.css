@@ -8,3 +8,19 @@
     position: relative;
     word-break: normal;
 }
+h1 {
+    text-decoration: underline;
+}
+#meme-text {
+    bottom: 0;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    text-align: center ;
+    width: 100%;
+    word-break: break-all;
+}
+#meme-image {
+    height: 100%;
+    width: 100%;
+}
