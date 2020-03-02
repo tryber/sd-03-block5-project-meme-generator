@@ -14,17 +14,15 @@
   <div class="wrap">
     <div>
       <p>Crie seu meme blablabla e etc e tal</p>
-      <label id="meme-insert">Clique para inserir<input type="file" name="uploadeImg" id="uploadeImg" accept="image/*"></label>
+      <label>Clique para inserir<input type="file" name="uploadeImg" id="meme-insert" accept="image/*"></label>
       <p>Ou ainda, escolha uma das opções:</p>
       <p class="align-center"><strong>DIGITE SEU TEXTO AQUI!</strong></p>
-      <p class="align-center"><input type="text" name="txtmeme" id="text-input"  size="57"></p>
+      <p class="align-center"><input type="text" name="txtmeme" id="text-input"  maxlength="57"></p>
     </div>
-    <section id="meme-image-conteiner">
+    <div id="meme-image-conteiner">
       <img id="meme-image">
-    </section>
-    <div id="meme-text">
+      <p id="meme-text"></p>
     </div>
-  </div>
   <footer>
   </footer>
   <script src="script.js"></script>

@@ -1,6 +1,6 @@
 window.onload = function () {
   let txt = document.getElementById('text-input');
-  let image = document.getElementById('uploadeImg');
+  let image = document.getElementById('meme-insert');
   let imageUrl = document.getElementById('uploadeUrl');
   let memeImage = document.getElementById('meme-image');
   let result = document.getElementById('meme-text');
