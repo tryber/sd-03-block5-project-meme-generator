@@ -7,48 +7,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <section class="geral-container">
 
-    <div class="memes">
-      <img id="meme-1" class="meme" src="imgs/meme1.jpeg" onclick="mostraMeme1()">
-      <img id="meme-2" class="meme" src="imgs/meme2.jpeg" onclick="mostraMeme2()">
-      <img id="meme-3" class="meme" src="imgs/meme3.jpeg" onclick="mostraMeme3()">
-      <img id="meme-4" class="meme" src="imgs/meme4.jpeg" onclick="mostraMeme4()">
-  </div>
+      <label id="meme-image-container" class="meme-image-container">Escolha sua imagem</label>
+      <input type="file" id="meme-insert" onchange="setImage(event)" />
 
-    <section class="container-input-output">
-      <label for="text">Digite seu texto aqui:</label>
+      <label class="text">Digite seu texto aqui:</label>
+      <input id="text-input" type="text" class="text-input" maxlength="60" />
 
-      <input
-        id="text-input"
-        maxlength="60"
-        name="text"
-        placeholder="Use toda sua criatividade"
-        type="text"
-      />
-      <br />
-
-      <label for="image">Arquivo:</label>
-
-      <input id=meme-image-container
-        name="image"
-        onchange="setImage(event)"
-        type="file"
-      />
       <button id="button1">Borda 1</button>
       <button id="button2">Borda 2</button>
       <button id="button3">Borda 3</button>
+
+      <img id="meme-image" class="meme-image" />
+
+      <div id="meme-text" class="meme-text"></div>
+
     </section>
 
-    <br />
-
-    <section
-      class="container-img"
-      class="container-input-output"
-      class="image-container"
-    >
-      <p id="meme-text" class="meme-text"></p>
-      <img alt="imagem-meme" class="meme-image" id="meme-image"   />
-    </section>
     <script src="script.js"></script>
   </body>
 </html>
