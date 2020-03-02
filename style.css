@@ -1,11 +1,11 @@
-body #meme-image-container {
+#meme-image-container {
     background-color: white;
     height: 500px;
     position: relative;
     width: 500px;
     z-index: 1;
 }
-div #meme-insert {
+#meme-insert {
     background-color: white;
     border: 1px black solid;
     height: 500px;
@@ -14,7 +14,7 @@ div #meme-insert {
     width: 500px;
     z-index: 2;
 }
-div #meme-text {
+#meme-text {
     background-color: rgba(255, 255, 255, 0.3);
     bottom: 0;
     font-size: 30px;
@@ -26,7 +26,7 @@ div #meme-text {
     position: absolute;
     text-align: center;
     width: 470px;
-    word-break: break-word;
+    word-break: break-all;
     z-index: 3;  
 }
 .input-caixa {
