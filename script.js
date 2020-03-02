@@ -20,21 +20,16 @@ window.onload = function () {
 
 document.getElementById("button1").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
-  imageContainer.style.border = "3px";
-  imageContainer.style.border = "dashed";
-  imageContainer.style.border = "red";
-})
+  imageContainer.style.border = "3px dashed red";
+});
 
 document.getElementById("button2").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
-  imageContainer.style.border = "5px";
-  imageContainer.style.border = "double";
-  imageContainer.style.border = "blue";
-})
+  imageContainer.style.border = "5px dashed blue";
+  imageContainer.style.borderStyle = "double"
+});
 
 document.getElementById("button2").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
-  imageContainer.style.border = "6px";
-  imageContainer.style.border = "double";
-  imageContainer.style.border = "green";
-})
+  imageContainer.style.border = "6px groove green";
+});
