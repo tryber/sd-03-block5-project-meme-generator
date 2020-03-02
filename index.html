@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Meme Generator</title>
 </head>
-<body>
-        <section class="initial-conteiner">
-            <form>
-                <label for="initial-text">Escreva aqui!</label><br>
-                <input type="text" id="text-input" name="initial-text"><br>
-                <label for="image">Faça o upload de uma imagem</label><br>
-                <input type="file"  name="image"><br>
-              </form>
-        </section>
 
-        <div class="area-branca"> 
-            <div class="div-texto"></div>
-            <img src="exemple.png" alt="Imagem de um meme" id="meme-image" class="imagem" >
+<body>
+    <section class="initial-conteiner">
+        <form>
+            <label for="initial-text">Escreva aqui!</label><br>
+            <input type="text" id="text-input" name="initial-text"><br>
+            <label for="image">Faça o upload de uma imagem</label><br>
+            <input type="file" name="image"><br>
+        </form>
+    </section>
+
+    <div class="area-branca" id="meme-image-container">
+        <div class="div-texto">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae tempore amet pariatur sint ullam dicta
+                eos beatae corrupti perferendis, atque, repudiandae, consequatur error quisquam alias quaerat neque!
+                Perferendis, neque similique!
+            </p>
         </div>
+        <img src="exemple.png" alt="Imagem de um meme" id="meme-image" class="imagem">
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

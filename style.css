@@ -9,7 +9,7 @@ body{
     text-align: center;
 }
 
-.area-branca{
+#meme-image-container{
     background-color: white;
     height: 550px;
     margin: auto;
