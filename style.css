@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-#img-frame {
+#meme-image-container {
     border: 2px ridge black;
     height: 500px;
     position: relative;
