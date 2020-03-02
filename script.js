@@ -29,7 +29,7 @@ document.getElementById("button2").addEventListener("click", function () {
   imageContainer.style.borderStyle = "double"
 });
 
-document.getElementById("button2").addEventListener("click", function () {
+document.getElementById("button3").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
   imageContainer.style.border = "6px groove green";
 });
