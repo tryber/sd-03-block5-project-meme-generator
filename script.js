@@ -1,5 +1,5 @@
 let loadFile = function(event) {
-    let memeImage = document.getElementById("meme-image");
+    let memeImage = document.getElementById("imagem");
     memeImage.src = URL.createObjectURL(event.target.files[0]);
     memeImage.style.height = 400 + "px";
     memeImage.style.width = 400 + "px";
