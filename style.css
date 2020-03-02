@@ -33,9 +33,10 @@ header {
 
 .imagem {
   display: inline-block;
-  height: 399px;
+  height: 380px;
+  margin-left: 0px;
   position: absolute;
-  width: 399px;
+  width: 380px;
   z-index: 0;
 }
 
