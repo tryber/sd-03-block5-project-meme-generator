@@ -1,20 +1,27 @@
-.img-container{
+.img-container {
   background-color: white;
   border: 1px solid black;
-  height: 450px;
-  width: 450px;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  margin: 10px;
+  position: relative;
+  width: 400px;
+}
+body{
+  background-color: blue;
 }
 
-.metex {
+.meme-txt {
+  display: flex;
   color: black;
-  font-family: "Montserrat";
   font-size: 30px;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
   top: 230px;
   width: 90%;
-  word-break: break-all;
+  word-break: break-word;
   z-index: 1;
 }
 
