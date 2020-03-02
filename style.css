@@ -11,7 +11,9 @@ header {
 .containerImage {
   border: solid;
   background-color: white;
-  border: 1px solid black;
+  border: 1px;
+  border: black;
+  border: solid;
   height: 400px;
   width: 400px;
 }
@@ -19,7 +21,7 @@ header {
 .memeText {
   color: black;
   font-size: 19px;
-  overflow-wrap:break-word;
+  overflow-wrap: break-word;
   position: relative;
   text-align: center;
   z-index: 1;
