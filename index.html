@@ -10,25 +10,37 @@
     <h1 id="title-projet" class="container-input-output">Meme Generator</h1>
 
     <section class="container-input-output">
-
       <label for="text">Digite seu texto aqui:</label>
 
-      <input type="text"name="text"id="text-input"maxlength="60"placeholder="Use toda sua criatividade"/>     
-      <br>
-      
+      <input
+        id="text-input"
+        maxlength="60"
+        name="text"
+        placeholder="Use toda sua criatividade"
+        type="text"
+      />
+      <br />
+
       <label for="image">Arquivo:</label>
 
-      <input type="file"name="image"id="meme-insert"accept="imagens/*"onchange="setImage(event)"/>
-
+      <input
+        accept="imagens/*"
+        id="meme-insert"
+        name="image"
+        onchange="setImage(event)"
+        type="file"
+      />
     </section>
-      
-     <br>
 
-    <section class="image-container" class="container-img" class="container-input-output">
+    <br />
 
+    <section
+      class="container-img"
+      class="container-input-output"
+      class="image-container"
+    >
       <p id="meme-text" class="meme-text"></p>
-     <img id="meme-image" class="meme-image" alt="imagem-meme" />
-
+      <img alt="imagem-meme" class="meme-image" id="meme-image"   />
     </section>
     <script src="script.js"></script>
   </body>
