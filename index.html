@@ -10,29 +10,28 @@
 </head>
 
 <body>
-  <header>
-    <h1>Criando Meme</h1>
-    <form action="">
-      <label for="text">Texto para o Meme!</label><br>
-      <input type="text" id="text-input" name="comment" maxlength="60">
-      <br>
-      <br>
-      <label for="img">Escolha a Imagem</label><br>
-      <input id="meme-insert" type="file" id="img" name="img" accept="image/*"><br>
 
-    </form>
-  </header>
-  <article>
-    <div>
-      <button id="button1" onclick="button1()">Style 01</button>
-      <button id="button2" onclick="button2()">Style 02</button>
-      <button id="button3" onclick="button3()">Style 03</button>
-    </div>
-    <div id="meme-image-container">
-      <img id="meme-image" src="" alt="">
-      <p id="meme-text"></p>
-    </div>
-  </article>
+  <h1>Criando Meme</h1>
+  <form action="">
+    <label for="text">Texto para o Meme!</label><br>
+    <input id="text-input" maxlength="60">
+    <br>
+    <br>
+    <label for="img">Escolha a Imagem</label><br>
+    <input id="meme-insert" type="file" id="img" name="img" accept="image/*"><br>
+
+  </form>
+
+  <div>
+    <button id="button1">Style 01</button>
+    <button id="button2">Style 02</button>
+    <button id="button3">Style 03</button>
+  </div>
+  <div id="meme-image-container">
+    <img id="meme-image" src="" alt="">
+    <p id="meme-text"></p>
+  </div>
+
   <script src="./script.js"></script>
 </body>
 

@@ -15,7 +15,7 @@ header {
   width: 400px;
 }
 
-#meme-text{
+#meme-image-container p {
   color: black;
   font-size: 10px;
   overflow: hidden;
@@ -28,7 +28,7 @@ header {
   z-index: 1;
 }
 
-#meme-image {
+#meme-image-container img {
   display: inline-block;
   height: 380px;
   margin-left: 0px;
