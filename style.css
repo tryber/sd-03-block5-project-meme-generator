@@ -24,21 +24,18 @@ p {
   line-height: 20px;
 }
 
-/*Id's*/
 .meme-image {
   height: 500px;
   object-fit: cover;
   width: 100%;
 }
 
-.meme-image-conteiner {
+.meme-image-container {
   background-color: rgb(255 , 255 , 255);
   border: 1px solid black;
   height: 500px;
   width: 500px;
 }
-
-/* Classes */
 
 .align-center {
   text-align: center;
