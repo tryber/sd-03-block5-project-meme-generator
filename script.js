@@ -4,6 +4,10 @@ window.onload = function () {
   let imageUrl = document.getElementById('uploadeUrl');
   let memeImage = document.getElementById('meme-image');
   let result = document.getElementById('meme-text');
+  let borda = document.getElementById('meme-image-container');
+  let btn1 = document.getElementById('button1');
+  let btn2 = document.getElementById('button2');
+  let btn3 = document.getElementById('button3');
 
   txt.addEventListener('keyup', function mostrarTxt() {
     result.innerText = txt.value;
@@ -19,4 +23,22 @@ window.onload = function () {
     reader.readAsDataURL(input.files[0]);
   };
   image.addEventListener('change', openFile)
+
+  btn1.addEventListener('click', function borda1() {
+    borda.style.borderColor = 'red';
+    borda.style.borderStyle = 'dashed';
+    borda.style.borderWidth = '3px';
+  })
+
+  btn2.addEventListener('click', function borda2() {
+    borda.style.borderColor = 'blue';
+    borda.style.borderStyle = 'double';
+    borda.style.borderWidth = '5px';
+  })
+
+  btn3.addEventListener('click', function borda3() {
+    borda.style.borderColor = 'green';
+    borda.style.borderStyle = 'groove';
+    borda.style.borderWidth = '6px';
+  })
 }
