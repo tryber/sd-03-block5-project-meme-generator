@@ -38,14 +38,14 @@ function changeborder4() {
 function toContainer() {
     var campo = document.querySelector('#meme-image');
     //campo.src = "imgs/meme1.jpeg";
-    campo.src = document.querySelector('#meme1').src;
+    campo.src = document.querySelector('#meme-1').src;
 
 }
 
 function toContainer1() {
     var campo = document.querySelector('#meme-image');
     //campo.src = "imgs/meme1.jpeg";
-    campo.src = document.querySelector('#meme2').src;
+    campo.src = document.querySelector('#meme-2').src;
 
 
 }
@@ -53,7 +53,7 @@ function toContainer1() {
 function toContainer2() {
     var campo = document.querySelector('#meme-image');
     //campo.src = "imgs/meme1.jpeg";
-    campo.src = document.querySelector('#meme3').src;
+    campo.src = document.querySelector('#meme-3').src;
 
 
 }
@@ -61,7 +61,7 @@ function toContainer2() {
 function toContainer3() {
     var campo = document.querySelector('#meme-image');
     //campo.src = "imgs/meme1.jpeg";
-    campo.src = document.querySelector('#meme4').src;
+    campo.src = document.querySelector('#meme-4').src;
 
 
 }
