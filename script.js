@@ -1,5 +1,4 @@
 let addImage = document.getElementById("meme-insert");
-//let addText = document.getElementById("text-input");
 let memeText = document.getElementById("meme-text");
 
 function criandoUrl() {
@@ -33,3 +32,29 @@ document.getElementById("button3").addEventListener("click", function () {
   let imageContainer3 = document.getElementById("meme-image-container");
   imageContainer3.style.border = "6px groove green";
 });
+
+
+let miniMeme1 = document.getElementById('meme1');
+let miniMeme2 = document.getElementById('meme2');
+let miniMeme3 = document.getElementById('meme3');
+let miniMeme4 = document.getElementById('meme4');
+
+miniMeme1.addEventListener('click', function () {
+    let imagemDoMeme1 = document.getElementById("meme-image");
+    imagemDoMeme1.src = './imgs/meme1.jpeg';
+  });
+
+  miniMeme2.addEventListener('click', function () {
+    let imagemDoMeme2 = document.getElementById("meme-image");
+    imagemDoMeme2.src = './imgs/meme2.jpeg';
+  });
+
+  miniMeme3.addEventListener('click', function () {
+    let imagemDoMeme3 = document.getElementById("meme-image");
+    imagemDoMeme3.src = './imgs/meme3.jpeg';
+  });
+
+  miniMeme4.addEventListener('click', function () {
+    let imagemDoMeme4 = document.getElementById("meme-image");
+    imagemDoMeme4.src = './imgs/meme4.jpeg';
+  });

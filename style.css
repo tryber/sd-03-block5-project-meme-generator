@@ -2,26 +2,46 @@ body {
   background: darkgrey;
 }
 
+.chapolin {
+  left: 0;
+}
+
+.gato {
+  left: 450px;
+}
+
 header {
   background: darkred;
   text-align: center;
   width: auto;
 }
 
+.he-man {
+    left: 300px;
+}
+
 img {
   display: inline-block;
-  height: 380px;
-  margin-left: 0;
+  height: 399px;
   position: absolute;
-  width: 380px;
+  width: 399px;
   z-index: 0;
 }
 
+.julius {
+  left: 150px;
+}
+
 .meme-image-container {
-  border: solid 1px black;
   background-color: white;
+  border: solid 1px black;
   height: 400px;
   width: 400px;
+}
+
+.miniature {
+  height: auto;
+  width: 100px;
 }
 
 p {
