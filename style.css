@@ -7,8 +7,15 @@
 	padding-left: 0.9375rem;
 	padding-right: 0.9375rem;
 	margin-left: auto;
-	margin-right: auto
+    margin-right: auto;
+    text-align: center;
 }
 .meme-image-container{
     text-align: center;
+}
+#text-input{
+text-align: center;
+}
+#meme-image{
+    
 }
