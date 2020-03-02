@@ -6,17 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-<div>
   <h1>Criando Meme</h1>
   <form>
     <label for="text">Texto para o Meme!</label>
-    <input id="text-input" maxlength="60">
+    <input id="text-input" maxlength="60" name="inputtext" type="text">
     <label for="img">Escolha a Imagem</label>
-    <input id="meme-insert" type="file" id="img" name="img" accept="image/*">
+    <input id="meme-insert" type="file" name="inputmeme" accept="image/*">
   </form>
 
   <div>
@@ -28,7 +26,7 @@
     <img id="meme-image" src="" alt="">
     <p id="meme-text"></p>
   </div>
-</div>
+
   <script src="./script.js"></script>
 </body>
 
