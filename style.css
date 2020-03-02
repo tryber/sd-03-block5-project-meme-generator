@@ -8,7 +8,7 @@ header {
   width: auto;
 }
 
-#meme-image-container {
+.meme-image-container {
   border: solid 1px black;
   background-color: white;
   height: 400px;
@@ -28,15 +28,11 @@ p {
   z-index: 1;
 }
 
-#meme-image-container img {
+img {
   display: inline-block;
   height: 380px;
-  margin-left: 0px;
+  margin-left: 0;
   position: absolute;
   width: 380px;
   z-index: 0;
-}
-
-.meme-image-container {
-  position: absolute;
 }
