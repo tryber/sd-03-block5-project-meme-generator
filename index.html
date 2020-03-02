@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Meme Generator</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-</head>
-<body>
-    <div class="main">
-        <div class="memes">
-            <img id="meme-1" class="meme" src="imgs/meme1.jpeg" onclick="mostraMeme1()">
-            <img id="meme-2" class="meme" src="imgs/meme2.jpeg" onclick="mostraMeme2()">
-            <img id="meme-3" class="meme" src="imgs/meme3.jpeg" onclick="mostraMeme3()">
-            <img id="meme-4" class="meme" src="imgs/meme4.jpeg" onclick="mostraMeme4()">
-        </div>
+    <section class="container-input-output">
+      <label for="text">Digite seu texto aqui:</label>
 
-        <div class="texto">
-            <p class="digite">Digite o texto:</p><input id="text-input" type="text" class="text-input" maxlength="60">
-        </div>
+      <input
+        id="text-input"
+        maxlength="60"
+        name="text"
+        placeholder="Use toda sua criatividade"
+        type="text"
+      />
+      <br />
 
-        <div id="meme-image-container" class="meme-image-container">
-            <input type="file" id="meme-insert" onchange="mostraFoto(event)">
+      <label for="image">Arquivo:</label>
 
-            <button id="button1">Borda 1</button>
-            <button id="button2">Borda 2</button>
-            <button id="button3">Borda 3</button>
+      <input
+        accept="imagens/*"
+        id="meme-insert"
+        name="image"
+        onchange="setImage(event)"
+        type="file"
+      />
+    </section>
 
-            <img id="meme-image" class="meme-image">
+    <br />
 
-            <div id="meme-text" class="meme-text"></div>
-        </div>
-    </div>
-
-<script src="script.js"></script>
-</body>
-
+    <section
+      class="container-img"
+      class="container-input-output"
+      class="image-container"
+    >
+      <p id="meme-text" class="meme-text"></p>
+      <img alt="imagem-meme" class="meme-image" id="meme-image"   />
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
