@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <form action="get" id="meme-text">
-        Meme text: <input type="text" id="text-input">
+    <form>
+        <label for="meme-insert">Select a picture </label>
+        <input type="file" name="picture-upload" id="meme-insert"><br>
+        <br>
+        <label for="text-input">Meme text: </label>
+        <input type="text" name="text-input" id="text-input">
     </form>
+    <br>
     <div id="meme-image-container">
-        <img src="">
-        <div>
-            <p></p>
-        </div>
+        <img src="" id="meme-image">
+        <div id="meme-text"></div>
     </div>
 </body>
 </html>

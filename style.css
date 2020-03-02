@@ -1,0 +1,10 @@
+#meme-image-container {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    word-break: normal;
+}
