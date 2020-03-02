@@ -1,6 +1,6 @@
 body {
-  margin: 50px;
   background-color: rgb(221, 235, 224);
+  margin: 50px;
 }
 
 #text-input {
@@ -9,17 +9,21 @@ body {
 }
 
 #meme-image {
-  width: 550px;
-  height: 550px;
-  border: 1px solid black;
   background-color: white;
-  background: cover;
+  border: 1px solid black;
+  height: 550px;
+  width: 550px;
 }
 
-.meme-text {
+#meme-image-container {
+  height: 550px;
+  width: 550px;
+}
+
+.texto {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 400px;
-  z-index: 1;
   word-wrap: break-word;
+  z-index: 1;
 }

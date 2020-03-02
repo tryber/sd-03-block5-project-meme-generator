@@ -36,11 +36,9 @@
       borda.style.borderStyle = "double";
       borda.style.borderWidth = "5px";
   }
-  
     function borda3(){
       borda.style.borderColor = "green";
       borda.style.borderStyle = "groove";
       borda.style.borderWidth = "6px";
   }
-  
   
