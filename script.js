@@ -5,7 +5,7 @@ function adicionaImagem() {
   const imageSpace = document.getElementById('meme-image');
   imageInput.addEventListener('change', (event) => {
     imageSpace.src = URL.createObjectURL(event.target.files[0]);
-    memeImageContainer.style.border = '1px solid black'
+    imageSpace.style.border = '1px solid black'
   });
 }
 
