@@ -8,11 +8,18 @@ window.onload = function () {
   let btn1 = document.getElementById('button1');
   let btn2 = document.getElementById('button2');
   let btn3 = document.getElementById('button3');
-
+  let meme1 = document.getElementById('meme-1');
+  let meme2 = document.getElementById('meme-2');
+  let meme3 = document.getElementById('meme-3');
+  let meme4 = document.getElementById('meme-4');
+  
+  
+  //Caixa de texto
   txt.addEventListener('keyup', function mostrarTxt() {
     result.innerText = txt.value;
   })
 
+  //Display da imagem
   let openFile = function(event) {
       let input = event.target;
       let reader = new FileReader();
@@ -24,6 +31,7 @@ window.onload = function () {
   };
   image.addEventListener('change', openFile)
 
+  //Botões de borda
   btn1.addEventListener('click', function borda1() {
     borda.style.borderColor = 'red';
     borda.style.borderStyle = 'dashed';
@@ -40,5 +48,10 @@ window.onload = function () {
     borda.style.borderColor = 'green';
     borda.style.borderStyle = 'groove';
     borda.style.borderWidth = '6px';
+  })
+
+  //Miniaturas de meme a escolha
+  meme1.addEventListener('click', function chooseMeme1() {
+    memeImage.scr = meme1.src;
   })
 }

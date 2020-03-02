@@ -4,12 +4,15 @@ body {
   background-color: rgb(255, 231, 146);
   margin: 0;
   padding: 0;
+  padding-bottom: 50px;
 }
 
 h1 {
   color: rgb(52 , 3 , 71);
+  font-family: Teko, sans-serif;
   font-size: 65px;
   font-weight: 700;
+  letter-spacing: 5px;
 }
 
 header {
@@ -21,7 +24,32 @@ header {
 p {
   font-family: Montserrat, sans-serif;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 30px;
+}
+
+button {
+  background-color: rgb(52 , 3 , 71);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 6px;
+  padding: 5px 20px;
+}
+
+/* Classes */
+.align-center {
+  text-align: center;
+}
+
+.cabecalho {
+  background-color: rgb(226 , 212 , 225);
+  box-shadow: 5px 5px rgb(52 , 3 , 71);
+  height: 80px;
+  margin-bottom: 50px;
+  padding-top: 0;
+  top: 0;
+  width: 90%;
 }
 
 .meme-image {
@@ -37,18 +65,23 @@ p {
   width: 500px;
 }
 
-.align-center {
-  text-align: center;
+.meme-choose {
+  width: 100px;
+  padding: 6px;
+  border: 5px solid rgb(52 , 3 , 71);
 }
 
-.cabecalho {
-  background-color: rgb(226 , 212 , 225);
-  box-shadow: 5px 5px rgb(52 , 3 , 71);
-  height: 80px;
-  margin-bottom: 50px;
-  padding-top: 0;
-  top: 0;
-  width: 90%;
+.meme-text {
+  color:rgb(0, 0, 0);
+  font-family: Alegreya Sans SC, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  top: 925px;
+  width: 500px;
 }
 
 .wrap {
@@ -57,11 +90,6 @@ p {
   max-width: 500px;
 }
 
-.meme-text {
-  background-color: rgba(0,0,0,0.5);
-  color:#fff;
-  position: absolute;
-  text-align: center;
-  top: 800px;
-  width: 500px;
+.rodape {
+  
 }
