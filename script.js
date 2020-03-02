@@ -1,5 +1,5 @@
 let inputEscrita = document.getElementById('text-input');
-let divMeme = document.getElementById('meme-image-contaniner');
+let divMeme = document.getElementById('meme-image-container');
 let textoMeme = document.getElementById('meme-text');
 
 let loadFile = function (event) {
