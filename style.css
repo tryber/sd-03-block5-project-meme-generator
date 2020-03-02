@@ -4,6 +4,7 @@
 }
 
 .meme-image-container {
+    color: white;
     border: 1px solid black;
     height: 500px;
     position: relative;
@@ -11,13 +12,15 @@
 }
 
 .meme-text {
-    color: white;
+    color: azure;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    height: 15%;
     margin: 80% 5% 5% 5%;
     position: absolute;
     text-shadow: 1px 1px black;
+    width: 90%;
 }
 
 .text-input {
