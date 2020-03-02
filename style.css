@@ -4,6 +4,9 @@
   margin: 10px;
   position: relative;
   width: 400px;
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .metex {

@@ -14,26 +14,21 @@
         <br>
         <label for="meme-insert"> Escolha uma imagem para o seu meme:</label>
         <input type="file" id="meme-insert" accept="image/*">
-    </form>
-    <div>
-        <label>Escolha uma borda:</label>
-    <button id="button1">borda 1</button>
-    <button id="button2">borda 2</button>
-    <button id="button3">borda 3</button>
-    <div class="repartir" role="listbox">
-        <label>
-            Ou se preferir escolha entre essas imagens:
-        </label></br>
-        <img id="meme-1" class="trinta" src="imgs/meme1.jpeg" alt="imagem de meme">
-        <img id="meme-2" class="trinta" src="imgs/meme2.jpeg" alt="imagem de meme">
-        <img id="meme-3" class="trinta" src="imgs/meme3.jpeg" alt="imagem de meme">
-        <img id="meme-4" class="trinta" src="imgs/meme4.jpeg" alt="imagem de meme">
-    </div></br>
-    <div id="meme-image-container" class="codde" style="background-color: white;
-    border: 1px solid black;">
-        <img id="meme-image" class="imagens">
-        <p id="meme-text" class="metex"></p>
-    </div>
-    <script src="script.js"></script>
+      </form>
+      <div id="buttons-container">
+      <button id="button1">borda 1</button>
+      <button id="button2">borda 2</button>
+      <button id="button3">borda 3</button>
+      <div class="repartir" role="listbox">
+        <img id="meme-1" class="trinta"src="imgs/meme1.jpeg" alt="meme1" height="67px">
+        <img id="meme-2" class="trinta" src="imgs/meme2.jpeg" alt="meme2" height="67px">
+        <img id="meme-3" class="trinta" src="imgs/meme3.jpeg" alt="meme3" height="67px">
+        <img id="meme-4" class="trinta" src="imgs/meme4.jpeg" alt="meme4" height="67px">
+      </div>
+      <div id="meme-image-container" class="codde">
+        <img id="meme-image" class="imagen" width="400px">
+        <span id="meme-text" class="metex"></span>
+      </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
