@@ -6,26 +6,5 @@
     text-align: center;
 }
 
-.espaco-imagem{
-    background-color: white;
-    border: 1px solid black;
-    height: 550px;
-    margin: auto;
-    width: 550px;
-    overflow: hidden;
-   
-}
-
-.espaco-texto{
-    background-color: red;
-    width: 200px;
-    position: absolute;
-    top: 600px;
-    left: 600px;
-}
-
-.espaco-texto #meme-text{
- 
-}
 
 
