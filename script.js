@@ -1,6 +1,6 @@
 let inputEscrita = document.getElementById('text-input');
 let divMeme = document.getElementById('meme-image-contaniner');
-let textoMeme = document.getElementsByClassName('meme-text')[0];
+let textoMeme = document.getElementById('meme-text');
 
 let loadFile = function (event) {
     let image = document.getElementById('meme-image');
