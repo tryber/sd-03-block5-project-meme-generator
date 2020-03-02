@@ -10,7 +10,7 @@ window.onload = function () {
       reader.onload = function(){
         let dataURL = reader.result;
         memeImage.src = dataURL;
-      };    
+      };
     reader.readAsDataURL(input.files[0]);
   };
   image.addEventListener('change', openFile)

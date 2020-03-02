@@ -7,9 +7,9 @@ body {
 }
 
 h1 {
+  color: rgb(52 , 3 , 71);
   font-size: 65px;
   font-weight: 700;
-  color: rgb(52 , 3 , 71);
 }
 
 header {
@@ -26,17 +26,14 @@ p {
 
 /*Id's*/
 #meme-image {
-  width: 100%;
-  height: 100%;
+  background-color: rgb(255 , 255 , 255);
+  border: 1px solid black;
   object-fit: cover;
+  height: 500px;
+  width: 100%;
 }
 
 /* Classes */
-.area {
-  background-color: rgb(255 , 255 , 255);
-  height: 500px;
-  width: 500px;
-}
 
 .align-center {
   text-align: center;
