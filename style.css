@@ -25,13 +25,13 @@ p {
 }
 
 /*Id's*/
-#meme-image {
+.meme-image {
   height: 500px;
   object-fit: cover;
   width: 100%;
 }
 
-#meme-image-conteiner {
+.meme-image-conteiner {
   background-color: rgb(255 , 255 , 255);
   border: 1px solid black;
   height: 500px;
@@ -60,10 +60,10 @@ p {
   max-width: 500px;
 }
 
-#meme-text {
-  position: absolute;
+.meme-text {
   background-color: rgba(0,0,0,0.5);
   color:#fff;
+  position: absolute;
   text-align: center;
   top: 800px;
   width: 500px;
