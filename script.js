@@ -1,4 +1,4 @@
-window.onload = function () {
+
   let addImage = document.getElementById("meme-insert");
   let addText = document.getElementById("text-input");
   let memeText = document.getElementById("meme-text");
@@ -16,7 +16,6 @@ window.onload = function () {
     memeText.textContent = addText.value;
   };
   addText.addEventListener("beforeinput", inputText);
-}
 
 document.getElementById("button1").addEventListener("click", function () {
   let imageContainer = document.getElementById("meme-image-container");
