@@ -1,0 +1,49 @@
+body {
+    background-color: #0fa36b;
+}
+
+.buttons {
+    left: 15px;
+    margin: 20px 0 0;
+}
+
+.meme-form {
+    margin: 10px;
+}
+
+.meme-image-container {
+    background-color: white;
+    border: 1px solid black;
+    height: 400px;
+    justify-content: center;
+    padding-right: 1px;
+    position: relative;
+    width: 400px;
+}
+
+.meme-image {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.memes {
+    background-color: white;
+    border: 1px solid black;
+    height: 100px;
+    margin: 1px 1px;
+    overflow: auto;
+    padding: 1px;
+    width: 100px;
+}
+
+.meme-txt {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    overflow-wrap:break-word;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}

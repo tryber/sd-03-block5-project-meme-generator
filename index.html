@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <title>Meme-Generator Project</title>
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <body>
+        <form class="meme-form">
+            <label for="meme-insert">Select a picture </label>
+            <input id="meme-insert" type="file" accept="image/*"><br> <!-- project requirement, meme-insert -->
+            <label for="text-input">Meme text: </label>
+            <input id="text-input" type="text" maxlength="60"> <!-- project requirement, text-input, maximum number of characters must be 60 -->
+        </form>
+        <div class="meme-image-container" id="meme-image-container"> <!-- project requirement, meme-image-container -->
+            <img class="meme-image" id="meme-image"> <!-- project requirement, meme-image -->
+            <p class="meme-text" id="meme-text"></p>
+        </div>
+        <button class="buttons" id="button1">Edge 1</button> <!-- project requirement, button element tag, button1 => 3px, dashed, red -->
+        <button class="buttons" id="button2">Edge 2</button> <!-- project requirement, button element tag, button2 => 5px, double, blue -->
+        <button class="buttons" id="button3">Edge 3</button> <!-- project requirement, button element tag, button3 => 6px, groove, green -->
+        <br>
+        <img class="memes" id="meme-1" src="imgs/meme1.jpeg" alt="Edge1"> <!-- project requirement, id="meme-1", folder and name => imgs/meme1.jpeg -->
+        <img class="memes" id="meme-2" src="imgs/meme2.jpeg" alt="Edge2"> <!-- project requirement, id="meme-2", folder and name => imgs/meme2.jpeg -->
+        <img class="memes" id="meme-3" src="imgs/meme3.jpeg" alt="Edge3"> <!-- project requirement, id="meme-3", folder and name => imgs/meme3.jpeg -->
+        <img class="memes" id="meme-4" src="imgs/meme4.jpeg" alt="Edge4"> <!-- project requirement, id="meme-4", folder and name => imgs/meme4.jpeg -->
+        <script src="script.js"></script>
+    </body>
+</html>
