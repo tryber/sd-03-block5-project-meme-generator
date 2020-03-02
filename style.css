@@ -28,8 +28,8 @@ p {
 #meme-image {
   background-color: rgb(255 , 255 , 255);
   border: 1px solid black;
-  object-fit: cover;
   height: 500px;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -53,4 +53,13 @@ p {
   display: block;
   margin: auto;
   max-width: 500px;
+}
+
+.result {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color:#fff;
+  text-align: center;
+  top: 800px;
+  width: 500px;
 }
