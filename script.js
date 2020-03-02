@@ -39,38 +39,38 @@ borda = document.getElementById("meme-image-container");
 
 let enviarMeme1 = document.getElementById("meme-image");
 
-let primeiroMeme = document.getElementById("meme1");
+let primeiroMeme = document.getElementById("meme-1");
 primeiroMeme.addEventListener('click', function meme1() {
-  let meme1 = document.getElementById("meme1");
+  let meme1 = document.getElementById("meme-1");
   enviarMeme1.src = meme1.src;
 });
 
-let segundoMeme = document.getElementById("meme2");
+let segundoMeme = document.getElementById("meme-2");
 segundoMeme.addEventListener('click', function meme2() {
-  let meme2 = document.getElementById("meme2");
+  let meme2 = document.getElementById("meme-2");
   enviarMeme1.src = meme2.src;
 });
 
-let terceiroMeme = document.getElementById("meme3");
+let terceiroMeme = document.getElementById("meme-3");
 terceiroMeme.addEventListener('click', function meme2() {
-  let meme3 = document.getElementById("meme3");
+  let meme3 = document.getElementById("meme-3");
   enviarMeme1.src = meme3.src;
 });
 
-let quartoMeme = document.getElementById("meme4");
+let quartoMeme = document.getElementById("meme-4");
 quartoMeme.addEventListener('click', function meme4() {
-  let meme4 = document.getElementById("meme4");
+  let meme4 = document.getElementById("meme-4");
   enviarMeme1.src = meme4.src;
 });
 
-let quintoMeme = document.getElementById("meme5");
+let quintoMeme = document.getElementById("meme-5");
 quintoMeme.addEventListener('click', function meme5() {
-  let meme5 = document.getElementById("meme5");
+  let meme5 = document.getElementById("meme-5");
   enviarMeme1.src = meme5.src;
 });
 
-let sextoMeme = document.getElementById("meme6");
+let sextoMeme = document.getElementById("meme-6");
 sextoMeme.addEventListener('click', function meme6() {
-  let meme6 = document.getElementById("meme6");
+  let meme6 = document.getElementById("meme-6");
   enviarMeme1.src = meme6.src;
 });
