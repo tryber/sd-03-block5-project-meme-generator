@@ -7,7 +7,7 @@ form {
 }
 
 .container {
-  border: 1px solid black;
+  border: 1px  black solid ;
 }
 
 .example {
@@ -16,7 +16,7 @@ form {
 }
 
 #meme-image-container {
-  border: 1px black solid;
+  border: 1px  black solid ;
   width: 500px;
   height: 500px;
   background-color: white;
