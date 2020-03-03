@@ -7,31 +7,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-  <h1>Criando Meme</h1>
-  <form>
-    <label for="text">Texto para o Meme!</label>
-    <input id="text-input" maxlength="60" name="inputtext" type="text">
-    <br>
-    <label for="img">Escolha a Imagem</label>
-    <input id="meme-insert" type="file" name="inputmeme" accept="image/*">
-  </form>
-  <div>
-    <button id="button1">Style 01</button>
-    <button id="button2">Style 02</button>
-    <button id="button3">Style 03</button>
-  </div>
-  <div id="meme-image-container" class="meme-image-container">
-    <img id="meme-image" src="" alt="">
-    <p id="meme-text" class="meme-text"></p>
-  </div>
-  <div>
-    <h4>Você também pode escolher um de nossos memes</h4>
-    <img id="meme1" class="miniature chapolin" src="./imgs/meme1.jpeg" alt="Chapolin Colorado">
-    <img id="meme2" class="miniature julius" src="./imgs/meme2.jpeg" alt="Julius">
-    <img id="meme3" class="miniature he-man" src="./imgs/meme3.jpeg" alt="He-Man">
-    <img id="meme4" class="miniature gato" src="./imgs/meme4.jpeg" alt="Gato">
-  </div>
-</div>
+  <article>
+    <div>
+      <h1>Criando Meme</h1>
+      <form>
+      <label for="text">Texto para o Meme!</label>
+      <input id="text-input" maxlength="60" name="inputtext" type="text">
+      <br>
+      <label for="img">Escolha a Imagem</label>
+      <input id="meme-insert" type="file" name="inputmeme" accept="image/*">
+      </form>
+      <div>
+        <button id="button1">Style 01</button>
+        <button id="button2">Style 02</button>
+        <button id="button3">Style 03</button>
+      </div>
+      <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" src="" alt="">
+        <p id="meme-text" class="meme-text"></p>
+      </div>
+      <div>
+        <h4>Você também pode escolher um de nossos memes</h4>
+        <div id="meme-1"><img class="miniature chapolin" src="./imgs/meme1.jpeg" alt="Chapolin Colorado"></div>
+        <div id="meme-2"><img class="miniature julius" src="./imgs/meme2.jpeg" alt="Julius"></div>
+        <div id="meme-3"><img class="miniature he-man" src="./imgs/meme3.jpeg" alt="He-Man"></div>
+        <div id="meme-4"><img class="miniature gato" src="./imgs/meme4.jpeg" alt="Gato"></div>
+      </div>
+    </div>
+  </article>
+  <footer class="rodape"></footer>
   <script src="./script.js"></script>
 </body>
