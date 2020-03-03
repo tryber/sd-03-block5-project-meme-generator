@@ -69,7 +69,11 @@ input.addEventListener('change',function () {
 
 
 
-
+  let texto = document.getElementById("text-input");
+  texto.addEventListener("input", exibir);
+  function exibir() {
+    document.getElementById("meme-text").innerHTML = texto.value;
+  }
 
 
 
