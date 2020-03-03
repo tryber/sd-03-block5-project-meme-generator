@@ -1,8 +1,8 @@
 let inputText = document.getElementById("text-input");
 let inputImage = document.querySelector("#meme-insert");
 let text = document.getElementById("meme-text");
+let img = document.getElementById("meme-image")
 function loadFile() {
-    let img = document.getElementById("meme-image")
     img.src = URL.createObjectURL(inputImage.files[0]);
 }
 inputImage.addEventListener("change", loadFile);
@@ -36,25 +36,21 @@ let meme2 = document.getElementById("meme-2");
 let meme3 = document.getElementById("meme-3");
 let meme4 = document.getElementById("meme-4");
 function trocaImagem1() {
-    let img = document.getElementById("meme-image")
     img.src = "imgs/meme1.jpeg";
 }
 meme1.addEventListener("click", trocaImagem1);
 
 function trocaImagem2() {
-    let img = document.getElementById("meme-image")
     img.src = "imgs/meme2.jpeg";
 }
 meme2.addEventListener("click", trocaImagem2);
 
 function trocaImagem3() {
-    let img = document.getElementById("meme-image")
     img.src = "imgs/meme3.jpeg";
 }
 meme3.addEventListener("click", trocaImagem3);
 
 function trocaImagem4() {
-    let img = document.getElementById("meme-image")
     img.src = "imgs/meme4.jpeg";
 }
 meme4.addEventListener("click", trocaImagem4);
