@@ -8,42 +8,32 @@
   </head>
   <body>
     <form>
-        <label>
-            Digite aqui o texto do meme:
-        </label>
-        <input type="text" id="text-input" maxlength="60"/></br>
-        <label>Escolha uma das bordas para o seu meme:</label>
-        <div>
-          <input type="button" id="button1" title="borda" value="Borda 1" />
-          <input type="button" id="button2" title="borda" value="Borda 2"/>
-          <input type="button" id="button3" title="borda" value="Borda 3"/> 
-        </div>
+        <label for="text-input">digite o texto do seu meme:</label>
+        <input id="text-input" type="text" maxlength="60"/></br>
+
         <label for="meme-insert">
             Escolha uma imagem para o seu meme:
         </label>
-        <input id="meme-insert" type="file" accept="image/*"/>
-      </form>
-    </div>
-    <div>
-        <div id="meme-image-container" class="container">
-          <img id="meme-image" class="meme-img" />
-          <p id="meme-text" class="meme-txt"></p>
+          <input id="meme-insert" type="file" accept="image/*" class="flex-item"/>
+    </form>
+        <label>Escolha uma borda:</label>
+        <input type="button" value="borda 1" id="button1">
+        <input type="button" value="borda 2" id="button2">
+        <input type="button" value="borda 3" id="button3">
+        <div id="meme-image-container" class="img-container" >
+              <img id="meme-image" class="img-container"/>
+              <p id="meme-text" class="meme-txt">
+            </div>
         </div>
-      </div>
     <label>
-        Ou escolha um das fotos abaixo:
-    </label>
-    <div>
-      <div>
-        <img src="imgs/meme1.jpeg" alt="Meme 1" id="meme-1" class="meme-selector"/>
-        <img src="imgs/meme2.jpeg" alt="Meme 2" id="meme-2" class="meme-selector"/>
-      </div>
-      <div>
-        <img src="imgs/meme3.jpeg" alt="Meme 3" id="meme-3" class="meme-selector"/>
-        <img src="imgs/meme4.jpeg" alt="Meme 4" id="meme-4" class="meme-selector"/>
-      </div>
-    </div>
-  </div>
-  <script src="script.js"></script>
+        Ou se preferir escolha entre essas imagens:
+    </label></br>
+    <section class="repartir">
+        <img src="imgs/meme1.jpeg" alt="imagen de meme" class="trinta" id="meme-1">
+        <img src="imgs/meme2.jpeg" alt="imagen de meme"  class="trinta" id="meme-2">
+        <img src="imgs/meme3.jpeg" alt="imagen de meme"  class="trinta" id="meme-3">
+        <img src="imgs/meme4.jpeg" alt="imagen de meme"  class="trinta" id="meme-4">
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
