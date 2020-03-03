@@ -4,9 +4,7 @@ body {
 
 .container {
   background-color: white;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px black solid;
   height: 400px;
   overflow: hidden;
   position: relative;
@@ -22,6 +20,6 @@ body {
 }
 
 .img {
-  height: 400px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
 }
