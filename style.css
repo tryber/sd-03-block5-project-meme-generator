@@ -1,25 +1,21 @@
 .img-container {
-    display: flex;
-    background-color: white;
-    border: 1px solid black;
-    height: 400px;
-    width: 400px;
-    position: relative;
-  }
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+}
 
 body{
   background-color: blue;
 }
 
 .meme-txt {
-  display: flex;
-  color: black;
+  height: 130px;
   position: absolute;
-  text-align: center;
-  top: 230px;
-  width: 90%;
+  top: 500px;
+  width: 350px;
   word-break: break-all;
-  z-index: 10;
 }
 
 .imagens{
@@ -28,13 +24,13 @@ body{
 }
 
 .repartir{
-   height: 160px;
-   width: 800px;
+  height: 160px;
+  width: 800px;
 }
 
 .trinta{
-    height: 100%;
-    width: 20%;
-    cursor: pointer;
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
 }
 
