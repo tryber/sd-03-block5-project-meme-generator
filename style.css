@@ -1,16 +1,9 @@
-.chapolin {
-  left: 0;
+body {
+  background: darkgrey;
 }
 
-.footer {
-  background-color: black;
-  clear: both;
-  color: white;
-  height: 30px;
+.chapolin {
   left: 0;
-  margin-top: 150px;
-  position: relative;
-  text-align: center;
 }
 
 .gato {
@@ -18,21 +11,13 @@
 }
 
 header {
-  background: black;
-  color: white;
-  height: 30px;
-  left: 0;
+  background: darkred;
   text-align: center;
   width: auto;
 }
 
 .he-man {
   left: 300px;
-}
-
-html, body {
-  background: darkgrey;
-  height: 100%;
 }
 
 .julius {
@@ -67,7 +52,7 @@ p {
   position: absolute;
   text-align: center;
   text-shadow: 2px 2px 2px black;
-  top: 150px;
+  top: 114px;
   width: 400px;
   word-break: normal;
   z-index: 1;
