@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-      <h1 id="titulo">Fabríca de Memes</h1>
-      <div>crie seu meme</div>
-      <input id="text-input" type="text" name="frase" placeholder="Digite aqui a frase" maxlength="50" size="60">
+      <div id="title">
+        <h1>Fabríca de memes</h1>
+      </div>
     </header>
     <section>
-        <div>
-            <p id="fraseDaImagem">Selecione uma foto:</p>
-            <div id="botao">
-                <input class="caixaBotaoFilho" type="file" id="botaoFoto">
-        </div>
-            <div class="imagemTotal">
-                <div class="posTexto">
-                    <img id="meme-image" src="disaster-girl.jpg" alt="meme disa">
-                    <div class="caixaDoTexto">
-                        <p class="default-text">Digite aqui...</p>
-                    </div>
-                </div>
+      <div id="meme-image-containter">
+        <form id="text-form">
+          <div id="config-form">
+            <div class="caixaLimitFilho">
+              <input
+                id="text-input"
+                type="text"
+                name=""
+                placeholder="Digite aqui"
+                maxlength="14"
+                size="60"
+              />
             </div>
+          </div>
+          <p class="selecFoto">Selecione uma foto:</p>
+          <div class="caixaBotao">
+            <input class="caixaBotaoFilho" type="file" id="meme-insert" />
+            <label for="meme-insert"
+              ><h2 class="tituloClick">Clique aqui!</h2></label
+            >
+          </div>
+        </form>
+        <div>
+          <div class="imagemTotal">
+            <div class="posTexto">
+              <img
+                id="meme-image"
+                src="./disaster-girl.jpg"
+                alt="Disaster Girl Default"
+              />
+              <div class="caixaDoTexto">
+                <p class="textoNaImagem">Seu texto aqui</p>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
     </section>
+    <div class="clear"></div>
+    <footer></footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
