@@ -6,6 +6,11 @@ body {
   left: 0;
 }
 
+div {
+  height: 768;
+  width: 1366;
+}
+
 .gato {
   left: 450px;
 }
