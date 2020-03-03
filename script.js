@@ -16,7 +16,7 @@ input.addEventListener('change',function () {
     {
       imagePH.src = reader.result;
     }
-  })
+  });
 
 
   //Coloca o texto sobre do meme sobre a imagem
@@ -30,15 +30,13 @@ input.addEventListener('change',function () {
     textPH.innerText = texto;
 
 
-  })
+  });
 
   function button1() {
     let imagem = document.getElementById("meme-image-container");
     imagem.style.borderStyle = "dashed";
     imagem.style.borderColor = "red";
     imagem.style.borderWidth = "3px";
-
-
   }
 
   function button2() {
@@ -53,10 +51,7 @@ input.addEventListener('change',function () {
     imagem.style.borderStyle = "groove";
     imagem.style.borderColor = "green";
     imagem.style.borderWidth = "6px";
-
-
   }
-
 
   let memes = document.getElementsByClassName('meme');
   for (meme of memes){
@@ -65,22 +60,9 @@ input.addEventListener('change',function () {
       imagePH.src = e.target.src;
     })}
 
-
-
-
-
   let texto = document.getElementById("text-input");
-  texto.addEventListener("input", exibir);
-  function exibir() {
+  texto.addEventListener("input", function () {
     document.getElementById("meme-text").innerHTML = texto.value;
-  }
-
-
-
-
-
-
-
-
+  });
 
 
