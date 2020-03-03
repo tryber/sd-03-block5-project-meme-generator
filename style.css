@@ -62,14 +62,14 @@ button {
   background-color: rgb(255 , 255 , 255);
   border: 1px solid black;
   height: 500px;
-  width: 500px;
   margin-bottom: 120px;
+  width: 500px;
 }
 
 .meme-choose {
+  border: 5px solid rgb(52 , 3 , 71);
   width: 100px;
   padding: 6px;
-  border: 5px solid rgb(52 , 3 , 71);
 }
 
 .meme-text {
