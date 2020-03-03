@@ -3,17 +3,17 @@ window.onload = function() {
   document.getElementById('meme-image').src = URL.createObjectURL(event.target.files[0]);
   })
 
-//  document.getElementById('text-input').addEventListener('keyup', (event) => {
-//    document.getElementById('meme-text').innerHTML = event.target.value;
-//  })
+  document.getElementById('text-input').addEventListener('keyup', (event) => {
+    document.getElementById('meme-text').innerHTML = event.target.value;
+  })
 }
 
-let text = document.querySelector('.text');
-let textInput = document.querySelector('#text-input');
-textInput.addEventListener('input', textWrite);
-function textWrite() {
-    text.innerHTML = textInput.value;
-}
+//let text = document.querySelector('.text');
+//let textInput = document.querySelector('#text-input');
+//textInput.addEventListener('input', textWrite);
+//function textWrite() {
+//    text.innerHTML = textInput.value;
+//}
 
 let imageCont = document.getElementById("meme-image-container");
 
