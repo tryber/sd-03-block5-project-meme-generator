@@ -16,6 +16,7 @@ form {
 }
 
 #meme-image-container {
+  align-self: center;
   background-color: white;
   border: 1px  black solid ;
   height: 498px;
@@ -32,8 +33,8 @@ form {
 }
 
 #meme-image {
-  max-width: 488px;
   max-height: 478px;
+  max-width: 488px;
 }
 
 #button1 {
