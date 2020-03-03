@@ -33,10 +33,10 @@ document.getElementById("button3").addEventListener("click", function () {
   imageContainer3.style.border = "6px groove green";
 });
 
-let miniMeme1 = document.getElementById('meme1');
-let miniMeme2 = document.getElementById('meme2');
-let miniMeme3 = document.getElementById('meme3');
-let miniMeme4 = document.getElementById('meme4');
+let miniMeme1 = document.getElementById('meme-1');
+let miniMeme2 = document.getElementById('meme-2');
+let miniMeme3 = document.getElementById('meme-3');
+let miniMeme4 = document.getElementById('meme-4');
 
 miniMeme1.addEventListener('click', function () {
     let imagemDoMeme1 = document.getElementById("meme-image");
