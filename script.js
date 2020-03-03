@@ -1,15 +1,15 @@
 window.onload= function(){
-    let Text=document.getElementById("text-input")
-    let TextImg= document.getElementById("meme-text")
+    let inputText=document.getElementById("text-input")
+    let texto= document.getElementById("meme-text")
     function TextoDinamico(){
-        TextImg.innerHTML=Text.value
+        texto.innerHTML=inputText.value
     }
-    Text.addEventListener("keydown", TextoDinamico)
+    inputText.addEventListener("keydown", TextoDinamico)
 
     let image = document.getElementById("meme-image");
     function loadFile() {
+        
         image.src = URL.createObjectURL(event.target.files[0]);
-        image.innerHTML=TextImg.target.value
     };
     let im = document.getElementById('meme-insert');
     im.addEventListener("change", loadFile)
