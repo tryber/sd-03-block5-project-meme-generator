@@ -8,9 +8,9 @@ function loadFile() {
 inputImage.addEventListener("change", loadFile);
 
 function TextoDinamico() {
-  paragraph.innerHTML = inputText.value
+  text.innerHTML = inputText.value
 }
-inputText.addEventListener("keyup", TextoDinamico);
+inputText.addEventListener("keydown", TextoDinamico);
 
 let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
