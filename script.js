@@ -8,9 +8,9 @@ window.onload = function() {
 //  })
 }
 
-let text = document.getElementById('text');
-let textInput = document.getElementById('text-input');
-textInput.addEventListener('keyup', textWrite);
+let text = document.querySelector('.text');
+let textInput = document.querySelector('#text-input');
+textInput.addEventListener('input', textWrite);
 function textWrite() {
     text.innerHTML = textInput.value;
 }
