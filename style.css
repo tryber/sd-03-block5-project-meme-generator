@@ -11,29 +11,29 @@ form {
 }
 
 .example {
-  width: 250px;
   height: 250px;
+  width: 250px;
 }
 
 #meme-image-container {
-  border: 1px  black solid ;
-  width: 498px;
-  height: 498px;
   background-color: white;
+  border: 1px  black solid ;
+  height: 498px;
   margin: auto;
+  width: 498px;
 }
 
 #meme-text {
   font-size: 5em;
+  position: absolute;
   text-overflow: ellipsis;
   width: 500px;
-  position: absolute;
   word-break: break-all;
 }
 
 #meme-image {
-  max-width: 490px;
-  max-height: 480px;
+  max-width: 488px;
+  max-height: 478px;
 }
 
 #button1 {
