@@ -4,3 +4,10 @@
   width: 600px;
   height: 420px;
 }
+
+#meme-text {
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 150px;
+}

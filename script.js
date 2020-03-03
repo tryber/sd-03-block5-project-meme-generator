@@ -13,3 +13,8 @@ function trocaImg() {
       preview.src = "";
     }
 }
+
+function trocaText() {
+  let imgText = document.querySelector("#text-input").value;
+  document.getElementById("meme-text").innerHTML = imgText;
+}

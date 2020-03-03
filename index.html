@@ -12,12 +12,10 @@
         <h1>Meme Generator</h1>
     </header>
     <section>
-        <div>
-            <form>
-            Escolha uma Imagem <input id="meme-insert" type="file" onchange="trocaImg()" ><br>
-            Texto Meme <input id="text-input" type="text" name="text-meme" maxlength="60">
-            </form>
-        </div>
+        <form>
+        Escolha uma Imagem <input id="meme-insert" type="file" onchange="trocaImg()" ><br>
+        Texto Meme <input id="text-input" type="text" name="text-meme" maxlength="60" oninput="trocaText()">
+        </form>
         <div id="meme-image-container">
             <img src="" id="meme-image" alt="Meme Image"
             width="600px" height="420px">
