@@ -7,10 +7,10 @@ let container = document.querySelector('#meme-image-container');
 const botaoBD1 = document.querySelector('#button1');
 const botaoBD2 = document.querySelector('#button2');
 const botaoBD3 = document.querySelector('#button3');
-const img1 = document.querySelector('#meme-1');
-const img2 = document.querySelector('#meme-2');
-const img3 = document.querySelector('#meme-3');
-const img4 = document.querySelector('#meme-4');
+const img1 = document.querySelector('#meme1');
+const img2 = document.querySelector('#meme2');
+const img3 = document.querySelector('#meme3');
+const img4 = document.querySelector('#meme4');
 
 
 // Eventos
@@ -62,4 +62,3 @@ function alterarBorda(event){
       break;
   }
 }
-
