@@ -66,6 +66,8 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 A seguir, estão listados todos os requisitos do projeto. Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de ids que alguns elementos de seu projeto devem possuir**. O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
 
+Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução `1366 x 768` (1366 pixels de largura por 768 pixels de altura). Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração dessa resolução.
+
 Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**. Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos. Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos.
 
 Você deve criar um site que permita o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada. Em outras palavras, um meme generator. Abaixo seguem os requisitos:
@@ -93,7 +95,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 - Os três botões devem ser elementos do tipo `button`
 - Cada `button` deve ter o respectivo id e deve ser estilizado conforme especificado.
 
-### 5 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Liste miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura para ser customizada. O elemento clicável deve ser identificado um um id denominado 'meme1' para o primeiro meme, 'meme2' para o segundo, e assim por diante. As imagens que identificam os memes devem ficar, dentro da aplicação, num diretório chamado 'imgs' com os respectivos nomes 'meme1.jpeg', 'meme2.jpeg' e assim por diante.
+### 5 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Liste miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura para ser customizada. O elemento clicável deve ser identificado um um id denominado 'meme-1' para o primeiro meme, 'meme-2' para o segundo, e assim por diante. As imagens que identificam os memes devem ficar, dentro da aplicação, num diretório chamado 'imgs' com os respectivos nomes 'meme1.jpeg', 'meme2.jpeg' e assim por diante.
 - As imagens devem aparecer dentro do container de forma idêntica às imagens enviadas por upload para a página.
 - As regras de nomeação e armazenamento da imagem devem ser respeitadas.
 
