@@ -12,13 +12,21 @@
     <section>
         <form>
             <label for="texto">Digite o seu texto:</label><br>
-            <input type="text" name="texto" id="text-input"><br>
+            <input type="text" name="texto" id="text-input" maxlength="60"><br>
             <label for="select">Procure sua imagem:</label><br>
             <input type="file" name="select" id="meme-insert">
         </form>
+        <div class="botoes">
             <button id="button1">Borda 1</button>
             <button id="button2">Borda 2</button>
             <button id="button3">Borda 3</button>
+        </div>
+        <div class="presetMeme">
+            <img src="imgs/meme-1.jpeg" alt="Imagem de um meme" id="meme-1">
+            <img src="imgs/meme-2.jpeg" alt="Imagem de um meme" id="meme-2">
+            <img src="imgs/meme-3.jpeg" alt="Imagem de um meme" id="meme-3">
+            <img src="imgs/meme-4.jpeg" alt="Imagem de um meme" id="meme-4">
+        </div>
         <div id="meme-image-container" class="container">
             <img src="#" id="meme-image" alt="meme" class="img">
             <p id="meme-text" class="texto"></p>

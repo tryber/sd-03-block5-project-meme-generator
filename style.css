@@ -11,6 +11,20 @@ body {
   width: 500px;
 }
 
+.botoes {
+  margin-top: 1em;
+}
+
+.presetMeme {
+  margin-top: 1em;
+}
+
+.presetMeme img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
 .texto {
   height: 200px;
   position: absolute;
