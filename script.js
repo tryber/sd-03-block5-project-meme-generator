@@ -1,6 +1,6 @@
 
-let loadFile = function (event) {
   let image = document.getElementById('meme-image');
+let loadFile = function (event) {
   image.src = URL.createObjectURL(event.target.files[0]);
 
 }
@@ -23,3 +23,11 @@ let button3 = document.getElementById('button3');
 button3.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '6px groove green'
 })
+const img = document.getElementsByClassName('example')
+
+
+for (let i = 0; i < img.length; i++){
+  img[i].addEventListener('click', function() {
+    image.src = img[i].src;})
+
+}

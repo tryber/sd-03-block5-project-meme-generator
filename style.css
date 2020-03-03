@@ -6,8 +6,17 @@ form {
   margin: auto;
 }
 
-#meme-image-container {
+.container {
   border: 1px solid black;
+}
+
+.example{
+  width: 250px;
+  height: 250px;
+}
+
+#meme-image-container {
+  border: 1px black solid;
   width: 500px;
   height: 500px;
   background-color: white;
