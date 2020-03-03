@@ -6,11 +6,6 @@ body {
   left: 0;
 }
 
-div {
-  height: 768;
-  width: 1366;
-}
-
 .gato {
   left: 450px;
 }
@@ -22,19 +17,19 @@ header {
 }
 
 .he-man {
-    left: 300px;
+  left: 300px;
 }
 
-img {
+.julius {
+  left: 150px;
+}
+
+.meme-image {
   display: inline-block;
   height: 399px;
   position: absolute;
   width: 399px;
   z-index: 0;
-}
-
-.julius {
-  left: 150px;
 }
 
 .meme-image-container {
@@ -46,18 +41,19 @@ img {
 
 .miniature {
   height: auto;
+  position: absolute;
   width: 100px;
 }
 
 p {
-  color: black;
+  color: white;
   font-size: 35px;
-  overflow: hidden;
-  overflow-wrap: break-word;
-  position: relative;
+  height: 400px;
+  position: absolute;
   text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-shadow: 2px 2px 2px black;
+  top: 114px;
   width: 400px;
+  word-break: normal;
   z-index: 1;
 }
