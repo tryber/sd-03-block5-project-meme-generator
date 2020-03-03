@@ -52,6 +52,18 @@ window.onload = function () {
 
   //Miniaturas de meme a escolha
   meme1.addEventListener('click', function chooseMeme1() {
-    memeImage.scr = meme1.src;
+    memeImage.src = meme1.src;
+  })
+
+  meme2.addEventListener('click', function chooseMeme2() {
+    memeImage.src = meme2.src;
+  })
+
+  meme3.addEventListener('click', function chooseMeme3() {
+    memeImage.src = meme3.src;
+  })
+
+  meme4.addEventListener('click', function chooseMeme4() {
+    memeImage.src = meme4.src;
   })
 }

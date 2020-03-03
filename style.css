@@ -63,6 +63,7 @@ button {
   border: 1px solid black;
   height: 500px;
   width: 500px;
+  margin-bottom: 120px;
 }
 
 .meme-choose {
@@ -91,5 +92,8 @@ button {
 }
 
 .rodape {
-  
+  background-color: rgba(52 , 3 , 71);
+  color: rgb(255 , 255 , 255);
+  text-align: center;
+  width: 100%;
 }
