@@ -17,10 +17,9 @@ form {
 
 #meme-image-container {
   border: 1px  black solid ;
-  width: 500px;
-  height: 500px;
+  width: 498px;
+  height: 498px;
   background-color: white;
-  align-self: center;
   margin: auto;
 }
 
