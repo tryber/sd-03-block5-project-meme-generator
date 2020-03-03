@@ -30,7 +30,6 @@ function carregaImagem() {
 }
 
 function alterarBorda(event){
-  event.preventDefault();
   let quemChamou = event.currentTarget.id
 
   switch (quemChamou) {
