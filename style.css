@@ -2,11 +2,6 @@
   left: 0;
 }
 
-.content {
-  left: 0;
-  min-height: 100%;
-}
-
 .footer {
   background-color: black;
   clear: both;
