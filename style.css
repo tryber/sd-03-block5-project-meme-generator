@@ -15,14 +15,13 @@ body {
     background-color: white;
     border: 1px solid black;
     height: 400px;
-    justify-content: center;
-    padding-right: 1px;
+    overflow: hidden;
+    position: relative;
     width: 400px;
 }
 
 .meme-image {
     height: 100%;
-    position: relative;
     width: 100%;
     z-index: 0;
 }
@@ -37,12 +36,10 @@ body {
     width: 100px;
 }
 
-.meme-txt {
-    color: white;
-    font-family: "Montserrat";
-    font-size: 20px;
-    margin: 0 auto;
-    overflow-wrap:break-word;
+.text-input {
+    height: 200px;
     position: absolute;
-    text-align: center;
+    top: 0;
+    width: 300px;
+    word-wrap:break-word;
 }
