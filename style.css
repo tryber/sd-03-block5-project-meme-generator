@@ -4,10 +4,27 @@ body {
 
 #meme-image {
   /* width: 300px;
-  height: 400px; */
+  height: 400px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  align-items: center;
+  background-color: white;*/
+  align-items: center;
+  background-color: white;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  display: block;
+  height: 500px;
+  justify-content: center;
+  margin: 10px auto;
+  max-height: 500px;
+  max-width: 500px;
+  text-align: center;
+  width: 500px;
 }
 
 * {
@@ -110,7 +127,7 @@ section {
 } */
 
 .posTexto {
-  border: 10px groove green;
+  border: 10px solid rgb(194, 176, 14);
   padding: 10px;
   width: 60%;
   margin-left: 18%;
