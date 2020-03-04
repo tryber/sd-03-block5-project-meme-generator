@@ -62,3 +62,10 @@ header {
   clear: both;
   float: left;
 }
+
+.meme {
+ height: 80px;
+ width: 130px;
+ margin-left: 3px;
+ border: 1px solid black ;
+}

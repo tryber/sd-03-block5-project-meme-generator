@@ -20,6 +20,7 @@ for (let i = 0; i < allButtons.length; i += 1) {
 
 let memeImage = document.querySelector("#meme-image");
 let allMemes = document.querySelectorAll(".meme");
+
 for (let i = 0; i < allMemes.length; i += 1) {
   allMemes[i].addEventListener("click", function() {
     memeImage.src = `./imgs/meme${i + 1}.jpeg`;
