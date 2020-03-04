@@ -29,6 +29,7 @@ form {
   width: 100%;
   word-break: break-all;
   height: 200px;
+  top:0;
 }
 
 #meme-image {
