@@ -11,10 +11,9 @@
   <form>
     <div class="texto">
       <label for="text-input"> Digite o texto</label>
-      <input type="text" id="text-input" class="text-input" max="60"> <br><br>
+      <input type="text" id="text-input" class="text-input" maxlength="60"><br><br>
     </div>
   </form>
-
   <div>
     <input type="file" id="meme-insert" onchange="mostraFoto(event)"></input> <br><br>
     <button id="button1">Borda 1</button>
@@ -25,7 +24,6 @@
     <div id="meme-text" class="meme-text">
       <img id="meme-image" class="meme-image">
     </div>
-
   </div>
   <script src="script.js"></script>
 </body>
