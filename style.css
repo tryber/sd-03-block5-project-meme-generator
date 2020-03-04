@@ -1,24 +1,31 @@
-#meme-text{
-    text-align: center;
-    position: absolute;
-    width: 200px;
-    overflow-wrap: break-word;
-}
 
 #meme-image{
     position: relative;
+    z-index: 1;
 }
 
 #meme-image-container{
     position: relative;
-    width: 200px;
-    height: 200px;
-
-}
-
-.image{
-    width: 600px;
+    width: 900px;
     height: 600px;
     border: solid 1px black;
     background-color: white;
+}
+
+.image{
+    width: 900px;
+    height: 600px;
+}
+
+#meme-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 900px;
+    overflow-wrap: break-word;
+    margin: 0px;
+    padding-top: 400px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
 }
