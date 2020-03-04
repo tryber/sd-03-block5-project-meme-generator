@@ -59,6 +59,6 @@ header {
 }
 
 .border-buttons {
-  float: left;
   clear: both;
+  float: left;
 }
