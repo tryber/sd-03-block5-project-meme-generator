@@ -2,8 +2,8 @@
     align-items: center;
     background-color: white;
     border: 1px;
-    border-style: solid;
     border-color: black;
+    border-style: solid;
     display: block;
     height: 500px;
     justify-content: center;
@@ -21,8 +21,8 @@
     font-size: 50px;
     max-width: 400px;
     position: absolute;
-    top: 475px;
     text-align: center;
+    top: 475px;
 
 }
 

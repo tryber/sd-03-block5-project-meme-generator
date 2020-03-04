@@ -22,17 +22,17 @@ function trocaBordaC(){
     }
 
 document.getElementById("meme-1").onclick = function() {
-  recebeFoto.src = "meme1.jpeg";
+  recebeFoto.src = "./imgs/meme1.jpeg";
     };
 
 document.getElementById("meme-2").onclick = function() {
-  recebeFoto.src = "meme2.jpeg";
+  recebeFoto.src = "./imgs/meme2.jpeg";
     };
 
 document.getElementById("meme-3").onclick = function() {
-  recebeFoto.src = "meme3.jpeg";
+  recebeFoto.src = "./imgs/meme3.jpeg";
     };
 
 document.getElementById("meme-4").onclick = function() {
-  recebeFoto.src = "meme4.jpeg";
+  recebeFoto.src = "./imgs/meme4.jpeg";
     };
