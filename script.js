@@ -23,12 +23,4 @@ function displayText() {
 
 memeText.addEventListener('keyup', displayText);
 
-/*var textImg = document.querySelector('input#text-input');
 
-
-function typing() {
-  var textImgInner = document.querySelector('input#text-input').value;
-  document.querySelector('#meme-text').innerText = textImgInner;
-}
-
-textImg.addEventListener('keyup', typing);*/
