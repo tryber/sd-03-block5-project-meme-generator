@@ -1,13 +1,16 @@
 
 //primeiro mostra foto na caixa
-let mostraFoto = function (event) {
+let carregaFoto = function(event) {
   let imagem = document.getElementById("meme-image");
   imagem.src = URL.createObjectURL(event.target.files[0]);
 
 };
 //segundo coloca texto na caixa
+function exibir() {
+  document.getElementById("meme-text").innerHTML = texto.value;
+}
 let texto = document.getElementById("text-input");
-texto.addEventListener("input", exibir);
+texto.addEventListener("keyup", exibir);
 
 
 
@@ -20,11 +23,8 @@ botao2.addEventListener('click', borda2);
 let botao3 = document.getElementById("button3");
 botao3.addEventListener('click', borda3);
 
-let borda = document.getElementById("meme-image-container");
 
-function exibir() {
-  document.getElementById("meme-text").innerHTML = texto.value;
-}
+let borda = document.getElementById("meme-image-container");
 
 function borda1() {
   borda.style.borderColor = "red";
