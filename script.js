@@ -26,3 +26,17 @@ for (let i = 0; i < allMemes.length; i += 1) {
     memeImage.src = `./imgs/meme${i + 1}.jpeg`;
   });
 }
+
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}
+
+function stopAudio() {
+  x.load();
+}
