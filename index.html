@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeMe generator v0.9</title>
+    <title>MeMe generator v0.97</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
+        <h1>MeMe Generator!</h1>
         <form><p>Selecione um arquivo ou clique em alguma imagem na lateral: (obs.: recomendado altura mínima de 500px;)
             <input type="file" id="meme-insert" onchange="carregaImagem()"></p>
         <p><label>Frase a se inserir na parte de cima da imagem: </label>
@@ -36,6 +37,10 @@
                     <li><button id="button2" onclick="mudaBorda2()">Borda 2</button></li>
                     <li><button id="button3" onclick="mudaBorda3()">Borda 3</button></li>
                 </ul>
+                <label for="alTSup">Altura do texto de cima</label><br>
+                <input type="range" id="alTSup" min="-40" max="20" onchange="mudaAlturaTxtCima()"><br>
+                <label for="alTInf">Altura do texto de baixo</label><br>
+                <input type="range" id="alTInf" min="-40" max="40" onchange="mudaAlturaTxtBaixo()">
             </div>
             <div id="meme-image-container" class="containerImagemTexto">
                 <p id="meme-text" class="textoCima"></p>
@@ -44,10 +49,10 @@
             </div>
             <div class="miniaturas">
                 <h3>Top 4 memes</h3>
-                <img src="Philosoraptor.jpg" onclick="setMeme01()">
-                <img src="SociallyAkwardPenguin.jpg" onclick="setMeme02()">
-                <img src="Archer.jpg" onclick="setMeme03()">
-                <img src="Futurama-Fry.jpg" onclick="setMeme04()">
+                <img id="meme1" src="imgs/meme1.jpeg" onclick="setMeme01()">
+                <img id="meme2" src="imgs/meme2.jpeg" onclick="setMeme02()">
+                <img id="meme3" src="imgs/meme3.jpeg" onclick="setMeme03()">
+                <img id="meme4" src="imgs/meme4.jpeg" onclick="setMeme04()">
             </div>
         </div>
     </article>

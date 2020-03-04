@@ -41,6 +41,16 @@ function mudaBorda3() {
     frameImgTexto.style.borderColor = "green";
 }
 
+function mudaAlturaTxtCima() {
+    let alturaS = document.getElementById("alTSup");
+    textoDeCima.style.top = alturaS.value + "px";
+}
+
+function mudaAlturaTxtBaixo() {
+    let alturaI = document.getElementById("alTInf");
+    textoDeBaixo.style.bottom = alturaI.value + "px";
+}
+
 function setMeme01() {
     imagemMeme.src = document.getElementsByClassName("miniaturas")[0].childNodes[3].src;
 }

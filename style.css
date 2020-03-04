@@ -1,9 +1,11 @@
 header {
     background-color: maroon;
-    color: mediumaquamarine;
+    color: sandybrown;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
-    padding: 2px 10px;
+    letter-spacing: -0.5px;
+    padding: 1px 5px;
+    text-align: center;
 }
 
 .geral {
@@ -23,7 +25,7 @@ header {
     height: 300px;
     padding: 10px;
     position: absolute;
-    top: 150px;
+    top: 200px;
     width: auto;
 }
 
