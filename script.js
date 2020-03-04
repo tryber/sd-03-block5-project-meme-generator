@@ -45,7 +45,7 @@ for (let i = 0 ; i < meme.length; i++){    //precisa do laço for pois gera um a
     meme[i].addEventListener("click", preLoaded)   //criar o evento sobre cada elemento
 
     function preLoaded() {
-       let imageMeme = document.getElementById("meme-image-container") //variavel com a div onde a imagem fica
+       let imageMeme = document.getElementById("meme-image") //variavel com a div onde a imagem fica
        imageMeme.src = `imgs/meme${i}.jpeg` //define o src da div
     }
 }
