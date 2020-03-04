@@ -10,27 +10,24 @@
     <h1>Meme Generator!</h1>
     <form>
     <input placeholder="texto" type=text id="text-input" maxlength="60"> <br><br>
-    <input type="file" id="meme-insert" onchange="previewFile()"><br>
+    <input type="file" id="meme-insert"><br>
     </form>
-    <div class="caixa">
+    <div id="meme-image-container" class="meme-image-container">
         <div class="memeText" id="meme-text"></div>
         <div>
-      <img src="" alt="" id="meme-image">
+      <img src="" alt="" id="meme-image" class="imagem">
         </div>
-    </div>        
-    <div>
-        <button id="button1" class="a" onclick="trocaBordaA">Button1</button>
-        <button id="button2" class="b" onclick="trocaBordaB">Button2</button>
-        <button id="button3" class="c" onclick="trocaBordaC">Button3</button>
     </div>
     <div>
-        <img src="meme4.jpeg" alt="toy story" height="100">
-        <img src="meme3.jpeg" alt="menina do caos" height="100">
-        <img src="meme2.jpeg" alt="pense nisso" height="100">
-        <img src="meme1.jpeg" alt="bob esponja" height="100">
-
+        <button id="button1" class="a" onclick="trocaBordaA()">Button1</button>
+        <button id="button2" class="b" onclick="trocaBordaB()">Button2</button>
+        <button id="button3" class="c" onclick="trocaBordaC()">Button3</button>
     </div>
-
-
-</body>
+    <div>
+      <img id="meme-1" src="meme-1.jpeg" alt="bob esponja" height="100" onclick='imag1()'>
+      <img id="meme-2" src="meme-2.jpeg" alt="pense nisso" height="100" onclick='imag2()'>
+      <img id="meme-3" src="meme-3.jpeg" alt="menina do caos" height="100" onclick='imag3()'>
+      <img id="meme-4" src="meme-4.jpeg" alt="toy story" height="100" onclick='imag4()'>
+    </div>
+  </body>
 </html>

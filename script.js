@@ -1,44 +1,38 @@
-const caixaTexto = document.querySelector('#text-input');
-const caixa = document.querySelector('.caixa');
-function trocaTexto () {
-  caixa.innerHTML = caixaTexto.value;
+let textoForm = document.querySelector('#text-input');
+let textoCaixa = document.querySelector('.memeText');
+function colocaTextoCaixa() {
+  textoCaixa.innerText = textoForm.value;
 }
-caixaTexto.addEventListener("keyup", trocaTexto);
-
-function previewFile() {
-  var preview = document.querySelector('img');
-  var file    = document.querySelector('input[type=file]').files[0];
-  var reader  = new FileReader();
-
-  reader.onloadend = function () {
-    preview.src = reader.result;
-  }
-
-  if (file) {
-    reader.readAsDataURL(file);
-  } else {
-    preview.src = "";
-  }
+textoForm.addEventListener('keyup', colocaTextoCaixa);
+let recebeFoto = document.querySelector('#meme-image');
+let botaoFoto = document.querySelector('#meme-insert');
+function loadImage(event) {
+  recebeFoto.src = window.URL.createObjectURL(event.target.files[0]);
 }
+botaoFoto.addEventListener('change', loadImage);
 
-
-    let corA = document.getElementsByClassName("a").border;
-    let corB = document.getElementsByClassName("b").border;
-    let corC = document.getElementsByClassName("c").border;
-    let borda = document.getElementsByClassName("caixa").border;
-    function trocaBordaA(){
-        borda = corA;
+function trocaBordaA(){
+  document.querySelector('.meme-image-container').classList.add('a');
     }
-    function trocaBordaB(){
-        borda = corB;
+function trocaBordaB(){
+  document.querySelector('.meme-image-container').classList.add('b');
     }
-    function trocaBordaC(){
-        borda = corC;
+function trocaBordaC(){
+  document.querySelector('.meme-image-container').classList.add('c');
     }
 
-    let meme1 = document.querySelector('#meme1');
-    let meme2 = document.querySelector('#meme2');
-    let meme3 = document.querySelector('#meme3');
-    let meme4 = document.querySelector('#meme4');
+document.getElementById("meme-1").onclick = function() {
+  recebeFoto.src = "meme-1.jpeg";
+    };
 
-    meme1.addEventListener("click", function(){})
+document.getElementById("meme-2").onclick = function() {
+  recebeFoto.src = "meme-2.jpeg";
+    };
+
+document.getElementById("meme-3").onclick = function() {
+  recebeFoto.src = "meme-3.jpeg";
+    };
+
+document.getElementById("meme-4").onclick = function() {
+  recebeFoto.src = "meme-4.jpeg";
+    };
