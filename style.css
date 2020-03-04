@@ -1,3 +1,7 @@
+#left{
+  float:left;
+}
+
 .img-container {
   height: 400px;
   justify-content: center;
@@ -60,4 +64,16 @@
   display: flex;
   position: absolute;
   top: 430px;
+}
+
+.model{
+  display: inline;
+  height: 200px;
+  width: 250px;
+  cursor: pointer;
+}
+
+#memes-prontos{
+  float: right;
+  display: inline;
 }

@@ -4,6 +4,7 @@ const btn1 = document.getElementById('button1');
 const btn2 = document.getElementById('button2');
 const btn3 = document.getElementById('button3');
 const container = document.getElementById('meme-image-container');
+const memes_prontos = document.querySelectorAll('.model');
 
 img_input.addEventListener ('change', function(){ 
     let file = window.URL.createObjectURL(this.files[0]);
@@ -26,3 +27,8 @@ btn3.addEventListener('click', function(){
     container.style.border = "6px groove green";
 });
 
+[].forEach.call(memes_prontos, meme => {
+    meme.addEventListener('click', function(){
+        document.getElementById('meme-image').src = this.src;
+    });
+});
