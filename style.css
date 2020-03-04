@@ -7,7 +7,6 @@ form {
 }
 
 .container {
-  align-self: center;
   background-color: white;
   border: 1px black solid;
   height: 500px;
@@ -28,7 +27,6 @@ form {
   width: 100%;
   word-break: break-all;
   height: 100%;
-  display: relative;
   top: 0;
 }
 
