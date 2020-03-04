@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script defer src = 'script.js'></script>
     <link rel='stylesheet' href='style.css'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +8,19 @@
 </head>
 <body>
     <form>
-    <label >Digite a sua frase:</label>
-    <input id = 'text-input' type='text'></input>
+        <label >Digite a frase:</label>
+        <input id = "text-input" type="text" ><br>
+        <label >Escolha a imagem:</label>
+        <input type="file" accept="image/*" id = "meme-insert" onchange="meme(event)"><br>
     </form>
-    <button id="add-text">Pronto</button>
-    <div id='meme-image-container' >
-        <p id='meme-text'></p>
-        <img id= 'meme-image' >
-       
+    
+    <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img src=" " alt="meme" id= "meme-image" class = 'image'>
+        
     </div>
     
+    <script src='script.js'></script>
 </body>
+
 </html>

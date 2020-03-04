@@ -7,12 +7,18 @@
 
 #meme-image{
     position: relative;
-    width: 200px;
-    height: 200px;
 }
 
 #meme-image-container{
     position: relative;
     width: 200px;
     height: 200px;
+
+}
+
+.image{
+    width: 600px;
+    height: 600px;
+    border: solid 1px black;
+    background-color: white;
 }
