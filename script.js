@@ -1,7 +1,8 @@
 let inputText = document.getElementById("text-input");
 let inputImage = document.querySelector("#meme-insert");
 let text = document.getElementById("meme-text");
-let img = document.getElementById("meme-image")
+let img = document.getElementById("meme-image");
+
 function loadFile() {
     img.src = URL.createObjectURL(inputImage.files[0]);
 }
@@ -29,7 +30,7 @@ button2.addEventListener("click", TrocaBorda2);
 function TrocaBorda3() {
   containerImage.style.border = "6px groove green";
 }
-button3.addEventListener("click", TrocaBorda3)
+button3.addEventListener("click", TrocaBorda3);
 
 let meme1 = document.getElementById("meme-1");
 let meme2 = document.getElementById("meme-2");

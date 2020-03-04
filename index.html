@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -9,26 +8,31 @@
 </head>
 <body>
   <form>
-    <label>Digite o texto do seu meme:</label>
-    <input type="text" id="text-input" maxlength="60">
-    </br>
-    <label for="meme-insert">Escolha uma imagem para o seu meme:</label>
-    <input type="file" id="meme-insert" accept="image/*">
+    <h3>Digite o texto do seu meme:</br>
+      <input type="text" id="text-input" maxlength="60">
+    </h3>
+    <h3>
+      Escolha uma imagem para o seu meme:</br>
+      <input type="file" id="meme-insert" accept="image/*">
+    </h3>
   </form>
   <div id="buttons-container" class="buttons-container">
+  <h3>Escolha uma borda:</h3>
   <button id="button1">borda 1</button>
   <button id="button2">borda 2</button>
   <button id="button3">borda 3</button>
   <div id="meme-image-container" class="img-container">
     <img id="meme-image" class="style-image" width="400px">
-    <span id="meme-text" class="meme-txt"></span>
-  </div><label> Ou se preferir escoha uma imagem</label>
+    <span id="meme-text" class="meme-txt">
+  </div></br>
+  <h3>
+    Ou se preferir escolha entre essas imagens:
+  </h3>
   <div class="repartir">
-    
-    <img id="meme-1" class="trinta" src="imgs/meme1.jpeg" alt="meme1">
-    <img id="meme-2" class="trinta" src="imgs/meme2.jpeg" alt="meme2">
-    <img id="meme-3" class="trinta" src="imgs/meme3.jpeg" alt="meme3">
-    <img id="meme-4" class="trinta" src="imgs/meme4.jpeg" alt="meme4">
+    <img id="meme-1" class="trinta" src="imgs/meme1.jpeg" alt="meme">
+    <img id="meme-2" class="trinta" src="imgs/meme2.jpeg" alt="meme">
+    <img id="meme-3" class="trinta" src="imgs/meme3.jpeg" alt="meme">
+    <img id="meme-4" class="trinta" src="imgs/meme4.jpeg" alt="meme">
   </div>
   <script type="text/javascript" src="script.js"></script>
 </body>

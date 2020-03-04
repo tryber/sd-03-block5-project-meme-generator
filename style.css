@@ -1,5 +1,5 @@
 body{
-background-color: blue;
+  background-color: green;
 }
 
 .img-container {
@@ -8,14 +8,16 @@ background-color: blue;
   display: flex;
   height: 400px;
   width: 400px;
+  position: relative;
 }
 
 .meme-txt {
+  display: flex;
   height: 130px;
   position: absolute;
-  top: 500px;
   width: 350px;
   word-break: break-all;
+  bottom: 0px;
 }
 
 .repartir{
