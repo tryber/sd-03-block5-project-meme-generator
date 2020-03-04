@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator - O Dev Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6ab7a8fae.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/favicon_r.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Alata&display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="./img/white_logo.png" alt="Logo Trybe"></a>
+        <nav>
+            <li><a href="">Home</a></li>
+            <li><a href="">Trybe</a></li>
+            <li><a href="">Projetos</a></li>
+        </nav>
+    </header>
+        <main>
+            <section class="container">
+                <article class="item">
+                        <img class="logoImage" src="./img/meme_logo.png" alt="Logo">
+                        <form class="image">
+                            <p>Encontre uma imagem em seu computador :</p>
+                            <input type="file" id="meme-insert" name="image" onchange="uploadIMG(event)">
+                        </form>
+                        <br>
+                        <form class="text">
+                            <input type="text" id="text-input" placeholder="Escreva no topo ..." maxlength="60">
+                            <input type="text" id="text-input-down" placeholder="Escreva em baixo ..." maxlength="60">
+                        </form>
+                        <br>
+                    <button class="buttons" id="button1" onclick="changeBoard('1')">Borda Branca</button>
+                    <button class="buttons" id="button2" onclick="changeBoard('2')">Borda Preta</button>
+                    <button class="buttons" id="button3" onclick="changeBoard('3')">Borda Trybe</button>
+                </article>
+                <article class="item-1"> 
+                    <div class="editImage" id="meme-image-container">
+                        <img id="meme-image">
+                    </div>
+                    <p class="memeText" id="meme-text"></p>
+                    <p class="memeTextDown" id="meme-text-down"></p>
+                </article>       
+            </section>
+            <section>
+                <article class="item-2 container-1">
+                    <li><img class="memeImage" id="meme-1" src="./img/meme-1.png" alt="Meme" onclick="selectedIMG('./img/meme-1.png')" ></li>
+                    <li><img class="memeImage" id="meme-2" src="./img/meme-2.png" alt="Meme" onclick="selectedIMG('./img/meme-2.png')"></li>
+                    <li><img class="memeImage" id="meme-3" src="./img/meme-3.png" alt="Meme" onclick="selectedIMG('./img/meme-3.png')"></li>
+                    <li><img class="memeImage" id="meme-4" src="./img/meme-4.png" alt="Meme" onclick="selectedIMG('./img/meme-4.png')"></li>
+                </article>
+            </section>  
+        </main>
+    <footer>
+        <ul>
+            <p style="padding-right: 15px;">© Roberto Asgon | Contato : </p> 
+            <li><a href=""><i class="fab fa-github-square"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin"></i></a></li> 
+            <li><a href=""><i class="fab fa-instagram-square"></i></a></li> 🚀
+        </ul>
+    </footer>
+<script src="./script.js"></script>
+</body>
+</html>
