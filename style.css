@@ -1,54 +1,53 @@
-  body {
-    background-color: cornflowerblue;
-  }
+body {
+  background-color: cornflowerblue;
+}
 
-  form {
-    margin: auto;
-  }
+form {
+  margin: auto;
+}
 
-  .container {
-    align-self: center;
-    background-color: white;
-    border: 1px  black solid ;
-    height: 500px;
-    margin: auto;
-    position: relative;
-    width: 500px;
-  }
+.container {
+  align-self: center;
+  background-color: white;
+  border: 1px black solid;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  width: 500px;
+}
 
-  .example {
-    height: 250px;
-    width: 250px;
-  }
+.example {
+  height: 250px;
+  width: 250px;
+}
 
-  #meme-text {
-    font-size: 4em;
-    position: absolute ;
-    text-overflow: ellipsis;
-    width: 100%;
-    word-break: break-all;
-    height: 100%;
-    display: relative;
-    top:0;
+#meme-text {
+  font-size: 4em;
+  position: absolute;
+  text-overflow: ellipsis;
+  width: 100%;
+  word-break: break-all;
+  height: 100%;
+  display: relative;
+  top: 0;
+}
 
-  }
+#meme-image {
+  height: 100%;
+  width: 100%;
+}
 
-  #meme-image {
-    height: 100%;
-    width: 100%;
-  }
+#button1 {
+  border: 3px dashed red;
+  padding: 20px 20px;
+}
 
-  #button1 {
-    border: 3px dashed red;
-    padding: 20px 20px;
-  }
+#button2 {
+  border: 5px double blue;
+  padding: 20px 20px;
+}
 
-  #button2 {
-    border: 5px double blue;
-    padding: 20px 20px;
-  }
-
-  #button3 {
-    border: 6px groove green;
-    padding: 20px 20px;
-  }
+#button3 {
+  border: 6px groove green;
+  padding: 20px 20px;
+}
