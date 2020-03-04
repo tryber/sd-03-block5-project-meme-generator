@@ -12,35 +12,33 @@
     <header>
         <h2>AWW YEAH! MEME TIME!</h2>
     </header>
-    <section>
+    <section id='meme-image-container'>
         <form class='container'>
             <label for="meme-insert">
                 <input type="file" accept="image/*" onchange="loadFile(event)" id='meme-insert'
                     class='meme-insert'></input>
             </label>
         </form>
-        <div id='meme-image-container' class='div-fix'>
+        <div class='div-fix'>
             <img id='meme-image' class='meme-image' />
             <p id='meme-text'></p>
         </div>
-        <label for="text-input">
+        <label for="text-input" style='margin-bottom: 2px;'>
             <input type='text' id='text-input' class='text-input'
                 placeholder="Digite a frase que deseja colocar no seu meme!" maxlength="60"></input>
         </label>
+        <div class='border-buttons'>
+            <button id='button1' class='button'>Borda 1</button>
+            <button id='button2' class='button'>Borda 2</button>
+            <button id='button3' class='button'>Borda 3</button>
+        </div>
+        <div class='border-buttons'>
+            <img src="./imgs/meme1.jpeg" id='meme1' class='meme'></img>
+            <img src="./imgs/meme2.jpeg" id='meme2' class='meme'></img>
+            <img src="./imgs/meme3.jpeg" id='meme3' class='meme'></img>
+            <img src="./imgs/meme4.jpeg" id='meme4' class='meme'></img>
+        </div>
     </section>
-
-    <div class='border-buttons'>
-        <button id='button1' class='button'>Borda 1</button>
-        <button id='button2' class='button'>Borda 2</button>
-        <button id='button3' class='button'>Borda 3</button>
-    </div>
-    <div class='border-buttons' id='meme-image-container'>
-        <img src="./imgs/meme1.jpeg" id='meme1' class='meme'></img>
-        <img src="./imgs/meme2.jpeg" id='meme2' class='meme'></img>
-        <img src="./imgs/meme3.jpeg" id='meme3' class='meme'></img>
-        <img src="./imgs/meme4.jpeg" id='meme4' class='meme'></img>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>

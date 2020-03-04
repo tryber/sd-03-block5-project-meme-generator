@@ -64,8 +64,8 @@ header {
 }
 
 .meme {
-  height: 80px;
-  width: 130px;
-  margin-left: 3px;
   border: 1px solid black;
+  height: 80px;
+  margin-left: 3px;
+  width: 130px;
 }
