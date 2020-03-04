@@ -22,12 +22,13 @@ form {
 
 #meme-text {
   font-size: 4em;
+  height: 100%;
   position: absolute;
   text-overflow: ellipsis;
+  top: 0;
   width: 100%;
   word-break: break-all;
-  height: 100%;
-  top: 0;
+  height: 200px;
 }
 
 #meme-image {
