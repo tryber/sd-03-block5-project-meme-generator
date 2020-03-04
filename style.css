@@ -6,8 +6,8 @@ body {
 .meme-image {
   clear: both;
   float: left;
-  height: 450px;
-  width: 600px;
+  height: 470px;
+  width: 620px;
 }
 
 .text-input {
@@ -19,7 +19,7 @@ body {
   height: 20px;
   margin-top: 5px;
   position: relative;
-  width: 598px;
+  width: 618px;
 }
 
 ::placeholder {
@@ -37,8 +37,8 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   margin-top: 15px;
-  max-height: 450px;
-  max-width: 600px;
+  max-height: 470px;
+  max-width: 620px;
   overflow-wrap: break-word;
   position: absolute;
   text-overflow: inherit;
@@ -49,9 +49,9 @@ p {
   border: solid 1px black;
   clear: both;
   float: left;
-  height: 450px;
+  height: 470px;
   position: relative;
-  width: 600px;
+  width: 620px;
 }
 
 header {
@@ -64,8 +64,8 @@ header {
 }
 
 .meme {
- height: 80px;
- width: 130px;
- margin-left: 3px;
- border: 1px solid black ;
+  height: 80px;
+  width: 130px;
+  margin-left: 3px;
+  border: 1px solid black;
 }
