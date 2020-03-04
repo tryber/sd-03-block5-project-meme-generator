@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +10,24 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <header id="page-title">
-        <h1>
-            Meme generator
-        </h1>
+    <header>
+        <h1>Meme Generator</h1>
     </header>
-    <article>
-        <div class="container">
-        
-        <div id="comands">
-            <form action="" id="text-input'">
-                <input type="file" id="meme-image" onchange="previewFile()"/><br>
-                <label for="Texto1">Text1</label> <br>
-                <input type="text" id="meme-text" > <br>
-                <label for="Texto2"> Text2</label> <br>
-                <input type="text" id="meme-text2">         
-            </form>
-          
-        </div>
-        <img id="imagem1"  src="">
-       
+    <div id="texts">
+        <!--Caixa onde texto será inserido-->
+        <label for="text-input">Insira o texto</label>
+        <input type="text" id="text-input">
     </div>
-    </article>
+    <div id="meme-image-container">
+        <!--Onde imagem irá aparecer-->
+        <img src="" alt="Meme" id="meme-image" >
+    </div>
     
+    <div>
+        <!--Input para inserir imagem-->
+        <input type="file" id="meme-insert"onchange="previewFile()"/>
+    </div>
+
+
 </body>
 </html>

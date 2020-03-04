@@ -14,4 +14,3 @@ function previewFile() {
   }
 }
 console.log("hello");
- 
