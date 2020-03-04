@@ -12,26 +12,26 @@
     <main>
         <h1><strong>Ultimate++ Meme Generator 3000</strong></h1>
         <section id="meme-constructor">
-            <form action=""> <label for="meme-insert">Selecione sua imagem:</label> <input type="file" accept="image/*"
-                    name="meme-insert" placeholder="Insira seu arquivo aqui" id="meme-insert">
-                <button type="submit">Enviar</button>
+            <form> <label for="meme-insert">Selecione sua imagem:</label> <input type="file" accept="image/*"
+                    onchange="imageReader(event)" name="meme-insert" placeholder="Insira seu arquivo aqui"
+                    id="meme-insert">
+
             </form>
             <form action="">
                 <label for="text-input">Insira seu texto</label> <input type="text" name="text-input"
-                    placeholder="Insira seu texto aqui" id="text-input">
+                    placeholder="Insira seu texto aqui" maxlength="60" id="text-input">
             </form>
 
-            <div id="your-meme">
-                <figure id="meme-image">
-                    <figcaption id="meme-text"></figcaption>
-                </figure>
+            <div id="meme-image-container">
+                <img src="#" id="meme-image">
+                <p id="meme-text"></p>
+
             </div>
 
         </section>
 
     </main>
-    <script src="">
-
-    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>

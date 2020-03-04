@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-#your-meme{
+div#meme-image-container{
     background-color: white;
     border: 1px black solid;
 }
