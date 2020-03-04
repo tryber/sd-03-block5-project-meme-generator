@@ -2,31 +2,47 @@ body{
   background-color: green;
 }
 
+.centro{
+  display: block;
+}
+
+.estilo{
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+}
+
 .img-container {
   background-color: white;
   border: 1px solid black;
   display: flex;
   height: 400px;
-  width: 400px;
+  margin: auto;
   position: relative;
+  width: 400px;
 }
 
 .meme-txt {
+  bottom: 0px;
   display: flex;
   height: 130px;
   position: absolute;
   width: 350px;
   word-break: break-all;
-  bottom: 0px;
 }
 
 .repartir{
   height: 160px;
-  width: 800px;
+  width: 640px;
 }
 
 .trinta{
+  border-radius: 20px;
   cursor: pointer;
   height: 100%;
-  width: 20%;
+  margin-left: 3px;
+  width: 24%;
 }
