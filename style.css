@@ -1,47 +1,19 @@
-section#cabecalho {
-    background-color: yellow;
-    border: 5px solid black;
+ /* #cabecalho h1 {
+    text-align: center;
 }
 
-form#formulario input#text-input {
-    margin-right: 10px;
-    height: 5px;
+#insercao {
+    text-align: center;
 }
 
-form#formulario {
-    background-color: blue;
-    border: solid black;
-    padding: 20px;
-}
-
-article#meme-image-container input{
-    left: 50px;
-    padding: 10px;
-    position: relative;
-}
-
-article#meme-image-container img{
-    padding: 10px;
-    display: block;
-    position: relative;
-    top: 30px;
-    left: 50px;
-    background-color: white;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-}
-img#meme-image {
-    width: 700px;
-    overflow: hidden;
-    list-style: none;
-}
-
-/* ul#album-fotos li {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 5px solid white;
-    background-color: white;
-    
-    -webkit-transition: all 0.4S ease-in-out;    
+#meme-image-container {
+    text-align: center;
 } */
+
+
+#meme-text {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+   

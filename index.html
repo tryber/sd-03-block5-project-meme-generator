@@ -7,26 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script lang="javascript" src="script.js"></script>
+<body>  
+      
+    <header id="cabecalho">
+        <h1>Gerador de meme</h1>
+    </header>
 
-<body>
-    <section id="cabecalho">
-        <article id="meme-image-container">
-            <header id='textoFild'>
-                <form id='formulario'>
-                    <input type="text" id="text-input" >
-                    <input type="button" value="Submit" onclick="setTexto()" >
-                </form>
-            </header>                                                                  
-            <input type="file" name="myImage" accept="image/*" />
-            <input type="submit" value="Submit" id="meme-insert" onclick="mostraImagem()"> 
-            
-            <img id="meme-image" src="" alt="Imagem ira aparecer aqui">            
-        </article>
-    </section>
+    <div id="insercao">
+        <input type="text" name="textoDigitado" id="text-input">
+        <input type="file" name="uploadedImg" id="meme-insert" accept="image/*">
+    </div>
 
-    <footer>
-
-    </footer>
+    <div id="meme-image-container">
+        <img id="meme-image" src="" alt="">
+        <p id="meme-text">erererereererrer</p>
+    </div> 
+    <script lang="javascript" src="script.js"></script>  
 </body>
 </html>

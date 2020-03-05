@@ -1,22 +1,10 @@
-function mostraImagem() {
-    var preview = document.querySelector('img');
-    var file    = document.querySelector('input[type=file]').files[0];
-    var reader  = new FileReader();
-  
-    reader.onloadend = function () {
-      preview.src = reader.result;
-    }
-  
-    if (file) {
-      reader.readAsDataURL(file);
-    } else {
-      preview.src = "";
-    }
+window.onload = function () {
+  console.log(document.querySelector('#insercao input').id)
 }
 
-function setTexto(){
-    var meme = document.getElementById('text-input').value;
-
-    
-}
-    
+let texto = document.getElementById("text-input")
+console.log(texto)
+let imagemUpdate = document.getElementById("meme-insert")
+console.log(imagemUpdate)
+let escritaMeme = document.getElementById("meme-text")
+console.log(escritaMeme)
