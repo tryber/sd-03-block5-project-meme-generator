@@ -39,13 +39,13 @@ function changeBoard(par) {
         keyBoard = 1;
     } 
     else if (par == 2) {
-        div.style.borderColor = "5px double blue";
+        div.style.border = "5px double blue";
         div.style.height = 390 + "px";
         div.style.width = 390 + "px";
         keyBoard = 1;
     } 
     else if (par == 3) {
-        div.style.borderColor = "6px groove green";
+        div.style.border = "6px groove green";
         div.style.height = 390 + "px";
         div.style.width = 390 + "px";
         keyBoard = 1;
