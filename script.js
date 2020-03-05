@@ -31,7 +31,7 @@ textoBaixo.addEventListener("keyup",function(){
 })
 //Adicionando bordas
 function changeBoard(par) {
-    let div = document.getElementById("meme-image")
+    let div = document.getElementById("meme-image-container")
     if (par == 1) {
         div.style.borderColor = "red";
         div.style.borderWidth = 3 + "px";
