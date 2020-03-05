@@ -6,15 +6,25 @@ function uploadIMG(event) {
     image.style.width = 400 + "px";
 };
 //Escolhendo Imagem
-function selectedIMG(memeImage) {
-    var image = document.getElementById('meme-image');
-    image.src = memeImage;    
-    image.style.height = 400 + "px";
-    image.style.width = 400 + "px";
-    if (keyBoard >= 1) {
-        image.style.height = 390 + "px";
-        image.style.width = 390 + "px";
-    } 
+//function selectedIMG(memeImage) {
+//    var image = document.getElementById('meme-image');
+//   image.src = memeImage;    
+//    image.style.height = 400 + "px";
+//    image.style.width = 400 + "px";
+//    if (keyBoard >= 1) {
+//        image.style.height = 390 + "px";
+//        image.style.width = 390 + "px";
+//    } 
+//}
+
+const img = document.getElementsByClassName('memeImage')
+let image = document.getElementById('meme-image');
+
+for (let i = 0; i < img.length; i++) {
+  img[i].addEventListener('click', function () {
+    image.src = img[i].src;
+  })
+
 }
 //Configurando o Texto
 let textoCima = document.getElementById("text-input")
