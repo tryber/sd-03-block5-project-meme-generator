@@ -23,6 +23,10 @@ let image = document.getElementById('meme-image');
 for (let i = 0; i < img.length; i++) {
   img[i].addEventListener('click', function () {
     image.src = img[i].src;
+    if (keyBoard >= 1) {
+        image.style.height = 390 + "px";
+        image.style.width = 390 + "px";
+    }
   })
 
 }
