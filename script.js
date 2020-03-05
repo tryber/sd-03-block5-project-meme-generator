@@ -33,25 +33,19 @@ textoBaixo.addEventListener("keyup",function(){
 function changeBoard(par) {
     let div = document.getElementById("meme-image-container")
     if (par == 1) {
-        div.style.borderColor = "red";
-        div.style.borderWidth = 3 + "px";
-        div.style.borderStyle = "dashed";
+        div.style.border = "3px dashed red"
         div.style.height = 390 + "px";
         div.style.width = 390 + "px";
         keyBoard = 1;
     } 
     else if (par == 2) {
-        div.style.borderColor = "blue";
-        div.style.borderWidth = 5 + "px";
-        div.style.borderStyle = "double";
+        div.style.borderColor = "5px double blue";
         div.style.height = 390 + "px";
         div.style.width = 390 + "px";
         keyBoard = 1;
     } 
     else if (par == 3) {
-        div.style.borderColor = "green";
-        div.style.borderWidth = 6 + "px";
-        div.style.borderStyle = "groove";
+        div.style.borderColor = "6px groove green";
         div.style.height = 390 + "px";
         div.style.width = 390 + "px";
         keyBoard = 1;
