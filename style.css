@@ -5,13 +5,17 @@ body {
     font-size: xx-large;
     text-align: center;
 }
-#meme-image-container {
+.container {
     background-color: white;
     border: 1px solid black;
-    color: darkslategray;
-    height: 400px;
+    color: black;
     width: 400px;
+    height: 400px;
 }
 #meme-image {
     border-color: black;
+}
+#meme-text {
+    position: relative;
+    color: black
 }
