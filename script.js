@@ -24,7 +24,7 @@ let botao3 = document.getElementById("button3");
 botao3.addEventListener('click', borda3);
 
 
-let borda = document.getElementById("meme-image-container");
+let borda = document.getElementById("meme-image");
 
 function borda1() {
   borda.style.borderColor = "red";
