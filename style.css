@@ -1,0 +1,60 @@
+html, body { 
+  margin:0;
+  padding:0;
+  border: 0;
+  width:100%;
+}
+
+body {
+  color: black;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
+}
+
+#image-container {
+  background-color: white;
+  position: relative;
+  top: 20px;
+  margin: auto;
+  width: 1000px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+#meme-image { 
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+}
+
+.texto-infoimg {
+  width: 1000px;
+  position: absolute;
+  bottom: 20px;
+  font-size: 50px;
+  overflow: hidden;
+  color:white;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+label {
+  font-size: 19px;
+  margin-left: 13px;
+}
+
+#text-input {
+  width: 300px;
+  height: 18px;
+  margin-top:5px;
+}

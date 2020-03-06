@@ -1,48 +1,24 @@
-$(document).ready(function(){
-    
-    //Variável
-    var _container = new Object();
-    var _fileReader = new FileReader();
-
-    //Objetos
-    _container = {
-        formulario : $(' [data-container-upload="formulario"] '),
-        inputfile :  $(' [data-container-upload="inputfile"] '),
-        inputbtn : $(' [data-container-upload="inputbtn"] '),
-        miniatura : $(' [data-container-upload="miniatura"] ')
+openFile = function(event) {
+    var input = event.target;
+    var reader = new FileReader();
+    reader.onload = function(){
+        var dataURL = reader.result;
+        var mostrarImg = document.getElementById('meme-image');
+        mostrarImg.src = dataURL;
     };
+    reader.readAsDataURL(input.files[0]);
+};
 
-    //Função
-    function inputAlterado(callback){
-        _container.inputfile.on("change", function(){
-            callback();
-        });
-    }
+function mostrarTxt() {
+    let pegaTexto = document.getElementById('text-input').value;
+    let upTexto = document.getElementById('meme-text');
+    upTexto.innerHTML = pegaTexto;
+};
 
-    function pegaArquivo(){
-        return _container.inputfile.prop('files');
-    }
-
-    function carregaFim(callback){
-        _fileReader.onload = function (e) {
-            callback(e.target);
-        };
-
-    }
-
-    //Execução
-    inputAlterado (function(){
-
-        //Variável
-        var _imagem = pegaArquivo();
-
-        //Modelo
-        if(_imagem.length > 0){
-            carregaFim(function(e){
-                _container.miniatura.attr('src', e.result).fadeIn(0)
-            });
-            _fileReader.readAsDataURL (_imagem[0]);
-        }
-
+function aumentarTxt() {
+    let pegaTxt = document.querySelector('.aumentar-txt');
+    let upTxt = document.querySelector('.aumtxt');
+    upTxt.addEventListener('click', function(){
+        pegaTxt.style.fontSize = "40px";
     });
-});
+}
