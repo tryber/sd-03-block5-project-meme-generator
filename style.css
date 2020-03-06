@@ -17,7 +17,7 @@ h1 {
   text-align: center;
 }
 
-#image-container {
+#meme-image-container {
   background-color: white;
   position: relative;
   top: 20px;
@@ -39,7 +39,7 @@ h1 {
   bottom: 20px;
   font-size: 50px;
   overflow: hidden;
-  color:white;
+  color: white;
   text-align: center;
 }
 
