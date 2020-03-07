@@ -1,5 +1,6 @@
 body{
   background-color: steelblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #meme-image-container{
@@ -18,20 +19,22 @@ body{
 }
 
 #meme-text  {
+  bottom: 0;
   color: white;
   font-size: 18pt;
   font-weight: bolder;
   position: absolute;
-  text-shadow: 2px 2px 2px black;
   text-align: center;
-  bottom: 0;
+  text-shadow: 2px 2px 2px black;
   word-break: break-all;
   width: 100%;
 }
 
-#meme1, #meme2, #meme3, #meme4{
+#meme-1, #meme-2, #meme-3, #meme-4 {
   border: 1px solid #ddd;
   border-radius: 5px;
+  cursor: pointer;
   padding: 5px;
+  position: inline-block;
   width: 150px;
 }

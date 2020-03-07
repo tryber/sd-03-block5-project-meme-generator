@@ -3,16 +3,16 @@ window.onload = function() {
 let textInput = document.getElementById('text-input');
 let imagemInput = document.getElementById('meme-insert');
 let memeText = document.getElementById('meme-text');
+let memeImage = document.getElementById('meme-image');
 
-function inserttext(){
+function inserttext() {
   memeText.innerHTML = textInput.value;
 }
 
 textInput.addEventListener('keyup', inserttext);
 
-function insertimage(){
-  let memeImagem = document.getElementById('meme-image');
-  memeImagem.src = URL.createObjectURL(imagemInput.files[0]);
+function insertimage() {
+  memeImage.src = URL.createObjectURL(imagemInput.files[0]);
 }
 
 imagemInput.addEventListener('change', insertimage);
@@ -40,8 +40,22 @@ botao1.addEventListener('click', borda1);
 botao2.addEventListener('click', borda2);
 botao3.addEventListener('click', borda3);
 
-// const meme1 = document.getElementById('meme1');
-// const meme2 = document.getElementById('meme2');
-// const meme3 = document.getElementById('meme3');
-// const meme4 = document.getElementById('meme4');
+const meme1 = document.getElementById('meme-1');
+const meme2 = document.getElementById('meme-2');
+const meme3 = document.getElementById('meme-3');
+const meme4 = document.getElementById('meme-4');
+
+meme1.addEventListener('click', function() {
+  memeImage.src = meme1;
+});
+meme2.addEventListener('click', function() {
+  memeImage.src = meme2;
+});
+meme3.addEventListener('click', function() {
+  memeImage.src = meme3;
+});
+meme4.addEventListener('click', function() {
+  memeImage.src = meme4;
+});
+
 };
