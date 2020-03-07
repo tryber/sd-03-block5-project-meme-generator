@@ -13,16 +13,16 @@
         <h1>Meme Generator</h1>
     </header>
 
-    <section id="forms">
+    <section id="forms" class="forms">
         <form>
             <label for="sentence">Meme text:</label>
             <input maxlength="60" type="text" id="text-input" name="sentence">
         </form>
         <p>Choose your photo: </p>
-        <img id="meme-1" src="imgs/meme1.jpeg" alt="First meme to choose">
-        <img id="meme-2" src="imgs/meme2.jpeg" alt="Second meme to choose">
-        <img id="meme-3" src="imgs/meme3.jpeg" alt="Third meme to choose">
-        <img id="meme-4" src="imgs/meme4.jpeg" alt="Fourth meme to choose">
+        <img id="meme-1" class="meme" src="imgs/meme1.jpeg" alt="First meme to choose">
+        <img id="meme-2" class="meme" src="imgs/meme2.jpeg" alt="Second meme to choose">
+        <img id="meme-3" class="meme" src="imgs/meme3.jpeg" alt="Third meme to choose">
+        <img id="meme-4" class="meme" src="imgs/meme4.jpeg" alt="Fourth meme to choose">
         <form>
             <label for="image">Or choose a file:</label>
             <input name="image" id="meme-insert" type="file" multiple="false" accept="image/*" onchange="upload()">
@@ -31,11 +31,10 @@
         <button id="button1">3px, dashed, red</button>
         <button id="button2">5px, double, blue</button>
         <button id="button3">6px, groove, green</button>
-        
     </section>
-    <section id="meme-image-container">
-        <p id="meme-text"></p>
-        <img id="meme-image">
+    <section id="meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text"></p>
+        <img id="meme-image" class="meme-image">
     </section>
 </body>
 </html>

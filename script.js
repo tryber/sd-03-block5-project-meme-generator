@@ -6,6 +6,7 @@ function inputText () {
 tinput.addEventListener("keyup", inputText);
 
 function upload() {
+    debugger
     var image = document.getElementById("meme-image");
     var file = document.querySelector('#meme-insert').files[0];
     var reader = new FileReader();
