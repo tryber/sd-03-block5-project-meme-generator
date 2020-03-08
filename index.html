@@ -9,15 +9,17 @@
 <body>
     <header>Crie seu Meme</header>
 
-    <form>
+    <form  action="" method="get">
         <label for="meme-insert">Escolha a imagem:</label>
-        <input type="file" id="meme-insert"><br>
+        <input type="file" id="meme-insert" accept="image/*"><br>
+
         <label for="text-input">Digite o texto para o seu meme:</label><br>
         <input type="text" id="text-input" name="insereTexto" maxlength="60"><br>
     </form>
 
-    <section class="container" id="meme-image-container">
-        jhvcjhgchfgcjhgvc
+    <section class="meme-image-container" id="meme-image-container">
+        <img class="meme-image" id="meme-image">
+        <span class="meme-text" id="meme-text">Seu texto aparece aqui</span>
     </section>
 
     <script src="script.js"></script>

@@ -5,17 +5,18 @@ body {
     font-size: xx-large;
     text-align: center;
 }
-.container {
+.meme-image-container {
     background-color: white;
     border: 1px solid black;
-    color: black;
-    width: 400px;
     height: 400px;
+    width: 400px;
+    text-align: center;
 }
-#meme-image {
-    border-color: black;
-}
-#meme-text {
-    position: relative;
-    color: black
+.meme-text {
+    color: yellow;
+    position: absolute;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    width: 350px;
+    word-break: break-all;
 }
