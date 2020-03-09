@@ -5,8 +5,8 @@ body{
 .meme-image-container{
   border: solid 1px black;
   background-color: white;
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
 }
 
 .meme-text{
@@ -15,7 +15,17 @@ body{
 }
 
 .meme-image{
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   position: absolute;
+}
+
+.meme-text{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: fantasy;
+  text-transform: uppercase;
+  text-shadow: black 2px 3px 2px;
+  width: 500px;
+  color: white;
 }
