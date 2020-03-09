@@ -6,17 +6,22 @@ body {
     text-align: center;
 }
 .meme-image-container {
+    margin: 50px;
     background-color: white;
     border: 1px solid black;
-    height: 400px;
     width: 400px;
-    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.meme-image {
+    width: 400px
 }
 .meme-text {
     color: yellow;
-    position: absolute;
     text-shadow: 1px 1px 1px black;
-    text-align: center;
-    width: 350px;
-    word-break: break-all;
+    position: absolute;
+    width: 380px;
+    word-break: break-word;
 }
