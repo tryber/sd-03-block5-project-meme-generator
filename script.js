@@ -7,3 +7,7 @@ texto.addEventListener('keyup', memeTexto)
 function memeTexto() {
 	memetext.innerHTML = texto.value
 }
+
+function carregarImagem(){
+	imagem.src = URL.createObjectURL (event.target.files[0])
+}
