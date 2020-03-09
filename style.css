@@ -26,6 +26,7 @@ body{
   font-family: fantasy;
   text-transform: uppercase;
   text-shadow: black 2px 3px 2px;
+  text-align: center;
   width: 500px;
   color: white;
 }
