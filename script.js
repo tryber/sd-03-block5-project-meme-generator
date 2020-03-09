@@ -14,5 +14,5 @@ function previewFile() {
   }
 }
 function pr() {
-  document.getElementById("result").innerHTML = document.getElementById('text-input').value;
+  document.getElementById("meme-text").innerHTML = document.getElementById('text-input').value;
 }
