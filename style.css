@@ -49,6 +49,9 @@ header {
 }
 
 #meme-image-container {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
 #form-text {
@@ -152,5 +155,5 @@ section {
   bottom: 0;
   text-align: center;
   font-size: 2em;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgb(255, 255, 255, 255);
 }
