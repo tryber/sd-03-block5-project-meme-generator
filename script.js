@@ -34,7 +34,15 @@ window.onload = () => {
     meme1.addEventListener('click', function(){
         memeImage.src = meme1.src 
     })
-
+    meme2.addEventListener('click', function(){
+        memeImage.src = meme2.src 
+    })
+    meme3.addEventListener('click', function(){
+        memeImage.src = meme3.src 
+    })
+    meme4.addEventListener('click', function(){
+        memeImage.src = meme4.src 
+    })
 }   
 
 
