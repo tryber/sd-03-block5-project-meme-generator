@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de memes</title>
+    <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Montserrat|Teko&display=swap" rel="stylesheet">
 </head>
-
-<script lang="javascript" src="script.js"></script>
-
 <body>
-    <section id="cabecalho">
-        <article id="meme-image-container">
-            <header id='textoFild'>
-                <form id='formulario'>
-                    <input type="text" id="text-input" >
-                    <input type="button" value="Submit" onclick="setTexto()" >
-                </form>
-            </header>                                                                  
-            <input type="file" name="myImage" accept="image/*" />
-            <input type="submit" value="Submit" id="meme-insert" onclick="mostraImagem()"> 
-            
-            <img id="meme-image" src="" alt="Imagem ira aparecer aqui">            
-        </article>
-    </section>
+    <header class="cabecalho">
+    <h1>Meme Generator</h1>
+    </header>
+    <div class="wrap">
+    <div>
+        <p>Clique para escolher sua imagem: <input type="file" name="uploadeImg" id="meme-insert" accept="image/*"></p>
+        <p>Ou então, escolha uma das opções:</p>
 
-    <footer>
-
+        <img class="meme-choose" id="meme-1" src="imgs/cereal.jpg" alt="Meme Cereal">
+        <img class="meme-choose" id="meme-2" src="imgs/nicolas.jpg" alt="Meme Nicolas">
+        <img class="meme-choose" id="meme-3" src="imgs/peter.jpg" alt="Meme oldschool peter">
+        <img class="meme-choose" id="meme-4" src="imgs/vitas.jpg" alt="Meme vitas">
+        <p class="align-center"><strong>Digite seu texto</strong></p>
+        <p class="align-center"><input type="text" name="txtmeme" id="text-input" size="57" maxlength="60"></p>
+    </div>
+    <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" class="meme-image">
+        <p id="meme-text" class="meme-text"></p>
+        <p>Escolha uma borda:
+        <button id="button1">Fire</button>
+        <button id="button2">Chill</button>
+        <button id="button3">Cool</button>
+        </p>
+    </div>
+    </div>
+    <footer class="rodape">
+    <p>Projeto Meme Generator, por Leonardo C. Damasceno e Lumas's Help</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,47 +1,101 @@
-section#cabecalho {
-    background-color: yellow;
-    border: 5px solid black;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: deepskyblue;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
 }
 
-form#formulario input#text-input {
-    margin-right: 10px;
-    height: 5px;
-}
-
-form#formulario {
-    background-color: blue;
-    border: solid black;
-    padding: 20px;
-}
-
-article#meme-image-container input{
-    left: 50px;
-    padding: 10px;
-    position: relative;
-}
-
-article#meme-image-container img{
-    padding: 10px;
+.cabecalho {
     display: block;
-    position: relative;
-    top: 30px;
-    left: 50px;
-    background-color: white;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-}
-img#meme-image {
-    width: 700px;
-    overflow: hidden;
-    list-style: none;
+    background-color: rgb(226 , 212 , 225);
+    position: relative;   
+    margin-bottom: 50px;
+    padding-top: 0;
+    height: 80px;
+    width: 70%;
+    left: 15%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);   
+    text-align: center;
 }
 
-/* ul#album-fotos li {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 5px solid white;
-    background-color: white;
-    
-    -webkit-transition: all 0.4S ease-in-out;    
-} */
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 65pt;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+button {
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 6px;
+    padding: 5px 20px;
+}
+
+  /* Classes */
+.align-center {
+    text-align: center;
+}
+
+
+
+.meme-image {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.meme-image-container {
+    background-color: rgb(255 , 255 , 255);
+    border: 1px solid black;
+    height: 500px;
+    margin-bottom: 120px;
+    width: 500px;
+}
+
+.meme-choose {
+    border: 5px solid black;
+    padding: 6px;
+    width: 100px;
+}
+
+.meme-text {
+    color:rgb(0, 0, 0);
+    font-size: 40pt;
+    font-weight: 900;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    top: 900px;
+    width: 500px;
+}
+
+.wrap {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
+.rodape {
+    background-color: rgb(226 , 212 , 225);
+    position: relative;
+    color: black(255 , 255 , 255);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    height: 80px;
+    width: 70%;
+    left: 15%;
+}
