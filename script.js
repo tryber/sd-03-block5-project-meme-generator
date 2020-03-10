@@ -1,3 +1,5 @@
+window.onload = function() {
+
 let textInput = document.getElementById('text-input');
 let imagemInput = document.getElementById('meme-insert');
 let memeText = document.getElementById('meme-text');
@@ -55,3 +57,5 @@ meme3.addEventListener('click', function() {
 meme4.addEventListener('click', function() {
   memeImage.src = meme4.src;
 });
+
+};
