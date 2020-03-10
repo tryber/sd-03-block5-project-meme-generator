@@ -46,16 +46,16 @@ const meme3 = document.getElementById('meme-3');
 const meme4 = document.getElementById('meme-4');
 
 meme1.addEventListener('click', function() {
-  memeImage.src = meme1;
+  memeImage.src = meme1.src;
 });
 meme2.addEventListener('click', function() {
-  memeImage.src = meme2;
+  memeImage.src = meme2.src;
 });
 meme3.addEventListener('click', function() {
-  memeImage.src = meme3;
+  memeImage.src = meme3.src;
 });
 meme4.addEventListener('click', function() {
-  memeImage.src = meme4;
+  memeImage.src = meme4.src;
 });
 
 };
