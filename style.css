@@ -12,7 +12,6 @@ body{
 
 .area-branca {
     background-color: white;
-    border: 1px solid black;
     height: 550px;
     margin: auto;
     overflow: hidden;
@@ -21,16 +20,21 @@ body{
     word-wrap: break-word;
 }
 
-p { 
+p {
     color: yellow;
     font-family: 'Anton', serif;
     font-size: 25px;
     font-weight: bold;
     height: 90px;
     left: 408px;
-    text-align: center;
     margin-top: 450px;
     overflow: hidden;
     position: absolute;
+    text-align: center;
     width: 540px;
+}
+
+.botoes {
+    margin: 10px 0;
+    text-align: center;
 }
