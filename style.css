@@ -3,35 +3,34 @@ body{
 }
 
 .initial-conteiner {
-   background-color: black;
+    background-color: black;
     color: white;
     height: 100px;
     line-height: 20px;
     text-align: center;
 }
 
-#meme-image-container {
+.area-branca {
     background-color: white;
     border: 1px solid black;
     height: 550px;
     margin: auto;
-    width: 550px;
     overflow: hidden;
     text-align: center;
+    width: 550px;
     word-wrap: break-word;
-
 }
 
-p{ 
-     font-weight: bold;
-    font-size: 25px;
-    font-family: 'Anton', serif;
+p { 
     color: yellow;
+    font-family: 'Anton', serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 90px;
+    left: 408px;
     text-align: center;
     margin-top: 450px;
-    left: 408px;
+    overflow: hidden;
     position: absolute;
     width: 540px;
-    height: 90px;
-    overflow: hidden;
 }
