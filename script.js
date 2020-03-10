@@ -13,4 +13,4 @@ let botaoFoto = document.querySelector('#meme-insert');
 function loadImage(event) {
   recebeFoto.src = window.URL.createObjectURL(event.target.files[0]);
 }
-botaoFoto.addEventListener('change', loadImage);
+botaoFoto.addEventListener('change', loadImage); 
