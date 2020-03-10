@@ -1,8 +1,8 @@
 body{
-   
     margin: 0;
 }
-.initial-conteiner{
+
+.initial-conteiner {
    background-color: black;
     color: white;
     height: 100px;
@@ -10,7 +10,7 @@ body{
     text-align: center;
 }
 
-#meme-image-container{
+#meme-image-container {
     background-color: white;
     border: 1px solid black;
     height: 550px;
@@ -22,7 +22,7 @@ body{
 
 }
 
- p{
+p{ 
      font-weight: bold;
     font-size: 25px;
     font-family: 'Anton', serif;
@@ -34,5 +34,4 @@ body{
     width: 540px;
     height: 90px;
     overflow: hidden;
-
 }
