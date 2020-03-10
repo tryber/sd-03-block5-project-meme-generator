@@ -3,7 +3,7 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#meme-image-container{
+.memeImageContainer{
   background-color: white;
   border: 1px black solid;
   height: 400px;
@@ -11,14 +11,14 @@ body{
   width: 400px;
 }
 
-#meme-image{
+.memeImage{
   display: block;
   height: 100%;
   position: relative;
   width: 100%;
 }
 
-#meme-text  {
+.memeText  {
   bottom: 0;
   color: white;
   font-size: 18pt;
@@ -30,11 +30,14 @@ body{
   width: 100%;
 }
 
-#meme-1, #meme-2, #meme-3, #meme-4 {
+.meme1, .meme2, .meme3, .meme4 {
   border: 1px solid #ddd;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
-  position: inline-block;
   width: 150px;
+}
+
+button {
+  cursor: pointer;
 }
