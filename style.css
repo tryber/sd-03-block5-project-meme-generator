@@ -1,21 +1,34 @@
-#meme-image-container {
-    width: 300px;
-    height: 200px;
+#meme-image{
+    position: relative;
+    z-index: 1;
+}
+#meme-image-container{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    border: solid 1px black;
     background-color: white;
-    border: black 1px solid;
-    overflow: hidden; 
-    z-index: 10;  
-    
 }
-#meme-image {
-    width: 300px;
+.image{
+    width: 900px;
+    height: 600px;
 }
-p {
-    width: 300px;
-    margin: 0;
-    position: absolute;
+#meme-text{
+    color: black;
     text-align: center;
-    z-index: 11;
-    color: white;
-    
+    position: absolute;
+    width: 900px;
+    overflow-wrap: break-word;
+    margin: 0px;
+    padding-top: 400px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+#escolha{
+    display: inline;
+}
+#escolha img{
+    max-width: 300px;
+    max-height: 200px;
 }

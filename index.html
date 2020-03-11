@@ -1,45 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel='stylesheet' href='style.css'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meme Generator</title>
-    <link rel="icon" type="imagem/png" href="./img/cat icon.png" />
-    <link rel="stylesheet" href="./style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <title>Memes Trybe</title>
 </head>
 <body>
-    <header>
-        <h1>Meme Generator</h1>
-    </header>
-    <div id="texts">
-        <form action="PayslipServlet" method="get">
-            <!--Caixa onde texto será inserido-->
-            <label for="text-input">Insira o texto</label>
-            <input type="text" id="text-input" maxlength="60">
-            <input type="button" value="Submit" onClick="pr()"> <br>
-            
-         </form>
-    </div>
-    <div id="meme-image-container">
-        <!--Onde imagem irá aparecer-->
+    <form>
+        <label >Digite a frase:</label>
+        <input id = "text-input" type="text" maxlength="60"><br>
+        <label >Escolha a imagem:</label>
+        <input type="file" accept="image/*" id = "meme-insert" onchange="meme(event)" maxlength="60" size="20">><br>
+    </form>
+    <div id="meme-image-container" class ="container">
         <p id="meme-text"></p>
-        <img src="" alt="Meme" id="meme-image" >
+        <img src=" " alt="meme" id= "meme-image" class = 'image'>
     </div>
-    
+    <br>
     <div>
-        <!--Input para inserir imagem-->
-        <input type="file" onchange="previewFile()"><br>
-        
+        <button id='button1'>Borda 1</button>
+        <button id='button2'>Borda 2</button>
+        <button id='button3'>Borda 3</button>
     </div>
-  
-
-    
-       
-
-   
-
-
-</body>
+    <div id='escolha'>
+        <img id='meme-1' src='imgs/meme1.jpeg'>
+        <img id='meme-2' src='imgs/meme2.jpeg'>
+        <img id='meme-3' src='imgs/meme3.jpeg'>
+        <img id='meme-4' src='imgs/meme4.jpeg'>
+    </div>
+    <script src='script.js'></script>
+</body> 
 </html>
