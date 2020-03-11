@@ -18,7 +18,7 @@
 }
 
 #meme-text{
-    color: white;
+    color: black;
     text-align: center;
     position: absolute;
     width: 900px;
@@ -28,4 +28,13 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 2;
+}
+
+#escolha{
+    display: inline;
+}
+
+#escolha img{
+    max-width: 300px;
+    max-height: 200px;
 }

@@ -9,7 +9,7 @@
 <body>
     <form>
         <label >Digite a frase:</label>
-        <input id = "text-input" type="text" ><br>
+        <input id = "text-input" type="text" maxlength="60"><br>
         <label >Escolha a imagem:</label>
         <input type="file" accept="image/*" id = "meme-insert" onchange="meme(event)" maxlength="60" size="20">><br>
     </form>
@@ -24,8 +24,13 @@
         <button id='button2'>Borda 2</button>
         <button id='button3'>Borda 3</button>
     </div>
-
+    <div id='escolha'>
+        <img id='meme-1' src='imgs/meme1.jpeg'>
+        <img id='meme-2' src='imgs/meme2.jpeg'>
+        <img id='meme-3' src='imgs/meme3.jpeg'>
+        <img id='meme-4' src='imgs/meme4.jpeg'>
+    </div>
     <script src='script.js'></script>
-</body>
+</body> 
 
 </html>
