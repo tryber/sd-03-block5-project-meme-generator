@@ -11,15 +11,20 @@
         <label >Digite a frase:</label>
         <input id = "text-input" type="text" ><br>
         <label >Escolha a imagem:</label>
-        <input type="file" accept="image/*" id = "meme-insert" onchange="meme(event)" maxlength="60">><br>
+        <input type="file" accept="image/*" id = "meme-insert" onchange="meme(event)" maxlength="60" size="20">><br>
     </form>
     
     <div id="meme-image-container" class ="container">
         <p id="meme-text"></p>
         <img src=" " alt="meme" id= "meme-image" class = 'image'>
-        
     </div>
-    
+    <br>
+    <div>
+        <button id='button1'>Borda 1</button>
+        <button id='button2'>Borda 2</button>
+        <button id='button3'>Borda 3</button>
+    </div>
+
     <script src='script.js'></script>
 </body>
 
