@@ -1,5 +1,5 @@
-// Exibe imagem: 
-  imageReader = function (event) {
+// Exibe imagem:
+imageReader = function(event) {
   let input = event.target;
   let reader = new FileReader();
   reader.onload = function() {
@@ -22,5 +22,3 @@ function displayText() {
 //Event Listeners
 
 memeText.addEventListener('keyup', displayText);
-
-

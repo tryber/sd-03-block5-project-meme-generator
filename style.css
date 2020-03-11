@@ -1,9 +1,27 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+    background-color: burlywood;
+    font-family: sans-serif;
 }
 
-div#meme-image-container{
+#meme-text {
+    color: black;
+    font-size: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 450px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#meme-image-container {
     background-color: white;
     border: 1px black solid;
+    height: 550px;
+    position: relative;
+    width: 550px;
+}
+
+#meme-insert {
+    height: 550px;
+    width: 550px;
 }
