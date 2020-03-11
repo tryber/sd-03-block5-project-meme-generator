@@ -25,3 +25,23 @@ function bordaDouble() {
 function bordaGroove() {
   document.getElementById('meme-image-container').style.border = '6px groove green'
 }
+
+function memeUm() {
+  let memeImage = document.getElementById("meme-image");
+  memeImage.src = 'imgs/meme-1.jpeg';
+}
+
+function memeDois() {
+  let memeImage = document.getElementById("meme-image");
+  memeImage.src = 'imgs/meme-2.jpeg';
+}
+
+function memeTres() {
+  let memeImage = document.getElementById("meme-image");
+  memeImage.src = 'imgs/meme-3.jpeg';
+}
+
+function memeQuatro() {
+  let memeImage = document.getElementById("meme-image");
+  memeImage.src = 'imgs/meme-4.jpeg';
+}
