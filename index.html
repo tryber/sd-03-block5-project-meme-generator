@@ -13,9 +13,9 @@
         <label for="meme-insert">Insira sua imagem aqui:</label>
         <input type="file" id="meme-insert" class="input-caixa" onchange="visualizarImagem()" name="meme-image" accept="image/*">
     </form>
-    <div id="meme-image-container">
-        <p id="meme-text"></p>
-        <img id="meme-image" src=""></img>
+    <div id="meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text"></p>
+        <img id="meme-image" class="meme-image" src=""></img>
     </div>
     <button id="button1" onclick="bordaDashed()">Borda Dashed</button>
     <button id="button2" onclick="bordaDouble()">Borda Double</button>
