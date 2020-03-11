@@ -28,20 +28,20 @@ function bordaGroove() {
 
 function memeUm() {
   let memeImage = document.getElementById("meme-image");
-  memeImage.src = 'imgs/meme-1.jpeg';
+  memeImage.src = 'imgs/meme1.jpeg';
 }
 
 function memeDois() {
   let memeImage = document.getElementById("meme-image");
-  memeImage.src = 'imgs/meme-2.jpeg';
+  memeImage.src = 'imgs/meme2.jpeg';
 }
 
 function memeTres() {
   let memeImage = document.getElementById("meme-image");
-  memeImage.src = 'imgs/meme-3.jpeg';
+  memeImage.src = 'imgs/meme3.jpeg';
 }
 
 function memeQuatro() {
   let memeImage = document.getElementById("meme-image");
-  memeImage.src = 'imgs/meme-4.jpeg';
+  memeImage.src = 'imgs/meme4.jpeg';
 }
