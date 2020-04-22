@@ -32,13 +32,12 @@
 #meme-text{
   color: black;
   font-family: "Montserrat";
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
   top: 230px;
   width: 90%;
-  word-break: break-all;
   margin-left: 15px;
 }
 
